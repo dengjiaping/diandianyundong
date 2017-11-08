@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/sports_bg"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/btn_paizhao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="17dp"
+        android:layout_marginRight="17dp"
+        android:layout_marginTop="18dp"
+        android:background="@drawable/sports_private_send_click"
+        android:gravity="center"
+        android:text="@string/sports_tab_sk_camera"
+        android:textColor="@android:color/white"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/btn_select_pic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="17dp"
+        android:layout_marginRight="17dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/sports_private_send_click"
+        android:gravity="center"
+        android:text="@string/sports_fromphotos"
+        android:textColor="@android:color/white"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/btn_cancle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="17dp"
+        android:layout_marginRight="17dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/sports_login_btn_click"
+        android:gravity="center"
+        android:text="@string/sports_cancel"
+        android:textColor="@android:color/white"
+        android:textSize="22sp" />
+
+</LinearLayout>

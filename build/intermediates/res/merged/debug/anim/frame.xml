@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android" android:oneshot="false">
+    <item android:drawable="@drawable/xinlv_01" android:duration="50" />
+    <item android:drawable="@drawable/xinlv_03" android:duration="50" />
+    <item android:drawable="@drawable/xinlv_05" android:duration="50" />
+    <item android:drawable="@drawable/xinlv_07" android:duration="50" />
+    <item android:drawable="@drawable/xinlv_09" android:duration="50" />
+    <item android:drawable="@drawable/xinlv_11" android:duration="50" />
+    <item android:drawable="@drawable/xinlv_13" android:duration="50" />
+    <item android:drawable="@drawable/xinlv_15" android:duration="50" />
+    <item android:drawable="@drawable/xinlv_17" android:duration="50" />
+    <item android:drawable="@drawable/xinlv_19" android:duration="50" />
+    <item android:drawable="@drawable/xinlv_21" android:duration="50" />
+    <item android:drawable="@drawable/xinlv_23" android:duration="50" />
+    <item android:drawable="@drawable/xinlv_25" android:duration="50" />
+    <item android:drawable="@drawable/xinlv_27" android:duration="50" />
+    <item android:drawable="@drawable/xinlv_29" android:duration="50" />
+    <item android:drawable="@drawable/xinlv_31" android:duration="50" />
+    <item android:drawable="@drawable/xinlv_33" android:duration="50" />
+    <item android:drawable="@drawable/xinlv_35" android:duration="50" />
+    <item android:drawable="@drawable/xinlv_37" android:duration="50" />
+    <item android:drawable="@drawable/xinlv_39" android:duration="50" />
+    <item android:drawable="@drawable/xinlv_41" android:duration="50" />
+    <item android:drawable="@drawable/xinlv_43" android:duration="50" />
+    <item android:drawable="@drawable/xinlv_45" android:duration="50" />
+    <item android:drawable="@drawable/xinlv_47" android:duration="50" />
+    <item android:drawable="@drawable/xinlv_49" android:duration="50" />
+    <item android:drawable="@drawable/xinlv_51" android:duration="50" />
+    <item android:drawable="@drawable/xinlv_53" android:duration="50" />
+    <item android:drawable="@drawable/xinlv_55" android:duration="50" />
+    <item android:drawable="@drawable/xinlv_57" android:duration="50" />
+    <item android:drawable="@drawable/xinlv_59" android:duration="50" />
+</animation-list> 
+    

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:id="@+id/speed_num"
+            android:layout_width="50dp"
+            android:layout_height="25dp"
+            android:gravity="center"
+            android:text="1"
+            android:textSize="18sp"
+            android:textColor="#323333"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:background="#f6f5f5"
+            android:layout_marginRight="17dp"
+            android:gravity="center_vertical"
+            >
+            <TextView
+                android:id="@+id/speed_values"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:gravity="center_vertical"
+                android:paddingLeft="8dp"
+                android:textSize="16sp"
+                android:background="@drawable/peisu_stroke_circle_yebackground"
+                android:textColor="@color/white"
+                />
+            <ImageView
+                android:id="@+id/peisu_fasticon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/peisu_fasticon"
+                android:layout_marginLeft="5dp"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:textColor="@color/white"
+        />
+
+    <TextView
+        android:id="@+id/fivecol_shouinfo"
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:layout_marginLeft="50dp"
+        android:textColor="#666666"
+        android:textSize="12sp"
+        />
+</LinearLayout>

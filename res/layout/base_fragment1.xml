@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sports_bg"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/top_title_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFAD00"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="50dp" >
+
+            <LinearLayout
+                android:id="@+id/title_left_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_alignParentLeft="true"
+                android:gravity="center_vertical"
+                android:orientation="vertical"
+                android:paddingLeft="13dp"
+                android:paddingRight="10dp" >
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/title_newsorguanzhu_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_centerInParent="true"
+                android:visibility="gone" >
+
+                <RelativeLayout
+                    android:id="@+id/title_news"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp" >
+
+                    <TextView
+                        android:id="@+id/title_news_msg"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:singleLine="true"
+                        android:text="最新"
+                        android:textColor="#ffffff"
+                        android:textSize="16sp" />
+
+                    <View
+                        android:id="@+id/title_news_line"
+                        android:layout_width="37dp"
+                        android:layout_height="2dp"
+                        android:layout_below="@+id/title_news_msg"
+                        android:layout_marginTop="2dp"
+                        android:background="#ffffff" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/title_guanzhu_news"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="15dp"
+                     >
+
+                    <TextView
+                        android:id="@+id/title_news_guanzhu_msg"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:singleLine="true"
+                        android:text="关注"
+                        android:textColor="#ffffff"
+                        android:textSize="16sp" />
+
+                    <View
+                        android:id="@+id/title_news_guanzhu_line"
+                        android:layout_width="37dp"
+                        android:layout_height="2dp"
+                        android:layout_below="@+id/title_news_guanzhu_msg"
+                        android:layout_marginTop="2dp"
+                        android:background="#ffffff" />
+                </RelativeLayout>
+                
+                 <RelativeLayout
+                     android:id="@+id/title_faxian_news"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="15dp"
+                    android:visibility="gone"
+                     >
+
+                    <TextView
+                        android:id="@+id/title_news_faxian_msg"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:singleLine="true"
+                        android:text="发现"
+                        android:textColor="#ffffff"
+                        android:textSize="16sp" />
+
+                    <View
+                        android:id="@+id/title_news_faxian_line"
+                        android:layout_width="37dp"
+                        android:layout_height="2dp"
+                        android:layout_below="@+id/title_news_faxian_msg"
+                        android:layout_marginTop="2dp"
+                        android:background="#ffffff" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/top_title"
+                style="@style/topTitle"
+                android:layout_centerInParent="true" />
+
+            <LinearLayout
+                android:id="@+id/title_right_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_alignParentRight="true"
+                android:gravity="center_vertical"
+                android:orientation="vertical"
+                android:paddingLeft="10dp"
+                android:paddingRight="13dp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/main_content"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+</LinearLayout>

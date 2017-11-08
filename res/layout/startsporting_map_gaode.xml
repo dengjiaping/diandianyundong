@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/startsport_gaode_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/sports_bg"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <!-- 显示地图和数据 -->
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:id="@+id/sports_map_id"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1.0"
+                android:orientation="vertical" >
+
+                <RelativeLayout
+                    android:id="@+id/bamoViewRalative"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <!-- 地图 -->
+
+                    <com.amap.api.maps.MapView
+                        android:id="@+id/bmapView"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:clickable="true" />
+
+                    <!-- 显示运动时间 -->
+
+                    <RelativeLayout
+                        android:id="@+id/timeLayout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/title2_bg"
+                        android:visibility="gone"
+                        android:gravity="center_horizontal" >
+
+                        <TextView
+                            android:id="@+id/sport_week"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="13dp"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:textColor="@color/title_text_color" />
+
+                        <TextView
+                            android:id="@+id/sport_area"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="5dp"
+                            android:layout_toRightOf="@+id/sport_week"
+                            android:gravity="center"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:textColor="@color/title_text_color" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:gravity="center"
+                            android:orientation="horizontal" >
+
+                            <ImageView
+                                android:id="@+id/weather_icon"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+
+                            <TextView
+                                android:id="@+id/sport_weather_degree"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textColor="@color/title_text_color" />
+                        </LinearLayout>
+
+                        <TextView
+                            android:id="@+id/sport_pm"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginRight="13dp"
+                            android:gravity="center"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:textColor="@color/title_text_color" />
+                    </RelativeLayout>
+
+                    <ImageView
+                        android:id="@+id/imageview_gps"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_below="@id/timeLayout"
+                        android:layout_marginRight="3dp"
+                        android:layout_marginTop="4dp"
+                        android:visibility="gone"
+                        android:background="@drawable/gps_g01" />
+
+                    <TextView
+                        android:id="@+id/gps_tishi_tx"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/timeLayout"
+                        android:layout_marginRight="3dp"
+                        android:layout_marginTop="4dp"
+                        android:layout_toLeftOf="@+id/imageview_gps"
+                        android:text="请到开阔地带才能记录"
+                        android:textColor="#8AE1FC"
+                        android:visibility="gone" />
+
+                    <TextView
+                        android:id="@+id/textview_haiba"
+                        android:layout_width="95dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignTop="@+id/imageview_gps"
+                        android:background="@drawable/haiba"
+                        android:gravity="center_vertical|left"
+                        android:textColor="#FFFFFF"
+                        android:visibility="gone" />
+
+                    <TextView
+                        android:id="@+id/textview_qiya"
+                        android:layout_width="115dp"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/textview_haiba"
+                        android:layout_marginTop="1dp"
+                        android:background="@drawable/qiya"
+                        android:gravity="center_vertical|left"
+                        android:textColor="#FFFFFF"
+                        android:visibility="gone" />
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/startsports_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="8dp"
+                    android:background="@color/white"
+                    android:paddingBottom="2dp"
+                    android:paddingLeft="3dp"
+                    android:paddingRight="3dp"
+                    android:paddingTop="2dp"
+                    android:text="@string/startSport_startSport"
+                    android:textColor="@color/black" 
+                    android:visibility="gone"
+                    />
+
+                <ImageView
+                    android:id="@+id/startsports_type_icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginRight="3dp"
+                    android:layout_toLeftOf="@+id/startsports_btn"
+                    android:background="@drawable/title_walk"
+                    android:visibility="gone"
+                     />
+
+                <!-- 新加模块 -->
+
+                <RelativeLayout
+                    android:id="@+id/new_start_poplayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:background="#e0000000"
+                    android:paddingBottom="20dp" >
+
+                    <RelativeLayout
+                        android:id="@+id/weather_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" >
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_marginLeft="12dp"
+                            android:layout_marginTop="17dp" >
+
+                            <TextView
+                                android:id="@+id/weather_txt"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="天气：晴" />
+
+                            <TextView
+                                android:id="@+id/weather_txt_num"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="4dp"
+                                android:text="23" />
+                        </LinearLayout>
+
+                        <TextView
+                            android:id="@+id/gps_txt"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginRight="16dp"
+                            android:layout_marginTop="17dp"
+                            android:gravity="center"
+                            android:textColor="@color/white"
+                            android:background="@drawable/sk_button"
+                            android:text="GPS 弱" />
+
+                        <TextView
+                            android:id="@+id/gps_content_txt"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_below="@+id/gps_txt"
+                            android:layout_marginRight="16dp"
+                            android:textSize="12sp"
+                            android:drawableLeft="@drawable/gps_tishi_icon"
+                            android:visibility="gone"
+                            android:text="请移至开阔地带" />
+                    </RelativeLayout>
+
+                    <LinearLayout
+                        android:id="@+id/sport_type_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/weather_layout"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="70dp"
+                        android:gravity="center" >
+
+                        <TextView
+                            android:id="@+id/set_txt"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:background="@drawable/startsport_set_bg"
+                            android:gravity="center"
+                            android:text="设置"
+                            android:visibility="gone"
+                            android:textColor="@color/white"
+                            android:textSize="16sp" />
+
+                        <LinearLayout
+                            android:id="@+id/sport_type_txtlayout"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="4dp"
+                            android:background="@drawable/startsport_type_bg"
+                            android:paddingRight="28dp"
+                            android:paddingLeft="20dp"
+                            android:gravity="center" >
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="运动模式："
+                                android:textColor="@color/white"
+                                android:textSize="18sp" />
+
+                            <TextView
+                                android:id="@+id/sport_type_txt"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="跑步"
+                                android:textColor="#ffae00"
+                                android:textSize="16sp" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/start_sport_layout"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/sport_type_layout"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="15dp"
+                        android:background="@drawable/new_sports_start_btn_click"
+                        android:gravity="center"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="18sp"
+                            android:textColor="@color/white"
+                            android:text="开始运动" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="18sp"
+                            android:textColor="@color/white"
+                            android:text="START" />
+                    </LinearLayout>
+                </RelativeLayout>
+            </RelativeLayout>
+        </LinearLayout>
+
+        <!-- 倒计时功能 -->
+
+        <LinearLayout
+            android:id="@+id/djs_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#00000000"
+            android:gravity="center"
+            android:visibility="gone" >
+
+            <ImageView
+                android:id="@+id/djs_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:visibility="gone" />
+            <!-- android:background="@drawable/djs_go" -->
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

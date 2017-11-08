@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="vertical" >
+
+    <com.fox.exercise.view.PullToRefreshGridHeadView
+        xmlns:ptr="http://schemas.android.com/apk/res/com.fox.exercise"
+        android:id="@+id/sportscircle_find_refresh_gridview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:cacheColorHint="#00000000"
+        android:gravity="center"
+        android:horizontalSpacing="8dp"
+        android:listSelector="#00000000"
+        android:numColumns="2"
+        android:verticalSpacing="10dp"
+        ptr:mode="both"
+        android:layout_marginBottom="10dp"
+         />
+
+</LinearLayout>

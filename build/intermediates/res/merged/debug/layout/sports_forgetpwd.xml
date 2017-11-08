@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/rl"
+    android:background="@color/sports_popular_title_normal">
+
+    <RelativeLayout
+        android:id="@+id/layout_title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/sports_title_bg">
+
+        <ImageButton
+            android:id="@+id/bt_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/sport_title_back_selector" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/sports_forget_pwd2"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/sports_popular_title_normal" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout_email"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_below="@+id/layout_title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp">
+
+        <TextView
+            android:id="@+id/phoneText"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_alignParentLeft="true"
+            android:gravity="center"
+            android:text="@string/sports_phone_forget"
+            android:textColor="@color/text_forget"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/regist_mail"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="13dp"
+            android:layout_toRightOf="@+id/phoneText"
+            android:background="#00000000"
+            android:hint="@string/sports_inputphone"
+            android:inputType="number"
+            android:textColor="@color/hint_forget"
+            android:textColorHint="@color/text_color"
+            android:textCursorDrawable="@null"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/bt_yz"
+            android:layout_width="wrap_content"
+            android:layout_height="27dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="3dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="3dp"
+            android:background="@drawable/sports_smallbt_selector"
+            android:text="@string/sports_get_yz"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textColor="@android:color/white"
+            android:textSize="12sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/line">
+
+        </View>
+    </RelativeLayout>
+
+    <!--验证码-->
+    <LinearLayout
+        android:id="@+id/layout_yanum"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_below="@+id/layout_email"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_gravity="left|center_vertical"
+            android:gravity="center"
+            android:text="@string/sports_yz_forget"
+            android:textColor="@color/text_forget"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/ed_yz"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="13dp"
+            android:background="#00000000"
+            android:hint="@string/enter_security_code"
+            android:inputType="textEmailAddress"
+            android:textColor="@color/hint_forget"
+            android:textColorHint="@color/text_color"
+            android:textCursorDrawable="@null"
+            android:textSize="12sp" />
+
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/line_1"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/layout_yanum"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@color/line"></View>
+
+
+    <LinearLayout
+        android:id="@+id/linearlayout_forgetpwd_newpwd"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_below="@+id/line_1"
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_gravity="left|center_vertical"
+            android:gravity="center"
+            android:text="@string/forgetpwd_newpwd_forget"
+            android:textColor="@color/text_forget"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/edtxt_newpwd"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="13dp"
+            android:background="#00000000"
+            android:hint="@string/sports_inputnewpwd"
+            android:inputType="textPassword"
+            android:maxLength="16"
+            android:textColor="@color/hint_forget"
+            android:textColorHint="@color/text_color"
+            android:textCursorDrawable="@null"
+            android:textSize="12sp" />
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <CheckBox
+                android:id="@+id/checkbox_psw"
+                android:layout_width="22dp"
+                android:layout_height="16dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/checkbox_select"
+                android:button="@null"
+                android:checked="false" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+    <View
+        android:id="@+id/line_2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/linearlayout_forgetpwd_newpwd"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@color/line"></View>
+
+
+    <LinearLayout
+        android:id="@+id/linearlayout_forgetpwd_checknewpwd"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_below="@+id/line_2"
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_gravity="left|center_vertical"
+            android:gravity="center"
+            android:text="@string/forgetpwd_confirm_newpwd"
+            android:textColor="@color/text_forget"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/edtxt_check_newpwd"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="18dp"
+            android:layout_marginRight="13dp"
+            android:background="#00000000"
+            android:hint="@string/sports_inputnewpwd_again"
+            android:inputType="textPassword"
+            android:maxLength="16"
+            android:textColor="@color/hint_forget"
+            android:textColorHint="@color/text_color"
+            android:textCursorDrawable="@null"
+            android:textSize="12sp" />
+
+
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/line_3"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/linearlayout_forgetpwd_checknewpwd"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@color/line" />
+
+
+
+    <Button
+        android:id="@+id/bt_submit"
+        style="@style/SportsTitleButton_forget"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/line_3"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/sports_submit"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+
+    <RelativeLayout
+        android:id="@+id/set_menu_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" >
+    </RelativeLayout>
+</RelativeLayout>

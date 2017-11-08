@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#000000"
+    >
+    <LinearLayout
+        android:id="@+id/ll_sporttype1"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/sport_header_layout"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/time_distance_layout"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:layout_above="@+id/line1"
+            android:visibility="gone"
+            >
+            <ImageView
+                android:id="@+id/pesuicon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/ic_launcher"
+                android:visibility="gone" />
+
+        </RelativeLayout>
+
+        <!--<ImageView
+            android:id="@+id/line1"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_above="@+id/sportStateLayout"
+            android:background="@drawable/sports_bg_line"
+            android:visibility="gone" /> -->
+
+        <!-- 运动数据（距离，速度，卡路里） -->
+
+
+        <RelativeLayout
+            android:id="@+id/sportStateLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <LinearLayout
+                android:id="@+id/sportState"
+                android:layout_width="fill_parent"
+                android:layout_alignParentTop = "true"
+                android:layout_height="50dp">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_weight="1.3">
+                    <TextView
+                        android:id="@+id/disValue"
+                        android:includeFontPadding="false"
+                        android:layout_width="wrap_content"
+                        android:lineSpacingExtra="-5dp"
+                        android:layout_height="48dp"
+                        android:text="0.00"
+                        android:layout_marginLeft="18dp"
+                        android:textColor="@color/white"
+                        android:textSize="34dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Km"
+                        android:textColor="@color/white"
+                        android:textSize="14dp" />
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:id="@+id/speedLayout"
+                    android:layout_marginTop="5dp"
+                    android:layout_width="75dp"
+                    android:layout_height="wrap_content"
+                    >
+
+                    <TextView
+                        android:id="@+id/speedValue_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:text="@string/all_sport_time"
+                        android:textColor="@color/white"
+                        android:textSize="12dp" />
+
+                    <LinearLayout
+                        android:id="@+id/speed"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/speedValue_title"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="4dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/chronometerId"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="3dp"
+                            android:text="@string/chronometerId_text"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/spotrs_text" />
+
+                        <TextView
+                            android:id="@+id/speedKey"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:visibility="gone"
+                            android:ellipsize="end"
+                            android:singleLine="true"
+                            android:text="@string/val_speed"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/spotrs_text" />
+                    </LinearLayout>
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="fill_parent"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="#7c7c7c"
+                    />
+                <RelativeLayout
+                    android:id="@+id/disLayout"
+                    android:visibility="gone"
+                    android:layout_width="75dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_height="wrap_content"
+                    >
+
+                    <TextView
+                        android:id="@+id/peiValue_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:text="@string/sporting_sport_peiPace"
+                        android:textColor="@color/white"
+                        android:textSize="12sp" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/peiValue_title"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="4dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/peiValue"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="4dp"
+                            android:text="0&apos;0&apos;"
+                            android:textColor="@color/white"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:id="@+id/disKey"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:ellipsize="end"
+                            android:singleLine="true"
+                            android:text="/Km"
+                            android:textColor="@color/white"
+                            android:textSize="14sp" />
+                    </LinearLayout>
+                </RelativeLayout>
+
+                <View
+                    android:visibility="gone"
+                    android:layout_width="1dp"
+                    android:layout_height="fill_parent"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="#7c7c7c"
+                    />
+                <RelativeLayout
+                    android:id="@+id/average_speed"
+                    android:layout_width="75dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_height="wrap_content"
+                    >
+
+                    <TextView
+                        android:id="@+id/average_speed_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:text="@string/average_speed_detail"
+                        android:textColor="@color/white"
+                        android:textSize="12dp" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/average_speed_title"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="4dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/tv_average_speed"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="4dp"
+                            android:text="0&apos;0&apos;"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/spotrs_text" />
+
+                        <TextView
+                            android:id="@+id/average_speed_danwei"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:ellipsize="end"
+                            android:singleLine="true"
+                            android:text="Km/h"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/spotrs_text" />
+                    </LinearLayout>
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="fill_parent"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="#7c7c7c"
+                    />
+
+                <RelativeLayout
+                    android:id="@+id/conLayout"
+                    android:layout_marginTop="5dp"
+                    android:layout_width="75dp"
+                    android:layout_height="wrap_content"
+                    >
+
+                    <TextView
+                        android:id="@+id/conValue_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:gravity="center"
+                        android:text="@string/xiaohao"
+                        android:textColor="@color/white"
+                        android:textSize="12dp" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/conValue_title"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="4dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/conValue"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/step_finish_text"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/spotrs_text" />
+
+                        <TextView
+                            android:id="@+id/conKey"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:ellipsize="end"
+                            android:singleLine="true"
+                            android:text="Cal"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/spotrs_text" />
+                    </LinearLayout>
+                </RelativeLayout>
+            </LinearLayout>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="最高高度："
+                android:textSize="@dimen/spotrs_text"
+                android:layout_marginLeft="18dp"
+                android:textColor="@color/white"
+                />
+            <TextView
+                android:id="@+id/sports_maxheight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0m"
+                android:textSize="17dp"
+                android:textColor="#ffae00"
+                />
+
+        </LinearLayout>
+
+        <com.fox.exercise.newversion.view.LineGraphicView
+            android:id="@+id/sportdetail_LineView"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+        </com.fox.exercise.newversion.view.LineGraphicView>
+
+    </LinearLayout>
+
+
+</LinearLayout>

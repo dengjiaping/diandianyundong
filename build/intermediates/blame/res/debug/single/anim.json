@@ -1,0 +1,86 @@
+[
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\anim\\on_screen_hint_enter.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\anim\\on_screen_hint_enter.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\anim\\on_screen_hint_exit.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\anim\\on_screen_hint_exit.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\anim\\slide_left_out.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\anim\\slide_left_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\anim\\record_loading.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\anim\\record_loading.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\anim\\bounce_interpolator.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\anim\\bounce_interpolator.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\anim\\click_down_anim.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\anim\\click_down_anim.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\anim\\avatar_animation_right_in.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\anim\\avatar_animation_right_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\anim\\warn_anim.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\anim\\warn_anim.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\anim\\click_up_anim.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\anim\\click_up_anim.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\anim\\sreach_anim.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\anim\\sreach_anim.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\anim\\slide_left_in.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\anim\\slide_left_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\anim\\slide_right_in.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\anim\\slide_right_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\anim\\record_run.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\anim\\record_run.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\anim\\slide_out_to_bottom.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\anim\\slide_out_to_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\anim\\frame.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\anim\\frame.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\anim\\slide_in_from_bottom.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\anim\\slide_in_from_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\anim\\animate.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\anim\\animate.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\anim\\slide_right_out.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\anim\\slide_right_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\anim\\avatar_animation_right_out.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\anim\\avatar_animation_right_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\anim\\add_one.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\anim\\add_one.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\anim\\loading.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\anim\\loading.xml"
+    }
+]

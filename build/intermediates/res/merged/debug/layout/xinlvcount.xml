@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <LinearLayout
+        android:id="@+id/linearLayout1_xinlv"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#FFAD00"
+        android:orientation="horizontal"
+        >
+        <ImageView 
+            android:id="@+id/iv_back_xinlv"
+            android:layout_width="25dp"
+            android:src="@drawable/sport_title_back_selector"
+            android:layout_marginLeft="15dp"
+            android:layout_gravity="center_vertical"
+            android:layout_height="25dp"
+            />
+        <TextView
+            style="@style/topTitle"
+            android:text="@string/sports_heart"
+            android:textSize="21sp"
+            android:textColor="#FFFFFF"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_height="match_parent" />
+        <ImageView 
+            android:id="@+id/delete_all"
+            android:layout_width="23dp"
+            android:src="@drawable/deleteall_xinlv"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="15dp"
+            android:layout_height="23dp"
+            />
+    </LinearLayout>
+
+        <ListView
+        android:id="@+id/lv_xinlv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#DCDCDC" >
+        </ListView>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/set_menu_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#8c000000"
+        android:visibility="gone" >
+    </RelativeLayout>
+</LinearLayout>

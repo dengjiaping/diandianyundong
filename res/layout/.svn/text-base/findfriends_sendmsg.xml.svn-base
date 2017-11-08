@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_findfriends"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <!-- 输入想法内容 -->
+
+        <MultiAutoCompleteTextView
+            android:id="@+id/et_send_mean"
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="17dp"
+            android:layout_marginTop="12dp"
+            android:background="@null"
+            android:completionThreshold="1"
+            android:dropDownHeight="wrap_content"
+            android:dropDownHorizontalOffset="20dp"
+            android:dropDownSelector="#ff0000"
+            android:dropDownWidth="280dp"
+            android:gravity="top"
+            android:hint="@string/et_send_mean"
+            android:textColor="#3a3f47"
+            android:textColorHint="#cccccc"
+            android:textCursorDrawable="@null"
+            android:textSize="15sp" />
+
+        <!-- 添加图片 -->
+
+        <GridView
+            android:id="@+id/gridview_send_image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="12dp"
+            android:gravity="center"
+            android:horizontalSpacing="12dp"
+            android:numColumns="3"
+            android:stretchMode="columnWidth"
+            android:verticalSpacing="5dp" />
+
+        <LinearLayout
+            android:id="@+id/ll_auto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="17dp"
+            android:layout_marginRight="17dp"
+            android:layout_marginTop="30dp"
+            android:gravity="center_vertical" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/dongtai_dingwei_icon2" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="6dp"
+                android:paddingLeft="8dp"
+                android:text="@string/dingwei_send"
+                android:textColor="#333333"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/tv_city_send"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="13dp"
+                android:ellipsize="end"
+                android:maxEms="11"
+                android:singleLine="true"
+                android:textColor="#333333"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/divider" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="17dp"
+            android:drawableLeft="@drawable/dongtai_fenxiang_biaoqian"
+            android:drawablePadding="4dp"
+            android:text="#话题标签"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:visibility="gone" />
+
+        <GridView
+            android:id="@+id/huati_gridview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:horizontalSpacing="5dp"
+            android:numColumns="2"
+            android:verticalSpacing="4dp"
+            android:visibility="gone" >
+        </GridView>
+
+        <LinearLayout
+            android:id="@+id/send_share_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="17dp"
+                android:src="@drawable/share_there" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="15dp"
+                android:text="同步分享到:"
+                android:textColor="#666666"
+                android:textSize="15sp" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <RadioButton
+                    android:id="@+id/qq_share_checkbox"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:background="@drawable/send_shareqq_click"
+                    android:button="@null" />
+
+                <RadioButton
+                    android:id="@+id/weixin_share_checkbox"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:layout_marginLeft="8dp"
+                    android:background="@drawable/send_shareweixin_click"
+                    android:button="@null" />
+
+                <RadioButton
+                    android:id="@+id/weixinfriends_share_checkbox"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:layout_marginLeft="8dp"
+                    android:background="@drawable/send_shareweixin_friends_click"
+                    android:button="@null" />
+            </RadioGroup>
+        </LinearLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/send_menu_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#8c000000"
+        android:visibility="gone" >
+    </RelativeLayout>
+
+</RelativeLayout>

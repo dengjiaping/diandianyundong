@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:background="#8c000000"
+    android:orientation="vertical"
+    android:paddingBottom="14dp"
+    android:paddingLeft="27dp"
+    android:paddingRight="27dp"
+    android:paddingTop="7dp" >
+
+    <TextView
+        android:id="@+id/exit_msg"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:text="@string/exit_msg"
+        android:textColor="#33c9ca"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/exit_login"
+        android:layout_width="268dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/sports_slim_btn_click"
+        android:gravity="center"
+        android:text="@string/setting_exit"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/exit_cancel"
+        android:layout_width="268dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/sports_button_gray"
+        android:gravity="center"
+        android:text="@string/sports_cancel"
+        android:textColor="#414141"
+        android:textSize="18sp" />
+
+</LinearLayout>

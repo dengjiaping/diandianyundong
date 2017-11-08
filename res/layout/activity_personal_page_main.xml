@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <include
+        android:id="@+id/personal_page_headview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/user_permain_head_layout"
+        android:background="#F4F4F4"
+        android:visibility="gone"/>
+
+    <include
+        android:id="@+id/other_personal_page_headview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/user_other_permain_head_layout"
+        android:layout_below="@+id/personal_page_headview"
+        android:background="#F4F4F4" 
+        android:visibility="gone"/>
+
+    <com.fox.exercise.view.PullToRefreshListView
+        xmlns:ptr="http://schemas.android.com/apk/res/com.fox.exercise"
+        android:id="@+id/gifts_pull_refresh_list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/other_personal_page_headview"
+        android:background="#ffffff"
+        android:cacheColorHint="#00000000"
+        android:listSelector="#00000000"
+        ptr:mode="pullUpFromBottom"/>
+
+    <TextView
+        android:id="@+id/no_history"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/personal_page_headview"
+        android:gravity="center"
+        android:text="@string/sports_no_history"
+        android:textColor="@color/black"
+        android:visibility="gone" />
+
+    <com.fox.exercise.view.PullToRefreshListView
+        xmlns:ptr="http://schemas.android.com/apk/res/com.fox.exercise"
+        android:id="@+id/personal_page_refresh_list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/other_personal_page_headview"
+        android:background="#ffffff"
+        android:cacheColorHint="#00000000"
+        android:listSelector="#00000000"
+        ptr:mode="both" />
+
+    <RelativeLayout
+        android:id="@+id/rl_webView"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/mls_pay"
+        android:visibility="gone"
+        android:layout_below="@+id/other_personal_page_headview"
+        >
+        <WebView
+            android:id="@+id/web_train"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+        </WebView>
+
+        <LinearLayout
+            android:id="@+id/loading_layout"
+            android:layout_width="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <ProgressBar
+                android:id="@+id/progressBarItemImageLoading"
+                style="@android:style/Widget.ProgressBar.Small"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="6dp"
+                android:indeterminateDrawable="@anim/record_loading"
+                android:maxHeight="24dip"
+                android:maxWidth="24dip"
+                android:minHeight="24dip"
+                android:minWidth="24dip" />
+
+            <TextView
+                android:id="@+id/ItemText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="5dp"
+                android:singleLine="true"
+                android:text="@string/loading"
+                android:textColor="@android:color/black"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/no_jilu_txt"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/personal_page_headview"
+        android:gravity="center"
+        android:text="没有动态记录"
+        android:textColor="@color/black"
+        android:visibility="gone" />
+</RelativeLayout>

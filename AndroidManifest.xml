@@ -1,0 +1,901 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.fox.exercise"
+    android:installLocation="auto"
+    android:versionCode="91"
+    android:versionName="3.9.0">
+
+    <uses-sdk android:minSdkVersion="14" />
+
+    <uses-feature android:name="android.hardware.camera" />
+
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="android.permission.ACCESS_LOCATION" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="com.sonyericsson.permission.CAMERA_EXTENDED" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
+    <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT" />
+    <uses-permission android:name="android.permission.ACCESS_DOWNLOAD_MANAGER" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.READ_CONTACTS_CALLS" />
+    <!-- <uses-permission android:name="android.permission.SEND_SMS" /> -->
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <!-- <uses-permission android:name="android.permission.CALL_PHONE" /> -->
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <!-- <uses-permission android:name="android.permission.WRITE_SMS" /> -->
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="com.android.email.permission.ACCESS_PROVIDER" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_CALENDAR" />
+    <uses-permission android:name="android.permission.WRITE_CALENDAR" />
+    <uses-permission android:name="android.permission.PROCESS_OUTGOING_CALLS" />
+    <uses-permission android:name="android.permission.READ_CALL_LOG" />
+    <uses-permission android:name="android.permission.WRITE_CALL_LOG" />
+    <uses-permission android:name="android.permission.RECEIVE_WAP_PUSH" />
+    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION" />
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.REORDER_TASKS"/>
+    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS_FULL"/>
+    <uses-permission android:name="android.permission.GET_TOP_ACTIVITY_INFO"/>
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="true" />
+
+    <application
+        android:name="cn.ingenic.indroidsync.SportsApp"
+        android:allowBackup="true"
+        android:exported="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:persistent="true"
+        android:theme="@style/AppTheme"
+        android:uiOptions="splitActionBarWhenNarrow">
+
+        <activity
+            android:name="com.fox.exercise.login.SportMain"
+            android:configChanges="keyboardHidden|orientation|navigation"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:uiOptions="splitActionBarWhenNarrow"></activity>
+        <activity
+            android:name="com.fox.exercise.ShareToXinlangWeibo"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:uiOptions="splitActionBarWhenNarrow">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.fox.exercise.publish.PhotoActivity"
+            android:uiOptions="splitActionBarWhenNarrow"></activity>
+        <activity
+            android:name="com.fox.exercise.ShareToTencentWeibo"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:uiOptions="splitActionBarWhenNarrow">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.fox.exercise.ShareToQQzone"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:uiOptions="splitActionBarWhenNarrow">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.fox.exercise.wxapi.WXEntryActivity"
+            android:exported="true"
+            android:uiOptions="splitActionBarWhenNarrow"></activity>
+        <activity
+            android:name="com.fox.exercise.wxapi.WXPayEntryActivity"
+            android:exported="true"
+            android:launchMode="singleTop" />
+        <activity
+            android:name="com.fox.exercise.XinlangWebViewActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan"></activity>
+        <activity
+            android:name="com.fox.exercise.Settings"
+            android:screenOrientation="portrait"
+            android:uiOptions="splitActionBarWhenNarrow">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="Settings"
+                    android:scheme="weiboandroid" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.fox.exercise.login.JDAuthActivity" />
+        <activity
+            android:name="com.fox.exercise.login.TencentAuthorizeActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name="com.tencent.tauth.AuthActivity"
+            android:launchMode="singleTask"
+            android:noHistory="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="tencent1101732794" />
+                <!-- 100380359 100381104 222222 -->
+            </intent-filter>
+        </activity>
+        <activity android:name="com.tencent.connect.common.AssistActivity"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:configChanges="orientation|keyboardHidden|screenSize"/>
+        <activity
+            android:name="com.fox.exercise.login.LoginActivity"
+            android:screenOrientation="portrait"
+            android:uiOptions="splitActionBarWhenNarrow">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.fox.exercise.login.FirstLoginView"
+            android:screenOrientation="portrait"
+            android:uiOptions="splitActionBarWhenNarrow"></activity>
+        <activity
+            android:name="com.fox.exercise.login.SplashScreenActivity"
+            android:screenOrientation="portrait"
+            android:uiOptions="splitActionBarWhenNarrow"></activity>
+        <activity
+            android:name="com.fox.exercise.login.AdShowActivity"
+            android:screenOrientation="portrait"
+            android:uiOptions="splitActionBarWhenNarrow"></activity>
+        <activity
+            android:name="com.fox.exercise.login.ModifyPwdActivity"
+            android:screenOrientation="portrait"
+            android:uiOptions="splitActionBarWhenNarrow"></activity>
+        <activity
+            android:name="com.fox.exercise.login.UserEditActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan"></activity>
+        <activity
+            android:name="com.fox.exercise.login.RegistActivity"
+            android:screenOrientation="portrait"
+            android:uiOptions="splitActionBarWhenNarrow"
+            android:windowSoftInputMode="stateHidden"></activity>
+        <activity
+            android:name="com.fox.exercise.login.ForgetPwdActivity"
+            android:screenOrientation="portrait"
+            android:uiOptions="splitActionBarWhenNarrow"></activity>
+        <activity
+            android:name="com.fox.exercise.BuildRunCircle"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan"></activity>
+        <activity
+            android:name="com.fox.exercise.FindFriendsSendMsg"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan"></activity>
+        <activity
+            android:name="com.fox.exercise.publish.TestPicActivity"
+            android:uiOptions="splitActionBarWhenNarrow"></activity>
+        <activity
+            android:name="com.example.xinlv.Xinlvcount"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"></activity>
+
+        <service
+            android:name="com.fox.exercise.pedometer.StepService"
+            android:exported="false">
+            <intent-filter android:priority="1000">
+                <action android:name="com.fox.exercise.pedometer.STEPSERVICE" />
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.fox.exercise.newversion.FirstStepService"
+            android:exported="false">
+            <intent-filter android:priority="1000">
+                <action android:name="com.fox.exercise.newversion.FIRSTSTEPSERVICE" />
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.fox.exercise.api.WatchService"
+            android:exported="false"></service>
+
+        <receiver
+            android:name="com.fox.exercise.pedometer.AlarmReceiver"
+            android:exported="false"
+            android:process=":remote">
+            <intent-filter>
+                <action android:name="com.fox.exercise.pedometer.AlarmReceiver.alarmclock" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.fox.exercise.api.BootCompletedReceiver"
+            android:exported="false"
+            android:process=":remote">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name="com.fox.exercise.AdviceFeedback"
+            android:screenOrientation="portrait"
+            android:uiOptions="splitActionBarWhenNarrow"></activity>
+        <activity
+            android:name="com.fox.exercise.FoxSportsGoal"
+            android:screenOrientation="portrait"
+            android:uiOptions="splitActionBarWhenNarrow"></activity>
+        <activity
+            android:name="com.fox.exercise.newversion.act.SleepExampleActivity"
+            android:screenOrientation="portrait"
+            android:uiOptions="splitActionBarWhenNarrow"></activity>
+        <activity
+            android:name="com.fox.exercise.Sport_JiBuproblemActivity"
+            android:screenOrientation="portrait"
+            android:uiOptions="splitActionBarWhenNarrow"></activity>
+        <activity
+            android:name="com.fox.exercise.QQhealth_problemActivity"
+            android:screenOrientation="portrait"
+            android:uiOptions="splitActionBarWhenNarrow"></activity>
+        <activity
+            android:name="com.fox.exercise.problem3_me_Activity"
+            android:screenOrientation="portrait"
+            android:uiOptions="splitActionBarWhenNarrow"></activity>
+
+        <!--
+        <activity
+            android:name="FoxSportsMonitorDevice"
+            android:screenOrientation="portrait"
+            android:uiOptions="splitActionBarWhenNarrow" >
+        </activity>
+
+        -->
+        <activity
+            android:name="com.fox.exercise.FoxSportsFocus"
+            android:screenOrientation="portrait"
+            android:uiOptions="splitActionBarWhenNarrow"></activity>
+        <activity
+            android:name="com.fox.exercise.FoxSportsState"
+            android:screenOrientation="portrait"
+            android:uiOptions="splitActionBarWhenNarrow"></activity>
+        <activity
+            android:name="com.fox.exercise.MyDevice"
+            android:screenOrientation="portrait"
+            android:uiOptions="splitActionBarWhenNarrow"></activity>
+        <activity
+            android:name="com.fox.exercise.MainFragmentActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:uiOptions="splitActionBarWhenNarrow"
+            android:windowSoftInputMode="stateVisible|adjustResize"></activity>
+        <activity
+            android:name="com.fox.exercise.SportsPersonalMsg"
+            android:screenOrientation="portrait"
+            android:uiOptions="splitActionBarWhenNarrow"
+            android:windowSoftInputMode="adjustResize"></activity>
+        <activity
+            android:name="com.fox.exercise.SysMessageMyActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:uiOptions="splitActionBarWhenNarrow"></activity>
+
+        <!--
+        <activity
+            android:name="SportsAlertActivity"
+            android:screenOrientation="portrait"
+            android:uiOptions="splitActionBarWhenNarrow" >
+        </activity>
+
+        -->
+        <!--
+        <activity
+            android:name="SlimDetails"
+            android:screenOrientation="portrait"
+            android:uiOptions="splitActionBarWhenNarrow" >
+        </activity>
+
+        -->
+        <activity
+            android:name="com.fox.exercise.CameraApp"
+            android:configChanges="keyboardHidden|orientation|navigation"
+            android:screenOrientation="portrait"
+            android:uiOptions="splitActionBarWhenNarrow"
+            android:windowSoftInputMode="stateAlwaysHidden|stateHidden"></activity>
+        <!--
+        <activity
+            android:name="AlbumsLists"
+            android:configChanges="keyboardHidden|orientation|navigation"
+            android:screenOrientation="portrait"
+            android:uiOptions="splitActionBarWhenNarrow" >
+        </activity>
+
+        -->
+        <!--
+        <activity
+            android:name="ImageLists"
+            android:configChanges="keyboardHidden|orientation|navigation"
+            android:screenOrientation="portrait"
+            android:uiOptions="splitActionBarWhenNarrow" >
+        </activity>
+
+        -->
+
+        <receiver
+            android:name="com.fox.exercise.pedometer.SportsReceiver"
+            android:exported="false"
+            android:process=":remote">
+            <intent-filter>
+                <action android:name="com.fox.exercise.pedometer.SportsReceiver.alarmclock" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name="com.fox.exercise.FoxSportsSetting"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.fox.exercise.DaoJiShiSetting"
+            android:screenOrientation="portrait"></activity>
+        <!-- LockScreen -->
+        <activity
+            android:name="com.fox.exercise.lockscreen.LockScreen"
+            android:uiOptions="splitActionBarWhenNarrow"></activity>
+        <activity
+            android:name="com.fox.exercise.CapturePreview"
+            android:screenOrientation="portrait"
+            android:uiOptions="splitActionBarWhenNarrow"></activity>
+        <activity
+            android:name="com.fox.exercise.UploadActivity"
+            android:screenOrientation="portrait"
+            android:uiOptions="splitActionBarWhenNarrow"></activity>
+        <activity
+            android:name="com.fox.exercise.FansListActivity"
+            android:screenOrientation="portrait"
+            android:uiOptions="splitActionBarWhenNarrow"></activity>
+        <activity
+            android:name="com.fox.exercise.ActivityInfoWebView"
+            android:screenOrientation="portrait"
+            android:uiOptions="splitActionBarWhenNarrow"></activity>
+        <activity
+            android:name="com.fox.exercise.VisitorMyActivity"
+            android:screenOrientation="portrait"
+            android:uiOptions="splitActionBarWhenNarrow"></activity>
+        <!--
+        <activity
+            android:name="NearbyActivity"
+            android:screenOrientation="portrait"
+             >
+        </activity>
+
+        -->
+        <activity
+            android:name="com.fox.exercise.bluetooth.DeviceListActivity"
+            android:screenOrientation="portrait"
+            android:uiOptions="splitActionBarWhenNarrow"></activity>
+        <activity
+            android:name="com.fox.exercise.api.ShowCoinsDialog"
+            android:screenOrientation="portrait"
+            android:theme="@style/sports_coins_dialog" />
+        <!--
+        <activity
+            android:name="BlackMessageActivity"
+            android:screenOrientation="portrait"
+            android:uiOptions="splitActionBarWhenNarrow" >
+        </activity>
+
+        -->
+        <activity
+            android:name="com.fox.exercise.map.SportingMapActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:uiOptions="splitActionBarWhenNarrow"></activity>
+        <activity
+            android:name="com.fox.exercise.MofflineMap"
+            android:screenOrientation="portrait"
+            android:uiOptions="splitActionBarWhenNarrow"></activity>
+        <activity
+            android:name="com.fox.exercise.MofflineMapPage"
+            android:screenOrientation="portrait"
+            android:uiOptions="splitActionBarWhenNarrow"></activity>
+        <activity
+            android:name="com.fox.exercise.SportsFoundImgActivity"
+            android:screenOrientation="portrait"
+            android:uiOptions="splitActionBarWhenNarrow"></activity>
+        <activity
+            android:name="com.fox.exercise.map.SportTaskDetailActivityGaode"
+            android:screenOrientation="portrait"
+            android:uiOptions="splitActionBarWhenNarrow"></activity>
+        <activity
+            android:name="com.fox.exercise.map.SportingMapActivityGaode"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:uiOptions="splitActionBarWhenNarrow"></activity>
+        <activity
+            android:name="com.fox.exercise.map.SportMediaFileDetailActivity"
+            android:screenOrientation="portrait"
+            android:uiOptions="splitActionBarWhenNarrow"></activity>
+        <activity
+            android:name="com.fox.exercise.map.MediaPointInMapGaode"
+            android:screenOrientation="portrait"
+            android:uiOptions="splitActionBarWhenNarrow"></activity>
+        <activity
+            android:name="com.fox.exercise.map.SportsShared"
+            android:screenOrientation="portrait"
+            android:uiOptions="splitActionBarWhenNarrow"></activity>
+        <activity
+            android:name="com.fox.exercise.QQOAuthActivity"
+            android:configChanges="keyboardHidden|orientation|navigation"
+            android:screenOrientation="portrait"
+            android:uiOptions="splitActionBarWhenNarrow"></activity>
+        <activity
+            android:name="com.fox.exercise.SportsHelpInfo"
+            android:screenOrientation="portrait"
+            android:uiOptions="splitActionBarWhenNarrow"></activity>
+        <activity
+            android:name="com.fox.exercise.SreachDevice"
+            android:screenOrientation="portrait"
+            android:uiOptions="splitActionBarWhenNarrow"></activity>
+        <activity
+            android:name="com.fox.exercise.WarnActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:uiOptions="splitActionBarWhenNarrow"></activity>
+        <activity
+            android:name="com.fox.exercise.BindingDevice"
+            android:screenOrientation="portrait"
+            android:uiOptions="splitActionBarWhenNarrow"></activity>
+        <activity
+            android:name="com.fox.exercise.SportsDetail"
+            android:screenOrientation="portrait"
+            android:uiOptions="splitActionBarWhenNarrow"></activity>
+        <activity
+            android:name="com.fox.exercise.AddFriendActivity"
+            android:screenOrientation="portrait"
+            android:uiOptions="splitActionBarWhenNarrow"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden"></activity>
+        <activity
+            android:name="com.fox.exercise.HistoryAllActivity"
+            android:screenOrientation="portrait"
+            android:uiOptions="splitActionBarWhenNarrow"></activity>
+        <activity
+            android:name="com.fox.exercise.FindMeActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name="com.fox.exercise.YunHuWebViewActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:uiOptions="splitActionBarWhenNarrow"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.fox.exercise.SportsDownloadMapTypeActivity"
+            android:screenOrientation="portrait"
+            android:uiOptions="splitActionBarWhenNarrow"></activity>
+        <activity
+            android:name="com.fox.exercise.MapGaodeActivity"
+            android:screenOrientation="portrait"
+            android:uiOptions="splitActionBarWhenNarrow"></activity>
+        <activity
+            android:name="com.fox.exercise.About"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:uiOptions="splitActionBarWhenNarrow"></activity>
+        <activity
+            android:name="com.fox.exercise.ActivityList"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:uiOptions="splitActionBarWhenNarrow"></activity>
+        <activity
+            android:name="com.fox.exercise.ActivityListDetail"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:uiOptions="splitActionBarWhenNarrow"></activity>
+        <activity
+            android:name="com.fox.exercise.CommentsActivity"
+            android:label="@string/app_name"></activity>
+        <activity
+            android:name="com.fox.exercise.newversion.newact.NewCommentsActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name="com.fox.exercise.CommentsDetailActivity"
+            android:label="@string/app_name"></activity>
+        <activity
+            android:name="com.fox.exercise.NormalProble"
+            android:label="@string/app_name"></activity>
+
+
+        <service
+            android:name="com.baidu.location.f"
+            android:enabled="true"
+            android:permission="android.permission.BAIDU_LOCATION_SERVICE"
+            android:process=":remote">
+            <intent-filter>
+                <action android:name="com.baidu.location.service_v2.2"></action>
+            </intent-filter>
+        </service>
+
+        <meta-data
+            android:name="com.baidu.lbsapi.API_KEY"
+            android:value="5qia1VhHhshy0NDGc6bRRQOA" />
+        <meta-data
+            android:name="com.amap.api.v2.apikey"
+            android:value="f3c03f03320ab87becaa5395b7ae115b" />
+        <meta-data
+            android:name="UMENG_APPKEY"
+            android:value="53c78f6056240bd361025021"></meta-data>
+        <meta-data
+            android:name="UMENG_MESSAGE_SECRET"
+            android:value="86d69d8c8ad3d550ffcc651b71e934b6"></meta-data>
+        <meta-data
+            android:name="UMENG_CHANNEL"
+            android:value="z500123" />
+
+
+        <!-- IndroidMobile -->
+        <service
+            android:name="cn.ingenic.indroidsync.services.SyncService"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="cn.ingenic.indroidsync.SYNC_SERVICE" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name="cn.ingenic.indroidsync.MainActivity"
+            android:screenOrientation="portrait"></activity>
+
+        <receiver android:name="cn.ingenic.indroidsync.phone.OutCallReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.NEW_OUTGOING_CALL" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name="cn.ingenic.indroidsync.phone.QuickSmsSettings"
+            android:label="@string/respond_via_sms_setting_title_2" />
+
+        <receiver android:name="cn.ingenic.indroidsync.contactsms.sms2.SmsReceiver">
+            <intent-filter>
+                <action android:name="android.provider.Telephony.SMS_RECEIVED" />
+            </intent-filter>
+        </receiver>
+
+        <!-- for OTA update -->
+
+        <receiver android:name="cn.ingenic.indroidsync.updater.UpdateReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.DOWNLOAD_COMPLETE" />
+            </intent-filter>
+        </receiver>
+
+        <!-- for  settings, sync_settings -->
+        <activity android:name="cn.ingenic.indroidsync.MSettings"></activity>
+        <activity
+            android:name="cn.ingenic.indroidsync.MSyncSettings"
+            android:screenOrientation="portrait"
+            android:uiOptions="splitActionBarWhenNarrow"></activity>
+        <activity
+            android:name="com.fox.exercise.InviteSportsActivity"
+            android:screenOrientation="portrait"
+            android:uiOptions="splitActionBarWhenNarrow"></activity>
+
+        <!-- for camera -->
+        <service android:name="cn.ingenic.indroidsync.camera.CameraWindowService"></service>
+        <!-- kli occupy! -->
+
+        <activity
+            android:name="cn.ingenic.indroidsync.devicemanager.AddDeviceAdminActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name="com.example.xinlv.XinlvActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name="com.fox.exercise.publish.ImageGridActivity"
+            android:uiOptions="splitActionBarWhenNarrow"></activity>
+        <activity
+            android:name="com.fox.exercise.Train_webViewClass"
+            android:uiOptions="splitActionBarWhenNarrow"></activity>
+        <activity
+            android:name="com.fox.exercise.SportMeWebView"
+            android:uiOptions="splitActionBarWhenNarrow"></activity>
+        <activity
+            android:name="com.fox.exercise.SportMe_MyOrderWebView"
+            android:uiOptions="splitActionBarWhenNarrow"></activity>
+        <activity
+            android:name="com.fox.exercise.SportMe_MedalWebView"
+            android:screenOrientation="portrait"
+            android:uiOptions="splitActionBarWhenNarrow"></activity>
+
+        <receiver
+            android:name="cn.ingenic.indroidsync.devicemanager.DeviceReceiver"
+            android:permission="android.permission.BIND_SERVICE_ADMIN">
+            <meta-data
+                android:name="android.app.device_admin"
+                android:resource="@xml/lock_screen" />
+
+            <intent-filter>
+                <action android:name="android.app.action.DEVICE_ADMIN_ENABLED" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="cn.ingenic.indroidsync.devicemanager.AppsReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="cn.ingenic.action.sync" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="cn.ingenic.indroidsync.devicemanager.TimeChangedReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.TIME_SET" />
+                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+            </intent-filter>
+        </receiver>
+        <!-- kli end -->
+        <!-- for contacts -->
+        <service android:name="cn.ingenic.indroidsync.contactsms.contacts.phone.ContactSyncService"></service>
+
+        <receiver android:name="cn.ingenic.indroidsync.contactsms.manager.SyncReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="com.android.contact.DELETE" />
+                <action android:name="receiver.action.CONNECTIVITY_CHANGE" />
+                <action android:name="contact_want_update_datas_action" />
+                <action android:name="save_power_to_right_now_datas_changed_action" />
+                <action android:name="watch_response_sms_action" />
+                <action android:name="sms_have_delete_action" />
+                <action android:name="sms_want_get_new_datas_action" />
+                <action android:name="sms_send_read_action" />
+            </intent-filter>
+        </receiver>
+        <!-- for sms2 -->
+        <service android:name="cn.ingenic.indroidsync.contactsms.sms2.SmsSyncService"></service>
+        <!-- for Calendar -->
+        <receiver
+            android:name="cn.ingenic.indroidsync.calendar.CalendarSyncReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="receiver.action.CONNECTIVITY_CHANGE" />
+                <action android:name="android.intent.action.EVENT_REMINDER" />
+                <action android:name="com.android.calendar.action_delete_event_from_watch" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.PROVIDER_CHANGED" />
+
+                <data android:scheme="content" />
+                <data android:host="com.android.calendar" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name="com.fox.exercise.newversion.act.UserSetMainActivity"
+            android:label="@string/title_activity_user_set_main"></activity>
+        <activity
+            android:name="com.fox.exercise.newversion.act.SportCircleFindEventActivity"
+            android:label="@string/title_activity_user_set_main"></activity>
+        <activity
+            android:name="com.fox.exercise.newversion.act.UserActivityMainActivity"
+            android:label="@string/title_activity_user_set_main"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden"></activity>
+        <activity
+            android:name="com.fox.exercise.newversion.act.PersonalPageMainActivity"
+            android:label="@string/title_activity_personal_page_main"
+            android:launchMode="standard"></activity>
+        <activity
+            android:name="com.fox.exercise.newversion.act.MyConditionActivity"
+            android:label="@string/title_activity_personal_page_main"
+            android:launchMode="standard"></activity>
+        <activity
+            android:name="com.fox.exercise.newversion.newact.NewYuePaoGaoDeActivity"
+            android:label="@string/title_activity_new_yue_pao_gao_de"></activity>
+        <activity
+            android:name="com.fox.exercise.newversion.newact.NewYuePaoBaiDuActivity"
+            android:label="@string/title_activity_new_yue_pao_bai_du"></activity>
+        <activity
+            android:name="com.fox.exercise.newversion.newact.NewRanksActivity"
+            android:label="@string/title_activity_new_ranks"></activity>
+        <activity
+            android:name="com.fox.exercise.newversion.newact.NewGuanZhuActivity"
+            android:label="@string/title_activity_new_guan_zhu"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden"></activity>
+        <activity
+            android:name="com.fox.exercise.newversion.newact.NewFansActivity"
+            android:label="@string/title_activity_new_guan_zhu"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden"></activity>
+        <activity
+            android:name="com.fox.exercise.NewHuoDongActivity"
+            android:label="@string/title_activity_new_huo_dong"></activity>
+        <activity
+            android:name="com.fox.exercise.newversion.newact.ZanListUserActivity"
+            android:label="@string/title_activity_zan_list_user"></activity>
+        <activity
+            android:name="com.fox.exercise.newversion.act.FoxSportsSettingsActivity"
+            android:label="@string/title_activity_fox_sports_settings"></activity>
+        <activity
+            android:name="com.fox.exercise.newversion.act.FindPointsSayActivity"
+            android:label="@string/title_activity_find_points_say"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden"></activity>
+        <activity
+            android:name="com.fox.exercise.CoolCurrencyRulesActivity"
+            android:label="@string/title_activity_cool_currency_rules"></activity>
+        <activity
+            android:name="com.fox.exercise.newversion.newact.ShareDialogMainActivity"
+            android:label="@string/title_activity_share_dialog_main"
+            android:theme="@style/MyDialog"></activity>
+        <activity
+            android:name="com.fox.exercise.newversion.act.SleepMainActivity"
+            android:label="@string/title_activity_sleep_main"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name="com.fox.exercise.newversion.act.SleepHistoryActivity"
+            android:label="@string/title_activity_sleep_history"></activity>
+        <activity
+            android:name="com.fox.exercise.newversion.newact.CelebrationMainActivity"
+            android:label="@string/title_activity_celebration_main"></activity>
+        <activity
+            android:name="com.fox.exercise.newversion.act.PerfectMainActivity"
+            android:label="@string/title_activity_perfect_main"
+            android:screenOrientation="portrait"
+            android:uiOptions="splitActionBarWhenNarrow"></activity>
+
+        <service android:name="com.fox.exercise.newversion.SleepService"></service>
+
+        <receiver
+            android:name="com.fox.exercise.newversion.SportsReceiver"
+            android:exported="false"
+            android:process=":remote">
+            <intent-filter>
+                <action android:name="com.fox.exercise.newversion.SportsReceiver" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name="com.fox.exercise.newversion.trainingplan.TrainPlanMainActivity"
+            android:label="@string/title_activity_train_plan_main"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name="com.fox.exercise.newversion.trainingplan.VideoViewMainActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:launchMode="singleTop"
+            android:screenOrientation="landscape"></activity>
+        <activity
+            android:name="com.fox.exercise.newversion.trainingplan.FileDownloadActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Dialog"
+            android:uiOptions="splitActionBarWhenNarrow"></activity>
+        <activity
+            android:name="com.fox.exercise.newversion.trainingplan.TrainingActionActivity"
+            android:screenOrientation="portrait"
+            android:uiOptions="splitActionBarWhenNarrow"></activity>
+        <activity
+            android:name="com.fox.exercise.newversion.trainingplan.TrainCompleteActivity"
+            android:label="@string/title_activity_train_complete"
+            android:screenOrientation="portrait"
+            android:uiOptions="splitActionBarWhenNarrow"></activity>
+        <activity
+            android:name="com.fox.exercise.newversion.trainingplan.TrainTaskListActivity"
+            android:screenOrientation="portrait"
+            android:uiOptions="splitActionBarWhenNarrow"></activity>
+        <activity
+            android:name="com.fox.exercise.newversion.newact.NightRunWebViewActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:uiOptions="splitActionBarWhenNarrow"
+            android:windowSoftInputMode="stateHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:scheme="wxbf77151c2fa30c8a" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.fox.exercise.DingWeiList"></activity>
+
+        <service
+            android:name="com.fox.exercise.newversion.bushutongji.BuShuTongJiService"
+            android:exported="false"></service>
+        <receiver
+            android:name="com.fox.exercise.newversion.bushutongji.BuShuTongJiReceiver"
+            android:exported="false">
+            <intent-filter android:priority="1000">
+                <action android:name="com.fox.exercise.newversion.bushutongji.RESTART_SERVICE" />
+                <action android:name="android.intent.action.USER_PRESENT" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name="com.fox.exercise.newversion.bushutongji.BuShuTongJiBarChart"
+            android:screenOrientation="portrait"
+            android:uiOptions="splitActionBarWhenNarrow"></activity>
+        <activity android:name="com.fox.exercise.newversion.act.ZhangzisiWebViewActivity"></activity>
+        <activity android:name="com.fox.exercise.newversion.act.DoubiActivity"></activity>
+        <activity
+            android:name="com.fox.exercise.newversion.act.ShareActivity"
+            android:theme="@android:style/Theme.Dialog"></activity>
+        <activity android:name=".map.PeiSuActivity"></activity>
+        <activity
+            android:name="com.fox.exercise.newversion.act.ShareActivity2"
+            android:theme="@android:style/Theme.Dialog"></activity>
+	<activity
+            android:name=".newversion.newact.SportsHonorActivity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".newversion.newact.SportstingSettingActivity"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <service
+            android:name="com.iflytek.voiceads.update.DownloadService"/>
+
+        <activity
+            android:name="com.iflytek.voiceads.request.IFLYBrowser"
+            android:screenOrientation="portrait" />
+
+        <meta-data  android:name="IFLYTEK_APPKEY_AD" android:value="5910271e"/>
+    </application>
+
+</manifest>

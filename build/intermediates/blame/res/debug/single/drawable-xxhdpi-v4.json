@@ -1,0 +1,694 @@
+[
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\qq_health_me.png",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\qq_health_me.png"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\sports_complete_rate.png",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\sports_complete_rate.png"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\fengexian.png",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\fengexian.png"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\share_weixin_friends_unclick_icon.png",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\share_weixin_friends_unclick_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\xiugaiziliao.png",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\xiugaiziliao.png"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\share_weixin_click_icon.png",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\share_weixin_click_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\sk_personal_normal.png",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\sk_personal_normal.png"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\sporting_setting_icon.png",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\sporting_setting_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\tip_bg.png",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\tip_bg.png"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\sports_model_shareicon.png",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\sports_model_shareicon.png"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\bg_491.jpg",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\bg_491.jpg"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\sports_restart_bg.png",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\sports_restart_bg.png"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\title_voice.png",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\title_voice.png"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\nearby_me.png",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\nearby_me.png"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\jitui.png",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\jitui.png"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\share_weixin_friends_click_icon.png",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\share_weixin_friends_click_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\goal_notselect.png",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\goal_notselect.png"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\jiesuo_bg.png",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\jiesuo_bg.png"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\peisu_fasticon.png",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\peisu_fasticon.png"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\peisu_into.png",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\peisu_into.png"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\dialog_button.png",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\dialog_button.png"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\bushutongji_reliang.png",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\bushutongji_reliang.png"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\train_sort_img.png",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\train_sort_img.png"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\tuijian_zan.png",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\tuijian_zan.png"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\sk_mysport_normal.png",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\sk_mysport_normal.png"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\map_hide_btn.png",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\map_hide_btn.png"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\qixing_new.png",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\qixing_new.png"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\bg_22.jpg",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\bg_22.jpg"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\bg_231.jpg",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\bg_231.jpg"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\sports_stop_bg.png",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\sports_stop_bg.png"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\diandianrank_me.png",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\diandianrank_me.png"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\device_me.png",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\device_me.png"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\sports_user_edit_portrait_male.png",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\sports_user_edit_portrait_male.png"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\mymatch_me.png",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\mymatch_me.png"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\according_psw.png",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\according_psw.png"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\mapdetailtype_qiehuan_click.png",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\mapdetailtype_qiehuan_click.png"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\sport_task.png",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\sport_task.png"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\maptype_qiehuan_click.png",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\maptype_qiehuan_click.png"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\daka1.png",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\daka1.png"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\title_right_new_message.png",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\title_right_new_message.png"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\mapdetailtype_qiehuan_unclick.png",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\mapdetailtype_qiehuan_unclick.png"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\fristpage_jinbimall.png",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\fristpage_jinbimall.png"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\dialog_beijing.png",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\dialog_beijing.png"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\dengshan_new.png",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\dengshan_new.png"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\cebian_shangcheng.png",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\cebian_shangcheng.png"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\start_new_shouqi.png",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\start_new_shouqi.png"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\sportstyle_qixing.png",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\sportstyle_qixing.png"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\jibu_model_icon.png",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\jibu_model_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\sport_mark.png",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\sport_mark.png"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\speed_limit.png",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\speed_limit.png"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\sk_trainplay_normal.png",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\sk_trainplay_normal.png"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\verification_code_no.png",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\verification_code_no.png"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\sportting_setround_checked.png",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\sportting_setround_checked.png"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\share_to_xinlang.png",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\share_to_xinlang.png"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\sportting_setting_closeicon.png",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\sportting_setting_closeicon.png"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\gps_g03.png",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\gps_g03.png"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\setting_me.png",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\setting_me.png"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\gps_g00.png",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\gps_g00.png"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\sportshow_alreadyzan.png",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\sportshow_alreadyzan.png"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\haiba.png",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\haiba.png"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\sk_health_focus.png",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\sk_health_focus.png"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\cebian_new_bg.jpg",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\cebian_new_bg.jpg"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\sk_mysport_focus.png",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\sk_mysport_focus.png"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\btn_forget_norma.png",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\btn_forget_norma.png"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\xunzhang.png",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\xunzhang.png"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\sportstyle_paobu.png",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\sportstyle_paobu.png"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\cebian_paihang.png",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\cebian_paihang.png"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\main_start_loading.jpg",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\main_start_loading.jpg"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\myorder_me.png",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\myorder_me.png"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\qiya.png",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\qiya.png"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\backg_tip.png",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\backg_tip.png"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\proble_me.png",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\proble_me.png"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\sk_health_normal.png",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\sk_health_normal.png"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\sport_login_bg.png",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\sport_login_bg.png"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\title_add_friends.png",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\title_add_friends.png"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\send_find_popup_icon.png",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\send_find_popup_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\maptype_qiehuan_unclick.png",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\maptype_qiehuan_unclick.png"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\title_no_voice.png",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\title_no_voice.png"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\history_reliang_icon.png",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\history_reliang_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\share_qq_unclick_icon.png",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\share_qq_unclick_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\share_there.png",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\share_there.png"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\sk_personal_focus.png",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\sk_personal_focus.png"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\hanbao.png",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\hanbao.png"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\gps_g02.png",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\gps_g02.png"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\sports_up_voice_nocilick.png",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\sports_up_voice_nocilick.png"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\sportshow_shaer.png",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\sportshow_shaer.png"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\title_right_new_message2.png",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\title_right_new_message2.png"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\search_btn.png",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\search_btn.png"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\paobu_new.png",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\paobu_new.png"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\sportshow_sent.png",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\sportshow_sent.png"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\bushutongji_juli.png",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\bushutongji_juli.png"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\tanchu_close_btn.png",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\tanchu_close_btn.png"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\remond_pinglun.png",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\remond_pinglun.png"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\title_right_new_message3.png",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\title_right_new_message3.png"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\bt_hasselect.png",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\bt_hasselect.png"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\xinshouyindao.png",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\xinshouyindao.png"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\sportstyle_dengshan.png",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\sportstyle_dengshan.png"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\sport_forstpage_press.png",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\sport_forstpage_press.png"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\burn_loading.png",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\burn_loading.png"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\jinbistore_me.png",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\jinbistore_me.png"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\start_new_zhankai.png",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\start_new_zhankai.png"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\gps_g01.png",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\gps_g01.png"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\tuijian_time.png",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\tuijian_time.png"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\sportstyle_jianzou.png",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\sportstyle_jianzou.png"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\zoulu_new.png",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\zoulu_new.png"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\index_xinlv_bg1.jpg",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\index_xinlv_bg1.jpg"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\daka3.png",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\daka3.png"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\sleep_example.jpg",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\sleep_example.jpg"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\dongtai_dingwei_icon2.png",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\dongtai_dingwei_icon2.png"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\sport_title_back_selector.png",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\sport_title_back_selector.png"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\sporttails_half_bg.png",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\sporttails_half_bg.png"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\verification_code_abno.png",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\verification_code_abno.png"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\dis_icon.png",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\dis_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\sportshow_zan_black.png",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\sportshow_zan_black.png"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\remind_suer.png",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\remind_suer.png"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\map_crulocation_icon.png",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\map_crulocation_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\sports_up_text_click.png",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\sports_up_text_click.png"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\goback_regist.png",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\goback_regist.png"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\sk_startsport_focus.png",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\sk_startsport_focus.png"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\share_qq_click_icon.png",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\share_qq_click_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\yinshi_icon.png",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\yinshi_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\history_haoshi_icon.png",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\history_haoshi_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\map_nohide_btn.png",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\map_nohide_btn.png"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\index_sleep_bg1.jpg",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\index_sleep_bg1.jpg"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\qq_2.png",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\qq_2.png"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\sports_up_voice_yescilick.png",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\sports_up_voice_yescilick.png"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\sk_startsport_normal.png",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\sk_startsport_normal.png"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\sk_trainplay_focus.png",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\sk_trainplay_focus.png"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\gps_g05.png",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\gps_g05.png"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\tanchu_close_line.png",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\tanchu_close_line.png"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\sports_user_edit_portrait.png",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\sports_user_edit_portrait.png"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\goal_isselect.png",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\goal_isselect.png"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\sanjiao.png",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\sanjiao.png"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\jiantou_me.png",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\jiantou_me.png"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\share_weixin_unclick_icon.png",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\share_weixin_unclick_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\jinbi.png",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\jinbi.png"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\bt_notselect.png",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\bt_notselect.png"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\cebian_yuepao.png",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\cebian_yuepao.png"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\gps_g04.png",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\gps_g04.png"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\daka2.png",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\daka2.png"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\map_middle.png",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\map_middle.png"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\hidden_psw.png",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\hidden_psw.png"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\yangrouchuan.png",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\yangrouchuan.png"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\sk_sportcircle_normal.png",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\sk_sportcircle_normal.png"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\title_left_new_icon.png",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\title_left_new_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\bushutongji_yuanhuan.png",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\bushutongji_yuanhuan.png"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\qita_biaoqing_00.png",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\qita_biaoqing_00.png"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\sport_un_upload.png",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\sport_un_upload.png"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\weixin_login.png",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\weixin_login.png"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\sportshow_zan.png",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\sportshow_zan.png"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\sporthistory_me.png",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\sporthistory_me.png"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\cebian_friends.png",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\cebian_friends.png"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\jiesuo_button.png",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\jiesuo_button.png"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\sk_sportcircle_focus.png",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\sk_sportcircle_focus.png"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\sports_hornor_close.png",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\sports_hornor_close.png"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\setting_into.png",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\setting_into.png"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\bushutongji_fenxiang.png",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\bushutongji_fenxiang.png"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\map_start.png",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\map_start.png"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\btn_forget_ab_norma.png",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\btn_forget_ab_norma.png"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\sports_up_text_noclick.png",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\sports_up_text_noclick.png"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\dis_unicon.png",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\dis_unicon.png"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\nearby_icon.png",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\nearby_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\search_backg.png",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\search_backg.png"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\sportdetail_timetx.png",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\sportdetail_timetx.png"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\zan_more.png",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\zan_more.png"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\sportting_setting_openicon.png",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\sportting_setting_openicon.png"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\sportshow_guanzhu.png",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\sportshow_guanzhu.png"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\sports_complete_point.png",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\sports_complete_point.png"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\sport_forstpage.png",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\sport_forstpage.png"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\sportting_setround_unchecked.png",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\sportting_setround_unchecked.png"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\selected.png",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\selected.png"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\sportdetail_share.png",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\sportdetail_share.png"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\smart_equipment_icon.png",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\drawable-xxhdpi\\smart_equipment_icon.png"
+    }
+]

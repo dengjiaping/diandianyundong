@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+
+      
+    <com.fox.exercise.view.PullToRefreshGridView
+        xmlns:ptr="http://schemas.android.com/apk/res/com.fox.exercise"
+        android:id="@+id/registrat_refresh_grid"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+         android:layout_marginLeft="25dp"
+         android:layout_marginTop="20dp"
+         android:layout_marginBottom="20dp"
+         android:layout_marginRight="25dp"
+        android:layout_centerHorizontal="true"
+        android:listSelector="@null"
+        android:numColumns="4"
+        android:scrollbars="none"
+        android:stretchMode="columnWidth"
+        android:cacheColorHint="#00000000"
+        ptr:mode="both"/>
+    <!-- 
+     <GridView
+         android:id="@+id/registrat_grid"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" /> -->
+       
+
+</RelativeLayout>

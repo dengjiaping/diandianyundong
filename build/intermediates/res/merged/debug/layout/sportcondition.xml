@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/state_activity_layout_id"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sports_bg" >
+
+    <!-- 整体布局 -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <!-- 天气信息栏 -->
+
+        <RelativeLayout
+            android:id="@+id/weather_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/title2_bg" >
+
+            <TextView
+                android:id="@+id/sport_week"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="13dp"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/title_text_color" />
+
+            <TextView
+                android:id="@+id/sport_area"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@+id/sport_week"
+                android:gravity="center"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/title_text_color" />
+
+            <!--<LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:orientation="horizontal" >
+				<ImageView
+                    android:id="@+id/weather_icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:id="@+id/sport_weather_degree"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/title_text_color" />
+            </LinearLayout>-->
+
+            <TextView
+                android:id="@+id/sport_pm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="13dp"
+                android:gravity="center"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/title_text_color" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <!-- 运动总距离 -->
+
+            <RelativeLayout
+                android:id="@+id/user_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:gravity="center" >
+
+                <TextView
+                    android:id="@+id/dis_zheng"
+                    style="@style/sports_txt_color_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="65sp" />
+                <!-- android:text="@string/sport_user_name_text" -->
+
+                <RelativeLayout
+                    android:id="@+id/dis_relative"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/dis_zheng" >
+
+                    <TextView
+                        android:id="@+id/dis_xiao_1"
+                        style="@style/sports_txt_color_style"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="65sp" />
+                    <!-- android:text="@string/sport_user_name_text_float" -->
+
+                    <TextView
+                        android:id="@+id/dis_xiao_2"
+                        style="@style/sports_txt_color_style"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="65sp" />
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/dis_dan"
+                    style="@style/sports_txt_color_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginTop="38dp"
+                    android:layout_toRightOf="@+id/dis_relative"
+                    android:text="@string/km"
+                    android:textSize="28sp" />
+            </RelativeLayout>
+
+            <!-- 运动详细数据 -->
+
+            <LinearLayout
+                android:id="@+id/linear_detail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:baselineAligned="false"
+                android:weightSum="3" >
+
+                <RelativeLayout
+                    android:id="@+id/yundong_cishu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center" >
+
+                    <ImageView
+                        android:id="@+id/pic_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/sport_cishu" />
+
+                    <LinearLayout
+                        android:id="@+id/sports_cishu_data"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="3dp"
+                        android:layout_toRightOf="@+id/pic_1"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:id="@+id/sport_cishu"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:ellipsize="end"
+                            android:gravity="center"
+                            android:singleLine="true"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:textColor="#1a1a1a"
+                            android:textSize="12sp" />
+
+                        <!-- <TextView
+                            android:layout_width="47dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="2dp"
+                            android:gravity="center"
+                            android:text="@string/sports_cishu_dan"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:textColor="#1a1a1a"
+                            android:textSize="10sp" /> -->
+
+                        <TextView
+                            android:id="@+id/cishu_dan"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="5dp"
+                            android:gravity="center"
+                            android:text="@string/sports_cishu_dan"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:textColor="#1a1a1a"
+                            android:textSize="12sp" />
+                    </LinearLayout>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/yundong_sudu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center" >
+
+                    <ImageView
+                        android:id="@+id/pic_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/sport_sudu" />
+
+                    <LinearLayout
+                        android:id="@+id/sports_sudu_data"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="3dp"
+                        android:layout_toRightOf="@+id/pic_2"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:id="@+id/sport_sudu"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:ellipsize="end"
+                            android:gravity="center"
+                            android:singleLine="true"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:textColor="#1a1a1a"
+                            android:textSize="12sp" />
+
+                        <!-- <TextView
+                            android:layout_width="47dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="2dp"
+                            android:gravity="center"
+                            android:text="@string/sports_sudu_dan"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:textColor="#1a1a1a"
+                            android:textSize="10sp" /> -->
+
+                        <TextView
+                            android:id="@+id/sudu_dan"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="5dp"
+                            android:gravity="center"
+                            android:text="@string/sports_sudu_dan"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:textColor="#1a1a1a"
+                            android:textSize="12sp" />
+                    </LinearLayout>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/yundong_reliang"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center" >
+
+                    <ImageView
+                        android:id="@+id/pic_3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/sport_reliang" />
+
+                    <LinearLayout
+                        android:id="@+id/sports_kaluli_data"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="3dp"
+                        android:layout_toRightOf="@+id/pic_3"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:id="@+id/sport_reliang"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:ellipsize="end"
+                            android:gravity="center"
+                            android:singleLine="true"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:textColor="#1a1a1a"
+                            android:textSize="12sp" />
+
+                        <!-- <TextView
+                            android:layout_width="47dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="2dp"
+                            android:gravity="center"
+                            android:text="@string/sports_reliang_dan"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:textColor="#1a1a1a"
+                            android:textSize="10sp" /> -->
+
+                        <TextView
+                            android:id="@+id/kaluli_dan"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="5dp"
+                            android:gravity="center"
+                            android:text="@string/sports_reliang_dan"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:textColor="#1a1a1a"
+                            android:textSize="12sp" />
+                    </LinearLayout>
+                </RelativeLayout>
+            </LinearLayout>
+
+            <!-- 分割线 -->
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/divider" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:orientation="vertical" >
+
+                        <!-- 表盘效果和柱状图 -->
+
+                        <android.support.v4.view.ViewPager
+                            android:id="@+id/viewpager_biaozhu"
+                            android:layout_width="match_parent"
+                            android:layout_height="178dp"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="10dp"
+                            android:flipInterval="30"
+                            android:persistentDrawingCache="animation" />
+
+                        <!-- 圆点 -->
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="7dp"
+                            android:gravity="center"
+                            android:orientation="horizontal" >
+
+                            <ImageView
+                                android:id="@+id/image_biao_yuan"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/page_focus" />
+
+                            <ImageView
+                                android:id="@+id/image_zhu_yuan"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="5dp"
+                                android:background="@drawable/page" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="4.5"
+                    android:orientation="vertical" >
+
+                    <!-- 开始运动按钮 -->
+
+                    <Button
+                        android:id="@+id/sports_start_state"
+                        style="@style/SportsStartButton"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginLeft="13dp"
+                        android:layout_marginRight="13dp"
+                        android:text="@string/startSport_startSport"
+                        android:textColor="@android:color/white"
+                        android:textSize="18sp" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- 显示运动目标设定,背景 -->
+
+    <RelativeLayout
+        android:id="@+id/pop_menu_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#8c000000"
+        android:visibility="gone" >
+    </RelativeLayout>
+
+</RelativeLayout>

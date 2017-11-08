@@ -1,0 +1,1254 @@
+[
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\msgbox_new_item.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\msgbox_new_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\sports_goal_newlayout.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\sports_goal_newlayout.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\peisulayout.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\peisulayout.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\activity_update_check.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\activity_update_check.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\sports_download_map_type.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\sports_download_map_type.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\activity_video_view_main.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\activity_video_view_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\sports_friend_found_img.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\sports_friend_found_img.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\switch_moff_map.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\switch_moff_map.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\sport_dialog_for_newtask.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\sport_dialog_for_newtask.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\warn_view.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\warn_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\base_activity_details_zero_layout.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\base_activity_details_zero_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\activity_listview.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\activity_listview.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\activity_index_traingride_item.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\activity_index_traingride_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\registrat_fragment_item.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\registrat_fragment_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\message_buju.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\message_buju.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\activity_train_complete.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\activity_train_complete.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\sports_radio_dialog.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\sports_radio_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\trainplan_list_item.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\trainplan_list_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\findfriends_sendmsg.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\findfriends_sendmsg.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\activity_recommend1.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\activity_recommend1.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\sports_shareto_weibo.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\sports_shareto_weibo.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\sports_health_layout.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\sports_health_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\user_permain_head_layout1.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\user_permain_head_layout1.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\sports_regist.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\sports_regist.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\sport_circle_find_frg.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\sport_circle_find_frg.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\sport_dialog_for_task.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\sport_dialog_for_task.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\media_player_video.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\media_player_video.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\fox_sports_goal.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\fox_sports_goal.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\base_activity_details_eight_layout.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\base_activity_details_eight_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\chatting_item_msg_text_left.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\chatting_item_msg_text_left.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\sports_page_group.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\sports_page_group.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\sports_dialog5.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\sports_dialog5.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\exit_login.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\exit_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\moffline_map.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\moffline_map.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\recommend_banner.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\recommend_banner.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\activity_points_say_main.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\activity_points_say_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\sports_camera_main_content.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\sports_camera_main_content.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\item_image_grid.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\item_image_grid.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\xinlvcount.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\xinlvcount.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\sports_find_other_list_item_eight.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\sports_find_other_list_item_eight.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\sports_message_box.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\sports_message_box.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\pull_to_refresh_header.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\pull_to_refresh_header.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\activity_image_bucket.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\activity_image_bucket.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\sports_nearby.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\sports_nearby.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\item_xinlvcount.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\item_xinlvcount.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\base_activity_details_two_detail_layout.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\base_activity_details_two_detail_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\sport_rank_layout.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\sport_rank_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\preview_window.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\preview_window.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\activity_share_select.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\activity_share_select.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\moffline_gaode_mlistview.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\moffline_gaode_mlistview.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\sports_find_talk_detils.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\sports_find_talk_detils.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\sporttask_mediadetail_adapter_wav.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\sporttask_mediadetail_adapter_wav.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\sports_addfriend.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\sports_addfriend.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\tuijian_grid_item.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\tuijian_grid_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\adapter_get_train_action_list.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\adapter_get_train_action_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\dongtai_activity.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\dongtai_activity.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\sports_aboutme_main_frg.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\sports_aboutme_main_frg.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\peoblemexample3.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\peoblemexample3.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\activityrankdetail.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\activityrankdetail.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\sports_group_title.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\sports_group_title.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\sports_find_goodfriends_fragment.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\sports_find_goodfriends_fragment.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\index_tanchu_layout.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\index_tanchu_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\friends_list_front_view.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\friends_list_front_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\share_grid_layout.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\share_grid_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\sports_dialog1.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\sports_dialog1.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\find_gridview_item.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\find_gridview_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\switch_view.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\switch_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\sportdetail_type2.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\sportdetail_type2.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\sports_fans_list_item.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\sports_fans_list_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\sports_hornor_layout.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\sports_hornor_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\citypicker_dialog.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\citypicker_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\qq_oauth_activity_layout.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\qq_oauth_activity_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\sports_gz_upload.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\sports_gz_upload.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\pop_sport_listitem.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\pop_sport_listitem.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\select_images_from_local1.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\select_images_from_local1.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\device_list.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\device_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\activity_celebration_main.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\activity_celebration_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\xinlang_webview.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\xinlang_webview.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\base_activity_details_zero_detail_layout.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\base_activity_details_zero_detail_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\firstloginlayout.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\firstloginlayout.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\base_activity_details_two_layout.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\base_activity_details_two_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\load_offline.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\load_offline.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\auto_item2.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\auto_item2.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\sports_rank_content.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\sports_rank_content.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\base_activity_details_six_layout.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\base_activity_details_six_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\sports_login.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\sports_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\base_fragment.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\base_fragment.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\sports_nearby_list_item.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\sports_nearby_list_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\app_item_img.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\app_item_img.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\expand_item.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\expand_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\moffline_expand.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\moffline_expand.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\activity_sportsting_setting.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\activity_sportsting_setting.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\paymentfragment.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\paymentfragment.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\sports_pwd_edit.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\sports_pwd_edit.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\sports_nearby_gaode.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\sports_nearby_gaode.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\offlinemap_gaode_child.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\offlinemap_gaode_child.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\text_and_good_popwindow.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\text_and_good_popwindow.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\activity_bushutongji_viewitem.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\activity_bushutongji_viewitem.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\view_content_picture.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\view_content_picture.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\base_activity_details_three_1_layout.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\base_activity_details_three_1_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\sports_privatemsg_my_item.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\sports_privatemsg_my_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\sports_page_friends.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\sports_page_friends.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\dingwei_listview.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\dingwei_listview.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\sports_dialog_2.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\sports_dialog_2.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\sports_fans_my_ltem.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\sports_fans_my_ltem.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\on_screen_hint.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\on_screen_hint.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\device.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\device.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\activity_update_download.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\activity_update_download.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\adshow_play.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\adshow_play.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\sports_share_image.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\sports_share_image.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\about.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\about.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\biaopantu.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\biaopantu.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\sports_group_all.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\sports_group_all.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\sports_dialog2.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\sports_dialog2.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\sports_find_other_list_item.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\sports_find_other_list_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\activity_training_action.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\activity_training_action.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\base_activity_details_four_layout.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\base_activity_details_four_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\invitesports_layout.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\invitesports_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\sports_dialog3.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\sports_dialog3.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\base_activity_details_five_layout.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\base_activity_details_five_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\sports_find_talk_wav_detiles_message.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\sports_find_talk_wav_detiles_message.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\setting_weight_layout.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\setting_weight_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\sleepexample.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\sleepexample.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\activity_photo.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\activity_photo.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\activity_sleep_history.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\activity_sleep_history.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\sportdetail_type1.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\sportdetail_type1.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\startsports_slim_setting.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\startsports_slim_setting.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\chatting_item_msg_text_right.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\chatting_item_msg_text_right.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\user_other_permain_head_layout.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\user_other_permain_head_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\offlinemap_gaode.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\offlinemap_gaode.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\sports_find_other_list_item_five.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\sports_find_other_list_item_five.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\sports_fansorme.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\sports_fansorme.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\sport_circle_findheadview.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\sport_circle_findheadview.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\notices_activity.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\notices_activity.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\base_activity_details_one_layout.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\base_activity_details_one_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\offlinemap_gaode_group.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\offlinemap_gaode_group.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\activity_train_task_list.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\activity_train_task_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\sportsing_data_poplayout.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\sportsing_data_poplayout.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\registratfragment.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\registratfragment.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\personal_msg.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\personal_msg.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\activityrankingfragment.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\activityrankingfragment.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\slim_setting.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\slim_setting.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\toast_layout.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\toast_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\item_image_bucket.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\item_image_bucket.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\sendmsg_image.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\sendmsg_image.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_sport.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\dialog_sport.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\sports_find_headview.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\sports_find_headview.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\sports_user_edit.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\sports_user_edit.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\yunhu_webview_shop.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\yunhu_webview_shop.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\version_info_screen.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\version_info_screen.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\activity_update_install.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\activity_update_install.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\sports_group_all_list_item.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\sports_group_all_list_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\sports_popular_gridview.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\sports_popular_gridview.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\runcircle_image.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\runcircle_image.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\activity_wei.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\activity_wei.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\activity_comments_details.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\activity_comments_details.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\sports_find_other_list_item_six.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\sports_find_other_list_item_six.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\sports_find_other_list_item_three.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\sports_find_other_list_item_three.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\splash_screen.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\splash_screen.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\refresh_top_item.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\refresh_top_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\yunhu_webview_only.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\yunhu_webview_only.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\circle_find_listitem.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\circle_find_listitem.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\sports_find_fragment.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\sports_find_fragment.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\base_activity_details_one_detail_layout.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\base_activity_details_one_detail_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\bind_device.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\bind_device.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\xianshiquanbu.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\xianshiquanbu.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\sports_find_other_list_item_two.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\sports_find_other_list_item_two.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\sports_focus_list.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\sports_focus_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\base_activity_details_seven_layout.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\base_activity_details_seven_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\sports_popular_whole_gridview.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\sports_popular_whole_gridview.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\view_content.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\view_content.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\from_qq_dialog.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\from_qq_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\sport_upload.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\sport_upload.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\sporttask_mediadetail_adapter.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\sporttask_mediadetail_adapter.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\slim_friend_state.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\slim_friend_state.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\user_permain_head_layout.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\user_permain_head_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\introductfragment.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\introductfragment.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\msgbox_item.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\msgbox_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\user_other_permain_head_layout1.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\user_other_permain_head_layout1.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\setting_height_layout.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\setting_height_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\main.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\main.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\base_activity_details_three_layout.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\base_activity_details_three_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\sports_help_info.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\sports_help_info.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\sports_moff_friends.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\sports_moff_friends.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\msgbox_new_other_item.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\msgbox_new_other_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\slim_frend_adapter.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\slim_frend_adapter.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\invitesports_item.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\invitesports_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\sreach_device.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\sreach_device.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\startsport_rightbtn_layout.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\startsport_rightbtn_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\coins_dialog.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\coins_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\sportcondition_device_name.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\sportcondition_device_name.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\tencent_webview.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\tencent_webview.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\sports_group_me_item_list.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\sports_group_me_item_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\startsporting_map_gaode.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\startsporting_map_gaode.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\cool_currency_rules.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\cool_currency_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\nomalpicker_dialog.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\nomalpicker_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\capture_preview.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\capture_preview.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\activity_personal_page_main1.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\activity_personal_page_main1.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\item_historical_record.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\item_historical_record.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\activity_index_trainlist_item.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\activity_index_trainlist_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\dingwei_item.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\dingwei_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\activity_comments.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\activity_comments.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\activity_sport_circle_find_event.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\activity_sport_circle_find_event.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\activity_recommend.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\activity_recommend.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\view_header.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\view_header.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\select_images_from_local.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\select_images_from_local.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\xinlvactivity.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\xinlvactivity.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\sports_find_other_list_item_four.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\sports_find_other_list_item_four.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\activity_jd_auth.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\activity_jd_auth.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\first_imageview.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\first_imageview.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\user_activity_pinglun_layout.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\user_activity_pinglun_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\mediapoint_map_gaode.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\mediapoint_map_gaode.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\shareto_weibo.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\shareto_weibo.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\doubi_activity.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\doubi_activity.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\sports_detail.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\sports_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\datepicker_dialog.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\datepicker_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\base_activity_details_nine_layout.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\base_activity_details_nine_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\sporting_map.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\sporting_map.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\mymedal_webview.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\mymedal_webview.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\content_activity.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\content_activity.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\mysport_first_frag2.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\mysport_first_frag2.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\sports_dialog4.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\sports_dialog4.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\sportdetail_map_gaode1.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\sportdetail_map_gaode1.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\sportcondition.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\sportcondition.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\sports_dialog.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\sports_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\jibupeoblemexample.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\jibupeoblemexample.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\lockscreen.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\lockscreen.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\sports_nearby_cover.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\sports_nearby_cover.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\activity_list_detail.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\activity_list_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\collapsible_textview.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\collapsible_textview.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\jd_main_title.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\jd_main_title.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\user_activity_yuyin_pinglun_layout.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\user_activity_yuyin_pinglun_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\qqpeoblemexample.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\qqpeoblemexample.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\doubi_item.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\doubi_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\base_fragment1.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\base_fragment1.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\app_item.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\app_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\advice_feedback.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\advice_feedback.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\djs_setting.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\djs_setting.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\train_index_headview.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\train_index_headview.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\residemenu.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\residemenu.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\view_expandable.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\view_expandable.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\activity_sleep_main.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\activity_sleep_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\device_info_screen.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\device_info_screen.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\activity_personal_page_main.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\activity_personal_page_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\tran_webview.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\tran_webview.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_download_cancel.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\dialog_download_cancel.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\activity.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\activity.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\activity_index_gallery_item.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\activity_index_gallery_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\sport_delcomdialog.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\sport_delcomdialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\huodongxiangqing_activity.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\huodongxiangqing_activity.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\activity_infowebview.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\activity_infowebview.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\user_activity_sys_pinglun_layout.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\user_activity_sys_pinglun_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\auto_item3.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\auto_item3.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\pay_activity.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\pay_activity.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\zhuzhuangtu.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\zhuzhuangtu.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\peisu_item.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\peisu_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\activity_perfect_main.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\activity_perfect_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\activity_clear_train_video_cache.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\activity_clear_train_video_cache.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\diandianfuli_item.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\diandianfuli_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\runcircle.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\runcircle.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\sports_history_adpter_item.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\sports_history_adpter_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\sports_find_other_list_item_seven.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\sports_find_other_list_item_seven.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\sportingmap_daka_layout.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\sportingmap_daka_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\share_gride_list_item.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\share_gride_list_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\sports_all_history.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\sports_all_history.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\sports_sys_message.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\sports_sys_message.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\sports_history_adpter_newitem.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\sports_history_adpter_newitem.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\activity_normalproble_me.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\activity_normalproble_me.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\share_grid_layout_four.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\share_grid_layout_four.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\adapter_comments.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\adapter_comments.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\sports_progressdialog.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\sports_progressdialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\base_activity_details_four_detail_layout.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\base_activity_details_four_detail_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\sports_private_msg.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\sports_private_msg.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\sports_group_me.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\sports_group_me.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\sports_addfriend_list_item.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\sports_addfriend_list_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\sports_find_talk_wav_detiles.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\sports_find_talk_wav_detiles.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\sports_zanlist_item.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\sports_zanlist_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\activity_bushutongji_barchart.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\activity_bushutongji_barchart.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\shenshunjian_item.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\shenshunjian_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\sports_fans_list.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\sports_fans_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\sporting_map_gaode.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\sporting_map_gaode.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\circle_findevent_grid_headview.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\circle_findevent_grid_headview.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\sports_forgetpwd.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\sports_forgetpwd.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_bushutongji_share.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\dialog_bushutongji_share.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\activity_file_download.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\activity_file_download.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\activity_train_plan_main.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\activity_train_plan_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\user_main_head_layout.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\user_main_head_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\residemenu_item.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\residemenu_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\privatemsg_fragment.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\privatemsg_fragment.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\huodongurl.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\huodongurl.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\activity_user_set_main.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\activity_user_set_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\activity_list_item.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\activity_list_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\mydevice.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\mydevice.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\moffline_mlistview.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\moffline_mlistview.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\sport_main_fragment_layout.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\sport_main_fragment_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\sports_camera.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\sports_camera.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\activity_image_grid.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\activity_image_grid.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\version_list_view.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\version_list_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\auto_item.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\auto_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\activity_user_activity_main.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\activity_user_activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\setting_sex_layout1.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\setting_sex_layout1.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\city_picker.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\city_picker.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\trainplan_index_frg.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\trainplan_index_frg.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\history_headview.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\history_headview.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\pop_sport_list.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\pop_sport_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\sporttask_mediadetail.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\sporttask_mediadetail.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\zhangzishi_item.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\zhangzishi_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\sports_circle_main_frg.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\sports_circle_main_frg.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\bestgirl_progressdialog.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\bestgirl_progressdialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\base_activity_details_three_1_detail_layout.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\base_activity_details_three_1_detail_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\sports_addfriends_item.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\sports_addfriends_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\setting_sex_layout.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\setting_sex_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\build\\intermediates\\res\\merged\\debug\\layout\\sports_find_other_list_item_nine.xml",
+        "source": "C:\\Users\\yh\\Desktop\\yunhuyundong_studiomain3_8_0626\\res\\layout\\sports_find_other_list_item_nine.xml"
+    }
+]

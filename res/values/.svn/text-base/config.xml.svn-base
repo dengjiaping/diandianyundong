@@ -1,0 +1,28 @@
+<resources
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="MissingTranslation">
+    <integer name="config_enter_bestgirl">0</integer>
+    <!--  -->
+    <integer name="config_allAppsFadeInTime">350</integer>
+    <integer name="config_allAppsFadeOutTime">350</integer>
+    <string name="config_game_id">5001</string>
+    <string name="config_version_url">"http://cdn.17vee.com/lmstation/Sports/ver.json"</string>
+       <!-- Sina Weibo -->
+    <string name="app_sina_consumer_key">2166567095</string>
+    <string name="app_sina_consumer_secret">c5ab3a2d8c3a434c8092bac10fe33e88</string>
+      <!-- Tencent Weibo -->
+    <string name="app_tencent_consumer_key">801174793</string>
+    <string name="app_tencent_consumer_secret">48dfb08dccd86e0250823edcf377057c</string>
+    <integer name="config_phone_specialchars">0</integer>
+    <integer name="config_enter_sports">1</integer>
+    
+    <integer name="coin_gift">0</integer>
+    <integer name="config_recommend_on">0</integer>
+    <integer name="config_gameworld_on">1</integer>
+    <integer name="config_create_shortcut">1</integer>
+    <integer name="config_withsync">1</integer>
+    <integer name="config_uploaderror">1</integer>
+    <integer name="config_qqhealthy_on">0</integer>
+    <!-- 讯飞开屏广告位id -->
+    <string name="xunfei_advert_openpage_id">A5E58794FE63C8B8B7902957BEBA1819</string>
+</resources>

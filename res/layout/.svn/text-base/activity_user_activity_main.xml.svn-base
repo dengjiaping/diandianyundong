@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#FFFFFF"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ScrollView
+        android:id="@+id/usermainactivitysclView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         >
+        <LinearLayout
+            android:id="@+id/zong_activity_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            <include
+                android:id="@+id/activity_title_layout0"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3.0dip"
+                android:layout_marginBottom="60dp"
+                layout="@layout/base_activity_details_zero_layout"
+                android:visibility="gone" />
+
+            <include
+                android:id="@+id/activity_title_layout1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3.0dip"
+                android:layout_marginBottom="60dp"
+                layout="@layout/base_activity_details_one_layout"
+                android:visibility="gone" />
+
+            <include
+                android:id="@+id/activity_title_layout2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3.0dip"
+                android:layout_marginBottom="60dp"
+                layout="@layout/base_activity_details_two_layout"
+                android:visibility="gone" />
+
+            <include
+                android:id="@+id/activity_title_layout3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3.0dip"
+                android:layout_marginBottom="60dp"
+                layout="@layout/base_activity_details_three_1_layout"
+                android:visibility="gone" />
+
+            <include
+                android:id="@+id/activity_title_layout4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3.0dip"
+                android:layout_marginBottom="60dp"
+                layout="@layout/base_activity_details_four_layout"
+                android:visibility="gone" />
+
+            <include
+                android:id="@+id/activity_title_layout5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3.0dip"
+                android:layout_marginBottom="60dp"
+                layout="@layout/base_activity_details_four_layout"
+                android:visibility="gone" />
+
+            <include
+                android:id="@+id/activity_title_layout6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3.0dip"
+                android:layout_marginBottom="60dp"
+                layout="@layout/base_activity_details_four_layout"
+                android:visibility="gone" />
+
+            <include
+                android:id="@+id/activity_title_layout7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3.0dip"
+                android:layout_marginBottom="60dp"
+                layout="@layout/base_activity_details_four_layout"
+                android:visibility="gone" />
+
+            <include
+                android:id="@+id/activity_title_layout8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3.0dip"
+                android:layout_marginBottom="60dp"
+                layout="@layout/base_activity_details_four_layout"
+                android:visibility="gone" />
+
+            <include
+                android:id="@+id/activity_title_layout9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3.0dip"
+                android:layout_marginBottom="60dp"
+                layout="@layout/base_activity_details_four_layout"
+                android:visibility="gone" />
+
+            <!--<RelativeLayout-->
+                <!--android:id="@+id/activity_zan_layout"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:background="#F9F9F9" >-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/dianzan_nums"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_alignParentLeft="true"-->
+                    <!--android:layout_centerVertical="true"-->
+                    <!--android:textColor="@color/black"-->
+                    <!--android:visibility="gone" />-->
+
+                <!--<LinearLayout-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_centerVertical="true"-->
+                    <!--android:layout_marginLeft="10dp"-->
+                    <!--android:layout_toRightOf="@+id/dianzan_nums"-->
+                    <!--android:orientation="horizontal" >-->
+
+                    <!--<com.fox.exercise.util.RoundedImage-->
+                        <!--android:id="@+id/dianzan_one"-->
+                        <!--android:layout_width="32dp"-->
+                        <!--android:layout_height="32dp"-->
+                        <!--android:scaleType="centerInside"-->
+                        <!--android:visibility="gone" />-->
+
+                    <!--<com.fox.exercise.util.RoundedImage-->
+                        <!--android:id="@+id/dianzan_two"-->
+                        <!--android:layout_width="32dp"-->
+                        <!--android:layout_height="32dp"-->
+                        <!--android:layout_marginLeft="6dp"-->
+                        <!--android:scaleType="centerInside"-->
+                        <!--android:visibility="gone" />-->
+
+                    <!--<com.fox.exercise.util.RoundedImage-->
+                        <!--android:id="@+id/dianzan_three"-->
+                        <!--android:layout_width="32dp"-->
+                        <!--android:layout_height="32dp"-->
+                        <!--android:layout_marginLeft="6dp"-->
+                        <!--android:scaleType="centerInside"-->
+                        <!--android:visibility="gone" />-->
+
+                    <!--<com.fox.exercise.util.RoundedImage-->
+                        <!--android:id="@+id/dianzan_four"-->
+                        <!--android:layout_width="32dp"-->
+                        <!--android:layout_height="32dp"-->
+                        <!--android:layout_marginLeft="6dp"-->
+                        <!--android:scaleType="centerInside"-->
+                        <!--android:visibility="gone" />-->
+
+                    <!--<com.fox.exercise.util.RoundedImage-->
+                        <!--android:id="@+id/dianzan_five"-->
+                        <!--android:layout_width="32dp"-->
+                        <!--android:layout_height="32dp"-->
+                        <!--android:layout_marginLeft="6dp"-->
+                        <!--android:scaleType="centerInside"-->
+                        <!--android:visibility="gone" />-->
+
+                    <!--<com.fox.exercise.util.RoundedImage-->
+                        <!--android:id="@+id/dianzan_six"-->
+                        <!--android:layout_width="32dp"-->
+                        <!--android:layout_height="32dp"-->
+                        <!--android:layout_marginLeft="6dp"-->
+                        <!--android:scaleType="centerInside"-->
+                        <!--android:visibility="gone" />-->
+                <!--</LinearLayout>-->
+
+                <!--<ImageView-->
+                    <!--android:id="@+id/zan_more_icon"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_alignParentRight="true"-->
+                    <!--android:layout_centerVertical="true"-->
+                    <!--android:layout_marginRight="12dp"-->
+                    <!--android:src="@drawable/zan_more"-->
+                    <!--android:visibility="gone" />-->
+            <!--</RelativeLayout>-->
+
+            <LinearLayout
+                android:id="@+id/activity_pinglun_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:visibility="gone"
+                android:orientation="vertical" >
+                <TextView
+                    android:id="@+id/activity_submit_pinglun_num"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <RelativeLayout
+        android:id="@+id/find_bottom"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_alignParentBottom="true" >
+
+        <LinearLayout
+            android:id="@+id/lay"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/sports_primsg_bg" >
+
+            <LinearLayout
+                android:id="@+id/findbottomLayout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:baselineAligned="false"
+                android:orientation="horizontal" >
+
+                <ImageButton
+                    android:id="@+id/find_text_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="12dp"
+                    android:background="@drawable/sk2text" />
+
+                <Button
+                    android:id="@+id/find_press_btn"
+                    android:layout_width="fill_parent"
+                    android:layout_height="32dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/sports_private_send_click"
+                    android:gravity="center"
+                    android:text="@string/sports_private_msg_press_recoding"
+                    android:textColor="@color/white"
+                    android:textSize="18sp" />
+
+                <LinearLayout
+                    android:id="@+id/find_upcomment_text"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="2dp"
+                    android:gravity="center"
+                    android:paddingRight="3dp" >
+
+                    <EditText
+                        android:id="@+id/find_upcomment_edittext"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3.8"
+                        android:background="@drawable/up_send_primsg_edit"
+                        android:textColorHint="#666666"
+                        android:maxLength="100"
+                        android:maxLines="3"
+                        android:paddingLeft="13dp"
+                        android:layout_marginLeft="5dp"
+                        android:textColor="@color/black"
+                        android:textCursorDrawable="@null"
+                        android:textSize="14sp" />
+
+                    <ImageButton
+                        android:id="@+id/find_expression_text_btn"
+                        android:layout_width="28dp"
+                        android:layout_height="28dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:background="@drawable/qita_biaoqing_00" />
+
+                    <Button
+                        android:id="@+id/find_upcomment_send"
+                        android:layout_width="0dp"
+                        android:layout_height="32dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1.2"
+                        android:background="@drawable/sports_private_send_click"
+                        android:gravity="center"
+                        android:text="@string/button_send"
+                        android:textColor="@color/white"
+                        android:textSize="14sp"
+                        android:visibility="gone" />
+
+                    <Button
+                        android:id="@+id/find_unavailable"
+                        android:layout_width="0dp"
+                        android:layout_height="32dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1.5"
+                        android:background="@drawable/sk_button_unavailable"
+                        android:gravity="center"
+                        android:text="@string/button_send"
+                        android:textColor="@color/white"
+                        android:textSize="14sp" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/rScrollLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="145dp"
+            android:layout_below="@+id/lay"
+            android:background="@drawable/qita_biaoqing_02"
+            android:visibility="gone" >
+
+            <com.fox.exercise.util.ScrollLayout
+                android:id="@+id/ScrollLayoutTest"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp" >
+            </com.fox.exercise.util.ScrollLayout>
+
+            <LinearLayout
+                android:id="@+id/imageLayot"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="10dp"
+                android:orientation="horizontal" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutVoice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:visibility="gone" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/recoding" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/send_menu_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#8c000000"
+        android:visibility="gone" >
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_infowebview"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:background="#FFFFFF"
+        android:gravity="center" >
+        <LinearLayout
+            android:id="@+id/pinglun_fenxiang_dianzan2"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/sportshow_sent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="19dp"
+                android:background="@drawable/sportshow_sent" />
+
+            <TextView
+                android:id="@+id/good_and_text2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="8dp"
+                android:background="@drawable/sportshow_background"
+                android:gravity="center_vertical"
+                android:text="    我也说一句"
+                android:textColor="#949494"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:id="@+id/sportshow_shaer2"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="24dp"
+                android:background="@drawable/sportshow_shaer" />
+
+            <RelativeLayout
+                android:id="@+id/list_user_zan_layout2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" >
+
+                <TextView
+                    android:id="@+id/list_user_zan2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:drawableLeft="@drawable/user_dongtai_zan"
+                    android:drawablePadding="4dp"
+                    android:gravity="center"
+                    android:text="(0)"
+                    android:textColor="#333333" />
+
+                <TextView
+                    android:id="@+id/list_user_zan_addone2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:gravity="center"
+                    android:text="+1"
+                    android:textColor="#333333"
+                    android:textSize="18sp"
+                    android:visibility="gone" />
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    android:paddingBottom="2dp"
+    android:paddingTop="2dp" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <com.fox.exercise.util.RoundedImage
+            android:id="@+id/activity_image_yuyinicon"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:scaleType="centerInside"
+            android:src="@drawable/sports_user_edit_portrait" />
+
+        <TextView
+            android:id="@+id/find_talk_detils_text_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="2dp"
+            android:singleLine="true"
+            android:layout_toRightOf="@id/activity_image_yuyinicon"
+            android:gravity="left|center_vertical"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/activity_submit_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="3dp"
+            android:singleLine="true"
+            android:textColor="#999999"
+            android:layout_below="@id/find_talk_detils_text_name"
+            android:layout_toRightOf="@id/activity_image_yuyinicon"
+            android:gravity="left|center_vertical"
+            android:textSize="12sp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/recoding_click_find"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="48dp"
+        android:layout_gravity="center_vertical|left"
+        android:background="@drawable/recodmain_bg" >
+
+        <TextView
+            android:id="@+id/wav_durations_find"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="12dp"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/wav_begin_find"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|right"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/audio_ani_1" />
+    </LinearLayout>
+
+</LinearLayout>

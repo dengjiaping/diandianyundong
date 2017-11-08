@@ -1,0 +1,66 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+      <PreferenceScreen
+        android:key="bind_bluetooth"
+        android:summary=""
+        android:title="@string/bind_bluetooth" >
+    </PreferenceScreen>
+    <PreferenceScreen
+        android:key="sync_settings"
+        android:summary="@string/sync_settings_sum"
+        android:title="@string/sync_settings" >
+        <!-- <intent
+            android:action="android.intent.action.MAIN"
+            android:targetClass="cn.ingenic.indroidsync.MSyncSettings"
+            android:targetPackage="cn.ingenic.indroidsync" /> -->
+    </PreferenceScreen>
+    <ListPreference
+        android:key="mode_settings"
+        android:summary="@string/mode_settings_sum"
+        android:title="@string/mode_settings"
+        android:defaultValue="1"
+        android:entries="@array/mode_entries"
+        android:entryValues="@array/mode_entry_values"
+        android:dialogTitle="@string/mode_settings" >
+    </ListPreference>
+    <PreferenceScreen
+        android:key="mms_settings"
+        android:summary="@string/mms_settings_sum"
+        android:title="@string/mms_settings" >
+        <!-- <intent
+            android:action="android.intent.action.MAIN"
+            android:targetClass="cn.ingenic.indroidsync.phone.QuickSmsSettings"
+            android:targetPackage="cn.ingenic.indroidsync" /> -->
+    </PreferenceScreen>
+    <CheckBoxPreference
+       android:key="camera_window_settings"
+       android:summary="@string/camera_window_summary"
+       android:title="@string/camera_window_title" 
+       android:defaultValue="true" >
+    </CheckBoxPreference>
+    <CheckBoxPreference
+        android:key="notification_settings"
+        android:summary="@string/notification_summary_settings"
+        android:title="@string/notification_title_settings"
+        android:defaultValue="true" >
+    </CheckBoxPreference>
+  
+    <cn.ingenic.indroidsync.ClearSettingsDialogPreference
+        android:key="clear_settings"
+        android:summary="@string/clear_settings_sum"
+        android:title="@string/clear_settings" >
+    </cn.ingenic.indroidsync.ClearSettingsDialogPreference>
+    <PreferenceScreen
+        android:key="search_device"
+        android:summary=""
+        android:title="@string/search_device" >
+    </PreferenceScreen>
+   <!--  <PreferenceScreen
+        android:key="ota_update"
+        android:summary="@string/ota_update_sum"
+        android:title="@string/ota_update" >
+        <intent
+            android:action="android.intent.action.MAIN"
+            android:targetClass="cn.ingenic.indroidsync.updater.CheckUpdateActivity"
+            android:targetPackage="cn.ingenic.indroidsync" />
+    </PreferenceScreen> -->
+</PreferenceScreen>

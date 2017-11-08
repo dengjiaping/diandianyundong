@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    
+     <ProgressBar
+	        android:id="@+id/progressId"
+	        android:layout_width="65dp"
+	        android:layout_height="65dp"
+	        android:indeterminateDrawable="@anim/loading"
+	        android:layout_centerInParent="true"
+         /> 
+         
+     <com.fox.exercise.widght.MutilTouchImageView
+ 	    android:id="@+id/item_img"
+	  	android:scaleType="matrix"
+	    android:layout_centerInParent="true"
+	  	android:layout_width="match_parent"
+	  	android:layout_height="match_parent" />
+</RelativeLayout>

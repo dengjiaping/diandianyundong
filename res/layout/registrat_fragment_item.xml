@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/sports_bg"
+    android:layout_gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="3dp">
+    
+	 <com.fox.exercise.util.RoundedImage
+	     android:id="@+id/avatar"
+	     android:layout_width="50dp"
+	     android:layout_height="50dp"
+	     android:layout_gravity="center_horizontal"
+	     android:background="@drawable/sports_user_edit_portrait_male" />
+
+     <TextView
+         android:id="@+id/name"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="2dp"
+         android:ellipsize="end"
+         android:gravity="center"
+         android:maxLength="6"
+         android:singleLine="true"
+         android:text="name"
+         android:textColor="#3a3f47"
+         android:textSize="12sp" />
+     
+</LinearLayout>

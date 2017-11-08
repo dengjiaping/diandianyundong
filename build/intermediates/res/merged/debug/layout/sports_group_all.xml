@@ -1,0 +1,58 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root_sports_group_all"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/sports_bg"
+    android:orientation="vertical" >  
+    <RelativeLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+     >
+        <LinearLayout
+            android:id="@+id/sports_nearby_search_bg"
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/search_bg"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <EditText
+                android:id="@+id/sports_groupall_edittext"
+                android:layout_width="fill_parent"
+                android:layout_height="30dp"              
+                android:background="@color/seek_hui"
+                android:gravity="center_vertical"
+                android:hint="@string/add_friend_search_hint"
+                android:layout_marginLeft="33dp"
+                android:layout_marginRight="63dp"
+                android:textColor="#3a3f47"
+                android:textColorHint="#3a3f47"
+                android:textSize="15sp" 
+                 android:textCursorDrawable="@null"
+                />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="7dp"
+            android:src="@drawable/search_btn" />
+    </RelativeLayout>
+   <com.fox.exercise.view.PullToRefreshGridView
+        xmlns:ptr="http://schemas.android.com/apk/res/com.fox.exercise"
+        android:id="@+id/sports_groupall_pull_refresh_list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:cacheColorHint="#00000000"
+        ptr:mode="both"
+        android:numColumns="2"
+        android:verticalSpacing="1dip"
+        android:horizontalSpacing="1dip"
+        android:listSelector="@null"
+        android:scrollbars="none"
+        android:stretchMode="columnWidth"
+         />
+
+</LinearLayout>

@@ -1,0 +1,711 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sports_bg" >
+
+     <RelativeLayout
+         android:id="@+id/setting_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:background="@drawable/sports_title_bg" >
+
+        <ImageButton
+            android:id="@+id/back_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/title_menu"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="@string/set"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/white" />
+    </RelativeLayout>
+    <!--设置菜单  -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/setting_title"
+        android:scrollbars="vertical" >
+
+        <LinearLayout
+            android:id="@+id/slim_settings_two"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+            
+            <!--Personal Settings -->
+            <RelativeLayout
+                android:id="@+id/personal_settings"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="12dp"
+                android:paddingTop="12dp" >
+                <TextView
+                    android:id="@+id/personal_set"
+                    style="@style/sports_txt_color_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="16dp"
+                    android:ellipsize="end"
+                    android:gravity="center_vertical"
+                    android:maxWidth="230dp"
+                    android:singleLine="true"
+                    android:text="@string/person_set"
+                     android:textColor="#3a3f47"
+                    android:textSize="16sp" />
+
+                <ImageView
+                    android:id="@+id/go_personal_set"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="12dp"
+                    android:background="@drawable/access" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="@drawable/sports_bg_line" />
+            <!--er -->
+            
+            <RelativeLayout
+                android:id="@+id/rl_train_video_cache"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="12dp"
+                android:paddingTop="12dp" >
+                <TextView
+                    android:id="@+id/tv_train_video_cache"
+                    style="@style/sports_txt_color_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="16dp"
+                    android:ellipsize="end"
+                    android:gravity="center_vertical"
+                    android:maxWidth="230dp"
+                    android:singleLine="true"
+                    android:text="@string/train_video_cache"
+                     android:textColor="#3a3f47"
+                    android:textSize="16sp" />
+
+                <ImageView
+                    android:id="@+id/iv_train_video_cache"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="12dp"
+                    android:background="@drawable/access" />
+            </RelativeLayout>
+            
+            <RelativeLayout
+                android:id="@+id/ccuntdown_settings"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="12dp"
+                android:paddingTop="12dp" >
+                <TextView
+                    android:id="@+id/ccuntdown"
+                    style="@style/sports_txt_color_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="16dp"
+                    android:ellipsize="end"
+                    android:gravity="center_vertical"
+                    android:maxWidth="230dp"
+                    android:singleLine="true"
+                    android:text="@string/ccuntdown_settings"
+                     android:textColor="#3a3f47"
+                    android:textSize="16sp" />
+
+                <ImageView
+                    android:id="@+id/go_ccuntdown"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="12dp"
+                    android:background="@drawable/access" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="@drawable/sports_bg_line" />
+            
+			<RelativeLayout
+                android:id="@+id/relativelayout_select_map"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="12dp"
+                android:paddingTop="12dp" >
+                
+				<LinearLayout
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:orientation="horizontal" >
+	                <TextView
+	                    android:id="@+id/select_map"
+	                    style="@style/sports_txt_color_style"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:layout_alignParentLeft="true"
+	                    android:layout_marginLeft="16dp"
+	                    android:ellipsize="end"
+	                    android:gravity="center_vertical"
+	                    android:maxWidth="230dp"
+	                    android:singleLine="true"
+	                     android:textColor="#3a3f47"
+	                    android:text="@string/sports_select_map"
+	                    android:textSize="16sp" />
+	               
+                </LinearLayout>
+                 <TextView
+	                    android:id="@+id/default_map"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:layout_alignParentRight="true"
+	                    android:layout_marginRight="12dp"
+	                    android:ellipsize="end"
+	                    android:gravity="center_vertical"
+	                    android:maxWidth="230dp"
+	                    android:singleLine="true"
+	                    android:text="@string/sports_map_baidu"
+	                    android:textColor="@color/remind"
+	                    android:textSize="14sp" />
+				
+                <ImageView
+                    android:id="@+id/go_selectmap"
+                    android:visibility="gone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="15dp"
+                    android:background="@drawable/access" />
+            </RelativeLayout>
+            
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="@drawable/sports_bg_line" />
+            
+            <RelativeLayout
+                android:id="@+id/relativelayout_download_map"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="12dp"
+                android:paddingTop="12dp" >
+                
+                <TextView
+                    android:id="@+id/download_map"
+                    style="@style/sports_txt_color_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="16dp"
+                    android:ellipsize="end"
+                    android:gravity="center_vertical"
+                    android:maxWidth="230dp"
+                    android:singleLine="true"
+                    android:text="@string/sports_download_map"
+                     android:textColor="#3a3f47"
+                    android:textSize="16sp" />
+ 				<TextView
+	                    android:id="@+id/download_default_map"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:layout_alignParentRight="true"
+	                    android:layout_marginRight="12dp"
+	                    android:ellipsize="end"
+	                    android:gravity="center_vertical"
+	                    android:maxWidth="230dp"
+	                     android:visibility="gone"
+	                    android:singleLine="true"
+	                    android:text="@string/sports_map_baidu"
+	                    android:textColor="#25a7f2"
+	                    android:textSize="15sp" />
+                
+                <ImageView
+                    android:id="@+id/go_downloadmap"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="12dp"
+                    android:background="@drawable/access" />
+            </RelativeLayout>
+            
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="@drawable/sports_bg_line" />
+            <!--  隐藏云狐商城-->
+            <!-- <RelativeLayout
+                android:id="@+id/relativelayout_mall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="12dp"
+                android:visibility="gone"
+                android:paddingTop="12dp" >
+
+                <TextView
+                    android:id="@+id/yunhu_mall"
+                    style="@style/sports_txt_color_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="16dp"
+                    android:ellipsize="end"
+                    android:gravity="center_vertical"
+                    android:maxWidth="230dp"
+                    android:singleLine="true"
+                    android:text="@string/sports_yunhu_mall"
+                     android:textColor="#3a3f47"
+                    android:textSize="15sp" />
+
+                <ImageView
+                    android:id="@+id/go_yunhumall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="12dp"
+                    android:background="@drawable/access" />
+            </RelativeLayout> -->
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                  android:visibility="gone"
+                android:background="@drawable/sports_bg_line" />
+
+            <RelativeLayout
+                android:id="@+id/relativelayout_two"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="12dp"
+                android:paddingTop="12dp"  >
+
+                <TextView
+                    android:id="@+id/lock_screen"
+                    style="@style/sports_txt_color_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="16dp"
+                    android:ellipsize="end"
+                    android:gravity="center_vertical"
+                    android:maxWidth="230dp"
+                    android:singleLine="true"
+                     android:textColor="#3a3f47"
+                    android:text="@string/lock_screen"
+                    android:textSize="16sp" />
+
+                <ImageView
+                    android:id="@+id/go_lockscreen"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="12dp" />
+
+            </RelativeLayout>
+            
+			 <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="@drawable/sports_bg_line" />
+
+            <RelativeLayout
+                android:id="@+id/read_sound_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="12dp"
+                android:paddingTop="12dp"  >
+
+                <TextView
+                    android:id="@+id/read_sound_text"
+                    style="@style/sports_txt_color_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="16dp"
+                    android:ellipsize="end"
+                    android:gravity="center_vertical"
+                    android:maxWidth="230dp"
+                    android:singleLine="true"
+                     android:textColor="#3a3f47"
+                    android:text="@string/read_sound"
+                    android:textSize="16sp" />
+
+                <ImageView
+                    android:id="@+id/go_read_sound"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="12dp" />
+
+              <!--   <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_below="@+id/lock_screen"
+                    android:layout_marginLeft="24dp"
+                    android:ellipsize="end"
+                    android:visibility="gone"
+                    android:gravity="center_vertical"
+                    android:maxWidth="230dp"
+                    android:singleLine="true"
+                    android:text="@string/now_version1"
+                    android:textColor="#37adae"
+                    android:textSize="14sp" /> -->
+            </RelativeLayout>
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="@drawable/sports_bg_line" />
+ 			<!--隐藏历史记录  -->
+            <RelativeLayout
+                android:id="@+id/relativelayout_three"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:paddingBottom="12dp"
+                android:paddingTop="12dp" >
+
+                <TextView
+                    android:id="@+id/history"
+                    style="@style/sports_txt_color_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="24dp"
+                    android:ellipsize="end"
+                    android:gravity="center_vertical"
+                    android:maxWidth="230dp"
+                    android:singleLine="true"
+                     android:textColor="#3a3f47"
+                    android:text="@string/history"
+                    android:textSize="18sp" />
+
+                <ImageView
+                    android:id="@+id/go_history"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="15dp"
+                    android:background="@drawable/access" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                  android:visibility="gone"
+                android:background="@drawable/sports_bg_line" />
+
+            <RelativeLayout
+                android:id="@+id/relativelayout_four"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="12dp"
+                android:paddingTop="12dp" >
+
+                <TextView
+                    android:id="@+id/messages"
+                    style="@style/sports_txt_color_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="16dp"
+                    android:ellipsize="end"
+                    android:gravity="center_vertical"
+                    android:maxWidth="230dp"
+                    android:singleLine="true"
+                     android:textColor="#3a3f47"
+                    android:text="@string/mes_remind"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/tip_num"
+                    android:textColor="@color/black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="2dp"
+                    android:layout_toRightOf="@+id/messages"
+                    android:background="@drawable/tip_bg"
+                    android:gravity="center"
+                    android:textSize="12sp"
+                    android:visibility="gone" />
+                <!-- android:text="123" -->
+
+                <ImageView
+                    android:id="@+id/go_messages"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="12dp"
+                    android:background="@drawable/access" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="@drawable/sports_bg_line" />
+            <!--  我的设备隐藏-->
+            <RelativeLayout
+                android:id="@+id/relativelayout_one"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="12dp"
+                android:visibility="gone"
+                android:paddingTop="12dp" >
+
+                <TextView
+                    android:id="@+id/my_device"
+                    style="@style/sports_txt_color_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="24dp"
+                    android:ellipsize="end"
+                    android:gravity="center_vertical"
+                    android:maxWidth="230dp"
+                    android:singleLine="true"
+                     android:textColor="#3a3f47"
+                    android:text="@string/my_device"
+                    android:textSize="18sp" />
+
+                <ImageView
+                    android:id="@+id/go_mydevice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="15dp"
+                    android:background="@drawable/access" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:visibility="gone"
+                android:background="@drawable/sports_bg_line" />
+			<!--  意见反馈-->
+            <RelativeLayout
+                android:id="@+id/relativelayout_five"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:paddingBottom="12dp"
+                android:paddingTop="12dp" >
+
+                <TextView
+                    android:id="@+id/opinion"
+                    style="@style/sports_txt_color_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="24dp"
+                    android:ellipsize="end"
+                    android:gravity="center_vertical"
+                    android:maxWidth="230dp"
+                    android:singleLine="true"
+                    android:text="@string/opinion"
+                     android:textColor="#3a3f47"
+                    android:textSize="18sp" />
+
+                <ImageView
+                    android:id="@+id/go_opinion"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="15dp"
+                    android:background="@drawable/access" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                 android:visibility="gone"
+                android:background="@drawable/sports_bg_line" />
+
+            
+            <RelativeLayout
+                android:id="@+id/relativelayout_six"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="12dp"
+                android:paddingTop="12dp" >
+
+                <TextView
+                    android:id="@+id/gride"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="16dp"
+                    android:ellipsize="end"
+                    android:gravity="center_vertical"
+                    android:maxWidth="230dp"
+                    android:singleLine="true"
+                    android:text="@string/gride"
+                    android:textColor="#3a3f47"
+                    android:textSize="16sp"  />
+
+                <ImageView
+                    android:id="@+id/go_gride"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="12dp"
+                    android:background="@drawable/access" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="@drawable/sports_bg_line" />
+            <RelativeLayout
+                android:id="@+id/relativelayout_eight"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="12dp"
+                android:paddingTop="12dp" >
+
+                <TextView
+                    android:id="@+id/check_update_txt"
+                    style="@style/sports_txt_color_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="16dp"
+                    android:ellipsize="end"
+                    android:gravity="center_vertical"
+                    android:maxWidth="230dp"
+                    android:singleLine="true"
+                     android:textColor="#3a3f47"
+                      android:textSize="16sp" 
+                    android:text="@string/check_update"/>
+
+                <ImageView
+                    android:id="@+id/check_update_img"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="12dp"
+                    android:visibility="gone"
+                    android:background="@drawable/access" />
+
+                <TextView
+                    android:id="@+id/now_version"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/check_update_txt"
+                    android:layout_marginLeft="18dp"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="15dp"
+                    android:ellipsize="end"
+                    android:gravity="center_vertical"
+                    android:maxWidth="230dp"
+                    android:singleLine="true"
+                    android:text="@string/now_version"
+                    android:textColor="@color/remind"
+                    android:textSize="14sp" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="@drawable/sports_bg_line" />
+            
+            
+            <RelativeLayout
+                android:id="@+id/relativelayout_about"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="12dp"
+                android:paddingTop="12dp" >
+
+                <TextView
+                    android:id="@+id/about"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="16dp"
+                    android:ellipsize="end"
+                    android:gravity="center_vertical"
+                    android:maxWidth="230dp"
+                    android:singleLine="true"
+                    android:text="@string/about"
+                    android:textColor="#3a3f47"
+                    android:textSize="16sp" />
+
+                <ImageView
+                    android:id="@+id/go_about"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="12dp"
+                    android:background="@drawable/access" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="@drawable/sports_bg_line" />
+            
+            
+            <RelativeLayout
+                android:id="@+id/relativelayout_seven"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:gravity="center_vertical"
+                android:paddingBottom="12dp"
+                 android:visibility="gone"
+                >
+				<!--    -->
+                <Button
+                    android:id="@+id/exit"
+                    android:layout_width="268dp"
+                    android:layout_height="47dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/sports_slim_btn_click"
+                    android:gravity="center"
+                    android:text="@string/setting_exit"
+                    android:textColor="@color/white"
+                    android:textSize="18sp" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <RelativeLayout
+        android:id="@+id/set_menu_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#8c000000"
+        android:visibility="gone" >
+    </RelativeLayout>
+
+</RelativeLayout>

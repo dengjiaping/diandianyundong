@@ -1,0 +1,130 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sports_bg"
+    android:orientation="vertical" >
+
+    <!-- 倒计时标题栏 -->
+
+
+    <!--
+    <RelativeLayout
+        android:id="@+id/djs_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/sports_title_bg" >
+
+        <ImageButton
+            android:id="@+id/djs_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="17dp"
+            android:background="@drawable/djs_back" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="@string/dis_title"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@android:color/white" />
+
+        <ImageButton
+            android:id="@+id/djs_finish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="17dp"
+            android:background="@drawable/djs_finish" />
+    </RelativeLayout>
+    -->
+    <!-- 倒计时时间选择 -->
+
+    <RadioGroup
+        android:id="@+id/mRadioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp" >
+
+        <RadioButton
+            android:id="@+id/djs_close"
+            style="@style/djs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableRight="@drawable/sports_select_bt"
+            android:text="@string/djs_close"
+            android:textColor="@color/djs" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/divider" />
+
+        <RadioButton
+            android:id="@+id/djs_3"
+            style="@style/djs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableRight="@drawable/sports_select_bt"
+            android:text="@string/djs_3"
+            android:textColor="@color/djs" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/divider" />
+
+        <RadioButton
+            android:id="@+id/djs_5"
+            style="@style/djs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableRight="@drawable/sports_select_bt"
+            android:text="@string/djs_5"
+            android:textColor="@color/djs" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/divider" />
+
+        <RadioButton
+            android:id="@+id/djs_10"
+            style="@style/djs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableRight="@drawable/sports_select_bt"
+            android:text="@string/djs_10"
+            android:textColor="@color/djs" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/divider" />
+    </RadioGroup>
+
+    <CheckBox
+        android:id="@+id/djs_remind"
+        style="@style/djs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableRight="@drawable/multiselect_bg"
+        android:text="@string/djs_remind"
+        android:textColor="@color/remind" />
+
+    </LinearLayout>

@@ -1,0 +1,83 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/re_sport"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:id="@+id/layout_title"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/sports_title_bg">
+
+        <Button
+            android:id="@+id/layout_letf"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/sport_title_back_selector"></Button>
+
+        <TextView
+            android:id="@+id/tv_mytitle"
+            android:layout_width="100dp"
+            android:layout_height="fill_parent"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="消息"
+            android:textColor="@color/white"
+            android:textSize="20sp"></TextView>
+        <!--android:background="@drawable/sk_button"-->
+        <Button
+            android:id="@+id/layout_right"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+            android:background="#00000000"
+
+            android:gravity="center"
+            android:text="清空"
+            android:textColor="@color/white"
+            android:textSize="18dp"></Button>
+    </RelativeLayout>
+
+    <!-- <ListView
+         android:id="@+id/lv_comments_show"
+         android:layout_width="match_parent"
+         android:layout_height="fill_parent"
+         android:layout_alignParentBottom="true"
+         android:layout_below="@+id/layout_title"
+         android:background="@color/white"
+         android:orientation="horizontal"></ListView>-->
+    <com.fox.exercise.view.PullToRefreshListView xmlns:ptr="http://schemas.android.com/apk/res/com.fox.exercise"
+        android:id="@+id/lv_comments_show"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/layout_title"
+        android:background="@color/white"
+        android:cacheColorHint="#00000000"
+        android:listSelector="#00000000"
+        ptr:mode="both" />
+
+    <TextView
+        android:id="@+id/text_ts"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/layout_title"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:text="暂无消息记录"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        android:visibility="gone" />
+
+</RelativeLayout>

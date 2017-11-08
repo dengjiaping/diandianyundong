@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="5dp"
+    android:paddingTop="5dp" >
+
+    <RelativeLayout
+        android:id="@+id/focus_layout_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="5dp"
+        android:padding="1px" >
+
+        <com.fox.exercise.util.RoundedImage
+            android:id="@+id/focus_image_icon"
+            android:layout_width="63dp"
+            android:layout_height="63dp"
+            android:layout_centerVertical="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/sports_user_edit_portrait" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="14dp"
+        android:layout_toRightOf="@+id/focus_layout_icon"
+        android:layout_alignTop="@+id/focus_layout_icon"
+        android:layout_alignBottom="@+id/focus_layout_icon" >
+
+        <RelativeLayout
+            android:id="@+id/rela_o"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/focus_name_txt"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+                <LinearLayout
+                    android:id="@+id/line_o"
+                    android:layout_below="@+id/focus_name_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_height="wrap_content">
+	                <ImageView
+	                    android:id="@+id/img_sex"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:src="@drawable/sex_boy" />
+	                <TextView
+	                    android:id="@+id/tx_age"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:layout_marginLeft="5dp"
+	                    android:text="@string/tx_time_text"
+	                    android:textColor="#6C9913"
+	                    android:textSize="12sp"/>
+                </LinearLayout>
+                
+				<TextView 
+				    android:id="@+id/tx_message"
+				    android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_below="@+id/line_o"
+	                android:gravity="bottom"
+	                android:layout_alignBottom="@+id/upload_image_icon"
+	                android:textColor="#525252"
+	                android:textSize="12sp"/>
+				
+				<com.fox.exercise.util.RoundedImage
+				    android:id="@+id/upload_image_icon"
+				    android:layout_toRightOf="@+id/tx_message"
+				    android:layout_marginLeft="10dp"
+				    android:layout_width="38dp"
+				    android:layout_height="38dp"
+				    android:layout_alignParentBottom="true"
+				    android:scaleType="centerCrop"
+				    android:background="@drawable/sports_user_edit_portrait" />
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

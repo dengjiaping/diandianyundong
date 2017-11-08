@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="80dp"
+    android:orientation="horizontal"
+    android:padding="10dp" >
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="10dp"
+        android:scaleType="centerCrop" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="30dp" >
+
+        <TextView
+            android:id="@+id/boxtxt"
+            style="@style/sports_txt_color_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"
+            android:text="test"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/focusText"
+            android:layout_width="20dp"
+            android:layout_height="16dp"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/boxtxt"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/tip_bg"
+            android:enabled="false"
+            android:focusable="false"
+            android:textSize="12sp"
+            android:gravity="center"
+            android:textColor="@color/black" />
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/camera"
+    android:orientation="vertical" >
+	<com.fox.exercise.PreviewFrameLayout android:id="@+id/frame_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+	    <FrameLayout
+	        android:id="@+id/camera_frame"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent" >
+
+	        <SurfaceView
+	            android:id="@+id/camera_preview"
+	            android:layout_width="match_parent"
+	            android:layout_height="match_parent" />
+	        
+	       
+	        
+	    </FrameLayout>
+    </com.fox.exercise.PreviewFrameLayout>
+    <include layout="@layout/sports_camera_main_content"/>
+
+</RelativeLayout>

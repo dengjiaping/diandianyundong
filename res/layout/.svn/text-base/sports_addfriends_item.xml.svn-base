@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:baselineAligned="false"
+    android:paddingLeft="8dp"
+    android:paddingTop="8dp"
+    android:paddingBottom="8dp"
+    android:paddingRight="3dp"
+    android:weightSum="9" >
+
+    <RelativeLayout
+        android:id="@+id/layout_icon"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.5" >
+
+        <com.fox.exercise.util.RoundedImage
+            android:id="@+id/image_icon"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+             android:layout_centerInParent="true"
+            android:src="@drawable/sports_user_edit_portrait" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="0dip"
+        android:layout_height="fill_parent"
+        android:layout_weight="3"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/tx_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="8dp"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="@string/txt_name_text"
+            android:textColor="#3a3f47"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="0dip"
+        android:layout_height="fill_parent"
+        android:layout_weight="3.9" >
+
+        <TextView
+            android:id="@+id/tx_distance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+            android:layout_toLeftOf="@+id/bt_follow"          
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:textColor="@color/gray_litter"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/bt_follow"
+            android:layout_width="wrap_content"
+            android:layout_height="27dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/sports_smallbt_selector"
+            android:focusable="false"
+            android:text="@string/sports_unadded"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:visibility="visible" />
+   </RelativeLayout>
+
+</LinearLayout>

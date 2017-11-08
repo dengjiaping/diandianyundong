@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#cc000000" >
+
+    <com.fox.exercise.lockscreen.SliderRelativeLayout
+        android:id="@+id/slider_layout"
+        android:layout_width="262dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="100dp"
+        android:background="@drawable/jiesuo_bg"
+        android:gravity="center_vertical" >
+
+        <TextView
+            android:id="@+id/slider_icon"
+            android:layout_width="54dp"
+            android:layout_height="54dp"
+            android:layout_marginRight="10dp"
+            android:drawableTop="@drawable/jiesuo_button" >
+        </TextView>
+    </com.fox.exercise.lockscreen.SliderRelativeLayout>
+
+</RelativeLayout>

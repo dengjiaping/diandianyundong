@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/find_comment_layout"
+    android:orientation="vertical"
+    android:paddingLeft="50dp"
+    android:paddingTop="12dp"
+    android:paddingBottom="2dp" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <com.fox.exercise.util.RoundedImage
+            android:id="@+id/activity_image_icon"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:scaleType="centerInside"
+            android:src="@drawable/sports_user_edit_portrait_male" />
+
+        <TextView
+            android:id="@+id/find_talk_detils_text_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_toRightOf="@id/activity_image_icon"
+            android:gravity="left|center_vertical"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/imput_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/find_talk_detils_text_name"
+            android:layout_marginLeft="8dp"
+            android:layout_toRightOf="@id/activity_image_icon"
+            android:gravity="left|center_vertical"
+            android:textColor="#999999"
+            android:textSize="12sp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/recoding_click_find"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|left"
+         >
+
+        <TextView
+            android:id="@+id/find_talk_detils_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left|center_vertical"
+            android:layout_marginRight="12dp"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/sports_bg"
+    android:orientation="vertical" >
+
+
+	
+<FrameLayout
+    android:id="@+id/titleLayout"
+    android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+    android:background="@drawable/sports_title_bg">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="@string/title_share_image"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@android:color/white" />
+
+                <ImageButton
+                    android:id="@+id/backButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="3dip"
+                    android:background="@drawable/sport_title_back_selector"         
+                    />
+            </FrameLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/image_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/share_layout"
+        android:layout_below="@+id/titleLayout"
+        android:layout_marginTop="8dp" >
+
+        <ImageView
+            android:id="@+id/share_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            
+            android:layout_centerInParent="true" 
+            />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/share_layout"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+        android:background="@drawable/sports_bg2"
+        android:layout_marginTop="8dp" >
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingBottom="2dip"
+                android:gravity="center"
+                android:text="@string/text_share_to"
+                android:textColor="@android:color/black"
+                android:textSize="14sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/share_button_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp" >
+
+            <LinearLayout
+                android:id="@+id/inner_share_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                 android:layout_gravity="center_horizontal"
+                android:orientation="horizontal" 
+                android:baselineAligned="false"
+                android:weightSum="3">
+
+                <LinearLayout
+                    android:id="@+id/xinlang_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" 
+                    android:layout_weight="1">
+
+                    <ImageButton
+                        android:id="@+id/shareto_xinlang_button"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center_horizontal"
+                        android:background="@drawable/share_to_xinlang" />
+
+                    <TextView
+                        android:id="@+id/text_xinlang"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/text_xinlang_weibo"
+                        android:textColor="@android:color/black"
+                        android:layout_gravity="center_horizontal"
+                        android:singleLine="true"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/tengxun_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                   
+                    android:orientation="vertical" 
+                    android:layout_weight="1">
+
+                    <ImageButton
+                        android:id="@+id/shareto_tenxun_button"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center_horizontal"
+                        android:background="@drawable/share_to_tengxun" />
+
+                    <TextView
+                        android:id="@+id/text_tengxun"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/text_tengxun_weibo"
+                        android:textColor="@android:color/black"
+                        android:layout_gravity="center_horizontal"
+                         android:singleLine="true"
+                        android:textSize="12sp"/>
+                </LinearLayout>
+                
+              <LinearLayout
+                    android:id="@+id/weixin_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" 
+                    android:layout_weight="1">
+
+                    <ImageButton
+                        android:id="@+id/shareto_weixin_button"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center_horizontal"
+                        android:background="@drawable/weixin" />
+
+                    <TextView
+                        android:id="@+id/text_weixin"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/text_weixin"
+                        android:textColor="@android:color/black"
+                        android:layout_gravity="center_horizontal"
+                         android:singleLine="true"
+                        android:textSize="12sp"/>
+                </LinearLayout>  
+
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/rl"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+     <RelativeLayout
+        android:id="@+id/layout_title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#FFAD00" >
+
+        <ImageButton
+            android:id="@+id/bt_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/goback_regist" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/sports_regist"
+            android:textSize="20sp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/sports_popular_title_normal" />
+         <TextView
+             android:id="@+id/gologin_regist"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignParentRight="true"
+             android:layout_centerVertical="true"
+             android:layout_marginRight="15dp"
+             android:text="@string/sports_title_login"
+             android:textColor="@color/white"
+             android:textSize="16sp"
+             />
+    </RelativeLayout> 
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/layout_title" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <RelativeLayout
+                android:id="@+id/layout_mail"
+                android:layout_width="match_parent"
+                android:layout_height="41dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="25dp" >
+
+                <TextView
+                    android:id="@+id/phoneText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:gravity="center"
+                    android:text="@string/sports_phone"
+                    android:textColor="@color/sports_value"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/ed_mail"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="20dp"
+                    android:layout_toRightOf="@+id/phoneText"
+                    android:background="#00000000"
+                    android:hint="@string/sports_inputphone_regist"
+                    android:inputType="number"
+                    android:textColor="@color/hint_login"
+                    android:textColorHint="@color/gray_litter"
+                    android:textSize="13sp" 
+                    android:textCursorDrawable="@null"/>
+            </RelativeLayout>
+			<!--<TextView-->
+                <!--android:id="@+id/phone_number_notify1"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_below="@+id/layout_mail"-->
+                <!--android:layout_centerHorizontal="true"-->
+                <!--android:layout_marginTop="5dp"-->
+                <!--android:text="@string/phone_number_notify1"-->
+                <!--android:textColor="@color/text_login"-->
+                <!--android:textSize="13sp" />-->
+			<!--<TextView-->
+                <!--android:id="@+id/phone_number_notify2"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_below="@+id/phone_number_notify1"-->
+                <!--android:layout_centerHorizontal="true"-->
+                <!--android:text="@string/phone_number_notify2"-->
+                <!--android:textColor="@color/text_login"-->
+                <!--android:textSize="13sp" />-->
+            <LinearLayout
+                android:id="@+id/layout_password"
+                android:layout_width="match_parent"
+                android:layout_height="41dp"
+                android:layout_below="@id/layout_mail"
+                android:orientation="horizontal"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="25dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical|left"
+                    android:text="@string/sports_pwd"
+                    android:textColor="@color/sports_value"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/ed_password"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="20dp"
+                    android:background="#00000000"
+                    android:hint="@string/password_rules"
+                    android:inputType="textPassword"
+                    android:maxLength="16"
+                    android:textColor="@color/hint_login"
+                    android:textColorHint="@color/gray_litter"
+                    android:textSize="13sp"
+                    android:textCursorDrawable="@null"/>
+                <ImageView
+                    android:id="@+id/isshow_password"
+                    android:layout_width="22dp"
+                    android:layout_height="16dp"
+                    android:layout_marginRight="2dp"
+                    android:layout_gravity="center_vertical"
+                    android:background="@drawable/hidden_psw"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout_password_sure"
+                android:layout_width="match_parent"
+                android:layout_height="41dp"
+                android:layout_below="@id/layout_password"
+                android:orientation="horizontal"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="25dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical|left"
+                    android:text="@string/sports_pwd_sure"
+                    android:textColor="@color/sports_value"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/ed_password_sure"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="20dp"
+                    android:background="#00000000"
+                    android:hint="@string/password_rules"
+                    android:inputType="textPassword"
+                    android:maxLength="16"
+                    android:textColor="@color/hint_login"
+                    android:textColorHint="@color/gray_litter"
+                    android:textSize="13sp"
+                    android:textCursorDrawable="@null"/>
+                <ImageView
+                    android:id="@+id/isshow_password_sure"
+                    android:layout_width="22dp"
+                    android:layout_height="16dp"
+                    android:visibility="invisible"
+                    android:layout_marginRight="2dp"
+                    android:layout_gravity="center_vertical"
+                    android:background="@drawable/hidden_psw"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout_nickname"
+                android:layout_width="match_parent"
+                android:layout_height="41dp"
+                android:layout_below="@id/layout_password_sure"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="25dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical|left"
+                    android:gravity="center"
+                    android:text="@string/sports_nickname"
+                     android:textColor="@color/sports_value"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/ed_nickname"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="20dp"
+                    android:background="#00000000"
+                    android:hint="@string/name_rules"
+                    android:maxLength="15"
+                    android:textColor="@color/hint_login"
+                    android:textColorHint="@color/gray_litter"
+                    android:textSize="13sp"
+                    android:textCursorDrawable="@null"/>
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:id="@+id/layout_sex"
+                android:layout_width="match_parent"
+                android:layout_height="41dp"
+                android:layout_below="@id/layout_nickname"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="25dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical|left"
+                    android:layout_marginRight="12dp"
+                    android:text="@string/sports_sex"
+                    android:textColor="@color/sports_value"
+                    android:textSize="16sp" />
+
+                <RadioGroup
+                    android:id="@+id/radioGroup1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="12dp"
+                    android:orientation="horizontal" >
+
+                    <RadioButton
+                        android:id="@+id/male_radio"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:button="@drawable/sports_select_bt"
+                        android:checked="true"
+                        android:text="@string/male"
+                        android:textColor="@color/hint_login"
+                        android:textSize="13sp" />
+
+                    <RadioButton
+                        android:id="@+id/female_radio"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:button="@drawable/sports_select_bt"
+                        android:text="@string/female"
+                        android:textColor="@color/hint_login"
+                        android:textSize="13sp" />
+                </RadioGroup>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout_headphoto"
+                android:layout_width="match_parent"
+                android:layout_height="41dp"
+                android:layout_below="@id/layout_sex"
+                android:orientation="horizontal"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="25dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical|left"
+                    android:text="@string/sports_face"
+                   android:textColor="@color/sports_value"
+                    android:textSize="16sp" />
+
+                <com.fox.exercise.util.RoundedImage
+                    android:id="@+id/image_headphoto2"
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="24dp"
+                    android:src="@drawable/sports_user_edit_portrait_male" />
+
+                <TextView
+                    android:id="@+id/tx_shezhiheadphoto"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="13dp"
+                    android:gravity="center_vertical"
+                    android:text="@string/sports_setface"
+                    android:textColor="@color/gray_litter"
+                    android:textSize="13sp" />
+            </LinearLayout>
+
+
+            <Button
+                android:id="@+id/bt_ok"
+                android:background="@drawable/sport_login_bg"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@id/layout_headphoto"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="25dp"
+                android:text="@string/sports_finish"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+            
+            <TextView 
+                android:id="@+id/rigist_agreement"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/bt_ok"
+                android:layout_alignParentLeft="true"
+                android:gravity="center_vertical|left"
+                android:layout_marginTop="13dp"
+                android:layout_marginLeft="15dp"
+                android:textSize="13sp"
+                android:textColor="#999999"
+                />
+
+            <RelativeLayout
+                android:id="@+id/layout_other"
+                android:layout_width="fill_parent"
+                android:layout_height="75dp"
+                android:layout_below="@+id/bt_ok"
+                android:visibility="gone" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/sports_bg_line" >
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/sports_bg"
+                    android:gravity="center"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text="@string/sports_otherway"
+                    android:textColor="@color/white"
+                    android:textSize="13sp" />
+            </RelativeLayout>
+            <LinearLayout
+                android:id="@+id/layout_fourway"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/layout_other"
+                android:layout_marginLeft="13dp"
+                android:layout_marginRight="13dp"
+                android:orientation="horizontal"
+                android:baselineAligned="false"
+                android:visibility="gone" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical" >
+
+                    <ImageButton
+                        android:id="@+id/bt_xinlang"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:background="@drawable/share_to_xinlang" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:text="@string/sports_xinlang"
+                        android:textColor="@color/white"
+                        android:textSize="15sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical" >
+
+                    <ImageButton
+                        android:id="@+id/bt_QQ"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:background="@drawable/qq_2" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:text="@string/sports_qq"
+                        android:textColor="@color/white"
+                        android:textSize="15sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical" >
+
+                    <ImageButton
+                        android:id="@+id/bt_txweibo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:background="@drawable/share_to_tengxun" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:text="@string/sports_txweibo"
+                        android:textColor="@color/white"
+                        android:textSize="15sp" />
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+    <RelativeLayout
+        android:id="@+id/set_menu_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" >
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" 
+    >
+  
+    <RelativeLayout 
+        android:id="@+id/title_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:orientation="horizontal"
+	    android:background="@drawable/histroy_title_bg"
+	    android:paddingTop="1dp">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center_vertical"
+            android:background="@drawable/histroy_title_bg"
+            android:orientation="horizontal" >
+
+	        <TextView 
+	            android:id="@+id/title_sport_num"
+	             android:layout_width="wrap_content"
+	             android:layout_height="wrap_content"
+	             android:paddingLeft="10dp"
+	             android:text="6"
+	              android:textColor="@color/sports_gray"/>
+	        <TextView 
+	             android:layout_width="wrap_content"
+	             android:layout_height="wrap_content"
+	             android:text="@string/history_sports_times"
+	              android:textColor="@color/sports_gray"/>
+        </LinearLayout>
+		<TextView
+            android:id="@+id/step_counter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/sports_gray"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:layout_centerInParent="true"
+            android:text="8234 步" />
+        <TextView
+            android:id="@+id/title_time"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="5dp"
+            android:textColor="@color/sports_time_color"
+            android:gravity="center_vertical" />
+
+    </RelativeLayout>
+    <!--    -->
+        <LinearLayout
+                  android:id="@+id/history_item"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal"
+                  android:background="@drawable/history_item_bg"
+                  android:baselineAligned="false"
+        	      android:layout_below="@id/title_layout">
+        
+          <!--图片  -->
+        <FrameLayout
+   			 android:id="@+id/focus_layout_icon"
+   			 android:layout_width="77dp"
+   			 android:layout_height="match_parent"
+             android:layout_weight="1"
+   			 android:layout_gravity="center"
+   			 android:orientation="vertical" >
+			<TextView
+	            android:id="@+id/start_time_txt"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_gravity="center_horizontal"
+	            android:textColor="#6C9913"
+	            android:textSize="12sp"
+	            android:visibility="gone" />
+	        <ImageView
+	            android:id="@+id/focus_image_icon"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_gravity="center"
+	            android:background="@drawable/mysports_running"
+	            android:scaleType="centerCrop" />
+	
+	        <ImageView
+	            android:id="@+id/mywatch"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_gravity="bottom|right"
+	            android:background="@drawable/wristwatch"
+	            android:layout_marginBottom="5dp"
+	            android:visibility="gone" />
+	         <ImageView
+	            android:id="@+id/is_upload"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_gravity="top|right"
+	            android:background="@drawable/title_unupload"
+	            android:layout_marginTop="5dp"
+	            android:visibility="gone" />
+	
+	    </FrameLayout> 
+                 
+               <!-- 距离 -->
+				 <LinearLayout
+				    android:layout_width="60dp"
+				    android:layout_height="wrap_content"
+				   android:layout_weight="1"
+				     android:layout_gravity="center"
+				   android:layout_marginLeft="20dp"
+				    android:orientation="vertical" >
+	                <TextView
+	                    android:id="@+id/sport_distance"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:text="0.000"
+	                     android:layout_gravity="center"
+	                    android:textColor="@color/new_black"
+	                    android:textSize="14sp" />
+	                 <TextView
+	                    android:id="@+id/Distance_history"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:text="@string/history_sports_dis"
+	                    android:layout_gravity="center"
+	                    android:textColor="@color/gray_litter"
+	                    android:textSize="12sp" />
+	                 <TextView
+	                    android:id="@+id/Distance_history_unit"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:text="(km)"
+	                     android:layout_gravity="center"
+	                    android:textColor="@color/gray_litter"
+	                    android:textSize="12sp" />
+              	</LinearLayout> 
+              	  <!--燃烧  -->
+              	   <LinearLayout
+				    android:layout_width="70dp"
+				    android:layout_height="wrap_content"
+				   android:layout_gravity="center"
+				     android:layout_weight="1"
+				     android:layout_marginLeft="20dp"
+				    android:orientation="vertical" >
+
+	                <TextView
+	                    android:id="@+id/burn_calories"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:text="0"
+	                     android:layout_gravity="center"
+	                    android:textColor="@color/new_black"
+	                    android:textSize="14sp"/>
+	                  <TextView
+	                    android:id="@+id/Combustion_history"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:text="@string/history_sports_cal"
+	                     android:layout_gravity="center"
+	                    android:textColor="@color/gray_litter"
+	                    android:textSize="12sp" />
+	                  <TextView
+	                    android:id="@+id/Combustion_history_unit"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:text="(kc)"
+	                     android:layout_gravity="center"
+	                    android:textColor="@color/gray_litter"
+	                    android:textSize="12sp" />
+	            </LinearLayout>
+              	  
+              	  
+              	  
+             <!--时间  -->
+	                 <LinearLayout
+	                    android:layout_width="77dp"
+	                    android:layout_height="wrap_content"
+	                   android:layout_gravity="center"
+	                    android:orientation="vertical"
+	                     android:layout_weight="1">
+	                   
+	                   <TextView
+	                    android:id="@+id/sports_time"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:text="1h23,55,,"
+	                     android:layout_gravity="center"
+	                    android:textColor="@color/new_black"
+	                    android:textSize="14sp"/>
+	                   <TextView
+	                     android:id="@+id/time_history"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:text="@string/history_sports_time"
+	                     android:layout_gravity="center"
+	                    android:textColor="@color/gray_litter"
+	                    android:textSize="12sp"/>
+	                   <TextView
+	                     android:id="@+id/time_history_unit"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                     android:layout_gravity="center"
+	                    android:textColor="@color/gray_litter"
+	                    android:textSize="12sp"/>
+	                   
+	                </LinearLayout> 
+	           <!--速度  -->
+	                <LinearLayout
+	                    android:layout_width="77dp"
+	                    android:layout_height="wrap_content"
+	                  android:layout_gravity="center"
+	                    android:orientation="vertical"
+	                    android:layout_marginLeft="10dp"
+	                     android:layout_weight="1">
+
+	                   
+	                   <TextView
+	                    android:id="@+id/average_speed"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:text="0.000"
+	                     android:layout_gravity="center"
+	                    android:textColor="@color/new_black"
+	                    android:textSize="14sp"/>
+	                   <TextView
+	                    android:id="@+id/average_history"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:text="@string/history_sports_speed"
+	                     android:layout_gravity="center"
+	                    android:textColor="@color/gray_litter"
+	                    android:textSize="12sp"/>
+	                   <TextView
+	                    android:id="@+id/average_history_unit"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:text="(km/h)"
+	                     android:layout_gravity="center"
+	                    android:textColor="@color/gray_litter"
+	                    android:textSize="12sp"/>
+	                </LinearLayout> 
+        </LinearLayout>
+        
+   
+	 <View
+		android:id="@+id/horizontal_line"
+		android:layout_width="fill_parent"
+		android:layout_height="1dp"
+		android:layout_below="@id/history_item"
+		android:visibility="gone"
+		android:background="@drawable/sports_bg_line"
+		android:padding="6dp" /> 
+</RelativeLayout>

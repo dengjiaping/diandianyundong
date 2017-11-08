@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:baselineAligned="false"
+        android:weightSum="2" >
+
+        <LinearLayout
+            android:id="@+id/sport_step_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:id="@+id/goal_gongli"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <com.fox.exercise.view.DrawNewImageView
+                    android:id="@+id/sport_step_drawimage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+                <!-- android:src="@drawable/bg_progress" -->
+
+                <LinearLayout
+                    android:id="@+id/sport_dis_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:gravity="center"
+                    android:orientation="vertical" >
+					<LinearLayout
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:layout_marginTop="10dp"
+	                    android:gravity="center"
+	                    android:orientation="horizontal" >
+	                    <TextView
+	                        android:id="@+id/sport_dis"
+	                        android:layout_width="wrap_content"
+	                        android:layout_height="wrap_content"
+	                        android:text="@string/sport_user_name_text"
+	                        android:textColor="#8b8686"
+	                        android:textSize="18sp"
+	                        android:textStyle="bold" />
+	                    <RelativeLayout
+		                    android:id="@+id/sport_dis_relative"
+		                    android:layout_width="wrap_content"
+		                    android:layout_height="wrap_content" >
+		
+		                    <TextView
+		                        android:id="@+id/sport_dis_xiao_1"
+		                        android:textColor="#8b8686"
+		                        android:layout_width="wrap_content"
+		                        android:layout_height="wrap_content"
+		                        android:text="@string/sport_user_name_text_float"
+		                        android:textSize="18sp"
+		                        android:textStyle="bold" />
+		
+		                    <TextView
+		                        android:id="@+id/sport_dis_xiao_2"
+		                        android:textColor="#8b8686"
+		                        android:layout_width="wrap_content"
+		                        android:layout_height="wrap_content"
+		                        android:textSize="18sp"
+		                        android:textStyle="bold" />
+		                </RelativeLayout>
+		            </LinearLayout>
+
+                    <TextView
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:gravity="center"
+                        android:text="Km"
+                        android:textColor="#8b8686"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/goal_dis"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="25"
+                    android:textColor="#55bee8"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="3dp"
+                    android:gravity="center"
+                    android:text="Km"
+                    android:textColor="#55bee8"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/sport_calories_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:id="@+id/goal_caluli"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <com.fox.exercise.view.DrawNewImageView
+                    android:id="@+id/sport_cal_drawimage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                     />
+                <!-- android:src="@drawable/bg_progress_cal" -->
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:gravity="center"
+                    android:orientation="vertical" >
+					<RelativeLayout
+	                    android:id="@+id/sports_cal_relative"
+	                    android:layout_width="80dp"
+	                    android:layout_height="wrap_content"
+	                    android:layout_marginTop="10dp" >
+
+	                    <TextView
+	                        android:id="@+id/sports_cal"
+	                        style="@style/sports_txt_color_style"
+	                        android:layout_width="wrap_content"
+	                        android:layout_height="wrap_content"
+	                        android:layout_centerHorizontal="true"
+	                        android:gravity="center"
+	                        android:text="20"
+	                        android:textColor="#8b8686"
+	                        android:textSize="18sp"
+	                        android:textStyle="bold" />
+
+	                    <TextView
+	                        android:id="@+id/sports_cal2"
+	                        style="@style/sports_txt_color_style"
+	                        android:layout_width="wrap_content"
+	                        android:layout_height="wrap_content"
+	                        android:layout_centerHorizontal="true"
+	                        android:gravity="center"
+	                        android:textColor="#8b8686"
+	                        android:textSize="18sp"
+	                        android:textStyle="bold" />
+					</RelativeLayout>
+                    <TextView
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="3dp"
+                        android:gravity="center"
+                        android:text="Cal"
+                        android:textColor="#8b8686"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/goal_cal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="30"
+                    android:textColor="#e96b52"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="3dp"
+                    android:gravity="center"
+                    android:text="Cal"
+                    android:textColor="#e96b52"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/tip_bg2"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:text="@string/toady_goal"
+        android:textColor="@android:color/white" />
+
+	<TextView
+	    android:id="@+id/step_counter"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentBottom="true"
+	    android:layout_centerHorizontal="true"
+	    android:background="@drawable/tip_bg3"
+	    android:gravity="center"/>
+
+</RelativeLayout>

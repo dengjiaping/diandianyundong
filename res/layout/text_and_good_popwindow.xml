@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="165dp"
+    android:layout_height="40dp"
+    android:baselineAligned="false"
+    android:gravity="center_vertical" >
+	 <LinearLayout
+        android:id="@+id/all_good"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:gravity="center">
+        <ImageView
+            android:layout_marginLeft="15dp"
+            android:layout_gravity="center_vertical"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:background="@drawable/sports_popwindow_good_imgview"/>
+        <TextView
+            android:layout_gravity="center_vertical"
+        	android:id="@+id/popu_praise"
+        	android:layout_width="match_parent"
+        	android:layout_height="wrap_content"
+        	android:gravity="center_vertical"
+        	android:paddingLeft="5dp"
+        	android:text="@string/sports_good"
+        	android:textColor="#ffffffff"
+        	android:textSize="16sp" />
+    </LinearLayout>
+   <!--  <View
+        android:layout_width="0.5dp"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="4dp"
+        android:layout_marginTop="4dp"
+        android:background="#ff000000" /> -->
+	<LinearLayout
+        android:id="@+id/all_text"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:gravity="center">
+        <ImageView
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            />
+        <TextView
+        	android:id="@+id/popu_comment"
+        	android:layout_width="match_parent"
+        	android:layout_height="match_parent"
+       	    android:gravity="center_vertical"
+       	    android:paddingLeft="5dp"
+            android:text="@string/sports_comments"
+            android:textColor="#ffffffff"
+            android:textSize="16sp" 
+            android:layout_gravity="center_vertical"/>
+    </LinearLayout>
+   
+
+</LinearLayout>

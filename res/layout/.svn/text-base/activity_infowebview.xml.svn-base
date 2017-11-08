@@ -1,0 +1,46 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:expandable="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sports_bg" >
+
+    <ScrollView
+        android:id="@+id/activity_scrollview"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:overScrollMode="always"
+        android:scrollbars="vertical" 
+        android:layout_marginBottom="20dp">
+
+        <LinearLayout
+            android:id="@+id/linearlayout_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/activityt_title_bg" >
+
+                <ImageView
+                    android:id="@+id/detail_pic"
+                    android:layout_width="fill_parent"
+                    android:layout_height="193dp" 
+                    android:scaleType="fitXY"/>
+                
+                <FrameLayout
+                    android:id="@+id/fl_view"
+                    android:layout_width="fill_parent"
+                    android:layout_height="60dp"
+                    android:layout_alignParentBottom="true"
+                     >
+                </FrameLayout>
+            </RelativeLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</RelativeLayout>

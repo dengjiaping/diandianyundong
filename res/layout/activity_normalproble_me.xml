@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/slim_settings_two"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="@drawable/sports_bg_line">
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="15dp"
+        android:background="@drawable/sports_bg_line" />
+
+    <RelativeLayout
+        android:id="@+id/rl_personal_jibu"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/aa_selector"
+        android:paddingBottom="12dp"
+        android:paddingTop="12dp" >
+        <TextView
+            android:id="@+id/tv_personal_jibu"
+            style="@style/sports_txt_color_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="16dp"
+            android:ellipsize="end"
+            android:gravity="center_vertical"
+            android:maxWidth="230dp"
+            android:singleLine="true"
+            android:text="计步问题"
+            android:textColor="#3a3f47"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/iv_personal_jibu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="12dp"
+            android:background="@drawable/setting_into" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="15dp"
+        android:background="@drawable/sports_bg_line" />
+
+    <RelativeLayout
+        android:id="@+id/rl_personal_qq"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/aa_selector"
+        android:paddingBottom="12dp"
+        android:paddingTop="12dp" >
+        <TextView
+            android:id="@+id/tv_personal_qq"
+            style="@style/sports_txt_color_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="16dp"
+            android:ellipsize="end"
+            android:gravity="center_vertical"
+            android:maxWidth="230dp"
+            android:singleLine="true"
+            android:text="同步QQ运动问题"
+            android:textColor="#3a3f47"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/iv_personal_qq"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="12dp"
+            android:background="@drawable/setting_into" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="15dp"
+        android:background="@drawable/sports_bg_line" />
+
+    <RelativeLayout
+        android:id="@+id/rl_personal_jilu"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/aa_selector"
+        android:paddingBottom="12dp"
+        android:paddingTop="12dp" >
+        <TextView
+            android:id="@+id/tv_personal_jilu"
+            style="@style/sports_txt_color_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="16dp"
+            android:ellipsize="end"
+            android:gravity="center_vertical"
+            android:maxWidth="230dp"
+            android:singleLine="true"
+            android:text="手机计步记录不上?"
+            android:textColor="#3a3f47"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/iv_personal_jilu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="12dp"
+            android:background="@drawable/setting_into" />
+    </RelativeLayout>
+</LinearLayout>

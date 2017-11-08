@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/sports_bg" >
+    <RelativeLayout
+        android:id="@+id/layout_title" 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/sports_title_bg">
+      <Button
+            android:id="@+id/bt_back"
+            android:background="@drawable/sport_title_back_selector"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"/>
+        <TextView
+            android:id="@+id/tx_title" 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="@string/sports_em_help"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_centerInParent="true"/>
+    </RelativeLayout>    
+	
+	<ListView
+	    android:id="@+id/list_help_info"
+	    android:layout_width="match_parent"
+	    android:layout_height="fill_parent"
+	    android:divider="@drawable/sports_bg_line"
+	    android:dividerHeight="2dp"
+	    android:cacheColorHint="#00000000"
+	    android:background="@drawable/sports_bg" >
+	</ListView>
+
+</LinearLayout>

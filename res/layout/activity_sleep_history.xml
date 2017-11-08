@@ -1,0 +1,341 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:android_custom="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sleep_record_bg" >
+
+    <com.fox.exercise.newversion.view.RoundProgressBar
+        android:id="@+id/roundProgressBar1"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android_custom:roundColor="#000000"
+        android_custom:roundProgressColor="#FD9F09"
+        android_custom:roundWidth="3dp" />
+
+    <RadioGroup
+        android:id="@+id/sleep_day_radiogroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/roundProgressBar1"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/sleep_day_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/sleep_record_day_btn_click"
+            android:button="@null"
+            android:gravity="center"
+            android:paddingLeft="5dp"
+            android:paddingTop="6dp"
+            android:text="@string/sleep_record"
+            android:textSize="12sp" />
+
+        <RadioButton
+            android:id="@+id/sleep_night_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/sleep_record_night_btn_click"
+            android:button="@null"
+            android:gravity="center"
+            android:paddingLeft="5dp"
+            android:paddingTop="6dp"
+            android:text="@string/sleep_record"
+            android:textSize="12sp" />
+    </RadioGroup>
+
+    <LinearLayout
+        android:id="@+id/mSleep_time_layout"
+        android:layout_width="295dp"
+        android:layout_height="114dp"
+        android:layout_above="@+id/time_layout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/sleep_record_biao_bg"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/mSleep_time1"
+            android:layout_width="30dp"
+            android:layout_height="114dp"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="26dp"
+            android:background="@drawable/sleep_timelayout_click"
+            android:gravity="bottom"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/cal_1"
+                android:layout_width="13dp"
+                android:layout_height="1dp"
+                android:background="@drawable/biaoge_cal" />
+
+            <ImageView
+                android:id="@+id/km_1"
+                android:layout_width="13dp"
+                android:layout_height="10dp"
+                android:background="@drawable/biaoge_km" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/mSleep_time2"
+            android:layout_width="30dp"
+            android:layout_height="114dp"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="6dp"
+            android:background="@drawable/sleep_timelayout_click"
+            android:gravity="bottom"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/cal_2"
+                android:layout_width="13dp"
+                android:layout_height="17dp"
+                android:background="@drawable/biaoge_cal" />
+
+            <ImageView
+                android:id="@+id/km_2"
+                android:layout_width="13dp"
+                android:layout_height="12dp"
+                android:background="@drawable/biaoge_km" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/mSleep_time3"
+            android:layout_width="30dp"
+            android:layout_height="114dp"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="6dp"
+            android:background="@drawable/sleep_timelayout_click"
+            android:gravity="bottom"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/cal_3"
+                android:layout_width="13dp"
+                android:layout_height="10dp"
+                android:background="@drawable/biaoge_cal" />
+
+            <ImageView
+                android:id="@+id/km_3"
+                android:layout_width="13dp"
+                android:layout_height="5dp"
+                android:background="@drawable/biaoge_km" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/mSleep_time4"
+            android:layout_width="30dp"
+            android:layout_height="114dp"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="6dp"
+            android:background="@drawable/sleep_timelayout_click"
+            android:gravity="bottom"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/cal_4"
+                android:layout_width="13dp"
+                android:layout_height="13dp"
+                android:background="@drawable/biaoge_cal" />
+
+            <ImageView
+                android:id="@+id/km_4"
+                android:layout_width="13dp"
+                android:layout_height="12dp"
+                android:background="@drawable/biaoge_km" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/mSleep_time5"
+            android:layout_width="30dp"
+            android:layout_height="114dp"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="6dp"
+            android:background="@drawable/sleep_timelayout_click"
+            android:gravity="bottom"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/cal_5"
+                android:layout_width="13dp"
+                android:layout_height="1dp"
+                android:background="@drawable/biaoge_cal" />
+
+            <ImageView
+                android:id="@+id/km_5"
+                android:layout_width="13dp"
+                android:layout_height="1dp"
+                android:background="@drawable/biaoge_km" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/mSleep_time6"
+            android:layout_width="30dp"
+            android:layout_height="114dp"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="6dp"
+            android:background="@drawable/sleep_timelayout_click"
+            android:gravity="bottom"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/cal_6"
+                android:layout_width="13dp"
+                android:layout_height="1dp"
+                android:background="@drawable/biaoge_cal" />
+
+            <ImageView
+                android:id="@+id/km_6"
+                android:layout_width="13dp"
+                android:layout_height="1dp"
+                android:background="@drawable/biaoge_km" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/mSleep_time7"
+            android:layout_width="30dp"
+            android:layout_height="114dp"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="6dp"
+            android:background="@drawable/sleep_timelayout_click"
+            android:gravity="bottom"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/cal_7"
+                android:layout_width="13dp"
+                android:layout_height="1dp"
+                android:background="@drawable/biaoge_cal" />
+
+            <ImageView
+                android:id="@+id/km_7"
+                android:layout_width="13dp"
+                android:layout_height="1dp"
+                android:background="@drawable/biaoge_km" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/time_layout"
+        android:layout_width="295dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/sleep_record_layout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/day1"
+            android:layout_width="32dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24dp"
+            android:gravity="center"
+            android:text="30"
+            android:textColor="#43444f"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/day2"
+            android:layout_width="32dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:gravity="center"
+            android:text="30"
+            android:textColor="#43444f"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/day3"
+            android:layout_width="32dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:gravity="center"
+            android:text="30"
+            android:textColor="#43444f"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/day4"
+            android:layout_width="32dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:gravity="center"
+            android:text="30"
+            android:textColor="#43444f"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/day5"
+            android:layout_width="32dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:gravity="center"
+            android:text="30"
+            android:textColor="#43444f"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/day6"
+            android:layout_width="32dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:gravity="center"
+            android:text="30"
+            android:textColor="#43444f"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/day7"
+            android:layout_width="32dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:gravity="center"
+            android:text="30"
+            android:textColor="#43444f"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/sleep_record_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="24dp"
+            android:layout_height="12dp"
+            android:background="#FF784D" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="18dp"
+            android:text="@string/sleep_record_time"
+            android:layout_marginLeft="2dp"
+            android:textSize="12sp" />
+
+        <TextView
+            android:layout_width="24dp"
+            android:layout_height="12dp"
+            android:layout_marginLeft="20dp"
+            android:background="#50BBEA" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="18dp"
+            android:text="@string/sleep_xiaolv"
+            android:layout_marginLeft="2dp"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+</RelativeLayout>

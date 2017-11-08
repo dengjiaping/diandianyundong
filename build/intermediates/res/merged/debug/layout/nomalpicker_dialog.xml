@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/sports_bg"
+    android:gravity="center"
+    android:orientation="vertical" >
+     <RelativeLayout
+          android:id="@+id/sports_date_title"
+          android:layout_width="match_parent"
+          android:layout_height="48dp"
+          android:layout_gravity="top"
+          android:layout_marginLeft="15dp"
+          android:layout_marginRight="15dp"
+          android:gravity="center_vertical" >
+                <TextView
+                    android:id="@+id/bt_cancel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:text="@string/button_cancel"
+                    android:textSize="15sp"
+                    android:textColor="#999999"
+                    />
+				 <TextView
+                     android:id="@+id/bt_content"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="@string/sports_birthday1"
+					android:layout_centerInParent="true"
+                     android:textColor="#333333"
+                     android:textSize="18sp"/>
+
+                <TextView
+                    android:id="@+id/bt_ok"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:text="@string/button_ok"
+                    android:textSize="15sp"
+                    android:textColor="#333333"
+                     />
+     </RelativeLayout>
+
+	 <LinearLayout
+        android:id="@+id/line"
+        android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:orientation="horizontal"
+        android:background="#9c9c9c" >
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="190dp"
+        android:background="@drawable/sports_bg"
+        android:gravity="center"
+        android:orientation="vertical" >
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/sports_bg"
+            android:orientation="horizontal" 
+            android:paddingTop="30dp"
+            android:gravity="center"
+            android:paddingBottom="30dp">
+
+            <com.fox.exercise.widght.WheelView
+                android:id="@+id/normal_wheel"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:paddingBottom="20dip"
+                android:paddingTop="20dip"
+                 />
+        </LinearLayout>
+    </LinearLayout>
+  
+</LinearLayout>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <include
+        android:id="@+id/personal_page_headview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/user_permain_head_layout1"
+        android:background="#F4F4F4"
+        android:visibility="gone"
+         />
+
+    <include
+        android:id="@+id/other_personal_page_headview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/user_other_permain_head_layout1"
+        android:layout_below="@+id/personal_page_headview"
+        android:background="#F4F4F4" 
+        android:visibility="gone"
+        />
+
+    <com.fox.exercise.view.PullToRefreshListView
+        xmlns:ptr="http://schemas.android.com/apk/res/com.fox.exercise"
+        android:id="@+id/personal_page_refresh_list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/other_personal_page_headview"
+        android:background="#ffffff"
+        android:cacheColorHint="#00000000"
+        android:listSelector="#00000000"
+        ptr:mode="both" />
+
+    <LinearLayout
+        android:id="@+id/findbottomLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="2dp"
+        android:background="#ffffff"
+        android:baselineAligned="false"
+        android:orientation="horizontal"
+        android:visibility="gone" >
+
+        <ImageButton
+            android:id="@+id/find_text_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="2dp"
+            android:background="@drawable/sk2text" />
+
+        <TextView
+            android:id="@+id/find_press_btn"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="left|center_vertical"
+            android:paddingLeft="8dp"
+            android:text="约她一起运动"
+            android:textColor="@color/black"
+            android:textCursorDrawable="@null"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/send_menu_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#8c000000"
+        android:visibility="gone" >
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/no_jilu_txt"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/personal_page_headview"
+        android:gravity="center"
+        android:text="没有动态记录"
+        android:textColor="@color/black"
+        android:visibility="gone" />
+
+</RelativeLayout>

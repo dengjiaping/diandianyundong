@@ -1,0 +1,116 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        android:src="@drawable/train_complete_bg" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/train_complete_icon"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="训练时长"
+                android:textColor="@color/gray_litter" />
+
+            <TextView
+                android:id="@+id/train_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="两分钟"
+                android:textColor="#ffae00" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/train_complete_icon"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="完成动作"
+                android:textColor="@color/gray_litter" />
+
+            <TextView
+                android:id="@+id/train_posion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="两个动作"
+                android:textColor="#ffae00" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/train_complete_icon"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="消耗能量"
+                android:textColor="@color/gray_litter" />
+
+            <TextView
+                android:id="@+id/train_cal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="111Cal"
+                android:textColor="#ffae00" />
+        </LinearLayout>
+    </LinearLayout>
+    
+    <Button 
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/traincomplete_share_seleter"
+        android:text="分享我的成绩"
+        android:padding="8dp"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/gray_litter"
+        android:layout_gravity="center_horizontal"
+        android:visibility="gone"
+        />
+    
+    <Button 
+        android:id="@+id/btn_complete"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/traincomplete_submit_seleter"
+        android:text="完成"
+        android:padding="8dp"
+        android:gravity="center"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/gray_litter"
+        android:layout_gravity="center_horizontal"
+        />
+
+</LinearLayout>

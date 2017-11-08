@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mysport_zong_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_yunsport" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#EDEDED"
+            android:gravity="center_vertical"
+            android:paddingBottom="12dp"
+            android:paddingTop="12dp"
+            android:visibility="gone" >
+
+            <TextView
+                android:id="@+id/tianqi_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="13dp"
+                android:text="天气 : 晴"
+                android:textColor="#666666" />
+
+            <TextView
+                android:id="@+id/tianqi_content_num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:text="14~28"
+                android:textColor="#666666" />
+
+            <View
+                android:layout_width="2dp"
+                android:layout_height="16dp"
+                android:layout_marginLeft="12dp"
+                android:background="#666666" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:text="PM2.5 : "
+                android:textColor="#666666" />
+
+            <TextView
+                android:id="@+id/is_shihe_sport"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="64"
+                android:textColor="#666666" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@drawable/divider"
+            android:visibility="gone" />
+
+        <RelativeLayout
+            android:id="@+id/user_allsport_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp" >
+
+            <LinearLayout
+                android:id="@+id/ll_zonglicheng"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true" >
+
+                <TextView
+                    android:id="@+id/user_allsport_licheng"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:singleLine="true"
+                    android:text="318.9"
+                    android:textColor="@color/black"
+                    android:textSize="72sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/dis_xiao_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="55sp"
+                    android:textStyle="bold"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/dis_xiao_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="55sp"
+                    android:textStyle="bold"
+                    android:visibility="gone" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/ll_zonglicheng"
+                android:layout_marginLeft="2dp"
+                android:layout_toRightOf="@id/ll_zonglicheng"
+                android:text="km"
+                android:textColor="@color/black"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:visibility="gone" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:gravity="center" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:drawableLeft="@drawable/bushutongji_licheng"
+                android:text="&#160;&#160;总里程(km)"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp">
+            <RelativeLayout
+                android:id="@+id/rl_bushu"
+                android:layout_width="wrap_content"
+                android:layout_height="45dp"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true">
+                <TextView
+	                android:id="@+id/tv_jinri"
+	                android:layout_width="wrap_content"
+	                android:layout_height="45dp"
+	                android:layout_alignParentBottom="true"
+	                android:text="今日&#160;&#160;15351步"
+	                android:gravity="bottom"
+	                android:textColor="#000000"
+	                android:textSize="16sp"/>
+	            <ImageView
+	                android:id="@+id/tv_yuedengyu"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_toRightOf="@+id/tv_jinri"
+	                android:layout_centerVertical="true"
+	                android:layout_marginLeft="12dp"
+	                android:scaleType="center"
+	                android:src="@drawable/bushutongji_yuedengyu"/>
+	            <TextView
+	                android:id="@+id/tv_xiaohao"
+	                android:layout_width="wrap_content"
+	                android:layout_height="45dp"
+                    android:layout_alignBottom="@+id/tv_jinri"
+	                android:layout_toRightOf="@+id/tv_yuedengyu"
+	                android:layout_marginLeft="12dp"
+	                android:text="消耗"
+	                android:gravity="bottom"
+	                android:textColor="#000000"
+	                android:textSize="16sp"/>
+	            <ImageView
+	                android:id="@+id/iv_tubiao"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_toRightOf="@+id/tv_yuedengyu"
+	                android:layout_marginLeft="48dp"
+                    android:layout_centerVertical="true"
+	                android:background="@drawable/yangrouchuan"/>
+	            <TextView
+	                android:id="@+id/iv_beishu"
+	                android:layout_width="wrap_content"
+	                android:layout_height="45dp"
+                    android:layout_alignBottom="@+id/tv_jinri"
+	                android:layout_toRightOf="@+id/iv_tubiao"
+	                android:text="x0.5"
+	                android:textColor="#000000"
+	                android:gravity="bottom"
+	                android:fontFamily="DIN Medium"
+	                android:textSize="23sp"
+                    android:visibility="gone"/>
+            </RelativeLayout>
+        </RelativeLayout>
+        <LinearLayout
+            android:id="@+id/index_sport_caculate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center" >
+
+                <TextView
+                    android:id="@+id/yundong_cishu_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:text="运动次数"
+                    android:textColor="#333333"
+                    android:textSize="17sp" />
+
+                <TextView
+                    android:id="@+id/yundong_cishu"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/yundong_cishu_2"
+                    android:drawablePadding="3dp"
+                    android:gravity="center_horizontal"
+                    android:text="0"
+                    android:textColor="#333333"
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="45dp"
+                android:background="#333333" />
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center" >
+
+                <TextView
+                    android:id="@+id/yundong_laluli_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:text="热量(Cal)"
+                    android:textColor="#333333"
+                    android:textSize="17sp" />
+
+                <TextView
+                    android:id="@+id/yundong_laluli"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/yundong_laluli_2"
+                    android:drawablePadding="3dp"
+                    android:gravity="center_horizontal"
+                    android:text="0"
+                    android:textColor="#333333"
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="45dp"
+                android:background="#333333" />
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center" >
+
+                <TextView
+                    android:id="@+id/yundong_di_day_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:text="累计天数"
+                    android:textColor="#333333"
+                    android:textSize="17sp" />
+
+                <TextView
+                    android:id="@+id/yundong_di_day"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/yundong_di_day_2"
+                    android:drawablePadding="3dp"
+                    android:gravity="center_horizontal"
+                    android:text="0"
+                    android:textColor="#333333"
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp">
+            <ImageView
+                android:id="@+id/iv_historyallbtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/rl_startsport_first"
+                android:layout_marginRight="15dp"
+                android:src="@drawable/sport_task" />
+
+            <RelativeLayout
+                android:id="@+id/rl_startsport_first"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/fristpage_startsports_bg"
+                android:gravity="center" >
+
+                <TextView
+                    android:id="@+id/startsport"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="开始运动"
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/startsport_english"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/startsport"
+                    android:gravity="center"
+                    android:text="START"
+                    android:textColor="#000000"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/iv_sportstyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/rl_startsport_first"
+                android:layout_marginLeft="15dp"
+                android:src="@drawable/sportfirst_paobu" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/sports_goal_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        >
+
+        <LinearLayout
+            android:id="@+id/mubiao_content_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true" >
+
+            <TextView
+                android:id="@+id/mubiao_content_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/mubiao_content_title"
+                android:textColor="#333333"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/mubiao_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sport_user_name_text"
+                android:textColor="#333333"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/km"
+                android:textColor="#333333"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/image_sports_complete_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/mubiao_content_layout"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:id="@+id/image_sports_complete_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:textColor="#333333"
+                android:textSize="12sp" />
+
+            <!--
+            <ImageView
+                android:id="@+id/image_sports_complete_point"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/sports_complete_point" />
+
+            -->
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/image_sports_complete"
+            android:layout_width="match_parent"
+            android:layout_height="8dp"
+            android:layout_below="@+id/image_sports_complete_layout"
+            android:background="@drawable/divider" />
+
+        <ImageView
+            android:id="@+id/image_sports_complete_rate"
+            android:layout_width="5dp"
+            android:layout_height="8dp"
+            android:layout_alignTop="@+id/image_sports_complete"
+            android:background="@drawable/sports_complete_rate" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/set_menu_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#8c000000"
+        android:visibility="gone" >
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/djs_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#00000000"
+        android:gravity="center"
+        android:visibility="gone" >
+
+        <ImageView
+            android:id="@+id/djs_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:visibility="gone" />
+        <!-- android:background="@drawable/djs_go" -->
+    </LinearLayout>
+
+</RelativeLayout>

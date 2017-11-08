@@ -1,0 +1,500 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/sports_bg"
+     >
+
+        <!-- 显示地图和数据 -->
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:id="@+id/sports_map_id"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1.0"
+                android:orientation="vertical" >
+
+                <!-- 顶部标题栏 -->
+
+                <RelativeLayout
+                    android:id="@+id/sport_header_layout"
+                    android:layout_width="fill_parent"
+                    android:layout_height="50dp"
+                    android:layout_alignParentTop="true"
+                    android:background="#FFAE00" >
+
+                    <ImageButton
+                        android:id="@+id/sport_map_back"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="10dp"
+                        android:background="@drawable/title_walk"
+                        android:visibility="gone" />
+
+                    <TextView
+                        android:id="@+id/sport_topTitle"
+                        style="@style/topTitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:ellipsize="end"
+                        android:singleLine="true"
+                        android:textColor="@android:color/white" />
+
+                    <ImageButton
+                        android:id="@+id/close_yuyin"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="10dp"
+                        android:background="@drawable/title_no_voice" />
+
+                    <ImageButton
+                        android:id="@+id/cameraBtn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_toLeftOf="@+id/videoBtn"
+                        android:background="@drawable/sport_photobtn"
+                        android:visibility="gone" />
+
+                    <ImageButton
+                        android:id="@+id/videoBtn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_toLeftOf="@+id/voiceBtn"
+                        android:background="@drawable/sport_videobtn"
+                        android:visibility="gone" />
+
+                    <ImageButton
+                        android:id="@+id/voiceBtn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="10dp"
+                        android:layout_toLeftOf="@+id/close_yuyin"
+                        android:background="@drawable/sport_voicebtn"
+                        android:visibility="gone" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/bamoViewRalative"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/sport_header_layout" >
+
+                    <!-- 地图 -->
+
+                    <com.baidu.mapapi.map.MapView
+                        android:id="@+id/bmapView"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:clickable="true" />
+
+                    <ImageButton
+                        android:id="@+id/bigBtn"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_alignBottom="@+id/bmapView"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginRight="5dp"
+                        android:background="@drawable/start_new_shouqi"
+                        android:visibility="visible" />
+
+                    <!-- 显示运动时间 -->
+
+                    <RelativeLayout
+                        android:id="@+id/timeLayout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/title2_bg"
+                        android:gravity="center_horizontal"
+                        android:visibility="gone" >
+
+                        <ImageView
+                            android:id="@+id/imageview_image"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="13dp"
+                            android:background="@drawable/time" />
+
+                        <TextView
+                            android:id="@+id/chronometerId"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="20dp"
+                            android:layout_toRightOf="@+id/imageview_image"
+                            android:gravity="center"
+                            android:text="@string/chronometerId_text"
+                            android:textColor="@color/white"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginRight="13dp"
+                            android:gravity="center_vertical" >
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/sportdetail_dis" />
+
+                            <TextView
+                                android:id="@+id/time_disValue"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:text="@string/timeValue_text"
+                                android:textColor="@color/white"
+                                android:textSize="20sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:ellipsize="end"
+                                android:singleLine="true"
+                                android:text="@string/sporting_kmnum"
+                                android:textColor="@color/white"
+                                android:textSize="12sp"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+                    </RelativeLayout>
+
+                    <ImageView
+                        android:id="@+id/imageview_gps"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_below="@id/timeLayout"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginTop="8dp"
+                        android:background="@drawable/gps_g01" />
+                    
+                     <ImageView
+                        android:id="@+id/imageview_jibu"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_below="@id/timeLayout"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginTop="8dp"
+                        android:background="@drawable/jibu_model_icon"
+                        android:visibility="gone" />
+
+                    <TextView
+                        android:id="@+id/textview_haiba"
+                        android:layout_width="95dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignTop="@+id/imageview_gps"
+                        android:background="@drawable/haiba"
+                        android:gravity="center_vertical|left"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="5dp"
+                        android:textColor="#FFFFFF" />
+
+                    <TextView
+                        android:id="@+id/textview_qiya"
+                        android:layout_width="115dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignRight="@+id/bigBtn"
+                        android:layout_below="@+id/textview_haiba"
+                        android:layout_marginTop="1dp"
+                        android:background="@drawable/qiya"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginLeft="5dp"
+                        android:gravity="center_vertical|left"
+                        android:textColor="#FFFFFF" />
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <!-- 显示运动媒体上传和各种数据，按钮 -->
+
+            <RelativeLayout
+                android:id="@+id/startingLayout"
+                android:layout_width="fill_parent"
+                android:layout_height="280dp"
+                android:background="@color/black"
+                android:gravity="center_vertical" >
+
+                <RelativeLayout
+                    android:id="@+id/otherLayout"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true" >
+
+                    <LinearLayout
+                        android:id="@+id/zong_li_txt_layout"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true"
+                        android:gravity="bottom" >
+
+                        <TextView
+                            android:id="@+id/zong_li_txt"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/timeValue_text"
+                            android:textSize="34sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="2dp"
+                            android:text="km" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/textview_stepnum"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/zong_li_txt_layout"
+                        android:layout_centerHorizontal="true" />
+                </RelativeLayout>
+
+                <ImageView
+                    android:id="@+id/line2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:layout_below="@+id/otherLayout"
+                    android:layout_marginTop="10dp"
+                    android:background="#4D4D4D" />
+
+                <LinearLayout
+                    android:id="@+id/sportState3"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/line2"
+                    android:layout_marginTop="12dp"
+                    android:baselineAligned="false"
+                    android:orientation="horizontal" >
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/use_time" />
+
+                        <TextView
+                            android:id="@+id/time_txt"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/sporting_sport_peiPace" />
+
+                        <TextView
+                            android:id="@+id/sporting_sport_peiPace"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/paceValue_texts" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/sporting_sport_pingjunSpeed" />
+
+                        <TextView
+                            android:id="@+id/sporting_sport_pingjunSpeed"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/speedValue_texts" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/sporting_sportxiaohao" />
+
+                        <TextView
+                            android:id="@+id/sporting_sportxiaohao"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="0Cal" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/start_stop_but"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/sportState3"
+                    android:layout_marginTop="10dp" >
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:paddingTop="10dp"
+                        android:gravity="center" >
+
+                        <Button
+                            android:id="@+id/suodingBtn"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:background="@drawable/new_sports_suoding_btn_click"
+                            android:text="@string/suodingBtn_text"
+                            android:textColor="@color/white"
+                            android:textSize="16sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center" >
+
+                        <Button
+                            android:id="@+id/pauseBtn"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:background="@drawable/new_sports_pause_btn_click"
+                            android:text="@string/pauseBtn_text"
+                            android:textColor="@color/white"
+                            android:textSize="16sp"
+                            android:visibility="gone" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:paddingTop="10dp"
+                        android:gravity="center" >
+
+                        <Button
+                            android:id="@+id/stopBtn"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:background="@drawable/new_sports_finish_btn_click"
+                            android:enabled="false"
+                            android:text="@string/stopBtn_text1"
+                            android:textColor="@color/white"
+                            android:textSize="16sp" />
+                    </LinearLayout>
+
+                    <Button
+                        android:id="@+id/startBtn"
+                        android:layout_width="140dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="16dp"
+                        android:background="@drawable/sports_slim_btn_click"
+                        android:text="@string/start_text"
+                        android:textColor="@color/white"
+                        android:textSize="16sp"
+                        android:visibility="gone" />
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+        <!-- 锁屏 -->
+
+        <RelativeLayout
+            android:id="@+id/lockscreen"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:visibility="gone" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="122dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:background="@color/black"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <com.fox.exercise.lockscreen.SliderRelativeLayout
+                    android:id="@+id/slider_layout"
+                    android:layout_width="268dp"
+                    android:layout_height="70dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/jiesuo_bg" >
+
+                    <!-- android:paddingBottom="14dp" android:gravity="center_vertical" -->
+
+                    <TextView
+                        android:id="@+id/slider_icon"
+                        android:layout_width="67dp"
+                        android:layout_height="67dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginLeft="3dp"
+                        android:layout_marginTop="1.5dp"
+                        android:background="@drawable/jiesuo_button"
+                        android:gravity="center" />
+                    <!-- android:layout_marginLeft="22dp" android:drawableTop="@drawable/getup_slider_ico_pressed"  android:layout_centerVertical="true" -->
+                </com.fox.exercise.lockscreen.SliderRelativeLayout>
+            </LinearLayout>
+        </RelativeLayout>
+
+        <!-- 倒计时功能 -->
+
+        <LinearLayout
+            android:id="@+id/djs_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#00000000"
+            android:gravity="center"
+            android:visibility="gone" >
+
+            <ImageView
+                android:id="@+id/djs_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:visibility="gone" />
+            <!-- android:background="@drawable/djs_go" -->
+        </LinearLayout>
+
+</RelativeLayout>

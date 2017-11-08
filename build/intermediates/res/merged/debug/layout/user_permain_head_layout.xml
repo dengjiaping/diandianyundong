@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <!-- 个人主页headview复用ui -->
+    <RelativeLayout
+        android:id="@+id/rl_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.fox.exercise.util.RoundedImage
+            android:id="@+id/zhuye_image_icon1"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="12dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/sports_user_edit_portrait_male"/>
+        <TextView
+            android:id="@+id/tv_jinbi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/zhuye_image_icon1"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="55dp"
+            android:drawableLeft="@drawable/jinbi"
+            android:textSize="15sp"
+            android:textColor="#333333"/>
+        <TextView
+            android:id="@+id/sports_find_othername1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/zhuye_image_icon1"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="6dp"
+            android:maxEms="5"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:singleLine="true"
+            android:textColor="#333333"
+            android:textSize="15sp" />
+        <TextView
+            android:id="@+id/personal_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/sports_find_othername1"
+            android:layout_marginLeft="8dp"
+            android:layout_alignBottom="@+id/sports_find_othername1"
+            android:textColor="#999999"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/tv_fensi_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="12dp"
+            android:text="粉丝&#160;0"
+            android:textSize="18sp"
+            android:textColor="#ff6600"/>
+        <ImageView
+            android:id="@+id/iv_fenge"
+            android:layout_width="1dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_toLeftOf="@+id/tv_fensi_num"
+            android:layout_marginRight="10dp"
+            android:layout_alignBottom="@+id/tv_fensi_num"
+            android:background="@drawable/fengexian"/>
+        <TextView
+            android:id="@+id/tv_guanzhu_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_toLeftOf="@+id/iv_fenge"
+            android:layout_marginRight="10dp"
+            android:layout_alignBottom="@+id/iv_fenge"
+            android:text="关注&#160;0"
+            android:textSize="18sp"
+            android:textColor="#ff6600"/>
+        <ImageView
+            android:id="@+id/iv_xiugai"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_guanzhu_num"
+            android:layout_marginTop="18dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="12dp"
+            android:background="@drawable/xiugaiziliao"/>
+
+        <TextView
+            android:id="@+id/tv_qianming"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_below="@+id/sports_find_othername1"
+            android:layout_marginTop="18dp"
+            android:gravity="left|center_vertical"
+            android:text="个性签名&#160;:&#160;"
+            android:textColor="#999999"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/getxing_qianming"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/tv_qianming"
+            android:layout_alignBottom="@+id/tv_qianming"
+            android:gravity="left|center_vertical"
+            android:text="这家伙很赖，毛都没有写。"
+            android:textColor="#999999"
+            android:textSize="12sp" />
+
+        <ImageView
+            android:id="@+id/list_user_yuepao_imagview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:visibility="gone"
+            android:src="@drawable/per_yuepao_btn_icon" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/iv_fengexian"
+        android:layout_width="match_parent"
+        android:layout_height="12dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/fengexian" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+            <TextView
+                android:id="@+id/dongtai"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:text="动态"
+                android:textSize="18sp"
+                android:textColor="#333333"/>
+            <ImageView
+                android:id="@+id/dongtai_selected"
+                android:layout_width="150dp"
+                android:layout_height="3dp"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/dongtai"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/selected" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+            <TextView
+                android:id="@+id/look_history_sportrecord"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:text="运动记录"
+                android:textSize="18sp"
+                android:textColor="#999999"/>
+            <ImageView
+                android:id="@+id/history_selected"
+                android:layout_width="150dp"
+                android:layout_height="3dp"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/look_history_sportrecord"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/selected"
+                android:visibility="gone"/>
+        </RelativeLayout>
+    </LinearLayout>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@drawable/fengexian" />
+</LinearLayout>

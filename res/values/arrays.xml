@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ * Copyright (C) 2008 The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+-->
+
+<resources xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="MissingTranslation">
+    <string-array name="imageStr_array">
+        <item>[嘻嘻]</item>
+        <item>[吐舌]</item>
+        <item>[流汗]</item>
+        <item>[偷笑]</item>
+        <item>[嗤嗤]</item>
+        <item>[流泪]</item>
+        <item>[嘘声]</item>
+        <item>[折磨]</item>
+        <item>[伤心]</item>
+        <item>[可爱]</item>
+        <item>[美女]</item>
+        <item>[害羞]</item>
+        <item>[酷毙]</item>
+        <item>[想吐]</item>
+        <item>[微笑]</item>
+        <item>[发怒]</item>
+        <item>[斜眼]</item>
+        <item>[大惊]</item>
+        <item>[疑问]</item>
+        <item>[睡觉]</item>
+        <item>[小样]</item>
+        <item>[纠结]</item>
+        <item>[闭嘴]</item>
+        <item>[鄙视]</item>
+        <item>[晕了]</item>
+        <item>[可怜]</item>
+        <item>[谩骂]</item>
+        <item>[鼓掌]</item>
+        <item>[惊讶]</item>
+        <item>[拜拜]</item>
+        <item>[吃饭]</item>
+        <item>[蛋糕]</item>
+        <item>[厉害]</item>
+        <item>[握手]</item>
+        <item>[茄子]</item>
+        <item>[好的]</item>
+        <item>[玫瑰]</item>
+        <item>[心碎]</item>
+        <item>[爱心]</item>
+        <item>[啵你]</item>
+    </string-array>
+    <string-array name="daka_array">
+        <item>[高兴]</item>
+        <item>[微笑]</item>
+        <item>[泪脸]</item>
+    </string-array>
+
+    <!-- FoxSportsType 
+    <string-array name="name_sports_type">
+        <item>@string/walk_gps</item>
+        <item>@string/run_gps</item>
+        <item>@string/swim_free</item>
+        <item>@string/swim_fly</item>
+        <item>@string/swim_frog</item>
+        <item>@string/swim_face</item>
+        <item>@string/mountain</item>
+        <item>@string/golf</item>
+        <item>@string/walk_race</item>
+        <item>@string/cycling</item>
+        <item>@string/tennis</item>
+        <item>@string/badminton</item>
+        <item>@string/football</item>
+        <item>@string/table_tennis</item>
+        <item>@string/rowing</item>
+        <item>@string/skating</item>
+        <item>@string/roller_skating</item>
+    </string-array> -->
+    
+    <string-array name="name_newsports_type">
+        <item>@string/walk_gps</item>
+        <item>@string/run_gps</item>
+        <item>@string/cycling</item>
+        <item>@string/mountain</item>
+    </string-array>
+    
+    <string-array name="name_sports_othertype">
+        <item>@string/walk_gps</item>
+        <item>@string/run_gps</item>
+        <item>@string/swim_free</item>
+        <item>@string/mountain</item>
+        <item>@string/golf</item>
+        <item>@string/walk_race</item>
+        <item>@string/cycling</item>
+        <item>@string/tennis</item>
+        <item>@string/badminton</item>
+        <item>@string/football</item>
+        <item>@string/table_tennis</item>
+        <item>@string/rowing</item>
+        <item>@string/skating</item>
+        <item>@string/roller_skating</item>
+    </string-array>
+    
+    <string-array name="first_page_content">
+        <item>空气不会帮你燃烧卡路里，开始运动吧</item>
+        <item>运动会在你身上留下努力的痕迹！加油！</item>
+        <item>运动是和自己重要的约会，谁也不能阻止！</item>
+        <item>想要好身材，跟着点点动起来！</item>
+        <item>一次锻炼就是25的汗水加上75的决心</item>
+        <item>运动的你最有魅力了！</item>
+        <item>坚持运动一定会有效果的！</item>
+        <item>跟着云狐运动 成就更好的自己</item>
+        <item>爱上努力运动的自己</item>
+        <item>每一次运动都是一次进步</item>
+        <item>在运动中寻找快乐。</item>
+    </string-array>
+    
+    <string-array name="sleep_page_content">
+        <item>充足的睡眠可以保护大脑、增强免疫力。</item>
+        <item>侧卧位睡眠使心脏不受压迫，呼吸通畅，还有利于胃的排空。</item>
+        <item>保证每天睡眠时间不少于7小时，不多于9小时</item>
+        <item>睡前1小时喝1杯 牛奶有助于安神和提高睡眠质量</item>
+        <item>不要在床上看书或看电视，以免影响床上习惯</item>
+        <item>尽量在晚间11点前睡觉，帮助身体代谢</item>
+        <item>尽量在7点前起床，这样有利于排出宿便</item>
+        <item>睡眠不足及睡眠质量差可导致发生肥胖及 2 型糖尿病的风险增加</item>
+        <item>摆放有助睡眠的花草、香薰有很多植物散发的香味都可以帮助我们舒缓神经，利于睡眠</item>
+        <item>晚上临睡前两小时喝一杯温牛奶，可以通过增加肠胃供血方式帮助睡眠</item>
+        <item>睡够七小时充足睡眠有助大脑强化记忆</item>
+        <item>热姜水泡脚，有助御寒和促进睡眠。</item>
+        <item>对睡眠有帮助的食物：牛奶、核桃、红枣、桂圆、小麦、莲子、食醋、糖水等</item>
+        <item>养成有规律的锻炼身体习惯，能提高夜间睡眠的质量。</item>
+        <item>睡觉之前的一个热水澡有助于放松肌肉，可令睡眠更香甜。</item>
+        <item>临睡前快步行走约15~20分钟，助眠效果非常显著。</item>
+        <item>肝脏晚上11时至凌晨3时活动能力最强，也是肝脏最佳排毒期，保证良好睡眠是护肝良药。</item>
+        <item>巴西坚果、核桃等富含蛋白质、钾、硒等营养成分的坚果类食品有助于身体合成人体天然的催眠荷尔蒙—褪黑素。</item>
+        <item>羽衣甘蓝和菠菜中含有丰富的钙，它们能帮助人体产生天然的催眠荷尔蒙—褪黑素。</item>
+        <item>鹰嘴豆，虾和龙虾是色氨酸的良好来源，可以被人体转化为复合胺，帮助良好睡眠。</item>
+        <item>莴苣中含有山莴苣膏，能够镇静和放松大脑。可以在沸水中放入几片莴苣叶，做成莴苣茶，睡前啜饮。</item>
+        <item>葵花子可以调节脑细胞的代谢，安神助睡眠。</item>
+        <item>甘菊茶中含有甘氨酸，可放松神经和肌肉，作为一个温和的镇静剂，减轻焦虑。</item>
+        <item>睡前用热水泡脚，能引血下行，安定心神。</item>
+        <item>睡前喝一杯蜂蜜茶还可以消除掉人们的紧张心理，缓解压力，助于睡眠。</item>
+        <item>食醋中的醋酸可以消除或减轻身体紧张性的疲劳感，有助于轻松睡眠。</item>
+        <item>核桃可以舒缓心情，适于心脾两虚引起的晚睡早醒。</item>
+        <item>吃富含蛋白质的晚餐，提供氨基酸如色氨酸，有助于睡眠。</item>
+        <item>充足的钙，镁补充剂、这些矿物质不仅能强化骨骼，还能令睡眠更好。</item>
+        <item>睡前3个小时内，不要吃药或进食。药物和食物都会令人清醒，不易入睡。 </item>
+        <item>葡萄中含有的褪黑激素可以辅助睡眠，褪黑激素是大脑中松果腺分泌的一种物质，可以帮助人体快速入眠。</item>
+        <item>面包或者意大利面等较高血糖指数的食物会令血糖水平会有急剧波动从而影响睡眠。因此睡前最好不要吃这些食物。　</item>
+    </string-array>
+    
+    <string-array name="share_content_arrs">
+        <item>微信</item>
+        <item>微信朋友圈</item>
+        <item>QQ</item>
+    </string-array>
+
+    <string-array name="share_content_arrs2">
+        <item>运动秀</item>
+        <item>微信</item>
+        <item>朋友圈</item>
+        <item>QQ</item>
+    </string-array>
+    
+     <declare-styleable name="NumberPicker">
+        <attr name="normalTextColor" format="color" />
+        <attr name="normalTextSize" format="dimension" />
+        <attr name="selecredTextColor" format="color" />
+        <attr name="selecredTextSize" format="dimension" />
+        <attr name="unitHight" format="dimension" />
+        <attr name="itemNumber" format="integer"/>
+        <attr name="lineColor" format="color" />
+        <attr name="maskHight" format="dimension"/>
+        <attr name="noEmpty" format="boolean"/>
+        <attr name="isEnable" format="boolean"/>
+    </declare-styleable>
+    
+
+</resources>

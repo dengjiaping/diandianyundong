@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.0" >
+            <ProgressBar
+                android:id="@+id/loading"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_centerInParent="true"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/loading"
+                android:textSize="15sp"
+                android:textColor="@color/black"
+                android:layout_centerHorizontal="true"
+                android:text="加载中..."/>
+            <com.fox.exercise.view.PullToRefreshListView
+                xmlns:ptr="http://schemas.android.com/apk/res/com.fox.exercise"
+                android:id="@+id/sports_find_refresh_list"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:cacheColorHint="#00000000"
+                android:listSelector="#00000000"
+                ptr:mode="both" />
+
+            <RelativeLayout
+                android:id="@+id/find_bottom"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:visibility="gone" >
+
+                <LinearLayout
+                    android:id="@+id/lay"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/sports_primsg_bg" >
+
+                    <LinearLayout
+                        android:id="@+id/findbottomLayout"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:baselineAligned="false"
+                        android:orientation="horizontal" >
+
+                        <ImageButton
+                            android:id="@+id/find_text_btn"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginLeft="12dp"
+                            android:background="@drawable/sk2text" />
+
+                        <Button
+                            android:id="@+id/find_press_btn"
+                            android:layout_width="fill_parent"
+                            android:layout_height="32dp"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginLeft="8dp"
+                            android:layout_marginRight="20dp"
+                            android:background="@drawable/sports_private_send_click"
+                            android:gravity="center"
+                            android:text="@string/sports_private_msg_press_recoding"
+                            android:textColor="@color/white"
+                            android:textSize="18sp" />
+
+                        <LinearLayout
+                            android:id="@+id/find_upcomment_text"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginLeft="2dp"
+                            android:gravity="center"
+                            android:paddingRight="3dp" >
+
+                            <EditText
+                                android:id="@+id/find_upcomment_edittext"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="3.8"
+                                android:background="@drawable/up_send_primsg_edit"
+                                android:hint="@string/sports_private_msg_text_hint"
+                                android:textColorHint="#666666"
+                                android:maxLength="100"
+                                android:maxLines="3"
+                                android:paddingLeft="13dp"
+                                android:layout_marginLeft="5dp"
+                                android:textColor="@color/black"
+                                android:textCursorDrawable="@null"
+                                android:textSize="14sp" />
+
+                            <ImageButton
+                                android:id="@+id/find_expression_text_btn_sportshow"
+                                android:layout_width="28dp"
+                                android:layout_height="28dp"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginLeft="5dp"
+                                android:layout_marginRight="5dp"
+                                android:background="@drawable/qita_biaoqing_00" />
+
+                            <Button
+                                android:id="@+id/find_upcomment_send"
+                                android:layout_width="0dp"
+                                android:layout_height="32dp"
+                                android:layout_gravity="center_vertical"
+                                android:layout_weight="1.2"
+                                android:background="@drawable/sports_private_send_click"
+                                android:gravity="center"
+                                android:text="@string/button_send"
+                                android:textColor="@color/white"
+                                android:textSize="14sp"
+                                android:visibility="gone" />
+
+                            <Button
+                                android:id="@+id/find_unavailable"
+                                android:layout_width="0dp"
+                                android:layout_height="32dp"
+                                android:layout_gravity="center_vertical"
+                                android:layout_weight="1.5"
+                                android:background="@drawable/sk_button_unavailable"
+                                android:gravity="center"
+                                android:text="@string/button_send"
+                                android:textColor="@color/white"
+                                android:textSize="14sp" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:id="@+id/rScrollLayout"
+                    android:layout_width="fill_parent"
+                    android:layout_height="145dp"
+                    android:layout_below="@+id/lay"
+                    android:background="@drawable/qita_biaoqing_02"
+                    android:visibility="gone" >
+
+                    <com.fox.exercise.util.ScrollLayout
+                        android:id="@+id/ScrollLayoutTest"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp" >
+                    </com.fox.exercise.util.ScrollLayout>
+
+                    <LinearLayout
+                        android:id="@+id/imageLayot"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginBottom="10dp"
+                        android:orientation="horizontal" />
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/layoutVoice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:visibility="gone" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/recoding" />
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/send_menu_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#8c000000"
+        android:visibility="gone" >
+    </RelativeLayout>
+
+</RelativeLayout>

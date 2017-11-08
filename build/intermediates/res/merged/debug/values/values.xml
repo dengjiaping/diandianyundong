@@ -1,0 +1,1519 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="daka_array">
+        <item>[高兴]</item>
+        <item>[微笑]</item>
+        <item>[泪脸]</item>
+    </string-array>
+    <string-array name="first_page_content">
+        <item>空气不会帮你燃烧卡路里，开始运动吧</item>
+        <item>运动会在你身上留下努力的痕迹！加油！</item>
+        <item>运动是和自己重要的约会，谁也不能阻止！</item>
+        <item>想要好身材，跟着点点动起来！</item>
+        <item>一次锻炼就是25的汗水加上75的决心</item>
+        <item>运动的你最有魅力了！</item>
+        <item>坚持运动一定会有效果的！</item>
+        <item>跟着云狐运动 成就更好的自己</item>
+        <item>爱上努力运动的自己</item>
+        <item>每一次运动都是一次进步</item>
+        <item>在运动中寻找快乐。</item>
+    </string-array>
+    <string-array name="imageStr_array">
+        <item>[嘻嘻]</item>
+        <item>[吐舌]</item>
+        <item>[流汗]</item>
+        <item>[偷笑]</item>
+        <item>[嗤嗤]</item>
+        <item>[流泪]</item>
+        <item>[嘘声]</item>
+        <item>[折磨]</item>
+        <item>[伤心]</item>
+        <item>[可爱]</item>
+        <item>[美女]</item>
+        <item>[害羞]</item>
+        <item>[酷毙]</item>
+        <item>[想吐]</item>
+        <item>[微笑]</item>
+        <item>[发怒]</item>
+        <item>[斜眼]</item>
+        <item>[大惊]</item>
+        <item>[疑问]</item>
+        <item>[睡觉]</item>
+        <item>[小样]</item>
+        <item>[纠结]</item>
+        <item>[闭嘴]</item>
+        <item>[鄙视]</item>
+        <item>[晕了]</item>
+        <item>[可怜]</item>
+        <item>[谩骂]</item>
+        <item>[鼓掌]</item>
+        <item>[惊讶]</item>
+        <item>[拜拜]</item>
+        <item>[吃饭]</item>
+        <item>[蛋糕]</item>
+        <item>[厉害]</item>
+        <item>[握手]</item>
+        <item>[茄子]</item>
+        <item>[好的]</item>
+        <item>[玫瑰]</item>
+        <item>[心碎]</item>
+        <item>[爱心]</item>
+        <item>[啵你]</item>
+    </string-array>
+    <string-array name="mode_entries">
+        <item>save power mode</item>
+        <item>realtime mode</item>
+    </string-array>
+    <string-array name="mode_entry_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="month_english">
+        <item>Jan</item>
+        <item>Feb</item>
+        <item>Mar</item>
+        <item>Apr</item>
+        <item>May</item>
+        <item>Jun</item>
+        <item>Jul</item>
+        <item>Aug</item>
+        <item>Sep</item>
+        <item>Oct</item>
+        <item>Nov</item>
+        <item>Dec</item>
+    </string-array>
+    <string-array name="name_newsports_type">
+        <item>@string/walk_gps</item>
+        <item>@string/run_gps</item>
+        <item>@string/cycling</item>
+        <item>@string/mountain</item>
+    </string-array>
+    <string-array name="name_sports_othertype">
+        <item>@string/walk_gps</item>
+        <item>@string/run_gps</item>
+        <item>@string/swim_free</item>
+        <item>@string/mountain</item>
+        <item>@string/golf</item>
+        <item>@string/walk_race</item>
+        <item>@string/cycling</item>
+        <item>@string/tennis</item>
+        <item>@string/badminton</item>
+        <item>@string/football</item>
+        <item>@string/table_tennis</item>
+        <item>@string/rowing</item>
+        <item>@string/skating</item>
+        <item>@string/roller_skating</item>
+    </string-array>
+    <string-array name="share_content_arrs">
+        <item>微信</item>
+        <item>微信朋友圈</item>
+        <item>QQ</item>
+    </string-array>
+    <string-array name="share_content_arrs2">
+        <item>运动秀</item>
+        <item>微信</item>
+        <item>朋友圈</item>
+        <item>QQ</item>
+    </string-array>
+    <string-array name="sleep_page_content">
+        <item>充足的睡眠可以保护大脑、增强免疫力。</item>
+        <item>侧卧位睡眠使心脏不受压迫，呼吸通畅，还有利于胃的排空。</item>
+        <item>保证每天睡眠时间不少于7小时，不多于9小时</item>
+        <item>睡前1小时喝1杯 牛奶有助于安神和提高睡眠质量</item>
+        <item>不要在床上看书或看电视，以免影响床上习惯</item>
+        <item>尽量在晚间11点前睡觉，帮助身体代谢</item>
+        <item>尽量在7点前起床，这样有利于排出宿便</item>
+        <item>睡眠不足及睡眠质量差可导致发生肥胖及 2 型糖尿病的风险增加</item>
+        <item>摆放有助睡眠的花草、香薰有很多植物散发的香味都可以帮助我们舒缓神经，利于睡眠</item>
+        <item>晚上临睡前两小时喝一杯温牛奶，可以通过增加肠胃供血方式帮助睡眠</item>
+        <item>睡够七小时充足睡眠有助大脑强化记忆</item>
+        <item>热姜水泡脚，有助御寒和促进睡眠。</item>
+        <item>对睡眠有帮助的食物：牛奶、核桃、红枣、桂圆、小麦、莲子、食醋、糖水等</item>
+        <item>养成有规律的锻炼身体习惯，能提高夜间睡眠的质量。</item>
+        <item>睡觉之前的一个热水澡有助于放松肌肉，可令睡眠更香甜。</item>
+        <item>临睡前快步行走约15~20分钟，助眠效果非常显著。</item>
+        <item>肝脏晚上11时至凌晨3时活动能力最强，也是肝脏最佳排毒期，保证良好睡眠是护肝良药。</item>
+        <item>巴西坚果、核桃等富含蛋白质、钾、硒等营养成分的坚果类食品有助于身体合成人体天然的催眠荷尔蒙—褪黑素。</item>
+        <item>羽衣甘蓝和菠菜中含有丰富的钙，它们能帮助人体产生天然的催眠荷尔蒙—褪黑素。</item>
+        <item>鹰嘴豆，虾和龙虾是色氨酸的良好来源，可以被人体转化为复合胺，帮助良好睡眠。</item>
+        <item>莴苣中含有山莴苣膏，能够镇静和放松大脑。可以在沸水中放入几片莴苣叶，做成莴苣茶，睡前啜饮。</item>
+        <item>葵花子可以调节脑细胞的代谢，安神助睡眠。</item>
+        <item>甘菊茶中含有甘氨酸，可放松神经和肌肉，作为一个温和的镇静剂，减轻焦虑。</item>
+        <item>睡前用热水泡脚，能引血下行，安定心神。</item>
+        <item>睡前喝一杯蜂蜜茶还可以消除掉人们的紧张心理，缓解压力，助于睡眠。</item>
+        <item>食醋中的醋酸可以消除或减轻身体紧张性的疲劳感，有助于轻松睡眠。</item>
+        <item>核桃可以舒缓心情，适于心脾两虚引起的晚睡早醒。</item>
+        <item>吃富含蛋白质的晚餐，提供氨基酸如色氨酸，有助于睡眠。</item>
+        <item>充足的钙，镁补充剂、这些矿物质不仅能强化骨骼，还能令睡眠更好。</item>
+        <item>睡前3个小时内，不要吃药或进食。药物和食物都会令人清醒，不易入睡。 </item>
+        <item>葡萄中含有的褪黑激素可以辅助睡眠，褪黑激素是大脑中松果腺分泌的一种物质，可以帮助人体快速入眠。</item>
+        <item>面包或者意大利面等较高血糖指数的食物会令血糖水平会有急剧波动从而影响睡眠。因此睡前最好不要吃这些食物。　</item>
+    </string-array>
+    <attr name="direction">
+        <!-- Vertical widget. -->
+        <enum name="vertical" value="0"/>
+        <!-- Horizontal widget. -->
+        <enum name="horizontal" value="1"/>
+    </attr>
+    <color name="background_transparent">#00000000</color>
+    <color name="below_fristpage">#7c7c7c</color>
+    <color name="black">#ff000000</color>
+    <color name="bubble_dark_background">#B2191919</color>
+    <color name="button_login">#ffe360</color>
+    <color name="celebration_color">#FFAD00</color>
+    <color name="celebration_popbg_color">#4E5D6B</color>
+    <color name="color_999999">#999999</color>
+    <color name="color_f2f2f2">#7e7e7e</color>
+    <color name="color_ff4631">#FFAD00</color>
+    <color name="comment_color">#F5FFFA</color>
+    <color name="cool_color">#f49000</color>
+    <color name="djs">#3a3f47</color>
+    <color name="fengexian">#cccccc</color>
+    <color name="gray">#797673</color>
+    <color name="gray_litter">#999999</color>
+    <color name="hint_forget">#3a3f47</color>
+    <color name="hint_login">#3a3f47</color>
+    <color name="history_distance_color">#3E3E3E</color>
+    <color name="history_title_color">#666666</color>
+    <color name="line">#f6f5f5</color>
+    <color name="listitem_color">#F9F9F9</color>
+    <color name="listitem_del_color">#CCCCCC</color>
+    <color name="new_black">#3a3f47</color>
+    <color name="pay_btnclick">#dedede</color>
+    <color name="peisu_color">#FFAE00</color>
+    <color name="peisu_color1">#F4b949</color>
+    <color name="photo_background">#EDEDED</color>
+    <color name="re_bgcolor">#fcfcfc</color>
+    <color name="red">#FF0000</color>
+    <color name="remind">#f49000</color>
+    <color name="remind2">#1e4d72</color>
+    <color name="remind_sure">#666666</color>
+    <color name="seek_hui">#00FFFFFF</color>
+    <color name="setting_font">#333333</color>
+    <color name="setting_font1">#9c9c9c</color>
+    <color name="setting_font2">#9D9B9C</color>
+    <color name="setting_font3">#eaeaea</color>
+    <color name="sleep_yellow">#FFA009</color>
+    <color name="speed_line_color1">#A9FF00</color>
+    <color name="speed_line_color2">#FFC200</color>
+    <color name="sports_background_transparent">#c8000000</color>
+    <color name="sports_bt_gray">#404040</color>
+    <color name="sports_gray">#3a3f47</color>
+    <color name="sports_help_info">#dd7f99</color>
+    <color name="sports_hornor_color">#16172E</color>
+    <color name="sports_popular_title_normal">#FFFFFF</color>
+    <color name="sports_popular_title_selected">#f49000</color>
+    <color name="sports_popular_titles_normal">#797673</color>
+    <color name="sports_time_color">#f49000</color>
+    <color name="sports_value">#333333</color>
+    <color name="text_color">#999999</color>
+    <color name="text_forget">#333333</color>
+    <color name="text_login">#f49000</color>
+    <color name="text_moffmap">#f49000</color>
+    <color name="text_step">#33c9ca</color>
+    <color name="title_text_color">#ffffffff</color>
+    <color name="train_playnum">#ff5500</color>
+    <color name="translucent">#00000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="transparent_background">#50000000</color>
+    <color name="white">#ffffffff</color>
+    <color name="yellow">#FFFF00</color>
+    <declare-styleable name="CameraPreference"><attr format="string" name="title"/></declare-styleable>
+    <declare-styleable name="CellLayout"><attr format="dimension" name="cellWidth"/><attr format="dimension" name="cellHeight"/><attr format="dimension" name="longAxisStartPadding"/><attr format="dimension" name="longAxisEndPadding"/><attr format="dimension" name="shortAxisStartPadding"/><attr format="dimension" name="shortAxisEndPadding"/><attr format="integer" name="shortAxisCells"/><attr format="integer" name="longAxisCells"/></declare-styleable>
+    <declare-styleable name="CircleFlowIndicator"><attr format="color" name="activeColor"/><attr format="color" name="inactiveColor"/><attr format="dimension" name="radius"/><attr format="boolean" name="centered"/><attr format="integer" name="fadeOut"/><attr name="inactiveType"><flag name="stroke" value="0"/><flag name="fill" value="1"/></attr><attr name="activeType"><flag name="stroke" value="0"/><flag name="fill" value="1"/></attr><attr format="dimension" name="circleSeparation"/><attr format="dimension" name="activeRadius"/></declare-styleable>
+    <declare-styleable name="ClippedImageView"><attr format="dimension" name="ignoreZone"/></declare-styleable>
+    <declare-styleable name="DeleteZone"><attr name="direction"/></declare-styleable>
+    <declare-styleable name="ExpandableLayout"><attr format="reference" name="el_headerLayout"/><attr format="reference" name="el_contentLayout"/><attr format="integer" name="el_duration"/></declare-styleable>
+    <declare-styleable name="Gallery1"><attr name="android:galleryItemBackground"/></declare-styleable>
+    <declare-styleable name="HandleView"><attr name="direction"/></declare-styleable>
+    <declare-styleable name="ListPreference"><attr format="string" name="key"/><attr format="string" name="defaultValue"/><attr format="reference" name="entryValues"/><attr format="reference" name="entries"/></declare-styleable>
+    <declare-styleable name="NumberPicker"><attr format="color" name="normalTextColor"/><attr format="dimension" name="normalTextSize"/><attr format="color" name="selecredTextColor"/><attr format="dimension" name="selecredTextSize"/><attr format="dimension" name="unitHight"/><attr format="integer" name="itemNumber"/><attr format="color" name="lineColor"/><attr format="dimension" name="maskHight"/><attr format="boolean" name="noEmpty"/><attr format="boolean" name="isEnable"/></declare-styleable>
+    <declare-styleable name="Panel"><attr format="integer" name="animationDuration"/><attr name="position"><enum name="top" value="0"/><enum name="bottom" value="1"/><enum name="left" value="2"/><enum name="right" value="3"/></attr><attr format="reference" name="handle"/><attr format="reference" name="content"/><attr format="boolean" name="linearFlying"/><attr format="fraction" name="weight"/><attr format="reference|color" name="openedHandle"/><attr format="reference|color" name="closedHandle"/></declare-styleable>
+    <declare-styleable name="PullToRefresh"><attr format="reference|color" name="adapterViewBackground"/><attr format="reference|color" name="headerBackground"/><attr format="color" name="headerTextColor"/><attr name="mode"><flag name="pullDownFromTop" value="0x1"/><flag name="pullUpFromBottom" value="0x2"/><flag name="both" value="0x3"/></attr></declare-styleable>
+    <declare-styleable name="RoundProgressBar"><attr format="color" name="roundColor"/><attr format="color" name="roundProgressColor"/><attr format="dimension" name="roundWidth"/><attr format="color" name="textColor"/><attr format="dimension" name="textSize"/><attr format="integer" name="max"/><attr format="boolean" name="textIsDisplayable"/><attr name="style"><enum name="STROKE" value="0"/><enum name="FILL" value="1"/></attr></declare-styleable>
+    <declare-styleable name="ViewFlow"><attr format="integer" name="sidebuffer"/></declare-styleable>
+    <declare-styleable name="Workspace"><attr format="integer" name="defaultScreen"/></declare-styleable>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="dialog_bottom_margin">0dp</dimen>
+    <dimen name="dialog_left_margin">0dp</dimen>
+    <dimen name="dialog_right_margin">0dp</dimen>
+    <dimen name="dialog_top_margin">0dp</dimen>
+    <dimen name="djs">17dp</dimen>
+    <dimen name="djs_text">16sp</dimen>
+    <dimen name="hint_y_offset">64dip</dimen>
+    <dimen name="sleep_text">16sp</dimen>
+    <dimen name="sleep_text1">28sp</dimen>
+    <dimen name="sleep_text2">20sp</dimen>
+    <dimen name="sleep_text3">18sp</dimen>
+    <dimen name="spotrs_text">14dp</dimen>
+    <dimen name="spotrs_text1">16dp</dimen>
+    <drawable name="biaoqian_checked">#00FF99</drawable>
+    <drawable name="biaoqian_unchecked">#ffffffff</drawable>
+    <drawable name="cancle_click">#FFFAD9</drawable>
+    <drawable name="cancle_unclick">#FFE663</drawable>
+    <drawable name="giveup_click">#7F3100</drawable>
+    <drawable name="giveup_unclick">#FFAF17</drawable>
+    <drawable name="pay_btnUnclick">#00ffde</drawable>
+    <drawable name="pay_btnclick">#dedede</drawable>
+    <drawable name="peisu_divier">#ffffff</drawable>
+    <drawable name="sleep_click">#35434D</drawable>
+    <drawable name="sleep_unclick">#12111E</drawable>
+    <drawable name="startsport_medle_check">#FFAD00</drawable>
+    <drawable name="startsport_medle_uncheck">#000000</drawable>
+    <drawable name="submit_click">#7F2D00</drawable>
+    <drawable name="submit_unclick">#FFAD16</drawable>
+    <item name="gridview" type="id"/>
+    <item name="webview" type="id"/>
+    <integer name="coin_gift">0</integer>
+    <integer name="config_allAppsFadeInTime">350</integer>
+    <integer name="config_allAppsFadeOutTime">350</integer>
+    <integer name="config_create_shortcut">1</integer>
+    <integer name="config_enter_bestgirl">0</integer>
+    <integer name="config_enter_sports">1</integer>
+    <integer name="config_gameworld_on">1</integer>
+    <integer name="config_phone_specialchars">0</integer>
+    <integer name="config_qqhealthy_on">1</integer>
+    <integer name="config_recommend_on">0</integer>
+    <integer name="config_uploaderror">1</integer>
+    <integer name="config_withsync">1</integer>
+    <string name="PayInfo">paying please…</string>
+    <string name="abandon">Abandon</string>
+    <string name="about">About</string>
+    <string name="about_run">Running Inviate</string>
+    <string name="about_runing">Waiting for inviting…</string>
+    <string name="access_sd_fail">Failed to access SD card.</string>
+    <string name="acess_server_error">Access server error,please check…</string>
+    <string name="action_settings">Settings</string>
+    <string name="activities_summary">Activities Summary</string>
+    <string name="activity">Activity</string>
+    <string name="activity_end">Activity has end.</string>
+    <string name="activity_ranking">Activity Ranking</string>
+    <string name="activity_rules">Activity Rules</string>
+    <string name="activity_time">Time:</string>
+    <string name="add_friend">Add Friend</string>
+    <string name="add_friend_search_hint">Search：Input key word</string>
+    <string name="add_label">Label:</string>
+    <string name="addnewimage">This Image had added</string>
+    <string name="all_distanc">The total distance</string>
+    <string name="all_sport_time">The total time consuming</string>
+    <string name="already_newest">"It's the newest version！"</string>
+    <string name="android_version">Android version: </string>
+    <string name="anonymous">Anonymous</string>
+    <string name="app_name">云狐运动</string>
+    <string name="app_sina_consumer_key">2166567095</string>
+    <string name="app_sina_consumer_secret">c5ab3a2d8c3a434c8092bac10fe33e88</string>
+    <string name="app_tencent_consumer_key">801174793</string>
+    <string name="app_tencent_consumer_secret">48dfb08dccd86e0250823edcf377057c</string>
+    <string name="attention">Attention</string>
+    <string name="average_speed">Average Speed</string>
+    <string name="average_speed_detail">Average Speed</string>
+    <string name="badminton">badminton</string>
+    <string name="battery_low">Low power!</string>
+    <string name="belowto_700km">Distance is not up 700km!</string>
+    <string name="benci_train">This training</string>
+    <string name="benci_train_fail">unfinished</string>
+    <string name="benci_train_success">complete</string>
+    <string name="bestgirl_wait">Loading…</string>
+    <string name="bestgirl_wait_upload">Uploading…</string>
+    <string name="bind_bluetooth">Bluetooth</string>
+    <string name="bind_device">Bind Device</string>
+    <string name="bluetooth_bonding">Bonding</string>
+    <string name="bluetooth_pairing">"pairing…"</string>
+    <string name="bluetooth_preference_bonded_devices">bound devices</string>
+    <string name="bluetooth_preference_devices">available devices(click to pair)</string>
+    <string name="bluetooth_preference_paired_devices">paired  device</string>
+    <string name="bluetooth_preference_paired_devices_bond">paired devices(click to bind)</string>
+    <string name="bmi_fat">obesity</string>
+    <string name="bmi_little_fat">Slightly obese</string>
+    <string name="bmi_nomole">ordinary</string>
+    <string name="bmi_shou">thin</string>
+    <string name="bond">bind</string>
+    <string name="bond_message">bind the device %1$s ?</string>
+    <string name="bond_request">Bond Request</string>
+    <string name="bond_request_message">Bond with %1$s?</string>
+    <string name="break_out">Break Out</string>
+    <string name="bt_cancel_text">Cancel</string>
+    <string name="bt_follow_text">Added</string>
+    <string name="bt_ok_text">OK</string>
+    <string name="bt_ok_text1">confirm</string>
+    <string name="build_cicle">Set up</string>
+    <string name="button_adjust_orientation">Dire correct</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="button_ok">OK</string>
+    <string name="button_scan">Scan for devices</string>
+    <string name="button_send">Send</string>
+    <string name="button_share_to">Send</string>
+    <string name="button_upload">Upload</string>
+    <string name="cal">Cal</string>
+    <string name="calories">Calories:</string>
+    <string name="calories_text">Calories</string>
+    <string name="caltaida">cal expend too much</string>
+    <string name="camera_application_stopped">Camera Stopped</string>
+    <string name="camera_driver_needs_reset">Camera has stopped unexpectedly,need to restart.</string>
+    <string name="camera_window_summary">Show the preview window in phone side when openning remote camera</string>
+    <string name="camera_window_title">Display preview window</string>
+    <string name="can_not_find_version_name">Failed to get the version number</string>
+    <string name="cancel">No</string>
+    <string name="cancel_followed_fail">Cancel add friend fail!</string>
+    <string name="cancel_followed_successed">Cancel add friend success!</string>
+    <string name="cancel_wait">To cancel, please try later…</string>
+    <string name="capture_cancel">Retake</string>
+    <string name="capture_ok">Upload</string>
+    <string name="ccuntdown_settings">Countdown Settings</string>
+    <string name="chang_qq_msg">If you want to find your sports datas in QQ Health,you need to exchange the current QQ number to login 云狐运动 ~</string>
+    <string name="change_photo_background">Background change, please try later…</string>
+    <string name="check_now">Check now</string>
+    <string name="check_update">Check for Update</string>
+    <string name="checking">Checking…</string>
+    <string name="checkyour_wifi_isconnect">checkyour wifi isconnect</string>
+    <string name="chronometerId_text">00: 00: 00</string>
+    <string name="class_introduce">kechengshuoming</string>
+    <string name="clear_date">Dear,clear date,login again!</string>
+    <string name="clear_date_again">Dear,clear date!</string>
+    <string name="clear_message">clear msg</string>
+    <string name="clear_settings">cancel bonded</string>
+    <string name="clear_settings_sum">cancel the bonded status of the current sync device</string>
+    <string name="close">Close</string>
+    <string name="code_send_failed">Verification code sent failed!</string>
+    <string name="code_send_successed">Verification code has been sent via SMS to you, please pay attention to check.</string>
+    <string name="coll_mall_now_status">Cool coins store temporary not opened, currently only browse general store.</string>
+    <string name="comment_wait">The comments, please try later…</string>
+    <string name="complete_info">Complete Person Info</string>
+    <string name="complete_info_1">Edit Personal Info</string>
+    <string name="config_game_id">500123</string>
+    <string name="config_version_url">"http://cdn.17vee.com/lmstation/Sports/ver.json"</string>
+    <string name="confirm_exit">Confirm to exit?</string>
+    <string name="confirm_exit1">Confirm to log out？</string>
+    <string name="confirm_exit_title">Prompt</string>
+    <string name="confirm_to_binding_qq">Bind to QQ space</string>
+    <string name="confirm_to_binding_tengxun">Bind to Tencent</string>
+    <string name="confirm_to_binding_xinlang">Bind to Sina</string>
+    <string name="confirm_to_cancle">Cancel</string>
+    <string name="confirm_to_start_adjut">Start to correct</string>
+    <string name="conn_smart_device">Connected devices</string>
+    <string name="connect_to_watch">Please connect to AWatch</string>
+    <string name="contactslite_midtable_authority" translatable="false">contactslite.mid-src</string>
+    <string name="continue_action">continueTrain</string>
+    <string name="continue_edit">continue edit</string>
+    <string name="cool_coins_new">Coins:</string>
+    <string name="cool_coins_rules">Coins rules?</string>
+    <string name="cool_get_coins_app">6.App activity reward:</string>
+    <string name="cool_get_coins_app_rules">Application of internal activities will give cool coins, actively participate in the activities of the corresponding cool coins can be obtained.</string>
+    <string name="cool_get_coins_channel">5.Channel reward:</string>
+    <string name="cool_get_coins_channel_rules">Do cool coins in each channel giving activities occasional, please pay close attention to the channel activities column.</string>
+    <string name="cool_get_coins_exercise">3.Exercise reward:</string>
+    <string name="cool_get_coins_exercise_rules">Sports award according to mileage calculation, less than 1 km but greater than 0.5 km may obtain 1 cool coins reward, after 1 kilometers, each increase of 1 km can obtain 1 cool coins reward. In the movement beyond the limit movement, not live cool coins reward. Daily sports award to a maximum of 100 cool coins reward.</string>
+    <string name="cool_get_coins_login">1.Login reward:</string>
+    <string name="cool_get_coins_random">2.Random reward:</string>
+    <string name="cool_get_coins_random_rules">In the process of movement, every 5~8 km will randomly obtain a certain amount of cool coins reward.</string>
+    <string name="cool_get_coins_rules">Abtain coins rules:</string>
+    <string name="cool_get_coins_share">4.Share reward:</string>
+    <string name="cool_get_coins_share_rules">After the end of the exercise, through the application of internal sharing function, sharing movement result, can obtain 10 cool coins reward, the daily maximum of 100 cool coins reward.</string>
+    <string name="copy">copy</string>
+    <string name="copy_success">replicated</string>
+    <string name="create_preview_channel_fail">Create preview channel failed, retry please</string>
+    <string name="current_version_ps">current version</string>
+    <string name="cycling">cycling</string>
+    <string name="daily_awards">Just login once a day, you can get 10 cool coins rewards, log in to get a reward up to once a day, repeat login no cumulative reward.</string>
+    <string name="date_error">data error</string>
+    <string name="day_date">-</string>
+    <string name="del_pic">Delete?</string>
+    <string name="delete_all">Delete?</string>
+    <string name="desc_shrinkup">Pack up</string>
+    <string name="desc_spread">Show more</string>
+    <string name="description">Description:</string>
+    <string name="detail_delete">Delete</string>
+    <string name="detail_text">Historical details</string>
+    <string name="details_ok">OK</string>
+    <string name="dialog_button_cancel">Cencel</string>
+    <string name="dialog_button_commit">Commit</string>
+    <string name="dialog_button_giveup">Giveup</string>
+    <string name="dingwei_send">Location:</string>
+    <string name="dis_title">CountDown Settings</string>
+    <string name="disable_bt">Failed to enable bluetooth.</string>
+    <string name="distance">Distance</string>
+    <string name="djs_10">10 Minutes</string>
+    <string name="djs_3">3 Minutes</string>
+    <string name="djs_5">5 Minutes</string>
+    <string name="djs_close">Off</string>
+    <string name="djs_remind">Shake Remind</string>
+    <string name="does_not_this_input">Does not support this kind of symbol input!</string>
+    <string name="don_not_enter_spaces">Can not enter spaces</string>
+    <string name="doubi">doubi tiyu</string>
+    <string name="download_any_data">Download via any available data connection</string>
+    <string name="download_apk_failed">Failed to download the apk!</string>
+    <string name="download_description">Download file for OTA update</string>
+    <string name="download_finished">"Finish download"</string>
+    <string name="download_only_wifi">Download via Wi-Fi only</string>
+    <string name="download_tab_title_activities">Activity</string>
+    <string name="download_title">OTA update</string>
+    <string name="downloading">Downloading…</string>
+    <string name="downloading_new_version">"Downloading......"</string>
+    <string name="drive">drive</string>
+    <string name="edit_content_limit">Over max number 24</string>
+    <string name="edit_save">edit</string>
+    <string name="end_action">endTrain</string>
+    <string name="end_sleep">end sleep</string>
+    <string name="enter_number_outindex">You enter the number of words have more than the limit!</string>
+    <string name="enter_security_code">Enter Security Code</string>
+    <string name="enter_verification_code">please enter the verification code!</string>
+    <string name="error_cannot_access_net">Please check your network…</string>
+    <string name="error_key">key error</string>
+    <string name="error_network">error network</string>
+    <string name="error_other">error other</string>
+    <string name="et_send_mean">write what you want to say…</string>
+    <string name="exception_session_out">Session out,please retry!</string>
+    <string name="exchange">Exchange</string>
+    <string name="exit_message">you can update from status bar any time</string>
+    <string name="exit_msg">Exit does not delete any historical data, the next login can still use this account to log in</string>
+    <string name="fail_to_bond">Fail to bond with device."</string>
+    <string name="fankui">Advice feedback</string>
+    <string name="fans_people">Pay fans to the people</string>
+    <string name="fans_str">Say hello to you</string>
+    <string name="fast_break">Fast Break</string>
+    <string name="fastest_speed">Fastest Speed</string>
+    <string name="female">Female</string>
+    <string name="file_size">"File Size"</string>
+    <string name="find_qushi">The fun</string>
+    <string name="fire">Burn</string>
+    <string name="focus_time_txt_text">3 month ago</string>
+    <string name="football">football</string>
+    <string name="football_calories">Calories</string>
+    <string name="football_distance">Distance</string>
+    <string name="football_pause">Football Pause</string>
+    <string name="football_pitch">football pitch</string>
+    <string name="football_stop">Football Stop</string>
+    <string name="forgetpwd_changepwd_wait">Change password, please try later…</string>
+    <string name="forgetpwd_checknumber_get">Verification code access please later…</string>
+    <string name="forgetpwd_confirm_newpwd">Please enter 6 to 12 digits or letters in English</string>
+    <string name="forgetpwd_confirm_newpwd_somuch">Today you get verification message number has more than 3 times, please try again tomorrow!</string>
+    <string name="forgetpwd_confirm_newpwd_soquickly">You get the validation message is too frequent, please try again later!</string>
+    <string name="forgetpwd_newpwd">New Password</string>
+    <string name="forgetpwd_newpwd_forget">New Password</string>
+    <string name="fox_sprots_title">Diandian</string>
+    <string name="fox_swim_protect">The sport needs to be used in conjunction with Fox smart watch, Or please make sure that your phone can be waterproof, and used under the condition of strong GPS signal.</string>
+    <string name="friday">Friday</string>
+    <string name="friends_away_me"/>
+    <string name="friends_tab_faxian">Find</string>
+    <string name="friends_tab_haoyou">Friends</string>
+    <string name="friends_tab_my_faxian">My find</string>
+    <string name="friends_tab_sixin">Message</string>
+    <string name="get_failed_tryother">Authorization failed, please try to log in other ways</string>
+    <string name="get_friends">Invite friends:</string>
+    <string name="get_label">Input Label</string>
+    <string name="get_list_failure">Failed to get the list</string>
+    <string name="get_mingcheng">Input name</string>
+    <string name="get_power_failed">Authorization failed,pls reAuth!</string>
+    <string name="get_power_sucess">Authorization success</string>
+    <string name="get_watch_failed">failed to get information of watch \n please check bluetooth connection with wath </string>
+    <string name="get_watch_info">getting watch information</string>
+    <string name="getting_updateinfo">Waiting for updating…</string>
+    <string name="golf">golf</string>
+    <string name="gride">Comment On</string>
+    <string name="guangchang">square</string>
+    <string name="guangchang_more">more</string>
+    <string name="guanzhu_people">Pay attention to the people</string>
+    <string name="half_time">Half Time</string>
+    <string name="halftime_continue">Continue</string>
+    <string name="halftime_exchange">Exchange</string>
+    <string name="healthsport_text">New exercise</string>
+    <string name="healthy_qq_toast">Using the QQ account login, you can be health data synchronization to QQ health Oh</string>
+    <string name="height_limit_warning_one">Is more than the height under the lowest limit!</string>
+    <string name="height_limit_warning_two">The upper limit is more than the tallest!</string>
+    <string name="height_setting">height setting</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="hint_unlock">Slide to the right end to remind</string>
+    <string name="his_jilu">History</string>
+    <string name="history">Historical record</string>
+    <string name="history_sports_cal">Calorie</string>
+    <string name="history_sports_dis">Distance</string>
+    <string name="history_sports_speed">Speed</string>
+    <string name="history_sports_time">Time</string>
+    <string name="history_sports_times"> times</string>
+    <string name="hot_comments">Hot comments</string>
+    <string name="hot_comments_say">When you say two words</string>
+    <string name="image_file_name_format" translatable="false">"'Sports'_yyyyMMdd_HHmmss"</string>
+    <string name="image_gallery_NoImageView_text">No image</string>
+    <string name="in_gps_locating">GPS is locating,pls retry again later!</string>
+    <string name="info_tips">is save info？</string>
+    <string name="install">Install</string>
+    <string name="install_notices">please backup your datas, such as contacts,sms,call log,etc</string>
+    <string name="invite_msg">Inviting Message</string>
+    <string name="invite_sport">Running Inviting</string>
+    <string name="is_force_update">"Force to update"</string>
+    <string name="jianchi_success">Insist to victory, see you next time!</string>
+    <string name="jibu_kongge1"> </string>
+    <string name="jibu_kongge2">  </string>
+    <string name="jibu_kongge6">      </string>
+    <string name="jintian">today</string>
+    <string name="juli_noshuru">Distance is not input!</string>
+    <string name="julichao">distance more than 200</string>
+    <string name="juliorcal">please input distance or cal</string>
+    <string name="ka"> cal</string>
+    <string name="km">Km</string>
+    <string name="later">Later</string>
+    <string name="listSize_text">Map</string>
+    <string name="loading">Loading…</string>
+    <string name="location_fail">Location failed</string>
+    <string name="location_gps_weak">Weak GPS signal, pls retry.</string>
+    <string name="lock_screen">Screen On</string>
+    <string name="lock_screen_open">Automatic lock screen open</string>
+    <string name="lock_screen_shutdown">Automatic lock screen shutdown</string>
+    <string name="login_coins">Award 10 coins for logining!</string>
+    <string name="login_fail_device_disable">please connect to admin</string>
+    <string name="login_invite_cancel">Cancel</string>
+    <string name="login_now">Login Now</string>
+    <string name="make_sure_will_delete">Sure you want to delete?</string>
+    <string name="make_sure_will_deltop">Sure you want to deletetop?</string>
+    <string name="make_sure_will_top">Sure you want to top?</string>
+    <string name="male">Male</string>
+    <string name="meitu_gallery_title">Meitu</string>
+    <string name="menu_scan_title">scan devices</string>
+    <string name="menu_scanning">scanning…</string>
+    <string name="menu_setting">Setting</string>
+    <string name="mes_remind">Messages</string>
+    <string name="message_adjust_camera_orientation">If the orientation of camera preview or taken photo is wrong,you can correct it follow the direction.</string>
+    <string name="message_camera_adjust_title">Correct orientation guide</string>
+    <string name="message_from">(from云狐运动)</string>
+    <string name="message_step_1_content">You get the right orientation？</string>
+    <string name="message_step_1_sk1">Wrong，rotate</string>
+    <string name="message_step_1_sk2">Right orientation</string>
+    <string name="message_step_1_title">Keep the handset upright</string>
+    <string name="message_step_2_content">You get the right orientation？</string>
+    <string name="message_step_2_title">See the photo captured</string>
+    <string name="message_step_3_content">Correction finished！</string>
+    <string name="message_text">Logoff?</string>
+    <string name="mms_settings">quick sms</string>
+    <string name="mms_settings_sum">set quick sms rejected calls</string>
+    <string name="mode_settings">mode setting</string>
+    <string name="mode_settings_sum">set the mode between the device and watch</string>
+    <string name="modified_failed_message">Modified failure, pet name already exists!</string>
+    <string name="monday">Monday</string>
+    <string name="month_date">-</string>
+    <string name="month_yue">M</string>
+    <string name="mountain">mountain</string>
+    <string name="mubiao_content_title">The target has been finished today:</string>
+    <string name="multi_comment_tip_target">Say to </string>
+    <string name="my_device">My device</string>
+    <string name="my_visitor">Visitor</string>
+    <string name="name_rules">1–30 characters (Chinese, English, Numbers, symbols)</string>
+    <string name="nearbylist">List</string>
+    <string name="network_not_avaliable">Network not available!</string>
+    <string name="new_friends">New friends</string>
+    <string name="newwork_not_connected">The network is not connected, please check the network!</string>
+    <string name="nickname_ont_be_empty">Nickname cannot be empty!</string>
+    <string name="no">No</string>
+    <string name="no_android_market">Your mobile phone is not installed any Android Market.</string>
+    <string name="no_data">No  Data</string>
+    <string name="no_result">sorry no result</string>
+    <string name="no_storage">Please insert SD card.</string>
+    <string name="nogive_up_train">Do not give up in the training</string>
+    <string name="nogive_up_train1">is finish</string>
+    <string name="none_found">No devices found</string>
+    <string name="none_paired">No devices have been paired</string>
+    <string name="normal_account_max">you have registed more than 3,failed</string>
+    <string name="not_enough_space">No enough space in SD card.</string>
+    <string name="not_friends_tab_faxian">Not found</string>
+    <string name="notice_sports_type">Ordinary mobile phone does not support this type of movement.</string>
+    <string name="notification_message">Recording your exercise data</string>
+    <string name="notification_summary_settings">Enable/disable Timeout Notification</string>
+    <string name="notification_title_settings">Timeout Notification</string>
+    <string name="now_version">Version</string>
+    <string name="offmap_downloading">To download the map, please wait or delete the downloaded map!</string>
+    <string name="ok">Yes</string>
+    <string name="open_camera_fail">Open camera fail</string>
+    <string name="opinion">Feedback</string>
+    <string name="ota_update">system update</string>
+    <string name="ota_update_sum">update version of watch</string>
+    <string name="paceValue_text">0\'0\"</string>
+    <string name="paceValue_texts">0\'0\"/km</string>
+    <string name="password_rules">6–16 characters (letters, Numbers and is case sensitive</string>
+    <string name="pastTimeText_text">00:00</string>
+    <string name="pauseBtn_text">Pause</string>
+    <string name="pay_btn">go money</string>
+    <string formatted="false" name="pay_result_callback_msg">微信支付结果：%s</string>
+    <string name="payment_method">Remarks</string>
+    <string name="peisu_timetx">km alltime </string>
+    <string name="person_set">Personal Settings</string>
+    <string name="personal_center">Me</string>
+    <string name="personal_info">Personal Info</string>
+    <string name="personalrecord_text">%1$s exercise history</string>
+    <string name="phone_no_record">phone no record?</string>
+    <string name="phone_number_format_wrong">Phone number format is wrong!</string>
+    <string name="phone_number_not_empty">Phone number cannot be empty!</string>
+    <string name="phone_number_not_empty_fgt">Please enter the 11 phone number</string>
+    <string name="phone_number_notify1">Mobile phone number is the only way to retrieve password</string>
+    <string name="phone_number_notify2">please fill in valid phone number.</string>
+    <string name="phone_password_message">We will send the new password by SMS to your mobile phone, please reset the password after login.</string>
+    <string name="phone_sport">Phone Sport</string>
+    <string name="picture_num_limit">Reach to max number(8)</string>
+    <string name="picture_path_message">Picture path : %1$s</string>
+    <string name="please_choose_version">choose a version</string>
+    <string name="please_login">Login！</string>
+    <string name="please_upload_sportsrecorder">please upload recorder</string>
+    <string name="points_say">Little said</string>
+    <string name="praise_cancel_success">Praise cancel Success!</string>
+    <string name="praise_successed">Praise Success!</string>
+    <string name="praise_wait">Praise, please try later…</string>
+    <string name="preparing_sd">Waiting for preparing SD card…</string>
+    <string name="primsg_empty">You received a voice private message,please check it out with the telephone!</string>
+    <string name="product">product : </string>
+    <string name="progress_capturing">Captureing…</string>
+    <string name="progress_loading_wait">Loading…</string>
+    <string name="progress_saving_type">Waiting for saving…</string>
+    <string name="progress_searching_server">Searching server…</string>
+    <string name="progress_server_connecting_error">Server connect error,please check.</string>
+    <string name="progress_switching">Switching…</string>
+    <string name="pull_to_loadmore_loading_label">Loading…</string>
+    <string name="pull_to_loadmore_pull_label">Pull up to load more…</string>
+    <string name="pull_to_loadmore_release_label">Release to load…</string>
+    <string name="pull_to_refresh_pull_label">Pull down to refresh…</string>
+    <string name="pull_to_refresh_refreshing_label">Refreshing…</string>
+    <string name="pull_to_refresh_release_label">Release to refresh…</string>
+    <string name="pvd_tx1">1km</string>
+    <string name="pvd_tx2">2km</string>
+    <string name="pvd_tx5">5km</string>
+    <string name="pvm_tx10">10min</string>
+    <string name="pvm_tx15">15min</string>
+    <string name="pvm_tx5">5min</string>
+    <string name="pwd_edit_hint">6–16 characters (letters, numbers, case sensitive)</string>
+    <string name="pwd_edit_hint1">new psswd is 6–16 characters (letters, numbers, case sensitive)</string>
+    <string name="qiandao">qiandao</string>
+    <string name="qianming_ont_be_empty">Qianming cannot be empty!</string>
+    <string name="qq_login">QQ Login</string>
+    <string name="random_coins">You got %1$d coins randomly!</string>
+    <string name="rankboard_all">ALL</string>
+    <string name="rankboard_friend">Friends</string>
+    <string name="read_sound">read sound</string>
+    <string name="read_sound_settting">read sound setteing</string>
+    <string name="registration_list">Registration List</string>
+    <string name="remote_finishTxt">finish sreach</string>
+    <string name="remote_ring_msg">command coming from ( %1$s ) .\nclick button below to stop.</string>
+    <string name="remote_ring_title">remote ring</string>
+    <string name="remote_startTxt">start sreach</string>
+    <string name="remote_warntext">Your watch is searching the device</string>
+    <string name="reply_delete">Reply to or deleted?</string>
+    <string name="respond_via_sms_canned_response_1">"Cann't talk now. What's up?"</string>
+    <string name="respond_via_sms_canned_response_2">"I'll Call you right back"</string>
+    <string name="respond_via_sms_canned_response_3">"I'll Call you later"</string>
+    <string name="respond_via_sms_canned_response_4">"Can't talk now. Call me later?"</string>
+    <string name="respond_via_sms_edittext_dialog_title">"Quick responses"</string>
+    <string name="respond_via_sms_setting_title_2">"Edit quick responses"</string>
+    <string name="retrieve_password_message">Retrieve password message</string>
+    <string name="retry_connect">reconnect…</string>
+    <string name="retry_connect_failed">reconnect failed</string>
+    <string name="retry_connect_failed_with_no_address">Lost remote device</string>
+    <string name="retry_connect_success">reconnect success</string>
+    <string name="rollback_to_version">back to version: %s</string>
+    <string name="roller_skating">roller skating</string>
+    <string name="rowing">rowing</string>
+    <string name="run_gps">run</string>
+    <string name="saturday">Saturday</string>
+    <string name="save_goal">save</string>
+    <string name="save_mulu">No save file.</string>
+    <string name="save_sd">No sd</string>
+    <string name="scanning">scanning for devices…</string>
+    <string name="scheduled_check">Scheduled check</string>
+    <string name="screen_unlock_success">Unlock screen success</string>
+    <string name="sd_card_is_invalid">Please insert SD card</string>
+    <string name="sdcard_not_avaliable">SD card not available!</string>
+    <string name="search_device">Search Device</string>
+    <string name="select_device">select a device to connect</string>
+    <string name="select_images_four">Select 4 photos</string>
+    <string name="select_images_nine">Select 9 photos</string>
+    <string name="send">Send</string>
+    <string name="send_failed">share failed！</string>
+    <string name="send_sucess">Share successed！</string>
+    <string name="sendchenggong">Tell me about sent successfully</string>
+    <string name="sendmsg_radio">Please first choice to share</string>
+    <string name="sendshibai">Tell me about sending failure</string>
+    <string name="sendshuoshuo">You have not add photos.</string>
+    <string name="sendshuoshuo1">You have not add photos or content</string>
+    <string name="service_get_message_from_watch">Received sports data from AWatch</string>
+    <string name="service_new_direct_message">new direct messages and</string>
+    <string name="service_num_new_message">new messages</string>
+    <string name="service_only_new_direct_message">new direct messages</string>
+    <string name="service_system_message">system messages</string>
+    <string name="service_to_see">Go and have a look</string>
+    <string name="service_you_have">You have</string>
+    <string name="service_you_now_have">You now have</string>
+    <string name="set">setting</string>
+    <string name="set_fengmian">Seting pageface:</string>
+    <string name="set_mingcheng">Name:</string>
+    <string name="setting_exit">Logout</string>
+    <string name="setting_weibo_select_change">Change account</string>
+    <string name="setting_weibo_select_delete">Cancel bound</string>
+    <string name="setting_weibo_select_title">Select</string>
+    <string name="sex_setting">sex setting</string>
+    <string name="share_dialog_title">Sina microblog</string>
+    <string name="share_history">Share:</string>
+    <string name="share_message">Loading, please wait</string>
+    <string name="share_web_loading">Loading…</string>
+    <string name="shared_beyond_10times">The times you shared has beyonded 10 times,you can not obtain coins this time,please come again tomorrow~</string>
+    <string name="shared_failed">Share failed</string>
+    <string name="shared_success">Share successed</string>
+    <string name="shared_success_add_coins">Get 10 KuBi success as a reward to you.</string>
+    <string name="shareto_hint">What you want to say….</string>
+    <string name="sharing">Sharing…</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="size">Size:%s bytes</string>
+    <string name="skating">skating</string>
+    <string name="sleep_guanjia">The housekeeper close your sleep</string>
+    <string name="sleep_loading">End sleep monitoring in, please</string>
+    <string name="sleep_record">Sleep report</string>
+    <string name="sleep_record_time">The sleep time</string>
+    <string name="sleep_tip">Sleep tips:</string>
+    <string name="sleep_toast">Time is short, unable to save the record</string>
+    <string name="sleep_toast1">Maintains records is invalid, unable to sleep</string>
+    <string name="sleep_try_to_login">Please after landing on the sleep monitoring.</string>
+    <string name="sleep_xiaolv">Sleep efficiency</string>
+    <string name="sleep_xinlv_tip">Know the heart rate changes at any time, to make sports more efficient</string>
+    <string name="slimgirl_sort">Ranking</string>
+    <string name="smart_device">Smart Device</string>
+    <string name="socket_outof_time">socket outof time</string>
+    <string name="software_updates">Software updates</string>
+    <string name="soprts_limit_warning_one">Has reached the highest ceiling!</string>
+    <string name="soprts_limit_warning_two">Has reached the lowest lower limit!</string>
+    <string name="speedValue_text">0.0</string>
+    <string name="speedValue_texts">0.0km/h</string>
+    <string name="speed_fast">fast</string>
+    <string name="speed_low">low</string>
+    <string name="spors_confirm_stopandsave">Exit and Save the data？</string>
+    <string name="spors_media_disable">Pls first start the sports record！</string>
+    <string name="spors_media_no_trail">Not detect any movement！</string>
+    <string name="sport_clear">Are you sure you want to clear the data? </string>
+    <string name="sport_condition">Me</string>
+    <string name="sport_height_cm">cm</string>
+    <string name="sport_height_kg">kg</string>
+    <string name="sport_invite_failure">Sports invite failure!</string>
+    <string name="sport_invite_success">Sports invite success!</string>
+    <string name="sport_step">Steps</string>
+    <string name="sport_user_name_text">0.</string>
+    <string name="sport_user_name_text_float">00</string>
+    <string name="sportdetail_start_text">Start </string>
+    <string name="sporting_calnum">(Cal)</string>
+    <string name="sporting_kmnum">(Km)</string>
+    <string name="sporting_speednum">(Km/hours)</string>
+    <string name="sporting_sportConsume">Consume（cal）</string>
+    <string name="sporting_sportDistance">Distance（km）</string>
+    <string name="sporting_sportPace">Pace(/km)</string>
+    <string name="sporting_sportSpeed">Speed（km/h）</string>
+    <string name="sporting_sport_peiPace">pace</string>
+    <string name="sporting_sport_pingjunSpeed">average velocity</string>
+    <string name="sporting_sportxiaohao">consumption</string>
+    <string name="sports_access_timeout">Access time out!</string>
+    <string name="sports_action">Friend Dynamic</string>
+    <string name="sports_added">Delete</string>
+    <string name="sports_adding">Waiting for adding…</string>
+    <string name="sports_address_set">City set up</string>
+    <string name="sports_age_unkonw">age unkonw</string>
+    <string name="sports_alertdialog_title">Prompt</string>
+    <string name="sports_attention">Add</string>
+    <string name="sports_authentication_uploading">uploading…</string>
+    <string name="sports_auto_login_fail">Auto login failed</string>
+    <string name="sports_beyond_limit">Your sports beyond person limit,can not be uploaded.</string>
+    <string name="sports_birthday">Birthday</string>
+    <string name="sports_birthday1">Date of birth</string>
+    <string name="sports_birthday_hint">1985–01–01</string>
+    <string name="sports_birthday_set">Birthday Settting</string>
+    <string name="sports_camera">Capture</string>
+    <string name="sports_cancel">Cancel</string>
+    <string name="sports_cishu">Sports num</string>
+    <string name="sports_cishu_dan">Times</string>
+    <string name="sports_city_list">City</string>
+    <string name="sports_coins">You got %1$d coins in total in the sport!</string>
+    <string name="sports_coins_limit_fail">100 cool currency movement bonus today you have been obtained, continue to work hard oh!</string>
+    <string name="sports_coins_limit_sucess">You got %1$d coins in total in the sport!100 cool currency movement bonus today you have been obtained, please continue tomorrow!</string>
+    <string name="sports_comment_neterror">Retry, net error!</string>
+    <string name="sports_comment_not_connected">No network connection!</string>
+    <string name="sports_comments"/>
+    <string name="sports_confirm_delete_data">Confirm to delete current data?</string>
+    <string name="sports_confirm_pwd">Confirm password</string>
+    <string name="sports_confirm_qq_data">Confirm to upload current data to QQ Health?</string>
+    <string name="sports_confirm_upload_data">Confirm to upload current data?</string>
+    <string name="sports_coolmall">Coins Mall</string>
+    <string name="sports_current_pwd">Current password</string>
+    <string name="sports_data_load_failed">Loading data failed!</string>
+    <string name="sports_data_load_more_null">No more data!</string>
+    <string name="sports_delete_current">Delete current photo?</string>
+    <string name="sports_delete_failed">Delete failed!</string>
+    <string name="sports_delete_successed">Delete successed!</string>
+    <string name="sports_deleting">Waiting for deleting…</string>
+    <string name="sports_deltop_failed">delTop failed!</string>
+    <string name="sports_deltop_successed">delTop successed!</string>
+    <string name="sports_detail">Sports Detail</string>
+    <string name="sports_detail_download_fail">Download fialed.Try again</string>
+    <string name="sports_detail_download_finish">Picture downloaded in folder of sports in SD card.</string>
+    <string name="sports_detail_downloading">Downloading…</string>
+    <string name="sports_device_me">intelligent device</string>
+    <string name="sports_dialog_deleteing">Deleting…</string>
+    <string name="sports_dialog_deltoping">deleteToping…</string>
+    <string name="sports_dialog_modifying">Modifing info…</string>
+    <string name="sports_dialog_toping">Toping…</string>
+    <string name="sports_diandianrank_me">diandian rank</string>
+    <string name="sports_dianzan">Thumb up</string>
+    <string name="sports_download_manager">Download</string>
+    <string name="sports_download_map">Download Offline Map</string>
+    <string name="sports_edit">Edit</string>
+    <string name="sports_em_help">Help</string>
+    <string name="sports_email">Email</string>
+    <string name="sports_email_hint">Email</string>
+    <string name="sports_except_data_one">Dear, the data was accidentally removed, need to re login!</string>
+    <string name="sports_except_data_two">Dear, the data is accidental removal</string>
+    <string name="sports_exercise"> exercise</string>
+    <string name="sports_face">HeadPortrait</string>
+    <string name="sports_face1">HeadPortrait</string>
+    <string name="sports_failed_list">To obtain the location information of failure!</string>
+    <string name="sports_failed_please_checknet">sports failed please checknet</string>
+    <string name="sports_findgood_error">The operation failed, due to server error</string>
+    <string name="sports_finish">Finish</string>
+    <string name="sports_follow_fail">Add friend fail</string>
+    <string name="sports_follow_successed">Add friend successed！</string>
+    <string name="sports_following">Adding</string>
+    <string name="sports_forget_pwd">Forget password？</string>
+    <string name="sports_forget_pwd2">Retrieve password</string>
+    <string name="sports_fromphotos">Select from gallery</string>
+    <string name="sports_fromphotos1">From the album to add</string>
+    <string name="sports_get_data_fail">Get data failed.Please try again</string>
+    <string name="sports_get_list_failed">Failed to get the list!</string>
+    <string name="sports_get_list_failed1">Failed to get the list！</string>
+    <string name="sports_get_list_failed2">net fail connect！</string>
+    <string name="sports_get_yz">get Identification</string>
+    <string name="sports_get_yzs">get Identification</string>
+    <string name="sports_goal">sports goal</string>
+    <string name="sports_goal_text">Km</string>
+    <string name="sports_good"/>
+    <string name="sports_goto_login">Pls login first！</string>
+    <string name="sports_group">Sports Group</string>
+    <string name="sports_group_creat">Creat Group</string>
+    <string name="sports_group_me">My Group</string>
+    <string name="sports_health">health</string>
+    <string name="sports_health_sleep">sleep</string>
+    <string name="sports_heart">heart rate</string>
+    <string name="sports_height">Height</string>
+    <string name="sports_height1">Height</string>
+    <string name="sports_history">Sports History</string>
+    <string name="sports_history_me">sport hirtory</string>
+    <string name="sports_input_regist_phone">Input phone number</string>
+    <string name="sports_inputnewpwd">Input new password</string>
+    <string name="sports_inputnewpwd_again">Please enter 6 to 12 digits or letters in English</string>
+    <string name="sports_inputphone">Enter a phone number</string>
+    <string name="sports_inputphone_regist">Enter a phone number</string>
+    <string name="sports_inputpwd">Input password</string>
+    <string name="sports_inputpwd1">Input old password</string>
+    <string name="sports_jibu_me">jibu problem</string>
+    <string name="sports_jinbimall_me">Gold coin store</string>
+    <string name="sports_kilometers">km away</string>
+    <string name="sports_location_wait">Waiting for locating…</string>
+    <string name="sports_login">Login</string>
+    <string name="sports_login_otherway">Other Way</string>
+    <string name="sports_logining">Logining…</string>
+    <string name="sports_logout">Logout</string>
+    <string name="sports_love_title">Love Title</string>
+    <string name="sports_mailornickname">Phone/Nickname</string>
+    <string name="sports_map_baidu">Baidu Map</string>
+    <string name="sports_map_gaode">Gaode Map</string>
+    <string name="sports_market_gift">Congratulate you for getting the %1$s download %2$s coins reward</string>
+    <string name="sports_me">me</string>
+    <string name="sports_message_box">Message Box</string>
+    <string name="sports_meters">m away</string>
+    <string name="sports_mima">Password</string>
+    <string name="sports_model_sharedecrtion">model share decrtion</string>
+    <string name="sports_model_sharedecrtion_Me">model share decrtion me</string>
+    <string name="sports_model_sharetitle">model sharetitle</string>
+    <string name="sports_modify_failed">Modify failed！</string>
+    <string name="sports_modify_failed_for_error_psd">Modify failed for error password！</string>
+    <string name="sports_modify_successed">Modify successed！</string>
+    <string name="sports_modifypwd">Modify Password</string>
+    <string name="sports_money_rule">Coins rules? </string>
+    <string name="sports_msg_pic_not_exist">Picture not exist</string>
+    <string name="sports_mymatch_me">My match</string>
+    <string name="sports_mymedal_me">My medal</string>
+    <string name="sports_myorder_me">My order</string>
+    <string name="sports_name">Sports</string>
+    <string name="sports_nearby_me">nearby perple</string>
+    <string name="sports_new_pwd">New password</string>
+    <string name="sports_nickname">Nickname</string>
+    <string name="sports_nickname1">Nickname</string>
+    <string name="sports_nickname_toolong">Sorry，to long nickname</string>
+    <string name="sports_no_history">No history info</string>
+    <string name="sports_no_login_play">Currently no network connection function using failure, quick to link network!</string>
+    <string name="sports_no_net_play">Currently no network connection function using failure, quick to link network!</string>
+    <string name="sports_no_trajectory">No trajectory</string>
+    <string name="sports_no_trajectory_to_save">No trajectory and result can not be saved.</string>
+    <string name="sports_normalproble_me">normalproble</string>
+    <string name="sports_offline_notice">Offline notice</string>
+    <string name="sports_offline_notice_detils">Your account has been in other equipment login, such as non your operation, may be password has been compromised, it is recommended that you change the password as soon as possible.</string>
+    <string name="sports_otherway">Login other way</string>
+    <string name="sports_phone">Phone number</string>
+    <string name="sports_phone_forget">Phone number</string>
+    <string name="sports_photo">Album</string>
+    <string name="sports_private_msg_not_empty">message can not be empty</string>
+    <string name="sports_private_msg_press_recoding">press to say</string>
+    <string name="sports_private_msg_send_successfully">send successfully</string>
+    <string name="sports_private_msg_sending">sending…</string>
+    <string name="sports_private_msg_text_hint">Input less than 100</string>
+    <string name="sports_private_msg_texts_hint">I want to say to you</string>
+    <string name="sports_pwd">Password</string>
+    <string name="sports_pwd_sure">Sure password</string>
+    <string name="sports_qianming_toolong">Sorry，to long qianming</string>
+    <string name="sports_qq">QQ</string>
+    <string name="sports_qqhealth">The sports datas has delivered to the QQ Health platform!</string>
+    <string name="sports_qqhealth_fail">The sports datas can not delivered to the QQ Health platform!</string>
+    <string name="sports_qqhealth_me">QQ health</string>
+    <string name="sports_record_fail">Record failed</string>
+    <string name="sports_reg">Regist</string>
+    <string name="sports_regist">Regist</string>
+    <string name="sports_register_error">sports register error</string>
+    <string name="sports_registing">Registing…</string>
+    <string name="sports_reliang">cal</string>
+    <string name="sports_reliang_dan">Cal</string>
+    <string name="sports_request">Friend Request</string>
+    <string name="sports_resume">Continue</string>
+    <string name="sports_save_local_failed">Failed to save to local!</string>
+    <string name="sports_save_local_success">Success to Save to local！</string>
+    <string name="sports_second_loading">Logining…</string>
+    <string name="sports_select_map">Default Map</string>
+    <string name="sports_sendtoqq_me">send to QQ</string>
+    <string name="sports_server_error">Server error</string>
+    <string name="sports_set_faceimage">Head portrait</string>
+    <string name="sports_setface">Set head portrait</string>
+    <string name="sports_setting">Setting</string>
+    <string name="sports_setting_me">setting</string>
+    <string name="sports_setting_tx1">play dis</string>
+    <string name="sports_setting_tx2">play time</string>
+    <string name="sports_sex">Sex</string>
+    <string name="sports_sex1">Sex</string>
+    <string name="sports_shareing">Sharing…</string>
+    <string name="sports_shareto_weixin_no_weixin">Pls install Weixin first~</string>
+    <string name="sports_shareto_weixin_wrong_version">Pls update Weixin first~</string>
+    <string name="sports_show">Sports show</string>
+    <string name="sports_submit">Submit</string>
+    <string name="sports_submiting">Submitting…</string>
+    <string name="sports_sudu">avg</string>
+    <string name="sports_sudu_dan">Km/h</string>
+    <string name="sports_sys_message">System Message</string>
+    <string name="sports_tab_sk_camera">Camera</string>
+    <string name="sports_thisname_hasregist">name has beregisted</string>
+    <string name="sports_time_justnow">Just now</string>
+    <string name="sports_time_mins_ago">" mins ago"</string>
+    <string name="sports_title_login">login</string>
+    <string name="sports_title_regist">regist</string>
+    <string name="sports_toast_emailexist">E-mail already exist！</string>
+    <string name="sports_toast_illegal_character">Illegal character in nickname</string>
+    <string name="sports_toast_illegal_character2">Illegal character in nickname</string>
+    <string name="sports_toast_input_account">Input account</string>
+    <string name="sports_toast_input_nickname">Input nickname</string>
+    <string name="sports_toast_input_pwd">Input password</string>
+    <string name="sports_toast_login_failed">no reason for login failed</string>
+    <string name="sports_toast_login_succes">Login success！</string>
+    <string name="sports_toast_nameOrPwdError">Error account or password</string>
+    <string name="sports_toast_nameexist">Nickname duplicate, regist failed！</string>
+    <string name="sports_toast_newpwd_nodifference">New password must different from the old one</string>
+    <string name="sports_toast_nosdcard">Save image failed, no sd card</string>
+    <string name="sports_toast_not_fit">Tow input password is different</string>
+    <string name="sports_toast_not_fit_fgt">Two input password, please enter again</string>
+    <string name="sports_toast_please_confirmpwd">Input confirm password</string>
+    <string name="sports_toast_please_inputnewpwd">Input new password</string>
+    <string name="sports_toast_please_inputnewpwd_fgt">Please enter a new password more than six</string>
+    <string name="sports_toast_please_inputpwd">Input old password</string>
+    <string name="sports_toast_pwd_length">Password must over 6 words</string>
+    <string name="sports_toast_qianming_character">Illegal character in qianming</string>
+    <string name="sports_toast_regrist_succes">Regist success</string>
+    <string name="sports_top_failed">Top failed!</string>
+    <string name="sports_top_successed">Top successed!</string>
+    <string name="sports_txweibo">Tencent microblog</string>
+    <string name="sports_type">Sports type</string>
+    <string name="sports_unadded">Add</string>
+    <string name="sports_unfollow">Unadded</string>
+    <string name="sports_unfollowing">Unadding</string>
+    <string name="sports_upload_delete">Delete Record</string>
+    <string name="sports_upload_fail_error_param">Failed to upload data to server,pls retry！</string>
+    <string name="sports_upload_find_new">No you and your friends find information, fast to one of the bar!</string>
+    <string name="sports_upload_find_new_me">No your find information, fast to one of the bar!</string>
+    <string name="sports_upload_finish">Finish</string>
+    <string name="sports_upload_heading_textview_text">My location：</string>
+    <string name="sports_upload_pressrecoding">Hold for recording</string>
+    <string name="sports_upload_title">Uplaod</string>
+    <string name="sports_video_fail">Video record failed！</string>
+    <string name="sports_visitors">Visitors</string>
+    <string name="sports_wait">Loading…</string>
+    <string name="sports_weight">Weight</string>
+    <string name="sports_weight1">Weight</string>
+    <string name="sports_weixinrank_me">weixin friends rank</string>
+    <string name="sports_xinlang">Sina microblog</string>
+    <string name="sports_yz">Identification</string>
+    <string name="sports_yz_forget">Identification</string>
+    <string name="sports_zhanghao">Account</string>
+    <string name="startSport_moffline_map">To start the download offline map</string>
+    <string name="startSport_startSport">Exercise</string>
+    <string name="start_search">"Begin to search the Device<ns1:g id="DEVICE_NAME">%1$s</ns1:g>"</string>
+    <string name="start_sleep">start sleep</string>
+    <string name="start_sports_msg">exercise</string>
+    <string name="start_text">Start</string>
+    <string name="step_finish_text">0</string>
+    <string name="step_number">Distance:</string>
+    <string name="steps">step</string>
+    <string name="stopBtn_text">Finish</string>
+    <string name="stopBtn_text1">Finish</string>
+    <string name="summary_confirm_to_change">], click to cancel bound</string>
+    <string name="summary_weibo_bound_already">Bound[</string>
+    <string name="sundy">Sundy</string>
+    <string name="suodingBtn_text">lock</string>
+    <string name="sure_delete_friend">Are you sure to delete the friend?</string>
+    <string name="swim">swimming</string>
+    <string name="swim_face">face swim</string>
+    <string name="swim_fly">fly swim</string>
+    <string name="swim_free">free swim</string>
+    <string name="swim_frog">frog swim</string>
+    <string name="sync_battery">battery</string>
+    <string name="sync_calllog">call log</string>
+    <string name="sync_contact">contacts</string>
+    <string name="sync_failed">Sync failed!</string>
+    <string name="sync_mms">sms</string>
+    <string name="sync_settings">sync settings</string>
+    <string name="sync_settings_sum">set the content between the device and watch</string>
+    <string name="sync_time">time</string>
+    <string name="sync_via_sms">"sync to watch"</string>
+    <string name="sync_via_sms_content">sync the quick sms to watch"</string>
+    <string name="sync_weather">weather</string>
+    <string name="system_version">system version：</string>
+    <string name="table_tennis">table tennis</string>
+    <string name="take_picture_fail">Take picture fail</string>
+    <string name="tennis">tennis</string>
+    <string name="test_play">Test Play</string>
+    <string name="text_share_to">Share to：</string>
+    <string name="text_share_two">Share to</string>
+    <string name="text_tengxun_weibo">Tencent</string>
+    <string name="text_weixin">Weixin</string>
+    <string name="text_weixin_friends">Weixin</string>
+    <string name="text_xinlang_weibo">Sina</string>
+    <string name="the_networkis_not_smooth">the networkis not smooth</string>
+    <string name="thursday">Thursday</string>
+    <string name="ticker_text">The sports service is running</string>
+    <string name="timeValue_text">0.00</string>
+    <string name="timer">Timer</string>
+    <string name="timout_noti_content">IndroidSync running without Bluetooth connectivity ability for a long time</string>
+    <string name="timout_noti_title">IndroidSync Timeout</string>
+    <string name="tip_message">If you want to bind new device,please cancel the binded with the current device first</string>
+    <string name="title_activity">Activity</string>
+    <string name="title_activity_celebration_main">CelebrationMainActivity</string>
+    <string name="title_activity_cool_currency_rules">CoolCurrencyRulesActivity</string>
+    <string name="title_activity_find_points_say">FindPointsSayActivity</string>
+    <string name="title_activity_fox_sports_settings">FoxSportsSettingsActivity</string>
+    <string name="title_activity_new_guan_zhu">NewGuanZhuActivity</string>
+    <string name="title_activity_new_huo_dong">NewHuoDongActivity</string>
+    <string name="title_activity_new_ranks">NewRanksActivity</string>
+    <string name="title_activity_new_yue_pao_bai_du">NewYuePaoBaiDuActivity</string>
+    <string name="title_activity_new_yue_pao_gao_de">NewYuePaoGaoDeActivity</string>
+    <string name="title_activity_perfect_main">PerfectMainActivity</string>
+    <string name="title_activity_personal_page_main">PersonalPageMainActivity</string>
+    <string name="title_activity_share_dialog_main">ShareDialogMainActivity</string>
+    <string name="title_activity_sleep_history">SleepHistoryActivity</string>
+    <string name="title_activity_sleep_main">SleepMainActivity</string>
+    <string name="title_activity_train_complete">TrainCompleteActivity</string>
+    <string name="title_activity_train_plan_main">TrainPlanMainActivity</string>
+    <string name="title_activity_user_set_main">UserSetMainActivity</string>
+    <string name="title_activity_zan_list_user">ZanListUserActivity</string>
+    <string name="title_cool_coins_rules">Rules</string>
+    <string name="title_other_devices">Other Available Devices</string>
+    <string name="title_paired_devices">Paired Devices</string>
+    <string name="title_select_album">Album</string>
+    <string name="title_select_image">Select image</string>
+    <string name="title_share_image">Share</string>
+    <string name="tlistSize_text">0/0</string>
+    <string name="to_dataset">to dataset</string>
+    <string name="toady_goal">Toady goal</string>
+    <string name="toast_bitmap_decode_failed">Decode failed!</string>
+    <string name="toshare_friends">Share to friends</string>
+    <string name="train_action">train action</string>
+    <string name="train_play">train_play</string>
+    <string name="train_task_list">train task</string>
+    <string name="train_video_cache">trainvideo cache</string>
+    <string name="training">training</string>
+    <string name="training_level">traininglevel:</string>
+    <string name="training_site">trainingsite:</string>
+    <string name="try_to_login">Try to Login?</string>
+    <string name="tuesday">Tuesday</string>
+    <string name="tv_refresh">No activitys</string>
+    <string name="tv_refresh_friends">No friends</string>
+    <string name="tv_text_limit_text">140</string>
+    <string name="tx_distance_text">2000m</string>
+    <string name="tx_message_text">shared his exercise result</string>
+    <string name="tx_time_text">20 years old</string>
+    <string name="tx_years_old_text">years old</string>
+    <string name="txt_name_text">xxxx</string>
+    <string name="txt_time_text">2013–3–15 09:55</string>
+    <string name="txtt_message_text">send msg to me</string>
+    <string name="update">"Update"</string>
+    <string name="update_date">"Update Date"</string>
+    <string name="update_info">"Update Info"</string>
+    <string name="update_later_msg">click to update</string>
+    <string name="update_to_version">update to version: %s</string>
+    <string name="upload_failed">Upload failed！</string>
+    <string name="upload_failed_nonet">Upload failed No Connect！</string>
+    <string name="upload_photo">Upload the picture</string>
+    <string name="upload_success">Upload successed！</string>
+    <string name="uploading">Uploading…</string>
+    <string name="use_qq_msg">If you want to find your sports datas in QQ Health,you need to login 云狐运动 by QQ~</string>
+    <string name="use_time">Time</string>
+    <string name="user_activity_detail">Dynamic details</string>
+    <string name="user_main_dongtai">My dongtai</string>
+    <string name="user_main_page">My personal page</string>
+    <string name="user_name_edit_hint">At most 30 characters (Chinese, English, numbers, symbols can be)</string>
+    <string name="user_system">userSystem</string>
+    <string name="val_speed">km/h</string>
+    <string name="verification_code_not_match">Verification code does not match!</string>
+    <string name="version">Version:</string>
+    <string name="version_back">version back</string>
+    <string name="version_info">"Version"</string>
+    <string name="visit_me">Visit me</string>
+    <string name="voice_opens">Open the voice</string>
+    <string name="voice_prompt_open">Voice prompt on</string>
+    <string name="voice_prompt_shutdown">Voice prompt off</string>
+    <string name="voice_shutdown">Close the voice</string>
+    <string name="waishe">Device</string>
+    <string name="waiting">"Please waiting…"</string>
+    <string name="walk_gps">walk</string>
+    <string name="walk_race">walk race</string>
+    <string name="watch_2">AWatch</string>
+    <string name="watch_3">Track activity and sleep,Bluetooth 4.0a wireless connection</string>
+    <string name="watch_4">history details</string>
+    <string name="watch_5">syn settings</string>
+    <string name="weather_aqi">AQI：</string>
+    <string name="wednesday">Wednesday</string>
+    <string name="weibo_setting_title">Bind microblog</string>
+    <string name="weight_limit_waring_one">Over weight minimum lower limit!</string>
+    <string name="weight_limit_waring_two">Over weight on the highest limit!</string>
+    <string name="weight_setting">weight setting</string>
+    <string name="weixin_title">I just use\t#Points Sports#\t</string>
+    <string name="who_about_you">Who Invited Me</string>
+    <string name="words_no_access">Characters you entered is not in conformity with the requirements, please input again!</string>
+    <string name="xiaohao">Consume </string>
+    <string name="xunfei_advert_openpage_id">A5E58794FE63C8B8B7902957BEBA1819</string>
+    <string name="year_date">-</string>
+    <string name="yes">Yes</string>
+    <string name="zhangzisi">zhangzisi</string>
+    <style name="AnimationPopup">
+        <item name="android:windowExitAnimation">@anim/slide_out_to_bottom</item>
+    </style>
+    <style name="Animation_OnScreenHint">
+        <item name="android:windowEnterAnimation">@anim/on_screen_hint_enter</item>
+        <item name="android:windowExitAnimation">@anim/on_screen_hint_exit</item>
+    </style>
+    <style name="AppTheme">
+
+        <!-- 设置activity切换动画 -->
+        <item name="android:windowAnimationStyle">@style/activityAnimation</item>
+    </style>
+    <style name="Button_imageok">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/capture_ok_btn</item>
+    </style>
+    <style name="Button_recapture">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/recapture_btn</item>
+    </style>
+    <style name="ContentOverlay" parent="android:style/Theme.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Translucent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+    <style name="InfomationText">
+        <item name="android:textAppearance">?android:attr/textAppearanceLarge</item>
+    </style>
+    <style name="MyDialog" parent="android:style/Theme.Dialog">
+
+        <!-- 背景颜色及透明程度 -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!-- 是否有标题 -->
+        <item name="android:windowNoTitle">true</item>
+        <!-- 是否浮现在activity之上 -->
+        <item name="android:windowIsFloating">true</item>
+        <!--
+        是否模糊
+        <item name="android:backgroundDimEnabled">true</item>
+        -->
+
+        <item name="android:windowFrame">@android:color/transparent</item>
+ <!-- 边框 -->
+    </style>
+    <style name="OnScreenHintTextAppearance">
+        <item name="android:textColor">@android:color/primary_text_dark</item>
+        <item name="android:textColorHighlight">#FFFF9200</item>
+        <item name="android:textColorHint">#808080</item>
+        <item name="android:textColorLink">#5C5CFF</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    <style name="OnScreenHintTextAppearance.Small">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@android:color/secondary_text_dark</item>
+    </style>
+    <style name="SlimTitleRetrun">
+        <item name="android:background">@drawable/sport_title_back_selector</item>
+    </style>
+    <style name="SportsButtonBackground">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">60dp</item>
+        <item name="android:layout_height">30dp</item>
+        <item name="android:background">@drawable/sports_smallbt_selector</item>
+    </style>
+    <style name="SportsButtonGray">
+        <item name="android:background">@drawable/sports_btn_gray</item>
+    </style>
+    <style name="SportsButtonStripMiddle">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/sports_btn_strip_trans_middle</item>
+    </style>
+    <style name="SportsLoginButton">
+        <item name="android:background">@drawable/sports_login_btn_click</item>
+    </style>
+    <style name="SportsStartButton">
+        <item name="android:background">@drawable/start_sports_bg</item>
+    </style>
+    <style name="SportsTitleButton">
+        <item name="android:background">@drawable/sports_slim_btn_click</item>
+    </style>
+    <style name="SportsTitleButton_forget">
+        <item name="android:background">@drawable/sports_button_click_ok</item>
+    </style>
+    <style name="Transparent">
+        <item name="android:windowBackground">@color/transparent_background</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Translucent</item>
+    </style>
+    <style name="activityAnimation" parent="@android:style/Animation">
+        <item name="android:activityOpenEnterAnimation">@anim/slide_right_in</item>
+        <item name="android:activityOpenExitAnimation">@anim/slide_left_out</item>
+        <item name="android:activityCloseEnterAnimation">@anim/slide_left_in</item>
+        <item name="android:activityCloseExitAnimation">@anim/slide_right_out</item>
+    </style>
+    <style name="alldistance_style1">
+        <item name="android:textSize">80sp</item>
+    </style>
+    <style name="alldistance_style2">
+        <item name="android:textSize">50sp</item>
+    </style>
+    <style name="alldistance_style3">
+        <item name="android:textSize">70sp</item>
+    </style>
+    <style name="alldistance_style4">
+        <item name="android:textSize">40sp</item>
+    </style>
+    <style name="chat_content_date_style_left">
+        <item name="android:minHeight">44dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">#3a3f47</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:lineSpacingExtra">2dp</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+        <item name="android:background">#bfbfbf</item>
+    </style>
+    <style name="chat_content_date_style_right">
+        <item name="android:minHeight">44dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">#3a3f47</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:lineSpacingExtra">2dp</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+        <item name="android:background">#bfbfbf</item>
+    </style>
+    <style name="chat_text_date_style">
+        <item name="android:padding">2dp</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:background">#efefef</item>
+    </style>
+    <style name="chat_text_name_style">
+        <item name="android:textColor">#818181</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="cricleBottomAnimation">
+        <item name="android:windowEnterAnimation">@anim/avatar_animation_right_in</item>
+        <item name="android:windowExitAnimation">@anim/avatar_animation_right_out</item>
+    </style>
+    <style name="djs">
+        <item name="android:textSize">@dimen/djs_text</item>
+        <item name="android:button">@null</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingLeft">@dimen/djs</item>
+        <item name="android:paddingRight">@dimen/djs</item>
+    </style>
+    <style name="dot_style">
+        <item name="android:layout_width">5dip</item>
+        <item name="android:layout_height">5dip</item>
+        <item name="android:background">@drawable/dot_normal</item>
+        <item name="android:layout_marginLeft">1.5dip</item>
+        <item name="android:layout_marginRight">1.5dip</item>
+    </style>
+    <style name="index_style">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#999999</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    <style name="index_style1">
+        <item name="android:textSize">55sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="index_style2">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="index_style3">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/yellow</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="jibu_style12">
+        <item name="android:textSize">12dp</item>
+        <item name="android:textColor">#666666</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    <style name="jibu_style13">
+        <item name="android:textSize">13dp</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    <style name="jibu_style15_33">
+        <item name="android:textSize">15dp</item>
+        <item name="android:textColor">#333333</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    <style name="jibu_style15_99">
+        <item name="android:textSize">15dp</item>
+        <item name="android:textColor">#999999</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    <style name="jibu_style16">
+        <item name="android:textSize">16dp</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    <style name="jibu_style18_33">
+        <item name="android:textSize">18dp</item>
+        <item name="android:textColor">#333333</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    <style name="jibu_style18_99">
+        <item name="android:textSize">18dp</item>
+        <item name="android:textColor">#999999</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    <style name="jibu_style18_f6">
+        <item name="android:textSize">18dp</item>
+        <item name="android:textColor">#ff6600</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    <style name="jibu_style22">
+        <item name="android:textSize">22dp</item>
+        <item name="android:textColor">#333333</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    <style name="jibu_style23">
+        <item name="android:textSize">23dp</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    <style name="jibu_style34">
+        <item name="android:textSize">34dp</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    <style name="jibu_style45">
+        <item name="android:textSize">45dp</item>
+        <item name="android:textColor">#333333</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    <style name="share_dialog2" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">#00000000</item>
+        <item name="android:windowBackground">@drawable/recoding</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+    <style name="sports_coins_dialog" parent="android:Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+ <!-- 模糊 -->
+    </style>
+    <style name="sports_dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">#00000000</item>
+        <item name="android:windowBackground">@drawable/sports_popup_bg</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+    <style name="sports_dialog1" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+    <style name="sports_tip_style">
+        <item name="android:layout_width">17dp</item>
+        <item name="android:layout_height">17dp</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:layout_marginTop">2dp</item>
+        <item name="android:background">@drawable/tip_bg</item>
+        <item name="android:enabled">false</item>
+        <item name="android:focusable">false</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="sports_txt_color_style">
+        <item name="android:textColor">@color/sports_value</item>
+    </style>
+    <style name="tab_item_text_style">
+        <item name="android:textSize">18.0dp</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="topTitle">
+        <item name="android:layout_width">153.33dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:gravity">center</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="train_playnum_style">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/train_playnum</item>
+    </style>
+    <style name="train_playnum_style1">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#666666</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+</resources>

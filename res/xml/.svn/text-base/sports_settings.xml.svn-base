@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/menu_setting" 
+    android:screenOrientation="portrait" 
+    xmlns:settings="http://schemas.android.com/apk/res/com.vee.beauty">
+    
+    <PreferenceCategory 
+        android:title="@string/weibo_setting_title"
+        android:key="bind_weibo" >
+    	<PreferenceScreen
+            android:key="tengxun_weio"
+            android:title="@string/text_tengxun_weibo" />
+		<PreferenceScreen
+            android:key="xinlang_weibo"
+            android:title="@string/text_xinlang_weibo" >
+        </PreferenceScreen>  
+        <!-- <PreferenceScreen
+            android:key="qq_zone"
+            android:title="@string/text_qq_zone"/> -->
+	</PreferenceCategory>       		 
+</PreferenceScreen>

@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+	<RelativeLayout
+        android:id="@+id/sports_camera_nav_hint"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#c8000000"
+        android:visibility="gone" >
+
+        <ImageView
+            android:id="@+id/sports_camera_correct_hint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="55dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/camera_navi1"
+             />
+
+        <ImageView
+            android:id="@+id/sports_camera_switch_hint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/camera_navi2"
+             />
+        
+        <ImageView
+            android:id="@+id/sports_camera_album_hint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="30dp"
+            android:layout_marginRight="30dp"
+             />
+
+    </RelativeLayout>
+    
+    <ImageButton
+	    android:id="@+id/cancelbutton"
+	    style="@style/SportsButtonBackground"
+        android:layout_width="64dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/sports_capture_title_back"
+	    />
+
+    <Button
+        android:id="@+id/adjustorientationbutton"
+        style="@style/SportsButtonBackground"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/cancelbutton"
+        android:text="@string/button_adjust_orientation"
+        android:textColor="@android:color/white"
+        android:visibility="visible" />
+    
+    <ImageButton
+        android:id="@+id/flashmodebutton"
+        style="@style/SportsButtonBackground"
+        android:layout_width="64dp"
+        android:layout_height="30dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_toLeftOf="@+id/switchcameraidbutton"
+        android:src="@drawable/sports_capture_title_noflash"
+        />
+
+    <ImageButton
+        android:id="@+id/switchcameraidbutton"
+        style="@style/SportsButtonBackground"
+        android:layout_width="64dp"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/sports_capture_title_switch" />
+
+    <RelativeLayout
+        android:id="@+id/mainmenu_layout"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/sports_up_sk_bg" >
+
+        <com.fox.exercise.ShutterButton
+            android:id="@+id/capturebutton"
+            style="@style/SportsButtonStripMiddle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true" />
+<!-- 
+        <ImageButton
+            android:id="@+id/gallerybutton"
+            style="@style/SportsButtonStripRight"
+            android:layout_width="wrap_content"
+            android:visibility="gone"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp" /> -->
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/zoom_bar_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/mainmenu_layout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="11dip" >
+
+        <RelativeLayout
+            android:id="@+id/zoom_bar_background"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_marginLeft="12dip"
+            android:layout_marginRight="12dip"
+            android:background="@drawable/sports_capture_zomm_bg"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="11dip" >
+        </RelativeLayout>
+        <SeekBar
+            android:id="@+id/zoom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="18dip"
+            android:paddingRight="18dip"
+            android:paddingTop="6dip"
+            android:progressDrawable="@drawable/sports_barzoom"
+            android:thumb="@drawable/sports_capture_zoom_bar" />
+    </RelativeLayout>
+	<RelativeLayout
+	    android:id="@+id/finish_popup_layout"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:visibility="gone" >
+        <ImageView
+		    android:id="@+id/finish_popup_imageview"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:background="@color/background_transparent" />
+		<LinearLayout
+		    android:id="@+id/finish_popup_layout_content"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_centerInParent="true"
+		    android:background="@drawable/sports_popup_bg"
+		    android:gravity="center"
+		    android:orientation="vertical" >
+		    <TextView
+		        android:id="@+id/textView_finish"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_centerHorizontal="true"
+		        android:layout_marginTop="5dp"
+		        android:text="@string/message_step_3_content"
+		        android:textColor="@color/text_login"
+		        android:textSize="20sp" />
+	
+	        <Button
+	            android:id="@+id/button_adjust_ok"
+	            android:layout_width="150dp"
+	            android:layout_height="wrap_content"
+	            android:layout_centerHorizontal="true"
+	            android:layout_marginTop="20dp"
+	            android:background="@drawable/sports_slim_btn_click"
+	            android:text="@string/button_ok"
+	            android:textColor="@android:color/white" />
+	
+		</LinearLayout>
+	</RelativeLayout>
+
+	<RelativeLayout
+	    android:id="@+id/capture_popup_layout"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:visibility="gone" >
+        <ImageView
+		    android:id="@+id/capture_popup_imageview"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:background="@color/sports_background_transparent" />
+		<LinearLayout
+		    android:id="@+id/capture_popup_layout_content"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_centerInParent="true"
+		    android:background="@drawable/sports_popup_bg"
+		    android:gravity="center"
+		    android:orientation="vertical" >
+		    <TextView
+		        android:id="@+id/textView_capture1"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_centerHorizontal="true"
+		        android:layout_marginTop="5dp"
+		        android:text="@string/message_step_2_title"
+		        android:textColor="@color/text_login"
+		        android:textSize="20sp" />
+			<TextView
+		        android:id="@+id/textView_capture2"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_above="@+id/linearLayout_capture"
+		        android:layout_centerHorizontal="true"
+		        android:layout_marginBottom="14dp"
+		        android:text="@string/message_step_2_content"
+		        android:textColor="@color/hint_login"
+		        android:textSize="16sp" />
+	
+		    <ImageView
+		        android:id="@+id/imageView_capture_view"
+		        android:layout_width="180dp"
+		        android:layout_height="240dp"
+		        android:layout_below="@+id/textView_capture1"
+		        android:layout_centerHorizontal="true"
+		        android:layout_marginTop="10dp" />
+		    <LinearLayout
+		        android:id="@+id/linearLayout_capture"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_centerHorizontal="true"
+		        android:layout_marginTop="8dp"
+		        android:orientation="horizontal" >
+	
+		        <Button
+		            android:id="@+id/button_capture_rotate"
+		            android:layout_width="100dp"
+		            android:layout_height="wrap_content"
+	                android:background="@drawable/sports_btn_gray"
+		            android:text="@string/message_step_1_sk1"
+		            android:textColor="@android:color/white"
+		            android:textSize="16sp"
+		            android:layout_weight="1"
+			        android:layout_marginLeft="10dp"
+	        		android:layout_marginRight="10dp" />
+	
+		        <Button
+		            android:id="@+id/button_capture_ok"
+		            android:layout_width="100dp"
+		            android:layout_height="wrap_content"
+		            android:layout_marginRight="10dp"
+	                android:background="@drawable/sports_slim_btn_click"
+		            android:text="@string/message_step_1_sk2"
+		            android:textColor="@android:color/white"
+		            android:textSize="16sp"
+		            android:layout_weight="1" />
+		    </LinearLayout>
+	
+		</LinearLayout>
+	</RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/popup_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" >
+		<ImageView
+		    android:id="@+id/popup_imageview"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:background="@color/background_transparent" />
+		<LinearLayout
+		    android:id="@+id/popup_layout_content"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentBottom="true"
+	        android:layout_alignParentLeft="true"
+	        android:layout_marginBottom="30dp"
+	        android:background="@drawable/sports_popup_bg"
+	        android:gravity="center_horizontal"
+	        android:orientation="vertical" >
+		    <TextView
+		        android:id="@+id/textView1"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_centerHorizontal="true"
+		        android:layout_marginTop="5dp"
+		        android:text="@string/message_step_1_title"
+		        android:textSize="20sp"
+		        android:textColor="@color/text_login" />
+	
+		    <TextView
+		        android:id="@+id/textView2"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_below="@id/textView1"
+		        android:layout_centerHorizontal="true"
+		        android:text="@string/message_step_1_content"
+		        android:textSize="16sp"
+		        android:layout_marginTop="8dp"
+		        android:textColor="@color/hint_login" />
+	
+		    <LinearLayout
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_centerHorizontal="true"
+		        android:layout_marginTop="8dp"
+		        android:orientation="horizontal" >
+	
+		        <Button
+			        android:id="@+id/button_rotate"
+			        android:layout_width="0dp"
+			        android:layout_height="wrap_content"
+			        android:text="@string/message_step_1_sk1"
+		        	android:background="@drawable/sports_btn_gray"
+			        android:textColor="@android:color/white"
+			        android:textSize="16sp"
+			        android:layout_weight="1"
+			        android:layout_marginLeft="10dp"
+	        		android:layout_marginRight="10dp" />
+	
+			    <Button
+			        android:id="@+id/button_ok"
+			        android:layout_width="0dp"
+			        android:layout_height="wrap_content"
+			        android:layout_marginRight="10dp"
+			        android:text="@string/message_step_1_sk2"
+		        	android:background="@drawable/sports_slim_btn_click"
+			        android:textColor="@android:color/white"
+			        android:textSize="16sp"
+			        android:layout_weight="1" />
+		        
+		    </LinearLayout>
+		</LinearLayout>
+	</RelativeLayout>
+</RelativeLayout>

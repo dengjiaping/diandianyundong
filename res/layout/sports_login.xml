@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/rl"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white" >
+	<LinearLayout
+		android:id="@+id/top_title_layout"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:background="#FFAD00"
+		android:orientation="vertical" >
+		<RelativeLayout
+			android:layout_width="fill_parent"
+			android:layout_height="50dp" >
+			<TextView
+				android:id="@+id/top_title"
+				style="@style/topTitle"
+				android:layout_width="wrap_content"
+				android:layout_marginLeft="50dp"
+				android:layout_marginRight="50dp"
+				android:text="@string/sports_title_login"
+				android:layout_centerInParent="true" />
+
+			<TextView
+				android:id="@+id/bt_reg"
+				android:layout_width="wrap_content"
+				android:layout_height="fill_parent"
+				android:text="@string/sports_title_regist"
+				android:textSize="16sp"
+				android:textColor="@color/white"
+				android:layout_alignParentRight="true"
+				android:gravity="center_vertical"
+				android:paddingRight="15dp" />
+		</RelativeLayout>
+	</LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/chaomo_layout_user"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="65dp" >
+	
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center_vertical"
+            android:text="@string/sports_zhanghao"
+            android:textColor="@color/sports_value"
+            android:textSize="16sp"
+            android:gravity="center_vertical"/>
+
+        <EditText
+            android:layout_marginTop="1dp"
+            android:layout_marginBottom="1dp"
+            android:id="@+id/chaomo_zhanghao"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="13dp"
+            android:hint="@string/sports_mailornickname"
+            android:textColor="@color/hint_login"
+            android:textColorHint="@color/gray_litter"
+            android:background="#ffffff"
+            android:textSize="13sp" 
+            android:textCursorDrawable="@null"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/chaomo_layout_password"
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:layout_below="@+id/chaomo_layout_user"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center_vertical"
+            android:text="@string/sports_mima"
+            android:textColor="@color/sports_value"
+            android:textSize="16sp" 
+            android:gravity="center_vertical"/>
+
+        <EditText
+            android:id="@+id/chaomo_password"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+			android:layout_weight="1"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="13dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginBottom="1dp"
+	    android:inputType="textPassword"
+            android:hint="@string/sports_inputpwd"
+            android:textColor="@color/hint_login"
+            android:textColorHint="@color/gray_litter"
+            android:background="#ffffff"
+            android:textSize="13sp"
+            android:textCursorDrawable="@null"
+            />
+		<ImageView
+			android:id="@+id/isshow_password"
+			android:layout_width="22dp"
+			android:layout_height="16dp"
+			android:layout_gravity="center_vertical"
+			android:layout_marginRight="2dp"
+			android:background="@drawable/hidden_psw"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/chaomo_layout_password"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp" 
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+         android:orientation="horizontal">
+	    <Button
+	        android:id="@+id/chaomo_bt_login"
+	        android:background="@drawable/sport_login_bg"
+	        android:layout_width="0dip"
+	        android:layout_height="40dp"
+	        android:text="@string/sports_login"
+	        android:textColor="@color/white"
+	        android:textSize="16sp" 
+	        android:layout_weight="1"/>
+
+    </LinearLayout>
+
+	<TextView
+		android:id="@+id/chaomo_tx_forget"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_below="@+id/layout_button"
+		android:layout_centerHorizontal="true"
+		android:layout_marginTop="15dp"
+		android:text="@string/sports_forget_pwd"
+		android:textColor="#FFAD00"
+		android:textSize="14sp" />
+
+	<TextView
+		android:id="@+id/try_to_login"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_centerHorizontal="true"
+		android:gravity="center_horizontal"
+		android:text="@string/test_play"
+		android:layout_alignParentBottom = "true"
+		android:layout_marginBottom="40dp"
+		android:textColor="@color/gray_litter"
+		android:textSize="14sp"
+		/>
+	<ImageView
+		android:layout_width="wrap_content"
+		android:layout_height="15dp"
+		android:src="@drawable/sanjiao"
+		android:layout_toRightOf="@+id/try_to_login"
+		android:layout_marginLeft="5dp"
+		android:layout_alignBottom="@+id/try_to_login"
+		android:layout_marginBottom="1dp"
+		/>
+	<LinearLayout
+		android:id="@+id/layout_line"
+		android:layout_width="fill_parent"
+		android:layout_marginRight="50dp"
+		android:layout_marginLeft="50dp"
+		android:layout_height="wrap_content"
+		android:layout_above="@+id/layout_fourway"
+		android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:background="@drawable/sports_bg_line" >
+
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+			android:paddingLeft="10dp"
+			android:paddingRight="10dp"
+            android:gravity="center"
+            android:text="@string/sports_login_otherway"
+            android:textColor="@color/gray_litter"
+            android:textSize="14sp" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:background="@drawable/sports_bg_line" >
+
+        </LinearLayout>
+    </LinearLayout>
+    
+	<LinearLayout
+        android:id="@+id/layout_fourway"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+		android:layout_alignParentBottom = "true"
+		android:layout_marginBottom="100dp"
+        android:layout_marginLeft="85dp"
+        android:layout_marginRight="85dp"
+        android:orientation="horizontal"
+        android:baselineAligned="false"
+		android:layout_marginTop="20dp" >
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:orientation="vertical" >
+			<ImageButton
+				android:id="@+id/bt_qqzone"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center_horizontal"
+				android:background="@drawable/qq_2"/>
+
+		</LinearLayout>
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:orientation="vertical">
+			<ImageButton
+				android:id="@+id/bt_weixin"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center_horizontal"
+				android:background="@drawable/weixin_login"
+				/>
+
+		</LinearLayout>
+    	<LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+             >
+
+            <ImageButton
+                android:id="@+id/bt_xinlang"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/share_to_xinlang" />
+        	</LinearLayout>
+			<LinearLayout
+	             android:layout_width="match_parent"
+	             android:layout_height="wrap_content"
+	             android:layout_weight="1"
+				android:visibility="gone"
+	             android:orientation="vertical" >
+	
+	             <ImageButton
+	                 android:id="@+id/bt_txweibo"
+	                 android:layout_width="wrap_content"
+	                 android:layout_height="wrap_content"
+	                 android:layout_gravity="center_horizontal"
+	                 android:background="@drawable/share_to_tengxun" />
+         </LinearLayout>
+
+         	<LinearLayout
+	             android:layout_width="match_parent"
+	             android:layout_height="wrap_content"
+	             android:layout_weight="1"
+	             android:orientation="vertical" 
+	             android:visibility="gone">
+				<ImageButton 
+				    android:id="@+id/bt_jdoption"
+				    android:layout_width="wrap_content"
+				    android:layout_height="wrap_content"
+				    android:layout_gravity="center_horizontal"
+				    android:background="@drawable/jdy01"
+				     />
+         </LinearLayout>
+	</LinearLayout>
+
+	<TextView
+		android:id="@+id/qq_healthy_toast"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_below="@+id/layout_fourway"
+		android:layout_centerHorizontal="true"
+		android:layout_marginTop="10dp"
+		android:gravity="center_horizontal"
+		android:text="@string/healthy_qq_toast"
+		android:textColor="@color/white"
+		android:textSize="14sp" 
+		android:visibility="gone"/>
+	<RelativeLayout
+		android:id="@+id/set_menu_background"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:visibility="gone" >
+	</RelativeLayout>
+</RelativeLayout>

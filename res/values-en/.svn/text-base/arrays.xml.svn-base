@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ * Copyright (C) 2008 The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+-->
+
+<resources>
+
+    <string-array name="imageStr_array">
+        <item>[Hee hee]</item>
+        <item>[Your tongue]</item>
+        <item>[sweat]</item>
+        <item>[Steal to smile]</item>
+        <item>[before]</item>
+        <item>[tears]</item>
+        <item>[boos]</item>
+        <item>[torture]</item>
+        <item>[sad]</item>
+        <item>[lovely]</item>
+        <item>[The beauty]</item>
+        <item>[shy]</item>
+        <item>[Cool]</item>
+        <item>[Want to vomit]</item>
+        <item>[smile]</item>
+        <item>[angry]</item>
+        <item>[squint]</item>
+        <item>[The big surprise]</item>
+        <item>[doubt]</item>
+        <item>[Go to bed]</item>
+        <item>[Small kind]</item>
+        <item>[tangle]</item>
+        <item>[Shut up]</item>
+        <item>[despise]</item>
+        <item>[dizzy]</item>
+        <item>[poor]</item>
+        <item>[abuse]</item>
+        <item>[Applause]</item>
+        <item>[surprised]</item>
+        <item>[Bye bye]</item>
+        <item>[Have a meal]</item>
+        <item>[The cake]</item>
+        <item>[severe]</item>
+        <item>[Shake hands]</item>
+        <item>[eggplant]</item>
+        <item>[good]</item>
+        <item>[The rose]</item>
+        <item>[A broken heart]</item>
+        <item>[love]</item>
+        <item>[Boh you]</item>
+    </string-array>
+    <string-array name="daka_array">
+        <item>[happy]</item>
+        <item>[smile]</item>
+        <item>[cryface]</item>
+    </string-array>
+
+    <!-- FoxSportsType -->
+    <string-array name="name_sports_type">
+        <item>@string/walk_gps</item>
+        <item>@string/run_gps</item>
+        <item>@string/swim_free</item>
+        <item>@string/swim_fly</item>
+        <item>@string/swim_frog</item>
+        <item>@string/swim_face</item>
+        <item>@string/mountain</item>
+        <item>@string/golf</item>
+        <item>@string/walk_race</item>
+        <item>@string/cycling</item>
+        <item>@string/tennis</item>
+        <item>@string/badminton</item>
+        <item>@string/football</item>
+        <item>@string/table_tennis</item>
+        <item>@string/rowing</item>
+        <item>@string/skating</item>
+        <item>@string/roller_skating</item>
+    </string-array>
+    <string-array name="name_newsports_type">
+        <item>@string/walk_gps</item>
+        <item>@string/run_gps</item>
+        <item>@string/cycling</item>
+        <item>@string/mountain</item>
+        <item>@string/tennis</item>
+        <item>@string/badminton</item>
+        <item>@string/golf</item>
+    </string-array>
+    <string-array name="name_sports_othertype">
+        <item>@string/walk_gps</item>
+        <item>@string/run_gps</item>
+        <item>@string/swim_free</item>
+        <item>@string/mountain</item>
+        <item>@string/golf</item>
+        <item>@string/walk_race</item>
+        <item>@string/cycling</item>
+        <item>@string/tennis</item>
+        <item>@string/badminton</item>
+        <item>@string/football</item>
+        <item>@string/table_tennis</item>
+        <item>@string/rowing</item>
+        <item>@string/skating</item>
+        <item>@string/roller_skating</item>
+    </string-array>
+    <string-array name="first_page_content">
+        <item>Air will not help you burn calories, began to exercise</item>
+        <item>The sports meet leave traces of hard on you. Come on!</item>
+        <item>Movement is a very important appointment, and their own who also can not stop!</item>
+        <item>Want to better shape, with little move!</item>
+        <item>An exercise is 25 perspiration plus 75 determination</item>
+        <item>You are the most attractive sport!</item>
+        <item>Exercise will have effect!</item>
+        <item>Follow every bits of bit athletic achievements better myself</item>
+        <item>Fall in love with his efforts to movement</item>
+        <item>Every movement is a progress</item>
+        <item>Looking for happiness in the movement.</item>
+    </string-array>
+    <string-array name="sleep_page_content">
+        <item>Enough sleep may protect the brain, enhance immunity.</item>
+        <item>Lateral position make the heart not oppressed, sleep respiration unobstructed, and conducive to the emptying of the stomach.</item>
+        <item>Guarantee the sleep time of not less than 7 hours a day, not more than 9 hours</item>
+        <item>1 hour before sleeping to drink 1 cup of milk helps to soothe and improve the quality of sleep</item>
+        <item>Do not read in bed or watching TV, so as not to affect the bed habit</item>
+        <item>As far as possible in the evening sleep before 11  clock, help the body metabolism</item>
+        <item>Try to get up before 7 clock, so conducive to discharge waste</item>
+        <item>Lack of sleep and sleep quality general lead to increased risk for obesity and type 2 diabetes</item>
+        <item>Put to help you sleep, aromatherapy has a lot of plants and flowers fragrance can help us relieve nerves, conducive to sleep</item>
+        <item>Two hours before bed at night to drink a cup of warm milk, may help sleep by way of increased intestinal blood supply</item>
+        <item>Seven hours sleep helps the brain to strengthen memory</item>
+        <item>Hot ginger blisters feet, helps to keep out the cold and promote sleep.</item>
+        <item>Foods are helpful to sleep: milk, wheat, lotus seed, walnut, red dates, longans etc.by, vinegar, sugar, water, etc</item>
+        <item>Regular exercise habit, can improve the quality of sleep at night.</item>
+        <item>A hot bath before going to bed will help relax your muscles, can make sleep more sweet.</item>
+        <item>Walk briskly about 15 ~ 20 minutes before bed, sleeping effect is very significant.</item>
+        <item>Liver at 11 to at 3 PM activity ability, the strongest and best liver detoxification period, ensure good sleep is protect liver medicine.</item>
+        <item>Brazil nuts, walnuts, etc are rich in nutrients such as protein, potassium, selenium foods help the body of the synthesis of human natural hormone, hypnosis melatonin.</item>
+        <item>Kale and spinach contains rich calcium, they can help the body produce natural hormone, hypnosis melatonin.</item>
+        <item>Chickpeas, shrimp and lobster is a good source of tryptophan, can be converted into serotonin human body, help sleep well.</item>
+        <item>Lettuce lettuce cream contains mountain, to calm and relax the brain. Can in the boiling water into the pieces of lettuce leaves, make lettuce tea, drink before sleep.</item>
+        <item>Sunflower can adjust the metabolism of brain cells, power of sleep.</item>
+        <item>Glycine is contained in chamomile tea, can relax nerves and muscles, as a mild sedative, relieve anxiety.</item>
+        <item>Before sleeping with hot bubble foot, will lead the blood downward, stability and mind.</item>
+        <item>Bedtime drink a cup of honey tea can also eliminate the nervous psychology of people, relieve stress, help to sleep.</item>
+        <item>The acetic acid in vinegar can eliminate or relieve tension fatigue, help to sleep easily.</item>
+        <item>Walnut can relieve the mood, is suitable for cases caused by deficiency of sleep wake up late.</item>
+        <item>Eat dinner that are rich in protein, providing amino acids such as tryptophan, help to sleep.</item>
+        <item>Adequate calcium and magnesium supplements, these minerals can not only strengthen bones, also can make sleep better.</item>
+        <item>Three hours before sleeping, do not take medicine or food. Drug and food are sobering, difficult to fall asleep. </item>
+        <item>Grapes contain melatonin can help sleep, melatonin is secreted by pineal gland in the brain a substance that helps the body to sleep quickly.</item>
+        <item>Bread or pasta and a high-glycemic foods will make drastic fluctuations that affect blood sugar levels will have to sleep. So it is best not to eat these food before sleep.</item>
+    </string-array>
+    <string-array name="share_content_arrs">
+        <item>Weixin</item>
+        <item>WeChat circle of friends</item>
+        <item>QQ</item>
+    </string-array>
+    <string-array name="share_content_arrs2">
+        <item>sports show</item>
+        <item>Weixin</item>
+        <item>WeChat circle of friends</item>
+        <item>QQ</item>
+    </string-array>
+
+
+</resources>

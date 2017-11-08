@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+    <com.amap.api.maps.MapView
+        android:id="@+id/map"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+
+    <!-- <LinearLayout
+         android:id="@+id/centerView"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_above="@+id/centerPoint"
+         android:layout_centerHorizontal="true"
+         android:orientation="vertical"
+         android:visibility="gone">
+
+         <TextView
+             android:id="@+id/addressName"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_gravity="center_horizontal"
+             android:layout_margin="5dp"
+             android:background="@drawable/custom_info_bubble"
+             android:textColor="#000000" />
+
+         <ImageView
+             android:id="@+id/centerMarkerImg"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_gravity="center_horizontal" />
+     </LinearLayout>-->
+
+    <!--<View-->
+    <!--android:id="@+id/centerPoint"-->
+    <!--android:layout_width="2dp"-->
+    <!--android:layout_height="2dp"-->
+    <!--android:layout_centerInParent="true"-->
+    <!--android:background="#00000000"-->
+    <!--android:visibility="gone" />-->
+
+    <RelativeLayout
+        android:id="@+id/re_nodizhi"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff">
+
+        <TextView
+            android:id="@+id/no_dizhi"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:text="不显示位置"
+            android:textColor="#000000"
+            android:textSize="16dp" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/no_dizhi"
+            android:background="#dedede" />
+    </RelativeLayout>
+
+    <!-- <RelativeLayout
+         android:id="@+id/re_nowcity"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:layout_below="@+id/re_nodizhi"
+         android:background="#ffffff" >
+
+         <TextView
+             android:id="@+id/now_city"
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             android:layout_margin="15dp"
+             android:textColor="#000000"
+             android:textSize="16dp" />
+
+         <TextView
+             android:layout_width="fill_parent"
+             android:layout_height="1dp"
+             android:layout_below="@+id/now_city"
+             android:background="#dedede" />
+     </RelativeLayout>-->
+
+    <LinearLayout
+        android:id="@+id/lin_shuaxin"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/re_nodizhi"
+        android:layout_margin="10dp"
+        android:background="#ffffff"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ProgressBar
+            android:layout_width="20dp"
+            android:layout_height="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="正在搜索附近位置"
+            android:textColor="#000000" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/dingwei_list"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/lin_shuaxin"
+        android:background="#ffffff"></ListView>
+
+</RelativeLayout>

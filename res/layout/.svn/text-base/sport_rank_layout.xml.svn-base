@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+	<LinearLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical"
+	    android:paddingBottom="15dp"
+    	android:paddingTop="3dp">
+
+        <RelativeLayout
+            android:id="@+id/gallery_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="bottom" >
+
+            <ImageView
+            	android:id="@+id/my_cursor_bar"
+           		 android:layout_width="wrap_content"
+           		 android:layout_height="wrap_content"
+           		 android:layout_marginTop="4dp"
+           		 android:layout_marginLeft="2dp"
+           		 android:layout_centerVertical="true"
+           		 android:scaleType="centerCrop"
+           		 android:src="@drawable/tab_bar_focus" />
+            
+	        <TableRow
+	            android:id="@+id/linearLayout1"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:background="@drawable/tab_2"
+	            android:gravity="center_vertical">
+	            
+	            <TextView
+	                android:id="@+id/title_month"
+	                android:layout_width="fill_parent"
+	                android:layout_height="fill_parent"
+	                android:layout_gravity="center_vertical"
+	                android:layout_weight="2"
+	                android:gravity="center"
+	                android:text="@string/rankboard_all"
+	                android:textAppearance="?android:attr/textAppearanceMedium"
+	                android:textColor="@color/remind" />
+	            
+	            <TextView
+	                android:id="@+id/title_week"
+	                android:layout_width="fill_parent"
+	                android:layout_height="fill_parent"
+	                android:layout_gravity="center_vertical"
+	                android:layout_weight="2"
+	                android:gravity="center"
+	                android:text="@string/rankboard_friend"
+	                android:textAppearance="?android:attr/textAppearanceMedium"
+	                android:textColor="@color/white" />
+	
+	            <View
+	                android:layout_width="1dp"
+	                android:layout_height="fill_parent"
+	                android:layout_marginBottom="3dp"
+	                android:layout_marginTop="3dp"
+	                android:layout_weight="0.01"
+	                android:visibility="gone"
+	                android:background="#cccccc" />
+				<!--活动  -->
+	            <TextView
+	                android:id="@+id/title_activity"
+	                android:layout_width="fill_parent"
+	                android:layout_height="wrap_content"
+	                android:layout_gravity="center_vertical"
+	                android:layout_weight="2.99"
+	                android:gravity="center"
+	                android:visibility="gone"
+	                android:text="@string/title_activity"
+	                android:textAppearance="?android:attr/textAppearanceMedium"
+	                android:textColor="@color/white" />
+	        </TableRow>
+        </RelativeLayout>
+	</LinearLayout>
+</LinearLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="arm64-v8a,armeabi-v7a,armeabi"
+    api-level="22"
+    density="xxhdpi"
+    format="7"
+    timestamp="1115686717565" >
+
+    <task
+        name="javac"
+        duration="16550" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="10081" />
+    <task
+        name="verifier"
+        duration="6228" />
+
+    <artifact
+        location="C:\Users\yh\Desktop\yunhuyundong_studiomain3_8_0626\build\outputs\apk\yunhuyundong_studiomain3_8_0626-debug.apk"
+        type="MAIN" />
+
+    <build timestamp="1115686717565" >
+        <artifact
+            location="C:\Users\yh\Desktop\yunhuyundong_studiomain3_8_0626\build\outputs\apk\yunhuyundong_studiomain3_8_0626-debug.apk"
+            type="MAIN" />
+    </build>
+
+</instant-run>

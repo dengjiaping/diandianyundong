@@ -1,0 +1,739 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <ScrollView
+        android:id="@+id/mscrollview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical" >
+
+        <LinearLayout
+            android:id="@+id/slim_settings_two"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/sports_handview_me"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center_vertical"
+                >
+                <RelativeLayout
+                    android:id="@+id/rl_personalhead_me"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                   >
+                    <com.fox.exercise.util.RoundedImage
+                        android:id="@+id/personal_icon"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginLeft="12dp"
+                        android:layout_marginTop="20dp"
+                        android:src="@drawable/sports_user_edit_portrait_male" />
+                    <TextView
+                        android:id="@+id/sport_username_me"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@id/personal_icon"
+                        android:layout_centerVertical="true"
+                        android:paddingTop="10dp"
+                        android:maxEms="12"
+                        android:singleLine="true"
+                        android:layout_marginLeft="8dp"
+                        android:textSize="18sp"
+                        android:textColor="#333333"/>
+                    <ImageView
+                        android:id="@+id/sport_ivgotosetting_me"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginTop="30dp"
+                        android:src="@drawable/jiantou_me"
+                        />
+                </RelativeLayout>
+                <LinearLayout
+                    android:id="@+id/sport_me_belowhead"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:orientation="horizontal">
+                    <LinearLayout
+                        android:id="@+id/ll_mydongtai"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center">
+                        <TextView
+                            android:id="@+id/tv_mydongtai"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="动态 : 1000"
+                            android:textColor="#333333"
+                            android:textSize="15sp" />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginBottom="12dp"
+                        android:background="#c1c1c1" />
+
+                    <LinearLayout
+                        android:id="@+id/ll_myguanzhu"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center">
+                        <TextView
+                            android:id="@+id/tv_myguanzhu"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#333333"
+                            android:textSize="15sp" />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginBottom="12dp"
+                        android:background="#c1c1c1" />
+
+                    <LinearLayout
+                        android:id="@+id/ll_myfensi"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center">
+                        <TextView
+                            android:id="@+id/tv_myfensi"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="我的粉丝"
+                            android:textColor="#333333"
+                            android:textSize="15sp" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <!-- 运动记录 -->
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="15dp"
+                android:background="#ededed" />
+
+            <RelativeLayout
+                android:id="@+id/sports_history_me"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/aa_selector"
+                android:gravity="center_vertical"
+                 >
+
+                <TextView
+                    android:id="@+id/tv_history_me"
+                    style="@style/sports_txt_color_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="62dp"
+                    android:paddingTop="3dp"
+                    android:ellipsize="end"
+                    android:gravity="center_vertical"
+                    android:maxWidth="230dp"
+                    android:singleLine="true"
+                    android:text="@string/sports_history_me"
+                    android:textColor="#333333"
+                    android:textSize="15sp" />
+
+                <ImageView
+                    android:id="@+id/iv_history_me"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="3dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="12dp"
+                    android:visibility="gone"
+                    android:background="@drawable/setting_into" />
+
+                <ImageView
+                    android:id="@+id/iv_left_history_me"
+
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="20dp"
+                    android:background="@drawable/sporthistory_me" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="#ededed" />
+
+            <RelativeLayout
+                android:id="@+id/sports_medal_me"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/aa_selector"
+                android:gravity="center_vertical">
+                <TextView
+                    android:id="@+id/tv_medal_me"
+                    style="@style/sports_txt_color_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:paddingTop="3dp"
+                    android:layout_marginLeft="62dp"
+                    android:ellipsize="end"
+                    android:gravity="center_vertical"
+                    android:maxWidth="230dp"
+                    android:singleLine="true"
+                    android:text="@string/sports_mymedal_me"
+                    android:textColor="#333333"
+                    android:textSize="15sp" />
+
+                <ImageView
+                    android:id="@+id/iv_medal_me"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="12dp"
+                    android:visibility="gone"
+                    android:background="@drawable/setting_into" />
+
+                <ImageView
+                    android:id="@+id/ivleft_medal_me"
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="20dp"
+                    android:background="@drawable/xunzhang" />
+            </RelativeLayout>
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="#ededed" />
+
+            <RelativeLayout
+                android:id="@+id/sports_mymatch_me"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/aa_selector"
+                android:gravity="center_vertical">
+                <TextView
+                    android:id="@+id/tv_train_video_cache"
+                    style="@style/sports_txt_color_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:paddingTop="3dp"
+                    android:layout_marginLeft="62dp"
+                    android:ellipsize="end"
+                    android:gravity="center_vertical"
+                    android:maxWidth="230dp"
+                    android:singleLine="true"
+                    android:text="@string/sports_mymatch_me"
+                    android:textColor="#333333"
+                    android:textSize="15sp" />
+
+                <ImageView
+                    android:id="@+id/iv_train_video_cache"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="12dp"
+                    android:visibility="gone"
+                    android:background="@drawable/setting_into" />
+
+                <ImageView
+                    android:id="@+id/ivleft_train_video_cache"
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="20dp"
+                    android:background="@drawable/mymatch_me" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="#ededed" />
+
+            <RelativeLayout
+                android:id="@+id/sports_myorder_me"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/aa_selector"
+                android:gravity="center_vertical" >
+
+                <TextView
+                    android:id="@+id/ccuntdown"
+                    style="@style/sports_txt_color_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="62dp"
+                    android:paddingTop="3dp"
+                    android:ellipsize="end"
+                    android:gravity="center_vertical"
+                    android:maxWidth="230dp"
+                    android:singleLine="true"
+                    android:text="@string/sports_myorder_me"
+                    android:textColor="#333333"
+                    android:textSize="15sp" />
+
+                <ImageView
+                    android:id="@+id/go_ccuntdown"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:gravity="center_vertical"
+                    android:layout_marginRight="12dp"
+                    android:visibility="gone"
+                    android:background="@drawable/setting_into" />
+
+                <ImageView
+                    android:id="@+id/iv_left_go_ccuntdown"
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="20dp"
+                    android:background="@drawable/myorder_me" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="#ededed" />
+
+            <RelativeLayout
+                android:id="@+id/sports_jinbimall_me"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/aa_selector"
+                android:gravity="center_vertical"
+                >
+
+                <TextView
+                    android:id="@+id/tv_jinbi"
+                    style="@style/sports_txt_color_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="62dp"
+                    android:ellipsize="end"
+                    android:paddingTop="3dp"
+                    android:gravity="center_vertical"
+                    android:maxWidth="230dp"
+                    android:singleLine="true"
+                    android:text="@string/sports_jinbimall_me"
+                    android:textColor="#333333"
+                    android:textSize="15sp" />
+
+                <ImageView
+                    android:id="@+id/iv_jinbi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:gravity="center_vertical"
+                    android:visibility="gone"
+                    android:layout_marginRight="12dp"
+                    android:background="@drawable/setting_into" />
+
+                <ImageView
+                    android:id="@+id/iv_left_jinbi"
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="20dp"
+                    android:background="@drawable/jinbistore_me" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="#ededed" />
+
+            <RelativeLayout
+                android:id="@+id/sports_device_me"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/aa_selector"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:id="@+id/tv_device"
+                    style="@style/sports_txt_color_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="62dp"
+                    android:paddingTop="3dp"
+                    android:ellipsize="end"
+                    android:gravity="center_vertical"
+                    android:maxWidth="230dp"
+                    android:singleLine="true"
+                    android:text="@string/sports_device_me"
+                    android:textColor="#333333"
+                    android:textSize="15sp" />
+
+                <ImageView
+                    android:id="@+id/iv_device"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:gravity="center_vertical"
+                    android:layout_marginRight="12dp"
+                    android:visibility="gone"
+                    android:background="@drawable/setting_into" />
+
+                <ImageView
+                    android:id="@+id/iv_left_device"
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="20dp"
+                    android:background="@drawable/device_me" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="#ededed" />
+
+            <RelativeLayout
+                android:id="@+id/sports_nearby_me"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/aa_selector"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:id="@+id/tv_nearby"
+                    style="@style/sports_txt_color_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="62dp"
+                    android:paddingTop="3dp"
+                    android:ellipsize="end"
+                    android:gravity="center_vertical"
+                    android:maxWidth="230dp"
+                    android:singleLine="true"
+                    android:text="@string/sports_nearby_me"
+                    android:textColor="#333333"
+                    android:textSize="15sp" />
+
+                <ImageView
+                    android:id="@+id/iv_nearby"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:gravity="center_vertical"
+                    android:layout_marginRight="12dp"
+                    android:visibility="gone"
+                    android:background="@drawable/setting_into" />
+
+                <ImageView
+                    android:id="@+id/iv_left_nearby"
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="20dp"
+                    android:background="@drawable/nearby_me" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:visibility="gone"
+                android:background="#ededed" />
+
+            <RelativeLayout
+                android:id="@+id/sports_weixinrank_me"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/aa_selector"
+                android:gravity="center_vertical"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/tv_weixinrank"
+                    style="@style/sports_txt_color_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="62dp"
+                    android:paddingTop="3dp"
+                    android:ellipsize="end"
+                    android:gravity="center_vertical"
+                    android:maxWidth="230dp"
+                    android:singleLine="true"
+                    android:text="@string/sports_weixinrank_me"
+                    android:textColor="#333333"
+                    android:textSize="15sp" />
+
+                <ImageView
+                    android:id="@+id/iv_weixinrank"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:gravity="center_vertical"
+                    android:visibility="gone"
+                    android:layout_marginRight="12dp"
+                    android:background="@drawable/setting_into" />
+
+                <ImageView
+                    android:id="@+id/iv_left_weixinrank"
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="20dp"
+                    android:background="@drawable/setting_into" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="#ededed" />
+            <RelativeLayout
+                android:id="@+id/sports_diandianrank_me"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/aa_selector"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:id="@+id/tv_diandianrank"
+                    style="@style/sports_txt_color_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="62dp"
+                    android:paddingTop="3dp"
+                    android:ellipsize="end"
+                    android:gravity="center_vertical"
+                    android:maxWidth="230dp"
+                    android:singleLine="true"
+                    android:text="@string/sports_diandianrank_me"
+                    android:textColor="#333333"
+                    android:textSize="15sp" />
+
+                <ImageView
+                    android:id="@+id/iv_diandianrank"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:gravity="center_vertical"
+                    android:layout_marginRight="12dp"
+                    android:visibility="gone"
+                    android:background="@drawable/setting_into" />
+
+                <ImageView
+                    android:id="@+id/iv_left_diandianrank"
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="20dp"
+                    android:background="@drawable/diandianrank_me" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:visibility="gone"
+                android:background="#ededed" />
+
+            <RelativeLayout
+                android:id="@+id/sports_qqhealth_me"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:visibility="gone"
+                android:background="@drawable/aa_selector"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:id="@+id/tv_qqhealth"
+                    style="@style/sports_txt_color_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="62dp"
+                    android:ellipsize="end"
+                    android:gravity="center_vertical"
+                    android:paddingTop="3dp"
+                    android:maxWidth="230dp"
+                    android:singleLine="true"
+                    android:text="@string/sports_qqhealth_me"
+                    android:textColor="#333333"
+                    android:textSize="15sp" />
+
+                <ImageView
+                    android:id="@+id/iv_qqhealth"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:gravity="center_vertical"
+                    android:visibility="gone"
+                    android:layout_marginRight="12dp"
+                    android:background="@drawable/setting_into" />
+
+                <ImageView
+                    android:id="@+id/iv_left_qqhealth"
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="20dp"
+                    android:background="@drawable/qq_health_me" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="15dp"
+                android:background="#ededed" />
+
+            <RelativeLayout
+                android:id="@+id/sports_setting_me"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/aa_selector"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:id="@+id/tv_setting"
+                    style="@style/sports_txt_color_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="62dp"
+                    android:paddingTop="3dp"
+                    android:ellipsize="end"
+                    android:gravity="center_vertical"
+                    android:maxWidth="230dp"
+                    android:singleLine="true"
+                    android:text="@string/sports_setting_me"
+                    android:textColor="#333333"
+                    android:textSize="15sp" />
+
+                <ImageView
+                    android:id="@+id/iv_setting"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:gravity="center_vertical"
+                    android:layout_marginRight="12dp"
+                    android:visibility="gone"
+                    android:background="@drawable/setting_into" />
+
+                <ImageView
+                    android:id="@+id/iv_left_setting"
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="20dp"
+                    android:background="@drawable/setting_me" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="15dp"
+                android:background="#ededed" />
+
+            <RelativeLayout
+                android:id="@+id/sports_normalproble_me"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/aa_selector"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:id="@+id/tv_normalproble"
+                    style="@style/sports_txt_color_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="62dp"
+                    android:paddingTop="3dp"
+                    android:ellipsize="end"
+                    android:gravity="center_vertical"
+                    android:maxWidth="230dp"
+                    android:singleLine="true"
+                    android:text="@string/sports_normalproble_me"
+                    android:textColor="#333333"
+                    android:textSize="15sp" />
+
+                <ImageView
+                    android:id="@+id/iv_normalproble"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:gravity="center_vertical"
+                    android:visibility="gone"
+                    android:layout_marginRight="12dp"
+                    android:background="@drawable/setting_into" />
+
+                <ImageView
+                    android:id="@+id/iv_left_normalproble"
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="20dp"
+                    android:background="@drawable/proble_me" />
+            </RelativeLayout>
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="15dp"
+                android:background="#ededed" />
+            <Button
+                android:id="@+id/exit_me"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginBottom="25dp"
+                android:background="#FF9900"
+                android:gravity="center"
+                android:text="@string/setting_exit"
+                android:textColor="@color/white"
+                style="?android:attr/borderlessButtonStyle"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </ScrollView>
+    </LinearLayout>
+    <RelativeLayout
+        android:id="@+id/set_menu_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#8c000000"
+        android:visibility="gone" >
+    </RelativeLayout>
+</RelativeLayout>

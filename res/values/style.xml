@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="tab_item_text_style">
+        <item name="android:textSize">18.0dp</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="cricleBottomAnimation">
+        <item name="android:windowEnterAnimation">@anim/avatar_animation_right_in</item>
+        <item name="android:windowExitAnimation">@anim/avatar_animation_right_out</item>
+    </style>
+
+    <style name="Animation_OnScreenHint">
+        <item name="android:windowEnterAnimation">@anim/on_screen_hint_enter</item>
+        <item name="android:windowExitAnimation">@anim/on_screen_hint_exit</item>
+    </style>
+
+    <style name="OnScreenHintTextAppearance">
+        <item name="android:textColor">@android:color/primary_text_dark</item>
+        <item name="android:textColorHighlight">#FFFF9200</item>
+        <item name="android:textColorHint">#808080</item>
+        <item name="android:textColorLink">#5C5CFF</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="OnScreenHintTextAppearance.Small">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@android:color/secondary_text_dark</item>
+    </style>
+
+    <style name="SportsButtonStripMiddle">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/sports_btn_strip_trans_middle</item>
+    </style>
+
+    <style name="ContentOverlay" parent="android:style/Theme.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Translucent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+
+    <style name="SportsButtonBackground">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">60dp</item>
+        <item name="android:layout_height">30dp</item>
+        <item name="android:background">@drawable/sports_smallbt_selector</item>
+    </style>
+
+    <style name="Button_recapture">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/recapture_btn</item>
+    </style>
+
+    <style name="Button_imageok">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/capture_ok_btn</item>
+    </style>
+
+    <style name="SportsTitleButton">
+        <item name="android:background">@drawable/sports_slim_btn_click</item>
+    </style>
+    <style name="SportsTitleButton_forget">
+        <item name="android:background">@drawable/sports_button_click_ok</item>
+    </style>
+
+    <style name="SportsLoginButton">
+        <item name="android:background">@drawable/sports_login_btn_click</item>
+    </style>
+
+    <style name="SportsStartButton">
+        <item name="android:background">@drawable/start_sports_bg</item>
+    </style>
+
+    <style name="sports_dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">#00000000</item>
+        <item name="android:windowBackground">@drawable/sports_popup_bg</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+    
+    <style name="sports_dialog1" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+
+    <style name="share_dialog2" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">#00000000</item>
+        <item name="android:windowBackground">@drawable/recoding</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+
+    <style name="sports_coins_dialog" parent="android:Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+ <!-- 模糊 -->
+    </style>
+
+    <style name="chat_text_date_style">
+        <item name="android:padding">2dp</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:background">#efefef</item>
+    </style>
+
+    <style name="chat_content_date_style_left">
+        <item name="android:minHeight">44dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">#3a3f47</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:lineSpacingExtra">2dp</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+        <item name="android:background">#bfbfbf</item>
+    </style>
+
+    <style name="chat_content_date_style_right">
+        <item name="android:minHeight">44dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">#3a3f47</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:lineSpacingExtra">2dp</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+        <item name="android:background">#bfbfbf</item>
+    </style>
+
+    <style name="chat_text_name_style">
+        <item name="android:textColor">#818181</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="SlimTitleRetrun">
+        <item name="android:background">@drawable/sport_title_back_selector</item>
+    </style>
+
+    <style name="AppTheme">
+
+        <!-- 设置activity切换动画 -->
+        <item name="android:windowAnimationStyle">@style/activityAnimation</item>
+    </style>
+
+    <!-- animation 样式 -->
+    <style name="activityAnimation" parent="@android:style/Animation">
+        <item name="android:activityOpenEnterAnimation">@anim/slide_right_in</item>
+        <item name="android:activityOpenExitAnimation">@anim/slide_left_out</item>
+        <item name="android:activityCloseEnterAnimation">@anim/slide_left_in</item>
+        <item name="android:activityCloseExitAnimation">@anim/slide_right_out</item>
+    </style>
+
+    <style name="InfomationText">
+        <item name="android:textAppearance">?android:attr/textAppearanceLarge</item>
+    </style>
+
+    <style name="SportsButtonGray">
+        <item name="android:background">@drawable/sports_btn_gray</item>
+    </style>
+
+    <style name="sports_txt_color_style">
+        <item name="android:textColor">@color/sports_value</item>
+    </style>
+
+    <style name="sports_tip_style">
+        <item name="android:layout_width">17dp</item>
+        <item name="android:layout_height">17dp</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:layout_marginTop">2dp</item>
+        <item name="android:background">@drawable/tip_bg</item>
+        <item name="android:enabled">false</item>
+        <item name="android:focusable">false</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="AnimationPopup">
+        <item name="android:windowExitAnimation">@anim/slide_out_to_bottom</item>
+    </style>
+
+    <!-- LockScreen -->
+    <style name="Transparent">
+        <item name="android:windowBackground">@color/transparent_background</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Translucent</item>
+    </style>
+
+    <style name="topTitle">
+        <item name="android:layout_width">153.33dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:gravity">center</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <!-- DaoJiShiSetting -->
+    <style name="djs">
+        <item name="android:textSize">@dimen/djs_text</item>
+        <item name="android:button">@null</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingLeft">@dimen/djs</item>
+        <item name="android:paddingRight">@dimen/djs</item>
+    </style>
+
+    <style name="MyDialog" parent="android:style/Theme.Dialog">
+
+        <!-- 背景颜色及透明程度 -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!-- 是否有标题 -->
+        <item name="android:windowNoTitle">true</item>
+        <!-- 是否浮现在activity之上 -->
+        <item name="android:windowIsFloating">true</item>
+        <!--
+        是否模糊
+        <item name="android:backgroundDimEnabled">true</item>
+        -->
+
+        <item name="android:windowFrame">@android:color/transparent</item>
+ <!-- 边框 -->
+    </style>
+
+    <!-- 首页公里数 -->
+    <style name="index_style">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#999999</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    <style name="index_style1">
+        <item name="android:textSize">55sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="index_style2">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    
+    <style name="index_style3">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/yellow</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="alldistance_style1">
+        <item name="android:textSize">80sp</item>
+    </style>
+
+    <style name="alldistance_style2">
+        <item name="android:textSize">50sp</item>
+    </style>
+    <style name="alldistance_style3">
+        <item name="android:textSize">70sp</item>
+    </style>
+    <style name="alldistance_style4">
+        <item name="android:textSize">40sp</item>
+    </style>
+    
+     <style name="train_playnum_style">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/train_playnum</item>
+    </style>
+    <style name="train_playnum_style1">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#666666</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    
+    <style name="dot_style">
+        <item name="android:layout_width">5dip</item>
+        <item name="android:layout_height">5dip</item>
+        <item name="android:background">@drawable/dot_normal</item>
+        <item name="android:layout_marginLeft">1.5dip</item>
+        <item name="android:layout_marginRight">1.5dip</item>
+    </style>
+    <style name="jibu_style12">
+        <item name="android:textSize">12dp</item>
+        <item name="android:textColor">#666666</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    <style name="jibu_style13">
+        <item name="android:textSize">13dp</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    <style name="jibu_style15_33">
+        <item name="android:textSize">15dp</item>
+        <item name="android:textColor">#333333</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    <style name="jibu_style15_99">
+        <item name="android:textSize">15dp</item>
+        <item name="android:textColor">#999999</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    <style name="jibu_style16">
+        <item name="android:textSize">16dp</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    <style name="jibu_style18_f6">
+        <item name="android:textSize">18dp</item>
+        <item name="android:textColor">#ff6600</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    <style name="jibu_style18_33">
+        <item name="android:textSize">18dp</item>
+        <item name="android:textColor">#333333</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    <style name="jibu_style18_99">
+        <item name="android:textSize">18dp</item>
+        <item name="android:textColor">#999999</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    <style name="jibu_style22">
+        <item name="android:textSize">22dp</item>
+        <item name="android:textColor">#333333</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    <style name="jibu_style23">
+        <item name="android:textSize">23dp</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    <style name="jibu_style34">
+        <item name="android:textSize">34dp</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    <style name="jibu_style45">
+        <item name="android:textSize">45dp</item>
+        <item name="android:textColor">#333333</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+</resources>

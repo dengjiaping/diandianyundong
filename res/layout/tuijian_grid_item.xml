@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:background="@drawable/stroke_nocicle_guangchanggray_background"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/tuijian_img"
+        android:layout_width="162dp"
+        android:layout_height="162dp"
+        android:scaleType="fitCenter" />
+
+    <TextView
+        android:id="@+id/tuijian_txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginBottom="8dp"
+        android:lines="2"
+        android:textColor="#666666"
+        android:textSize="14sp" />
+
+    <RelativeLayout
+        android:id="@+id/time_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="11dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="12dp"
+        android:gravity="center_vertical" >
+
+        <TextView
+            android:id="@+id/tuijian_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:drawableLeft="@drawable/tuijian_time"
+            android:drawablePadding="3dp"
+            android:textColor="#666666"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tuijian_zan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/tuijian_time"
+            android:layout_marginLeft="20dp"
+            android:drawableLeft="@drawable/tuijian_zan"
+            android:textColor="#666666"
+            android:drawablePadding="3dp"
+            android:textSize="14sp"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+</LinearLayout>

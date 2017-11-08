@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/sports_bg"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/binding_devices"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:gravity="center_vertical" >
+
+        <ImageView
+            android:id="@+id/image_xing"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="18dp"
+            android:background="@drawable/bind_device_xingxing" />
+
+        <LinearLayout
+            android:id="@+id/layout_device"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@+id/image_xing"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/watch_2"
+                android:layout_width="200dp"
+                android:layout_height="24dp"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:text="@string/watch_2"
+                android:textColor="@color/sports_value"
+                android:textSize="18sp" />
+
+            <LinearLayout
+                android:id="@+id/introduce"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/lanyan_lian"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:text="@string/watch_3"
+                    android:textSize="13sp" 
+                    android:textColor="@color/sports_value"/>
+
+               
+            </LinearLayout>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="12dp"
+            android:background="@drawable/add" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/have_binded"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <RelativeLayout
+            android:id="@+id/sports_history_detail"
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:gravity="center_vertical" >
+
+            <ImageView
+                android:id="@+id/history_detail_logo"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="18dp"
+                android:background="@drawable/details" />
+
+            <TextView
+                android:id="@+id/history_detail_content"
+                android:layout_width="200dp"
+                android:layout_height="24dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@+id/history_detail_logo"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:text="@string/watch_4"
+                android:textColor="@color/sports_value"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/history_detail_go"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="12dp"
+                android:background="@drawable/access" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@drawable/sports_bg_line" />
+
+        <RelativeLayout
+            android:id="@+id/sports_sync_set"
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:gravity="center_vertical" >
+
+            <ImageView
+                android:id="@+id/sync_set_logo"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="18dp"
+                android:background="@drawable/syc_guanli" />
+
+            <TextView
+                android:id="@+id/sync_set_content"
+                android:layout_width="200dp"
+                android:layout_height="24dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@+id/sync_set_logo"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:text="@string/watch_5"
+                android:textColor="@color/sports_value"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/sync_set_content_go"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="12dp"
+                android:background="@drawable/access" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@drawable/sports_bg_line" >
+        </View>
+    </LinearLayout>
+
+    <View
+        android:id="@+id/line1"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@drawable/sports_bg_line" />
+   
+   <!--  <RelativeLayout
+        android:id="@+id/yunhu_mall"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:gravity="center_vertical" >
+
+        <ImageView
+            android:id="@+id/image_mall"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="18dp"
+            android:background="@drawable/yunhumall" />
+
+        <LinearLayout
+            android:id="@+id/layout_mall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@+id/image_mall"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/watch_2"
+                android:layout_width="200dp"
+                android:layout_height="24dp"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:text="@string/sports_yunhu_mall"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/gotomall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="12dp"
+            android:background="@drawable/access" />
+    </RelativeLayout>
+    
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@drawable/sports_bg_line" /> -->
+</LinearLayout>

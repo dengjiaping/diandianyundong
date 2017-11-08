@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rankLinearLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+    <LinearLayout
+        android:id="@+id/linear_top"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:gravity="center" >
+
+        <ImageView
+            android:id="@+id/ranking"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <!-- android:background="@drawable/rank_one" -->
+    </LinearLayout>
+  
+    <FrameLayout
+        android:id="@+id/linear_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/linear_top" >
+
+        <ImageView
+            android:id="@+id/bg_image"
+            android:layout_width="1.5dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:background="@drawable/rank_fen" />
+
+        <RelativeLayout
+            android:id="@+id/userlayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical" >
+
+            <com.fox.exercise.util.RoundedImage
+                android:id="@+id/cover_user_photo"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:background="@drawable/sports_user_edit_portrait_male"
+                android:layout_centerInParent="true"/>
+        </RelativeLayout>
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/linear_image"
+        android:background="@drawable/slimgirl_upload_edit_bg"
+        android:gravity="center_vertical" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center" >
+
+            <TextView
+                android:id="@+id/username"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:ellipsize="end"
+                android:maxWidth="100dp"
+                android:singleLine="true"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp" >
+
+                <TextView
+                    android:id="@+id/xiaohao"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/xiaohao"
+                    android:textColor="#999999"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/usercal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:gravity="right"
+                    android:maxWidth="70dp"
+                    android:singleLine="true"
+                    android:textColor="#25a7f2"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/ka"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ka"
+                    android:textColor="#999999"
+                    android:textSize="12sp" />
+            </LinearLayout>
+            
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

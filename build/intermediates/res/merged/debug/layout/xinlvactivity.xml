@@ -1,0 +1,249 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#151B1E"
+    android:orientation="vertical" >
+    <LinearLayout 
+        android:id="@+id/linearLayout1_xinlv"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#FFAD00"
+        android:orientation="horizontal"
+        >
+        <ImageView 
+            android:id="@+id/iv_back_xinlv"
+            android:layout_width="25dp"
+            android:src="@drawable/sport_title_back_selector"
+            android:layout_marginLeft="15dp"
+            android:layout_gravity="center_vertical"
+            android:layout_height="25dp"
+            />
+        <TextView
+            style="@style/topTitle"
+            android:text="@string/sports_heart"
+            android:textSize="21sp"
+            android:textColor="#FFFFFF"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_height="match_parent" />
+        <ImageView 
+            android:id="@+id/iv_tongji_xinlv"
+            android:layout_width="23dp"
+            android:src="@drawable/xinlvtongji_icon"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="15dp"
+            android:layout_height="23dp"
+            />
+        
+    </LinearLayout>
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/bg_22"
+        android:orientation="vertical"
+        >
+    
+    <FrameLayout 
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:background="@drawable/bg_231"
+        >
+      <SurfaceView
+      android:id="@+id/preview"
+      android:layout_width="match_parent"
+      android:layout_height="80dp"
+      android:layout_marginLeft="50dip"
+      android:layout_marginRight="50dip"/>
+      <TextView 
+          android:layout_height="80dp"
+          android:layout_width="match_parent"
+          android:background="#151B1E"
+          />
+    <LinearLayout
+      android:id="@+id/linearLayout1"
+      android:layout_width="match_parent"
+      android:layout_height="80dp"
+      android:orientation="vertical"
+      android:background="@drawable/bg_491" >
+     </LinearLayout>
+     <LinearLayout
+      android:id="@+id/linearLayout2"
+      android:layout_width="match_parent"
+      android:layout_height="80dp"
+      android:orientation="vertical"
+      android:background="@drawable/bg_491" >
+     </LinearLayout>
+         <ImageView
+             android:id="@+id/animation_top_right" 
+             android:layout_marginTop="25dp"
+             android:layout_width="match_parent"
+             android:layout_height="80dp"
+             android:visibility="invisible"
+             android:scaleType="fitXY"
+             android:background="@anim/frame"
+              />
+  </FrameLayout>
+  
+  <LinearLayout
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center_horizontal"
+      android:orientation="horizontal"
+      android:layout_marginBottom="0dp"
+       >
+        
+       <TextView
+          android:id="@+id/text4"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:textColor="#FFFFFF"
+          android:textSize="15sp"
+          android:layout_marginTop="20dp"
+          android:text="当前心率 ：" />
+       <FrameLayout 
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           >
+           <TextView
+          android:id="@+id/text_frame"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:textSize="35sp"
+          android:textColor="#FF5A00"
+          android:layout_marginLeft="5dip"
+          android:layout_marginRight="5dip"
+          android:text="00"
+          />
+           <TextView
+          android:id="@+id/text"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:textSize="35sp"
+          android:textColor="#FF5A00"
+          android:layout_marginLeft="5dip"
+          android:layout_marginRight="5dip"
+          android:text="00"
+          android:visibility="invisible"
+          />
+           
+       </FrameLayout>
+      
+     
+		<RelativeLayout 
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    >
+		 <ImageView
+          android:id="@+id/iv_xinlv"
+          android:paddingTop="15dp"
+          android:paddingLeft="5dp"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:src="@drawable/xin" />
+		</RelativeLayout>
+      
+
+      <TextView
+          android:id="@+id/text5"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:textColor="#FFFFFF"
+          android:textSize="15sp"
+          android:layout_marginTop="20dp"
+          android:text="/分钟" />
+  </LinearLayout>
+  <LinearLayout 
+      android:id="@+id/ll_huxileixing"
+      android:layout_width="wrap_content"
+      android:layout_height="15dp"
+      android:layout_gravity="center"
+      android:background="@drawable/backg_tip"
+      android:orientation="horizontal"
+      >
+      <TextView 
+          android:id="@+id/tv_zuijia"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:textColor="#028269"
+          android:layout_marginLeft="10dp"
+          android:textSize="12sp"
+          android:layout_gravity="center"
+          android:text="最佳燃脂心律"
+          />
+      <TextView 
+          android:id="@+id/tv_xiegang"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center"
+          android:textColor="#028269"
+          android:textSize="12sp"
+          android:text="/"
+          />
+      <TextView 
+          android:id="@+id/tv_wuyang"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginRight="10dp"
+          android:layout_gravity="center"
+          android:textColor="#028269"
+          android:textSize="12sp"
+          android:text="无氧运动"
+          />
+      
+      
+  </LinearLayout>
+ </LinearLayout> 
+  
+  
+  
+  <RelativeLayout 
+      android:layout_width="match_parent"
+      android:layout_height="0dp"
+      android:layout_weight="1"
+      >
+
+      <ImageView
+          android:id="@+id/iv_shoushi_xinlv"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:layout_alignParentLeft="true"
+          android:layout_alignParentTop="true"
+          android:src="@drawable/shoushi" />
+
+  </RelativeLayout>
+
+  <RelativeLayout
+      android:id="@+id/rl_xin"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="10dp" >
+
+      <TextView
+          android:id="@+id/tv_hint"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentTop="true"
+          android:layout_centerHorizontal="true"
+          android:gravity="center_horizontal"
+          android:textSize="12sp" 
+          android:text="测试时请将指尖轻按住手机摄像头"
+          android:textColor="#FFFFFF" />
+
+  </RelativeLayout>
+
+  <RelativeLayout 
+      android:id="@+id/rl_xinlv"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      >
+      <ImageView 
+          android:id="@+id/iv_startest_xinlv"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:src="@drawable/startest_xinlv"
+          android:layout_centerHorizontal="true"
+          android:paddingBottom="15dp"
+          />
+  </RelativeLayout>
+</LinearLayout>

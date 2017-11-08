@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sports_bg">
+
+    <RelativeLayout
+        android:id="@+id/myframe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" >
+
+        <ImageView
+            android:id="@+id/activity_pic"
+            android:layout_width="match_parent"
+            android:layout_height="157dp"
+            android:background="@android:color/white" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+           android:layout_alignBottom="@id/activity_pic"
+            android:background="@drawable/activityt_title_bg" >
+          <RelativeLayout 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="10dp"
+            android:paddingBottom="5dp"
+            android:layout_marginRight="10dp">
+            <TextView
+                android:id="@+id/activity_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="骑行达人"
+                android:textColor="@color/white"
+                android:visibility="invisible"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/activity_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/activity_name"
+                android:text="@string/activity_time"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/activity_time_context"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/activity_name"
+                android:layout_toRightOf="@+id/activity_time"
+                android:text="2014.05.15-2014.05.30"
+                android:textColor="@color/white" />
+            <TextView
+                android:id="@+id/activity_station"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/activity_name"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/online"
+                android:text=""
+                android:textColor="#ff0000" />
+            </RelativeLayout>
+           
+        </RelativeLayout>
+    </RelativeLayout>
+       <View 
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#ffffff"
+                android:layout_below="@+id/myframe"/>
+</RelativeLayout>

@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\yh\Desktop\yunhuyundong_studiomain3_8_0626\libs\services-1.0.jar"
+        jumboMode="true"
+        revision="25.0.2"
+        sha1="e7439409e467d4967f3ce9aeebb561ddfdacae0b">
+        <dex dex="C:\Users\yh\Desktop\yunhuyundong_studiomain3_8_0626\build\intermediates\transforms\dex\debug\folders\1000\2\services-1.0_5a5349a7222dceb6d3de9a0bc411fad2eaae1b0d\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\yh\Desktop\yunhuyundong_studiomain3_8_0626\libs\pinyin4j-2.5.0.jar"
+        jumboMode="true"
+        revision="25.0.2"
+        sha1="ae353005f973da1cd8545b54354504c2503f6865">
+        <dex dex="C:\Users\yh\Desktop\yunhuyundong_studiomain3_8_0626\build\intermediates\transforms\dex\debug\folders\1000\2\pinyin4j-2.5.0_5ebda8014344a52359a3371fb1e424443c0b1ae1\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\yh\Desktop\yunhuyundong_studiomain3_8_0626\libs\universal-image-loader-1.9.4.jar"
+        jumboMode="true"
+        revision="25.0.2"
+        sha1="dd9eeb557650c4ad7394df23f0f5cf27a7cfc697">
+        <dex dex="C:\Users\yh\Desktop\yunhuyundong_studiomain3_8_0626\build\intermediates\transforms\dex\debug\folders\1000\2\universal-image-loader-1.9.4_74c4401771cc14241dfeeefaa780597b3df4b51c\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\yh\Desktop\yunhuyundong_studiomain3_8_0626\libs\annotations-1.0.jar"
+        jumboMode="true"
+        revision="25.0.2"
+        sha1="6f59fa3a223df6f332bee8b8bffb526f7445018b">
+        <dex dex="C:\Users\yh\Desktop\yunhuyundong_studiomain3_8_0626\build\intermediates\transforms\dex\debug\folders\1000\2\annotations-1.0_42f4c8206add7aad441d1c1b773e73f6b337575a\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\yh\Desktop\yunhuyundong_studiomain3_8_0626\libs\httpmime-4.2.jar"
+        jumboMode="true"
+        revision="25.0.2"
+        sha1="ad9eb8dd0e5719585ef73404d9c018f6da0c0339">
+        <dex dex="C:\Users\yh\Desktop\yunhuyundong_studiomain3_8_0626\build\intermediates\transforms\dex\debug\folders\1000\2\httpmime-4.2_cc0c092df08d5a06008682cba36daaf4ba0e7faa\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\yh\Desktop\yunhuyundong_studiomain3_8_0626\build\intermediates\exploded-aar\com.android.support\multidex\1.0.1\jars\classes.jar"
+        jumboMode="true"
+        revision="25.0.2"
+        sha1="78ea232052df889856dcb7b7b542707c89bb3bfb">
+        <dex dex="C:\Users\yh\Desktop\yunhuyundong_studiomain3_8_0626\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-multidex-1.0.1_4fa0e8ebe56ec0fd5c74d59f50ab9a9ea44b6b0d\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\yh\Desktop\yunhuyundong_studiomain3_8_0626\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="25.0.2"
+        sha1="17c66d1cf88e189157a34b8d8be7185266bb1675">
+        <dex dex="C:\Users\yh\Desktop\yunhuyundong_studiomain3_8_0626\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_ccc8dfbf501b86f2542354e21193cd8fca625121\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\yh\Desktop\yunhuyundong_studiomain3_8_0626\build\intermediates\exploded-aar\yunhuyundong_studiomain3_8_0626\PushSDK\unspecified\jars\libs\com.umeng.message_v3.0.1.jar"
+        jumboMode="true"
+        revision="25.0.2"
+        sha1="a86a6e10c50eed851ad3332f90582530ab8af7ab">
+        <dex dex="C:\Users\yh\Desktop\yunhuyundong_studiomain3_8_0626\build\intermediates\transforms\dex\debug\folders\1000\8\com.umeng.message_v3.0.1_5991a21cae8312fdb87085acb310ee47844511b0\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\yh\Desktop\yunhuyundong_studiomain3_8_0626\libs\sync_framework-2.0.jar"
+        jumboMode="true"
+        revision="25.0.2"
+        sha1="7b5592dbad145775e45b7fbc0131838b7efa675b">
+        <dex dex="C:\Users\yh\Desktop\yunhuyundong_studiomain3_8_0626\build\intermediates\transforms\dex\debug\folders\1000\2\sync_framework-2.0_237b49f1d597193b5bbd24d9cc8e7d776e386008\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\yh\Desktop\yunhuyundong_studiomain3_8_0626\libs\Ad_Android_SDK.jar"
+        jumboMode="true"
+        revision="25.0.2"
+        sha1="eff2c916b128582e72a66f1f20902b2bbd294bc2">
+        <dex dex="C:\Users\yh\Desktop\yunhuyundong_studiomain3_8_0626\build\intermediates\transforms\dex\debug\folders\1000\2\Ad_Android_SDK_114e9b6924e4f3f9dfecfae66050b019c45a98c3\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\yh\Desktop\yunhuyundong_studiomain3_8_0626\build\intermediates\exploded-aar\yunhuyundong_studiomain3_8_0626\PushSDK\unspecified\jars\libs\utdid4all-1.1.5_proguard.jar"
+        jumboMode="true"
+        revision="25.0.2"
+        sha1="5bbdd77d70ab2092a51f523620c4e513fc4ff448">
+        <dex dex="C:\Users\yh\Desktop\yunhuyundong_studiomain3_8_0626\build\intermediates\transforms\dex\debug\folders\1000\8\utdid4all-1.1.5_proguard_aab9c5168aa007b15866c75b3315a9cb4934e767\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\yh\Desktop\yunhuyundong_studiomain3_8_0626\libs\AMap3DMap_3.4.0_AMapSearch_3.4.0_AMapLocation_2.9.0_20160906.jar"
+        jumboMode="true"
+        revision="25.0.2"
+        sha1="734e81e0dfec116995647a9c2145215ef4e2bfc1">
+        <dex dex="C:\Users\yh\Desktop\yunhuyundong_studiomain3_8_0626\build\intermediates\transforms\dex\debug\folders\1000\2\AMap3DMap_3.4.0_AMapSearch_3.4.0_AMapLocation_2.9.0_20160906_dd1eacf5ff1e6fa6d9f5a922c40e59de8b902841\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\yh\Desktop\yunhuyundong_studiomain3_8_0626\libs\mta-sdk-1.6.2.jar"
+        jumboMode="true"
+        revision="25.0.2"
+        sha1="c184c69f43b1fe46390f7123717c65bd844bccb6">
+        <dex dex="C:\Users\yh\Desktop\yunhuyundong_studiomain3_8_0626\build\intermediates\transforms\dex\debug\folders\1000\2\mta-sdk-1.6.2_3967c231098ee5400ff2b12e05c9a6dd73e1679d\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\yh\Desktop\yunhuyundong_studiomain3_8_0626\libs\gson-2.2.4.jar"
+        jumboMode="true"
+        revision="25.0.2"
+        sha1="973e832af433b44c3ed11c426f2f390b29f3f3f8">
+        <dex dex="C:\Users\yh\Desktop\yunhuyundong_studiomain3_8_0626\build\intermediates\transforms\dex\debug\folders\1000\2\gson-2.2.4_e074b5ac179ee69fc1a3b0f17c547b648a27664a\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\yh\Desktop\yunhuyundong_studiomain3_8_0626\libs\umeng-analytics-v5.4.1.jar"
+        jumboMode="true"
+        revision="25.0.2"
+        sha1="cdbe5b692334ae8452fa5aa9ba2982fef4a6fff2">
+        <dex dex="C:\Users\yh\Desktop\yunhuyundong_studiomain3_8_0626\build\intermediates\transforms\dex\debug\folders\1000\2\umeng-analytics-v5.4.1_78ed7d16387d3d7d330b27854b6ae1e6f7757b4c\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\yh\Desktop\yunhuyundong_studiomain3_8_0626\libs\achartengine-1.1.0.jar"
+        jumboMode="true"
+        revision="25.0.2"
+        sha1="9932e3fb9fbe54e80873e77f72a99f79e33b3250">
+        <dex dex="C:\Users\yh\Desktop\yunhuyundong_studiomain3_8_0626\build\intermediates\transforms\dex\debug\folders\1000\2\achartengine-1.1.0_aab65657bfe71a0942206a75e7362628182d49ce\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\yh\Desktop\yunhuyundong_studiomain3_8_0626\libs\BaiduLBS_Android-2.0.jar"
+        jumboMode="true"
+        revision="25.0.2"
+        sha1="8f32b4c99dd065ed1fa52ca6174b50d585c0c5f7">
+        <dex dex="C:\Users\yh\Desktop\yunhuyundong_studiomain3_8_0626\build\intermediates\transforms\dex\debug\folders\1000\2\BaiduLBS_Android-2.0_513d6189cdcb9420e4196cffda6b5be74d605183\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\yh\Desktop\yunhuyundong_studiomain3_8_0626\libs\libammsdk.jar"
+        jumboMode="true"
+        revision="25.0.2"
+        sha1="11b09244aedaa51bfd09269637be7c32c60da314">
+        <dex dex="C:\Users\yh\Desktop\yunhuyundong_studiomain3_8_0626\build\intermediates\transforms\dex\debug\folders\1000\2\libammsdk_8c115d2687ac46b7f16fcbba045bf4d0a5ec8dc1\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\yh\Desktop\yunhuyundong_studiomain3_8_0626\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        revision="25.0.2"
+        sha1="fcaa7c110c095d6de4c8ed24df70df34335f2595">
+        <dex dex="C:\Users\yh\Desktop\yunhuyundong_studiomain3_8_0626\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_e3eb31dd9b95eaf075af101842add51fde2ec7f4\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\yh\Desktop\yunhuyundong_studiomain3_8_0626\libs\open_sdk_r5756.jar"
+        jumboMode="true"
+        revision="25.0.2"
+        sha1="7f7bf100e53d9099032f113728725e1843e1fbe2">
+        <dex dex="C:\Users\yh\Desktop\yunhuyundong_studiomain3_8_0626\build\intermediates\transforms\dex\debug\folders\1000\2\open_sdk_r5756_54ac27eb34ef8ee166f7f21140b609368819c344\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\yh\Desktop\yunhuyundong_studiomain3_8_0626\libs\android-query-full.0.26.7.jar"
+        jumboMode="true"
+        revision="25.0.2"
+        sha1="4055bed8ed6f6aa573fa3e7d979c66101c48e182">
+        <dex dex="C:\Users\yh\Desktop\yunhuyundong_studiomain3_8_0626\build\intermediates\transforms\dex\debug\folders\1000\2\android-query-full.0.26.7_10c4391bbda2e47689623691425ed9b5d5c74bec\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\yh\Desktop\yunhuyundong_studiomain3_8_0626\libs\android-support-v4.jar"
+        jumboMode="true"
+        revision="25.0.2"
+        sha1="ded9acc6a9792b8f1afc470f0c9cd36d178914cd">
+        <dex dex="C:\Users\yh\Desktop\yunhuyundong_studiomain3_8_0626\build\intermediates\transforms\dex\debug\folders\1000\2\android-support-v4_ef54ccc3aeaf68ef9091d3d69d9cf3bf63483c54\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\yh\Desktop\yunhuyundong_studiomain3_8_0626\libs\vcard-1.0.jar"
+        jumboMode="true"
+        revision="25.0.2"
+        sha1="33ab373af25ec537b83a5201b8d94bab4e4ea8c4">
+        <dex dex="C:\Users\yh\Desktop\yunhuyundong_studiomain3_8_0626\build\intermediates\transforms\dex\debug\folders\1000\2\vcard-1.0_e69021740a6fbe39fa28e3f51498149bd0c35d0a\classes.dex" />
+    </item>
+
+</items>

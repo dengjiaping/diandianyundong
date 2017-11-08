@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/PushSDK/PushSDK.iml" filepath="$PROJECT_DIR$/PushSDK/PushSDK.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yunhuyundong_studiomain3_8_0626.iml" filepath="$PROJECT_DIR$/yunhuyundong_studiomain3_8_0626.iml" />
+    </modules>
+  </component>
+</project>

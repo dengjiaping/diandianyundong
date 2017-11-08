@@ -1,0 +1,48 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     android:background="@drawable/sports_bg"
+    android:orientation="vertical" >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/sports_title_bg" >
+         <ImageButton
+            android:id="@+id/bt_back"
+            android:background="@drawable/sport_title_back_selector"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="7dp"/>
+        <TextView
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:shadowColor="@color/title_text_color"
+            android:singleLine="true"
+            android:text="@string/my_device"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/title_text_color" />
+    </RelativeLayout>
+  	<TextView 
+      android:id="@+id/device_name"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content" 
+      android:paddingLeft="24dp"
+      android:paddingRight="10dp"
+      android:paddingTop="16dp"
+      android:paddingBottom="16dp"
+      android:gravity="center_vertical"
+      style="@style/sports_txt_color_style"
+      android:textSize="16sp"
+      />
+	<View
+		android:layout_width="fill_parent"
+		android:layout_height="1dp"
+		android:layout_below="@id/device_name"
+		android:background="@drawable/sports_bg_line"
+		android:padding="6dp" />
+		
+</LinearLayout>

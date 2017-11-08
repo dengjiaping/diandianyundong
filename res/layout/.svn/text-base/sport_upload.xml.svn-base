@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/sports_bg"
+        android:orientation="vertical" >
+
+        <!-- <RelativeLayout
+            android:id="@+id/layout_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/sports_title_bg" >
+
+            <ImageButton
+                android:id="@+id/bt_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/sport_title_back_selector"
+                android:textColor="@color/white"
+                android:layout_marginLeft="7dp" />
+
+            <TextView
+                android:id="@+id/sports_upload_title_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/sports_upload_title"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/title_text_color" />
+
+            <ImageButton
+                android:id="@+id/bt_complete"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/sport_title_ok_selector"
+                android:textColor="@color/white"
+                android:layout_marginRight="7dp" />
+        </RelativeLayout> -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_weight="3.5"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <!-- <ImageView
+                    android:id="@+id/sports_upload_photo_imageview"
+                    android:layout_width="131dp"
+                    android:layout_height="131dp"
+                    android:layout_marginLeft="7dp"
+                    android:layout_marginTop="7dp"
+                    android:background="@drawable/sports_default_picture"
+                    android:padding="1dp"
+                    android:visibility="gone"
+                     /> -->
+
+                <RelativeLayout
+                    android:id="@+id/upvoice_linear"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="100dp"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"
+                    android:visibility="gone">
+
+                    <TextView
+                        android:id="@+id/upvoice_time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:background="@drawable/slimgirl_time_bg"
+                        android:gravity="center"
+                        android:paddingBottom="3dp"
+                        android:textColor="@color/white" />
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/upvoice_time"
+                        android:background="@drawable/slimgirl_upvoice_bg" >
+
+                        <ImageButton
+                            android:id="@+id/voice_start"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_centerVertical="true"
+                            android:layout_gravity="center"
+                            android:background="@drawable/slimgirl_upvoiceclick_l"
+                            android:src="@drawable/slimgirl_voice_begin" />
+
+                        <ImageButton
+                            android:id="@+id/voice_delete"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:background="@drawable/slimgirl_upvoiceclick_r"
+                            android:src="@drawable/slimgirl_voice_delete" />
+
+                        <ProgressBar
+                            android:id="@+id/progress"
+                            style="?android:attr/progressBarStyleHorizontal"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_toLeftOf="@id/voice_delete"
+                            android:layout_toRightOf="@id/voice_start"
+                            android:indeterminate="false"
+                            android:indeterminateOnly="false"
+                            android:max="100"
+                            android:paddingBottom="1dp"
+                            android:progress="0"
+                            android:progressDrawable="@drawable/slimgirl_progressbar_mini" />
+                    </RelativeLayout>
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/slimgirl_upload_edit_bg"
+                android:gravity="center_vertical"
+                android:visibility="gone" >
+
+                <TextView
+                    android:id="@+id/sports_upload_heading_textview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:text="@string/sports_upload_heading_textview_text"
+                    android:textColor="#88113E"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/sports_upload_heading_edittext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:background="@color/translucent"
+                    android:hint="请输入当前所在位置名称"
+                    android:scrollbarThumbVertical="@drawable/sports_scrollbar_bar"
+                    android:scrollbarTrackVertical="@drawable/sports_scrollbar_bg"
+                    android:textColor="#4D4D4D"
+                    android:textSize="16sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="20dp"
+            android:layout_weight="3"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/sports_upload_finish_button"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="20dp"
+                style="@style/SportsTitleButton"
+                android:text="@string/sports_upload_pressrecoding"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/relative_voice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/recoding" />
+    </RelativeLayout>
+
+</RelativeLayout>

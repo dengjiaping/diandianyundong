@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="50dp"
+    android:orientation="horizontal"
+    android:background="@drawable/sports_bg" 
+    android:paddingBottom="5dp"
+    android:paddingTop="5dp" 
+    android:baselineAligned="false"
+     android:weightSum="9">
+	
+   <LinearLayout
+        android:id="@+id/layout_icon"
+        android:layout_width="0dip"
+        android:layout_height="40dp"
+        android:orientation="horizontal" 
+        android:layout_weight="3.5">
+
+        <TextView
+	        android:id="@+id/load_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:gravity="center_vertical"
+            android:textColor="@color/new_black"
+            android:singleLine="true"
+            android:layout_marginLeft="12dp"
+            android:layout_gravity="center"
+	        android:text="" 
+            />
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="40dp"
+            android:orientation="horizontal" 
+            android:layout_weight="3.5"
+            android:gravity="center_vertical">
+
+            <TextView
+	        	android:id="@+id/ratio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:layout_marginLeft="15dp"
+                android:layout_gravity="center"
+                android:singleLine="true"
+                android:text=""
+                android:gravity="center_vertical"
+                android:textColor="@color/text_moffmap"
+                android:textSize="16sp" 
+                
+                />
+
+        </LinearLayout>
+		<LinearLayout
+       		android:layout_width="0dip"
+        	android:layout_height="40dp"
+        	android:orientation="vertical"
+            android:layout_weight="2.5"
+            android:layout_marginRight="7dp" 
+            android:gravity="center_vertical">
+        		 <Button
+			        android:id="@+id/remove"
+		           	android:layout_width="wrap_content"
+		           	android:layout_height="wrap_content"
+		           	android:gravity="center"
+		             android:background="@drawable/moffline_delete"
+		             android:focusable="false"
+		             android:textColor="@color/white"
+		             android:textSize="16sp"
+			         android:text="@string/sports_added"            
+		             />
+        	</LinearLayout>
+		
+</LinearLayout>

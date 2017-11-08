@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:background="@drawable/sports_bg" 
+    >
+
+    <SurfaceView
+        android:id="@+id/surfaceview"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:layout_centerInParent="true" />
+
+    <ImageView
+        android:id="@+id/default_bg"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_centerInParent="true"
+        android:src="@drawable/sk_focus" />
+
+    <ImageView
+        android:id="@+id/playImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+         />
+
+    <ProgressBar
+        android:id="@+id/loadingProgressBar"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_centerInParent="true"
+        android:indeterminate="false"
+        android:indeterminateDrawable="@anim/loading"
+        android:visibility="invisible" />
+
+    <ProgressBar
+        android:id="@+id/progress"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="6dp"
+        android:layout_below="@+id/default_bg"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:layout_marginTop="25dp"
+        android:indeterminate="false"
+        android:indeterminateOnly="false"
+        android:max="100"
+        android:progress="0"
+        android:progressDrawable="@drawable/videoplay_progressbar" />
+
+    <TextView
+        android:id="@+id/pastTimeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/progress"
+        android:layout_below="@+id/progress"
+        android:text="@string/pastTimeText_text"
+        android:textColor="@color/sports_gray"
+        android:textSize="12sp"
+        android:layout_marginLeft="3dp" />
+
+    <TextView
+        android:id="@+id/totalTimeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/pastTimeText"
+        android:layout_alignBottom="@+id/pastTimeText"
+        android:layout_alignRight="@+id/progress"
+        android:text="@string/pastTimeText_text"
+        android:textColor="@color/sports_gray"
+        android:textSize="12sp" 
+        android:layout_marginLeft="3dp"/>
+
+</RelativeLayout>

@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sports_bg"
+    >
+
+    <RelativeLayout
+        android:id="@+id/toplight_layout"
+        android:layout_alignParentTop="true"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center_vertical"
+        android:background="@color/white"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="15dp"
+            android:text="@string/lock_screen"
+            android:textColor="#333333"
+            android:textSize="15sp"
+
+            />
+
+        <ImageView
+            android:id="@+id/is_close_light"
+            android:layout_width="45dp"
+            android:layout_height="21dp"
+            android:background="@drawable/sportting_setting_closeicon"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="15dp"
+            />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/topyuyin_layout"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/toplight_layout"
+        android:layout_marginTop="10dp"
+        android:gravity="center_vertical"
+        android:background="@color/white"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="15dp"
+            android:text="@string/read_sound_settting"
+            android:textColor="#333333"
+            android:textSize="15sp"
+            />
+        <ImageView
+            android:id="@+id/is_close_yuyin"
+            android:layout_width="45dp"
+            android:layout_height="21dp"
+            android:background="@drawable/sportting_setting_closeicon"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="15dp"
+            />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/playdis_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@+id/topyuyin_layout"
+        android:background="@color/white"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="@string/sports_setting_tx1"
+            android:textSize="12sp"
+            android:textColor="#999999"
+            android:paddingLeft="15dp"
+            android:gravity="center_vertical"
+            android:background="@drawable/sports_bg"
+            />
+
+    <RadioGroup
+        android:id="@+id/playdis_group"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <RadioButton
+            android:id="@+id/playdis_radiobutton1"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="15dp"
+            android:textSize="14sp"
+            android:textColor="#666666"
+            android:gravity="center_vertical"
+            android:button="@null"
+            android:text="@string/pvd_tx1"
+            android:drawableRight="@drawable/sports_setting_select_bt"
+            android:paddingRight="15dp"
+             />
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@drawable/divider" />
+
+        <RadioButton
+            android:id="@+id/playdis_radiobutton2"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="15dp"
+            android:textSize="14sp"
+            android:textColor="#666666"
+            android:gravity="center_vertical"
+            android:button="@null"
+            android:text="@string/pvd_tx2"
+            android:drawableRight="@drawable/sports_setting_select_bt"
+            android:paddingRight="15dp"
+             />
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@drawable/divider" />
+
+        <RadioButton
+            android:id="@+id/playdis_radiobutton3"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="15dp"
+            android:textSize="14sp"
+            android:textColor="#666666"
+            android:gravity="center_vertical"
+            android:button="@null"
+            android:text="@string/pvd_tx5"
+            android:drawableRight="@drawable/sports_setting_select_bt"
+            android:paddingRight="15dp"
+             />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="@string/sports_setting_tx2"
+            android:textSize="12sp"
+            android:textColor="#999999"
+            android:paddingLeft="15dp"
+            android:gravity="center_vertical"
+            android:background="@drawable/sports_bg"
+            />
+
+        <RadioButton
+            android:id="@+id/playtime_radiobutton1"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="15dp"
+            android:textSize="14sp"
+            android:textColor="#666666"
+            android:gravity="center_vertical"
+            android:button="@null"
+            android:text="@string/pvm_tx5"
+            android:drawableRight="@drawable/sports_setting_select_bt"
+            android:paddingRight="15dp"
+            />
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@drawable/divider" />
+        <RadioButton
+            android:id="@+id/playtime_radiobutton2"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="15dp"
+            android:textSize="14sp"
+            android:textColor="#666666"
+            android:gravity="center_vertical"
+            android:button="@null"
+            android:text="@string/pvm_tx10"
+            android:drawableRight="@drawable/sports_setting_select_bt"
+            android:paddingRight="15dp"
+            />
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@drawable/divider" />
+        <RadioButton
+            android:id="@+id/playtime_radiobutton3"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="15dp"
+            android:textSize="14sp"
+            android:textColor="#666666"
+            android:gravity="center_vertical"
+            android:button="@null"
+            android:text="@string/pvm_tx15"
+            android:drawableRight="@drawable/sports_setting_select_bt"
+            android:paddingRight="15dp"
+            />
+
+    </RadioGroup>
+
+    </LinearLayout>
+</RelativeLayout>

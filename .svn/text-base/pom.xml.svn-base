@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.fox</groupId>
+	<artifactId>exercise</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>apk</packaging>
+	<name>exercise</name>
+	<properties>
+		<platform.version> 4.0.1.2
+            </platform.version>
+             
+	</properties>
+
+	<dependencies>
+		
+		<!-- for qq oauth -->
+	    <dependency>
+		  <groupId>com.tecface.thirdparty</groupId>
+		  <artifactId>mta-sdk</artifactId>
+		  <version>1.6.2</version>
+		</dependency>
+		<dependency>
+		  <groupId>com.tecface.thirdparty</groupId>
+		  <artifactId>open_sdk</artifactId>
+		  <version>r4346</version>
+		</dependency>
+	    
+		<!-- for tencent weibo -->
+		<dependency>
+			<groupId>org.apache.httpcomponents</groupId>
+			<artifactId>httpmime</artifactId>
+			<version>4.2</version>
+		</dependency>
+
+		<!--for baidu map  -->
+		<dependency>
+		  <groupId>com.tecface.thirdparty</groupId>
+		  <artifactId>libBaiduMapSDK_v3_2_0_11</artifactId>
+		  <version>v3_2_0_11</version>
+		  <classifier>armeabi</classifier>
+		  <type>so</type>
+		</dependency>
+		<dependency>
+		  <groupId>com.tecface.thirdparty</groupId>
+		  <artifactId>BaiduLBS_Android</artifactId>
+		  <version>2.0</version>
+		</dependency>
+		<dependency>
+		  <groupId>com.tecface.thirdparty</groupId>
+		  <artifactId>liblocSDK4d</artifactId>
+		  <version>1.0</version>
+		  <classifier>armeabi</classifier>
+		  <type>so</type>
+		</dependency>
+
+		<!--for weixin  -->
+		<dependency>
+			<groupId>com.tecface.thirdparty</groupId>
+			<artifactId>libammsdk</artifactId>
+			<version>1.0.0</version>
+		</dependency>
+		
+		<!-- for base function -->
+		<dependency>
+		  <groupId>com.tecface.thirdparty</groupId>
+		  <artifactId>android-support</artifactId>
+		  <version>v4</version>
+		</dependency>
+		<dependency>
+			<groupId>com.google.android</groupId>
+			<artifactId>android</artifactId>
+			<version>${platform.version}</version>
+			<scope>provided</scope>
+		</dependency>
+
+		<!-- for umeng -->
+		<dependency>
+		  <groupId>com.tecface.thirdparty</groupId>
+		  <artifactId>umeng-analytics</artifactId>
+		  <version>v5.4.1</version>
+		</dependency>
+		<dependency>
+		  <groupId>com.tecface.thirdparty</groupId>
+		  <artifactId>com.umeng.message.lib</artifactId>
+		  <version>1.0</version>
+		</dependency>
+
+		<!--for AWatch BT sync  -->
+		<dependency>
+		  <groupId>com.tecface.thirdparty</groupId>
+		  <artifactId>services</artifactId>
+		  <version>1.0</version>
+		</dependency>
+		<dependency>
+			<groupId>com.tecface.thirdparty</groupId>
+			<artifactId>sync_framework</artifactId>
+			<version>2.0</version>
+		</dependency>
+		<dependency>
+		  <groupId>com.tecface.thirdparty</groupId>
+		  <artifactId>vcard</artifactId>
+		  <version>1.0</version>
+		</dependency>
+		<dependency>
+		  <groupId>com.tecface.thirdparty</groupId>
+		  <artifactId>annotations</artifactId>
+		  <version>1.0</version>
+		</dependency>
+		
+		<!--for gaode map  -->
+		<dependency>
+		  <groupId>com.tecface.thirdparty</groupId>
+		  <artifactId>AMap_3DMap</artifactId>
+		  <version>V2.3.0</version>
+		</dependency>
+		<dependency>
+		  <groupId>com.tecface.thirdparty</groupId>
+		  <artifactId>Android_Location</artifactId>
+		  <version>V1.3.0</version>
+		</dependency>
+		<dependency>
+		  <groupId>com.tecface.thirdparty</groupId>
+		  <artifactId>libamapv304</artifactId>
+		  <version>v304</version>
+		  <classifier>armeabi</classifier>
+		  <type>so</type>
+		</dependency>
+		<dependency>
+		  <groupId>com.tecface.thirdparty</groupId>
+		  <artifactId>libamapv304ex</artifactId>
+		  <version>v304ex</version>
+		  <classifier>armeabi</classifier>
+		  <type>so</type>
+		</dependency>
+ 
+	</dependencies>
+
+	<build>
+		<plugins>
+			<!-- <plugin>
+				<groupId>com.pyx4me</groupId>
+				<artifactId>proguard-maven-plugin</artifactId>
+				<version>2.0.4</version>
+				<executions>
+					<execution>
+						<phase>process-classes</phase>
+						<goals>
+							<goal>proguard</goal>
+						</goals>
+					</execution>
+				</executions>
+				<dependencies>
+					<dependency>
+						<groupId>net.sf.proguard</groupId>
+						<artifactId>proguard</artifactId>
+						<version>4.4</version>
+						<scope>runtime</scope>
+					</dependency>
+				</dependencies>
+				<configuration>
+					<injar>classes</injar>
+					<libs>
+						<lib>${java.home}/lib/rt.jar</lib>
+						<lib>${java.home}/lib/jsse.jar</lib>
+						<lib>${java.home}/lib/jce.jar</lib>
+					</libs>
+					<proguardInclude>proguard-project.txt</proguardInclude>
+				</configuration>
+			</plugin> -->
+			<plugin>
+				<groupId>com.jayway.maven.plugins.android.generation2</groupId>
+				<artifactId>android-maven-plugin</artifactId>
+				<version>3.1.1</version>
+				<configuration>
+					<androidManifestFile>${project.basedir}/AndroidManifest.xml</androidManifestFile>
+					<assetsDirectory>${project.basedir}/assets</assetsDirectory>
+					<resourceDirectory>${project.basedir}/res</resourceDirectory>
+					<nativeLibrariesDirectory>${project.basedir}/src/main/native</nativeLibrariesDirectory>
+					<sdk>
+						<platform>14</platform>
+					</sdk>
+					<undeployBeforeDeploy>true</undeployBeforeDeploy>
+				</configuration>
+				<extensions>true</extensions>
+			</plugin>
+
+			<plugin>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>2.3.2</version>
+				<configuration>
+					<source>1.6</source>
+					<target>1.6</target>
+				</configuration>
+			</plugin>
+		</plugins>
+		<pluginManagement>
+			<plugins>
+				<!--This plugin's configuration is used to store Eclipse m2e settings 
+					only. It has no influence on the Maven build itself. -->
+				<plugin>
+					<groupId>org.eclipse.m2e</groupId>
+					<artifactId>lifecycle-mapping</artifactId>
+					<version>1.0.0</version>
+					<configuration>
+						<lifecycleMappingMetadata>
+							<pluginExecutions>
+								<pluginExecution>
+									<pluginExecutionFilter>
+										<groupId>com.pyx4me</groupId>
+										<artifactId>
+											proguard-maven-plugin
+        								</artifactId>
+										<versionRange>
+											[2.0.4,)
+        								</versionRange>
+										<goals>
+											<goal>proguard</goal>
+										</goals>
+									</pluginExecutionFilter>
+									<action>
+										<ignore></ignore>
+									</action>
+								</pluginExecution>
+							</pluginExecutions>
+						</lifecycleMappingMetadata>
+					</configuration>
+				</plugin>
+			</plugins>
+		</pluginManagement>
+	</build>
+	<profiles>
+		<profile>
+			<id>sign</id>
+			<build>
+				<plugins>
+					<plugin>
+						<groupId>org.apache.maven.plugins</groupId>
+						<artifactId>maven-jarsigner-plugin</artifactId>
+						<version>1.2</version>
+						<executions>
+							<execution>
+								<id>signing</id>
+								<goals>
+									<goal>sign</goal>
+									<goal>verify</goal>
+								</goals>
+								<phase>package</phase>
+								<inherited>true</inherited>
+								<configuration>
+									<removeExistingSignatures>true</removeExistingSignatures>
+									<archiveDirectory />
+									<includes>
+										<include>${project.build.directory}/${project.artifactId}.apk</include>
+									</includes>
+									<keystore>${project.basedir}/sports.key</keystore>
+									<alias>sports</alias>
+									<storepass>123456789</storepass>
+									<keypass>123456789</keypass>
+									<verbose>true</verbose>
+								</configuration>
+							</execution>
+						</executions>
+					</plugin>
+				<plugin>
+						<groupId>org.codehaus.mojo</groupId>
+						<artifactId>exec-maven-plugin</artifactId>
+						<version>1.2.1</version>
+						<executions>
+							<execution>
+								<id>zipalign</id>
+								<goals>
+									<goal>exec</goal>
+								</goals>
+								<phase>package</phase>
+								<configuration>
+									<executable>${ANDROID_HOME}/tools/zipalign</executable>
+									<arguments>
+										<argument>-f</argument>
+										<argument>4</argument>
+										<argument>target/${project.build.finalName}.apk</argument>
+										<argument>target/${project.build.finalName}-zipped.apk</argument>
+									</arguments>
+      							</configuration>
+							</execution>
+						</executions>
+					</plugin>
+				</plugins>
+			</build>
+		</profile>
+	</profiles>
+</project>

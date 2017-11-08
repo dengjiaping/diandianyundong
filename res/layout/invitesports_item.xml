@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+     >
+
+    <FrameLayout
+        android:id="@+id/layout_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_centerVertical="true" >
+        <ImageView
+            android:id="@+id/image_line"
+            android:layout_width="1.5dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:background="@drawable/rank_fen" />
+        
+        <RelativeLayout
+            android:id="@+id/userlayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical" >
+            
+	       <com.fox.exercise.util.RoundedImage
+	            android:id="@+id/image_icon"
+	            android:layout_width="35dp"
+	            android:layout_height="35dp"
+	            android:src="@drawable/sports_user_edit_portrait" />
+       </RelativeLayout>
+    </FrameLayout> 
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/layout_icon" 
+        android:background="@drawable/rank_bg"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="22dp"
+        >
+
+        <TextView
+            android:id="@+id/name_txt"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:textColor="@color/black"
+            android:textSize="16sp" 
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/focus_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="18dp"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="@string/invite_sport"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/time_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/focus_txt"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:textColor="#666666"
+            android:textSize="12sp" />
+    </RelativeLayout>
+
+</RelativeLayout>

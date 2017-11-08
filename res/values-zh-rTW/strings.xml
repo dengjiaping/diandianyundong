@@ -1,0 +1,821 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="MissingTranslation">
+
+    <string name="activities_summary">活动简介</string>
+    <string name="registration_list">报名列表</string>
+    <string name="activity_ranking">活动排行</string>
+    <string name="payment_method">备注</string>
+    <string name="daily_awards">只需每日登录一次APP，  即可获得10金币的奖励，登录奖励每天最多获得1次,重复登录无累计奖励.</string>
+    <string name="add_friend">添加好友</string>
+    <string name="add_friend_search_hint">请输入昵称</string>
+    <string name="sports_history">历史记录</string>
+    <string name="sports_no_history">暂无运动历史记录</string>
+    <string name="bestgirl_wait">加载中,请稍后…</string>
+
+    <string name="PayInfo">正在加载支付,请稍后…</string>
+    <string name="bestgirl_wait_upload">说说上传中…</string>
+    <string name="sports_added">删除</string>
+    <string name="sports_unadded">添加</string>
+    <string name="sports_adding">添加好友中，请稍后&#8230;</string>
+    <string name="sports_deleting">删除好友中，请稍后&#8230;</string>
+    <string name="app_name">云狐运动</string>
+    <string name="camera_application_stopped">相机停止</string>
+    <string name="camera_driver_needs_reset">相机意外停止，请重新启动.</string>
+    <string name="details_ok">OK</string>
+    <string name="title_select_image">选择照片</string>
+    <string name="no_storage">使用前请插入 SD 卡。</string>
+    <string name="not_enough_space">SD 卡已满。</string>
+    <string name="preparing_sd">正在准备 SD 卡…</string>
+    <string name="access_sd_fail">无法访问 SD 卡。</string>
+    <string name="image_gallery_NoImageView_text">找不到媒体</string>
+    <string name="edit_content_limit">超出最大字数24</string>
+
+    <string name="title_select_album">选择相册</string>
+    <string name="button_ok">确定</string>
+    <string name="button_cancel">取消</string>
+    <string name="title_share_image">分享</string>
+    <string name="button_share_to">发        布</string>
+    <string name="yes">"是"</string>
+    <string name="no">"否"</string>
+    <string name="update_info">"更新信息"</string>
+    <string name="version_info">"版本号"</string>
+    <string name="file_size">"文件大小"</string>
+    <string name="update_date">"更新时间"</string>
+    <string name="is_force_update">"是否强制更新"</string>
+    <string name="update">"更新"</string>
+    <string name="downloading_new_version">下载新版本中......</string>
+    <string name="download_finished">"下载完成"</string>
+    <string name="already_newest">"已为最新版本！"</string>
+    <string name="download_apk_failed">下载 apk文件失败!</string>
+    <string name="error_cannot_access_net">您的网络好像有问题, 请检查…</string>
+    <string name="acess_server_error">无法连接服务, 请检查网络连接…</string>
+    <string name="getting_updateinfo">获取更新信息中, 请稍候…</string>
+    <string name="text_share_to">分享到：</string>
+    <string name="text_xinlang_weibo">新浪微博</string>
+    <string name="text_tengxun_weibo">腾讯微博</string>
+    <string name="shareto_hint">说点什么吧…</string>
+    <string name="sharing">分享中…</string>
+    <string name="shared_success">分享成功</string>
+    <string name="shared_success_add_coins">恭喜亲获得10金币奖励！</string>
+    <string name="shared_failed">分享失败</string>
+    <string name="shared_beyond_10times">亲,您今天分享次数已超过5次,无法获得金币了哦，明天继续吧~</string>
+    <string name="meitu_gallery_title">美图图库</string>
+    <string name="share_web_loading">请等待，云狐运动加载中…</string>
+    <string name="progress_capturing">拍照中，请稍后…</string>
+    <string name="progress_switching">切换中，请稍后…</string>
+    <string name="toast_bitmap_decode_failed">图片解析失败!</string>
+    <string name="menu_setting">设置</string>
+    <string name="weibo_setting_title">微博账号绑定</string>
+    <string name="now_version">当前版本号</string>
+    <string name="button_send">发送</string>
+    <string name="confirm_to_binding_tengxun">点击绑定腾讯微博</string>
+    <string name="confirm_to_binding_xinlang">点击绑定新浪微博</string>
+    <string name="confirm_to_binding_qq">点击绑定QQ空间</string>
+    <string name="summary_weibo_bound_already">已绑定用户[</string>
+    <string name="summary_confirm_to_change">], 点击换绑或解除</string>
+    <string name="setting_weibo_select_title">选择操作</string>
+    <string name="setting_weibo_select_change">更换账号</string>
+    <string name="setting_weibo_select_delete">解除绑定</string>
+    <string name="picture_num_limit">已达到最大张数(8张)</string>
+    <string name="progress_searching_server">正在链接授权页面…</string>
+    <string name="progress_server_connecting_error">网页链接无响应,请检查网络状态.</string>
+    <string name="confirm_exit_title">提示</string>
+    <string name="try_to_login">您尚未登录，是否立即登录?</string>
+    <string name="login_now">立即登录</string>
+    <string name="confirm_exit">确认要退出云狐运动？</string>
+    <string name="progress_loading_wait">正在加载中,请稍后</string>
+    <string name="message_from">(来自云狐运动)</string>
+
+    <!-- oauth2.0 example content -->
+    <string name="attention">注意</string>
+    <string name="delete_all">是否要删除这条微博？</string>
+    <string name="ok">是</string>
+    <string name="cancel">否</string>
+
+    <string name="send">发送</string>
+    <string name="close">关闭</string>
+    <string name="share_dialog_title">新浪微博</string>
+    <string name="please_login">请登录！</string>
+    <string name="send_sucess">分享成功！</string>
+    <string name="send_failed">分享失败！</string>
+    <string name="del_pic">是否删除图片？</string>
+    <string name="button_upload">上传</string>
+    <string name="uploading">上传中…</string>
+    <string name="upload_success">上传成功！</string>
+    <string name="upload_failed">上传失败！</string>
+    <string name="battery_low">电量过低!</string>
+    <string name="sports_name">云狐运动</string>
+    <string name="sports_tab_sk_camera">拍照</string>
+    <string name="loading">加载中,请稍候…</string>
+    <string name="sports_toast_input_nickname">请输入昵称</string>
+    <string name="sports_toast_input_account">请输入账号</string>
+    <string name="sports_toast_input_pwd">请输入密码</string>
+    <string name="sports_toast_regrist_succes">注册云狐运动成功</string>
+    <string name="sports_toast_nameexist">注册失败，您注册的昵称太抢手了！</string>
+    <string name="sports_toast_emailexist">注册失败，您的邮箱已经注册过了！</string>
+    <string name="sports_toast_nosdcard">未找到存储卡，无法存储照片！</string>
+    <string name="sports_camera">拍摄照片</string>
+    <string name="sports_fromphotos">从手机相册选择</string>
+    <string name="sports_cancel">取消</string>
+    <string name="sports_regist">注册</string>
+    <string name="sports_login_otherway">其他登录</string>
+    <string name="sports_phone">手机号</string>
+    <string name="sports_phone_forget">手&#160;&#160;&#160;&#160;机&#160;&#160;&#160;&#160;号</string>
+    <string name="sports_inputphone">输入手机号码</string>
+    <string name="sports_nickname">昵&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;称</string>
+    <string name="sports_pwd">密&#160;&#160;&#160;&#160;码</string>
+    <string name="sports_inputpwd">输入密码</string>
+    <string name="sports_inputpwd1">输入旧密码</string>
+    <string name="sports_inputnewpwd">请输入6-12位数字或英文字母</string>
+    <string name="sports_inputnewpwd_again">请输入6-12位数字或英文字母</string>
+    <string name="sports_yz">验证码</string>
+    <string name="sports_yz_forget">验&#160;&#160;&#160;&#160;证&#160;&#160;&#160;&#160;码</string>
+    <string name="sports_get_yz">获取验证码</string>
+    <string name="sports_get_yzs">重新获取</string>
+    <string name="sports_face">头&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;像</string>
+    <string name="sports_setface">设置头像</string>
+    <string name="sports_finish">完成</string>
+    <string name="sports_otherway">用以下方式登录</string>
+    <string name="sports_xinlang">新浪微博</string>
+    <string name="sports_qq">QQ</string>
+    <string name="sports_txweibo">腾讯微博</string>
+    <string name="sports_login">登     录</string>
+    <string name="sports_zhanghao">账 号</string>
+    <string name="sports_mima">密 码</string>
+    <string name="sports_mailornickname">手机号/昵称</string>
+    <string name="sports_edit">修改密码</string>
+    <string name="sports_new_pwd">新&#160;&#160;密&#160;&#160;码</string>
+    <string name="sports_registing">注册中请稍后…</string>
+    <string name="sports_logining">登录中,请稍后…</string>
+    <string name="sports_second_loading">用户信息加载中…</string>
+    <string name="sports_server_error">亲，网络不给力哦！</string>
+    <string name="sports_findgood_error">操作失败，可能是服务器错误</string>
+    <string name="sports_toast_login_succes">登录成功！</string>
+    <string name="sports_toast_nameOrPwdError">您输入的账号或密码有误</string>
+    <string name="sports_toast_login_failed">登录失败，未知原因！</string>
+    <string name="sports_photo">相册</string>
+    <string name="sports_wait">加载中,请稍后…</string>
+    <string name="sports_setting">设置</string>
+    <string name="sports_logout">注销</string>
+    <string name="pull_to_refresh_pull_label">下拉刷新&#8230;</string>
+    <string name="pull_to_refresh_release_label">松开刷新&#8230;</string>
+    <string name="pull_to_refresh_refreshing_label">正在刷新&#8230;</string>
+    <string name="pull_to_loadmore_pull_label">上拉加载更多&#8230;</string>
+    <string name="pull_to_loadmore_release_label">松开加载&#8230;</string>
+    <string name="pull_to_loadmore_loading_label">正在加载&#8230;</string>
+    <string name="sports_upload_title">上传</string>
+    <string name="sports_upload_finish">完成</string>
+    <string name="sports_upload_delete">删除录音</string>
+    <string name="sports_upload_pressrecoding">长按录音</string>
+    <string name="sports_alertdialog_title">提示</string>
+    <string name="sports_love_title">温馨提示</string>
+    <string name="sports_set_faceimage">设置头像</string>
+    <string name="sports_dialog_modifying">修改信息中，请稍后…</string>
+    <string name="sports_modifypwd">修改密码</string>
+    <string name="sports_current_pwd">当前密码</string>
+    <string name="sports_confirm_pwd">确认密码</string>
+    <string name="sports_birthday">生&#160;&#160;&#160;&#160;日</string>
+    <string name="sports_sex">性&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;别</string>
+    <string name="sports_birthday_hint">1985–01–01</string>
+    <string name="sports_toast_pwd_length">请输入6位以上的密码</string>
+    <string name="sports_toast_please_inputpwd">请输入原始密码</string>
+    <string name="sports_toast_please_inputnewpwd">请输入新密码</string>
+    <string name="sports_toast_please_inputnewpwd_fgt">请输入6位以上的新密码</string>
+    <string name="sports_toast_please_confirmpwd">请确认新密码</string>
+    <string name="sports_toast_not_fit">两次密码输入不一致</string>
+    <string name="sports_toast_not_fit_fgt">两次输入的密码不一致，请重新输入</string>
+    <string name="sports_forget_pwd">找回密码</string>
+    <string name="sports_money_rule">金币规则 ？</string>
+    <string name="test_play">游客体验</string>
+    <string name="sports_forget_pwd2">找回密码</string>
+    <string name="sports_submit">重置登录密码</string>
+    <string name="sports_input_regist_phone">请输入手机号</string>
+    <string name="sports_submiting">提交中，请稍后…</string>
+    <string name="sports_toast_illegal_character">昵称中含有非法字符</string>
+    <string name="sports_toast_newpwd_nodifference">新密码不能和原始密码一致</string>
+    <string name="sports_dialog_deleteing">删除中，请稍后…</string>
+    <string name="capture_cancel">重拍</string>
+    <string name="capture_ok">上传</string>
+    <string name="sports_delete_current">删除当前照片?</string>
+    <string name="sports_nickname_toolong">抱歉，你的昵称太长了</string>
+    <string name="sports_comment_neterror">网络异常,请重试!</string>
+    <string name="sports_comment_not_connected">网络未连接!</string>
+    <string name="button_adjust_orientation">方向校正</string>
+    <string name="message_camera_adjust_title">相机方向修正向导</string>
+    <string name="message_adjust_camera_orientation">如果您的相机预览和拍照方向不正确，请按照接下来的操作指示进行修正。</string>
+    <string name="confirm_to_start_adjut">开始修正</string>
+    <string name="confirm_to_cancle">不需要</string>
+    <string name="message_step_1_title">现在，请保持手机竖直</string>
+    <string name="message_step_1_content">您看到的图像预览方向正确吗？</string>
+    <string name="message_step_1_sk1">不对，旋转</string>
+    <string name="message_step_1_sk2">方向正确</string>
+    <string name="message_step_2_title">这张图是自动拍下的</string>
+    <string name="message_step_2_content">您看到的这张图片方向正确吗？</string>
+    <string name="message_step_3_content">校正完成，可以正常使用啦！</string>
+    <string name="sports_attention">添加</string>
+    <string name="sports_following">添加好友中</string>
+    <string name="sports_unfollowing">取消好友中</string>
+    <string name="download_tab_title_activities">活动</string>
+    <string name="downloading">下载中&#8230;</string>
+    <string name="sd_card_is_invalid">未检测到可用的SD卡!</string>
+    <string name="sports_shareing">正在分享&#8230;</string>
+
+    <string name="login_invite_cancel">取消</string>
+    <string name="complete_info">完善个人信息</string>
+    <string name="phone_number_notify1">手机号码是找回密码的唯一途径</string>
+    <string name="phone_number_notify2">请务必填写真实有效的手机号码</string>
+    <string name="male">男</string>
+    <string name="female">女</string>
+    <string name="detail_delete">删除</string>
+    <string name="exception_session_out">用户登录超时,请重新登录!</string>
+    <string name="sports_market_gift">恭喜你获得%1$s的下载奖励%2$s金币</string>
+    <string name="sports_location_wait">定位中,请稍后&#8230;</string>
+    <string name="multi_comment_tip_target">回复 </string>
+    <string name="sports_message_box">消息盒子</string>
+    <string name="sports_action">好友动态</string>
+    <string name="sports_request">好友请求</string>
+    <string name="sports_visitors">访客</string>
+    <string name="sports_comments">评论</string>
+    <string name="sports_good">赞</string>
+    <string name="sports_sys_message">系统消息</string>
+    <string name="my_visitor">我的访客</string>
+    <string name="sports_em_help">帮助</string>
+    <string name="sports_detail_downloading">下载中&#8230;</string>
+    <string name="sports_detail_download_finish">下载完成，图片保存在SD卡下sports文件夹内</string>
+    <string name="sports_auto_login_fail">自动登录失败,可能密码错误</string>
+    <string name="sports_unfollow">已添加</string>
+    <string name="sports_time_justnow">刚刚</string>
+    <string name="sports_time_mins_ago">分钟前</string>
+    <string name="sports_meters">米</string>
+    <string name="sports_kilometers">千米</string>
+    <string name="sports_delete_successed">删除成功!</string>
+    <string name="sports_deltop_successed">取消置顶成功!</string>
+    <string name="sports_delete_failed">删除失败!</string>
+    <string name="sports_top_failed">置顶失败!</string>
+    <string name="sports_deltop_failed">取消置顶失败!</string>
+    <string name="sports_modify_successed">修改成功！</string>
+    <string name="sports_modify_failed">修改失败！</string>
+    <string name="sports_modify_failed_for_error_psd">修改失败，原始密码错误！</string>
+    <string name="sports_follow_successed">添加好友成功！</string>
+    <string name="sports_failed_list">获取位置信息失败!</string>
+    <string name="sports_except_data_one">亲，数据被意外清除,需要重新登录喽!</string>
+    <string name="sports_except_data_two">亲，数据被意外清除</string>
+    <string name="sports_email">邮箱</string>
+    <string name="sports_email_hint">常用邮箱</string>
+    <string name="sports_private_msg_sending">发送中…</string>
+    <string name="sports_private_msg_send_successfully">发送成功</string>
+    <string name="sports_private_msg_press_recoding">长按录音</string>
+    <string name="sports_private_msg_text_hint">输入少于100个字符</string>
+    <string name="sports_private_msg_not_empty">内容不能为空</string>
+    <string name="sports_authentication_uploading">上传中,请稍后&#8230;</string>
+    <string name="sports_age_unkonw">年龄未知</string>
+    <string name="sports_detail_download_fail">下载失败，重新下载</string>
+    <string name="sports_get_data_fail">数据获取失败，请重试</string>
+    <string name="sports_record_fail">时间太短，录音失败</string>
+    <string name="sports_msg_pic_not_exist">图片不存在</string>
+    <string name="date_error">日期错误</string>
+    <string name="normal_account_max">您已注册过3个账号，达到上限，注册失败！</string>
+    <string name="text_weixin">微信</string>
+    <string name="sports_type">运动类型</string>
+    <string name="sports_goal">运动目标</string>
+    <string name="step_number">距离(0~200公里)</string>
+    <string name="calories">燃烧脂肪(0~xxxx卡路里)</string>
+    <string name="sport_condition">我</string>
+    <string name="scanning">扫描设备中…</string>
+    <string name="select_device">选择一个设备</string>
+    <string name="none_paired">无已配对设备</string>
+    <string name="none_found">未查找到设备</string>
+    <string name="title_paired_devices">已配对设备</string>
+    <string name="title_other_devices">其他可用设备</string>
+    <string name="button_scan">扫描设备</string>
+    <string name="slimgirl_sort">点点排行</string>
+    <string name="rankboard_friend">好友</string>
+    <string name="waishe">配件</string>
+    <string name="rankboard_all">全部</string>
+    <string name="title_activity">活动</string>
+    <string name="swim">游泳</string>
+    <string name="about_run">附近的人</string>
+    <string name="about_runing">约跑中，请稍后&#8230;</string>
+    <string name="invite_sport">约你跑步</string>
+    <string name="invite_msg">约跑消息</string>
+
+    <!-- login -->
+    <string name="sports_register_error">注册失败，可能服务器错误</string>
+    <string name="sports_height">身&#160;&#160;&#160;&#160;高</string>
+    <string name="sports_weight">体&#160;&#160;&#160;&#160;重</string>
+    <string name="sports_reg">注册</string>
+    <string name="sport_height_cm">cm</string>
+    <string name="sport_height_kg">kg</string>
+    <string name="complete_info_1">个人设置</string>
+    <string name="fox_sprots_title">云狐运动</string>
+    <string name="clear_message">清除数据</string>
+
+    <string name="startSport_startSport">运动</string>
+    <string name="startSport_moffline_map">开始下载离线地图</string>
+    <string name="sporting_sportDistance">距离:公里</string>
+    <string name="sporting_sportConsume">热量:大卡</string>
+    <string name="sporting_sportSpeed">速度:公里/小时</string>
+    <string name="sporting_sportPace">配速:/公里</string>
+
+    <!-- Add -->
+    <string name="pastTimeText_text">00:00</string>
+    <string name="listSize_text">地图</string>
+    <string name="tv_text_limit_text">140</string>
+    <string name="tx_time_text">20岁</string>
+    <string name="tx_message_text">分享了ta的健身运动成果</string>
+    <string name="healthsport_text">新的运动</string>
+    <string name="sports_upload_heading_textview_text">我的位置：</string>
+    <string name="sport_user_name_text">0.</string>
+    <string name="sport_user_name_text_float">00</string>
+    <string name="calories_text">大卡</string>
+    <string name="step_finish_text">0</string>
+    <string name="detail_text">历史详情</string>
+    <string name="timeValue_text">0.00</string>
+    <string name="paceValue_text">0\'0\"</string>
+    <string name="chronometerId_text">00:00:00</string>
+    <string name="start_text">开始</string>
+    <string name="pauseBtn_text">暂停</string>
+    <string name="stopBtn_text">完成</string>
+    <string name="message_text">是否注销当前用户</string>
+    <string name="bt_ok_text">好</string>
+    <string name="bt_cancel_text">取消</string>
+    <string name="bt_follow_text">已添加</string>
+    <string name="txt_name_text">如是人生</string>
+    <string name="tx_distance_text">2000米</string>
+    <string name="txt_time_text">2013–3–15 09:55</string>
+    <string name="txtt_message_text">20分钟前</string>
+    <string name="focus_time_txt_text">3月前</string>
+    <string name="tlistSize_text">0/0</string>
+
+    <!-- indroidmobile -->
+    <string name="bond">绑定</string>
+    <string name="bond_message">确定要绑定设备%1$s吗？</string>
+    <string name="bluetooth_preference_bonded_devices">已绑定设备</string>
+    <string name="bluetooth_preference_paired_devices">已配对设备</string>
+    <string name="bluetooth_preference_paired_devices_bond">已配对设备（点击以绑定）</string>
+    <string name="bluetooth_preference_devices">可用设备（点击以配对）</string>
+    <string name="bluetooth_pairing">"正在配对&#8230;"</string>
+    <string name="menu_scan_title">搜索设备</string>
+    <string name="menu_scanning">正在搜索…</string>
+    <string name="bluetooth_bonding">绑定中</string>
+    <string name="waiting">"请稍候&#8230;"</string>
+    <string name="fail_to_bond">绑定失败</string>
+    <string name="disable_bt">打开蓝牙失败</string>
+
+    <!-- for ota update -->
+    <string name="check_update">检查更新</string>
+    <string name="download_title">下载升级文件</string>
+    <string name="download_description">下载升级所需要的更新文件</string>
+
+    <string name="tv_refresh">暂无活动</string>
+    <string name="tv_refresh_friends">暂无好友运动记录</string>
+
+    <!-- check update -->
+    <string name="check_now">立即检查</string>
+    <string name="get_watch_failed">获取手表信息失败\n请检查和手表的蓝牙连接</string>
+    <string name="scheduled_check">定时检查</string>
+    <string name="software_updates">软件更新</string>
+    <string name="later">稍后安装</string>
+
+    <string name="install">立即安装</string>
+    <string name="abandon">放弃</string>
+    <string name="sync_failed">同步失败！</string>
+    <string name="checking">正在检查</string>
+    <string name="version_back">版本回退</string>
+    <string name="product">型号：</string>
+    <string name="android_version">Android 版本：</string>
+    <string name="system_version">系统版本：</string>
+    <string name="update_to_version">更新到版本：%s</string>
+    <string name="rollback_to_version">回退到版本：%s</string>
+    <string name="current_version_ps">（当前版本）</string>
+    <string name="please_choose_version">请选择版本</string>
+
+    <!-- update download -->
+    <string name="download_any_data">通过任何可用的数据连接进行下载</string>
+    <string name="download_only_wifi">仅通过WLAN下载</string>
+    <string name="version">版本:</string>
+    <string name="size">大小:%s bytes</string>
+    <string name="description">说明:</string>
+    <string name="network_not_avaliable">网络不可用，请检查！</string>
+
+    <!-- update install -->
+    <string name="sdcard_not_avaliable">存储卡不可用！</string>
+    <string name="get_watch_info">正在获取手表版本信息</string>
+    <string name="install_notices">更新前请备份数据(如，联系人，信息，通话记录等),并保证有足够的电量</string>
+    <string name="update_later_msg">点击进入系统更新</string>
+    <string name="exit_message">您可以随时从通知栏进入更新</string>
+
+    <!-- 设置 -->
+    <string name="sync_settings">同步设置</string>
+    <string name="sync_settings_sum">设置此设备与手表之间可以同步的内容</string>
+    <string name="mode_settings">模式设置</string>
+    <string name="mode_settings_sum">设置此设备与手表之间同步的模式策略</string>
+    <string name="mms_settings">快速回复短信</string>
+    <string name="mms_settings_sum">设置拒接来电时的快速回复短信</string>
+    <string name="clear_settings">解除绑定</string>
+    <string name="clear_settings_sum">解除当前同步设备绑定状态</string>
+    <string name="ota_update">系统升级</string>
+    <string name="ota_update_sum">更新手表的系统版本</string>
+    <string name="bind_bluetooth">蓝牙绑定</string>
+
+    <!-- 同步设置 -->
+    <string name="sync_mms">短信</string>
+    <string name="sync_contact">联系人</string>
+    <string name="sync_calllog">通话记录</string>
+    <string name="sync_weather">天气</string>
+    <string name="sync_time">时间</string>
+    <string name="sync_battery">电池信息</string>
+
+    <!-- 模式设置 -->
+    <string-array name="mode_entries">
+        <item>省电模式</item>
+        <item>实时模式</item>
+    </string-array>
+    <string-array name="mode_entry_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+
+    <!-- for camera -->
+    <string name="open_camera_fail">打开手机端相机失败</string>
+    <string name="take_picture_fail">拍照失败</string>
+    <string name="picture_path_message">照片存储于: %1$s</string>
+    <string name="create_preview_channel_fail">创建预览通道失败,请重试</string>
+    <string name="camera_window_summary">手表端打开远程相机时,在手机端显示预览窗口</string>
+    <string name="camera_window_title">显示相机预览窗口</string>
+    <string name="respond_via_sms_canned_response_1">"现在无法接听。有什么事吗？"</string>
+    <string name="respond_via_sms_canned_response_2">"我马上会打给你。"</string>
+    <string name="respond_via_sms_canned_response_3">"我稍后会再打给你。"</string>
+    <string name="respond_via_sms_canned_response_4">"现在无法接听。能稍后再打给我吗？"</string>
+    <string name="respond_via_sms_setting_title_2">"修改快速回复"</string>
+    <string name="respond_via_sms_edittext_dialog_title">"快速回复"</string>
+    <string name="sync_via_sms">同步到手表"</string>
+    <string name="sync_via_sms_content">同步以上快速回复短信到手表上"</string>
+
+    <!-- System -->
+    <string name="bond_request">绑定请求</string>
+    <string name="bond_request_message">"要与<xliff:g id="DEVICE_NAME">%1$s</xliff:g>设备绑定吗?"</string>
+    <string name="notification_title_settings">超时通知</string>
+    <string name="notification_summary_settings">启/禁用超时通知</string>
+    <string name="timout_noti_title">同步超时</string>
+    <string name="timout_noti_content">已长时间失去蓝牙连接能力</string>
+    <string name="retry_connect">连接中&#8230;</string>
+    <string name="retry_connect_success">连接成功</string>
+    <string name="retry_connect_failed">连接失败</string>
+    <string name="retry_connect_failed_with_no_address">失去远程设备</string>
+
+    <!-- remote control -->
+    <string name="remote_ring_title">远程响铃</string>
+    <string name="remote_ring_msg">来自 ( %1$s ) 的远程控制.\n点击下面的按钮以停止</string>
+    <string name="search_device">搜寻设备</string>
+    <string name="start_search">"开始搜寻设备<xliff:g id="DEVICE_NAME">%1$s</xliff:g>"</string>
+    <string name="tip_message">要绑定新设备，请先与当前设备解除绑定</string>
+    <string name="remote_startTxt">开始搜索</string>
+    <string name="remote_finishTxt">结束搜索</string>
+    <string name="sports_detail">运动详情</string>
+    <string name="phone_sport">手机运动</string>
+    <string name="smart_device">智能配件</string>
+    <string name="bind_device">绑定配件</string>
+    <string name="remote_warntext">您的手表正在搜索此设备</string>
+    <string name="primsg_empty">您收到一封语音私信，请在手机端查看！</string>
+    <!-- BindingDevice -->
+    <string name="watch_2">云狐手表</string>
+    <string name="watch_3">追踪活动和睡眠,蓝牙4.0无线连接</string>
+    <string name="watch_4">运动详情</string>
+    <string name="watch_5">同步设置</string>
+
+    <!-- for new sports -->
+    <string name="km">公里</string>
+    <string name="cal">卡路里</string>
+    <string name="text_weixin_friends">微信</string>
+    <string name="distance">距离</string>
+    <string name="fire">燃烧脂肪</string>
+    <string name="location_fail">定位失败,请检查网络!</string>
+    <string name="timer">时间</string>
+    <string name="jintian">今天</string>
+    <string name="sport_step">运动步数</string>
+    <string name="personalrecord_text">%1$s的个人记录</string>
+    <string name="visit_me">访问了我</string>
+    <string name="cancel_followed_successed">删除好友成功</string>
+    <string name="cancel_followed_fail">删除好友失败</string>
+    <string name="sure_delete_friend">确定删除该好友吗?</string>
+    <string name="sports_follow_fail">添加好友失败</string>
+
+    <!-- FoxSportsSetting -->
+    <string name="my_device">我的设备</string>
+    <string name="ccuntdown_settings">倒计时设置</string>
+    <string name="train_video_cache">训练视频缓存</string>
+    <string name="set">设置</string>
+    <string name="person_set">个人设置</string>
+    <string name="lock_screen">屏幕常亮</string>
+    <string name="read_sound">语音播报</string>
+    <string name="history">历史记录</string>
+    <string name="mes_remind">消息盒子</string>
+    <string name="opinion">意见反馈</string>
+    <string name="gride">给予评价</string>
+    <string name="about">关于</string>
+    <string name="activity">活动</string>
+    <string name="setting_exit">退出登录</string>
+    <string name="sign_up">我要报名</string>
+    <string name="exit_msg">退出后不会删除任何历史数据，下次登录依然可以使用本帐号登录</string>
+
+    <!-- FansListActivity -->
+    <string name="new_friends">新的好友</string>
+    <string name="fans_str">向你打招呼</string>
+
+    <!-- SportTaskDetailActivity -->
+    <string name="share_history">分享:</string>
+    <string name="share_message">加载中，请稍候…</string>
+
+    <!-- RankActivity -->
+    <string name="xiaohao">消耗</string>
+    <string name="ka">卡</string>
+
+    <!-- AdviceFeedback -->
+    <string name="fankui">意见反馈</string>
+    <string name="progress_saving_type">保存中，请稍后…</string>
+    <string name="dialog_button_commit">提交</string>
+    <string name="dialog_button_giveup">放弃</string>
+    <string name="dialog_button_cancel">取消</string>
+    <!-- SportsGroup -->
+    <string name="sports_group">运动圈</string>
+    <string name="sports_group_me">我的圈</string>
+    <string name="sports_group_creat">创建云狐运动圈</string>
+    <string name="sports_goal_text">公里</string>
+    <!-- FoxSportsType -->
+    <string name="notice_sports_type">普通手机不支持该运动类型</string>
+    <string name="walk_gps">健走</string>
+    <string name="run_gps">跑步</string>
+    <string name="swim_free">自由泳</string>
+    <string name="swim_fly">蝶泳</string>
+    <string name="swim_frog">蛙泳</string>
+    <string name="swim_face">仰泳</string>
+    <string name="mountain">登山</string>
+    <string name="golf">高尔夫</string>
+    <string name="walk_race">竞走</string>
+    <string name="cycling">骑行</string>
+    <string name="tennis">网球</string>
+    <string name="badminton">羽毛球</string>
+    <string name="football">足球</string>
+    <string name="table_tennis">乒乓球</string>
+    <string name="rowing">划船</string>
+    <string name="skating">溜冰</string>
+    <string name="roller_skating">轮滑</string>
+    <string name="sports_select_map">默认地图</string>
+    <string name="sports_download_map">离线地图</string>
+    <string name="sports_map_baidu">百度地图</string>
+    <string name="sports_map_gaode">高德地图</string>
+    <string name="weather_aqi">空指：</string>
+    <string name="notification_message">正在记录您的运动数据</string>
+    <string name="ticker_text">云狐运动&#160;&#160;&#160;&#160;运动服务已开启</string>
+    <!-- page_friends -->
+    <string name="friends_tab_haoyou">好友</string>
+    <string name="friends_tab_sixin">私信</string>
+    <string name="friends_tab_faxian">发现</string>
+    <string name="friends_tab_my_faxian">我的运动圈</string>
+    <string name="not_friends_tab_faxian">未发现</string>
+    <string name="friends_away_me">距我</string>
+    <string name="get_list_failure">获取列表失败</string>
+    <!--page others -->
+    <string name="personal_info">个人信息</string>
+    <string name="sport_invite_failure">约跑失败</string>
+    <string name="sport_invite_success">约跑成功</string>
+    <!-- DaoJiShiSetting -->
+    <string name="dis_title">倒计时设置</string>
+    <string name="djs_close">关闭</string>
+    <string name="djs_3">3秒</string>
+    <string name="djs_5">5秒</string>
+    <string name="djs_10">10秒</string>
+    <string name="djs_remind">开始时震动提醒</string>
+    <string name="sports_cishu">运动次数</string>
+    <string name="sports_sudu">平均速度</string>
+    <string name="sports_reliang">消耗热量</string>
+
+    <string name="sports_cishu_dan">次</string>
+    <string name="sports_sudu_dan">公里/小时</string>
+    <string name="sports_reliang_dan">卡路里</string>
+    <string-array name="month_english">
+        <item>Jan</item>
+        <item>Feb</item>
+        <item>Mar</item>
+        <item>Apr</item>
+        <item>May</item>
+        <item>Jun</item>
+        <item>Jul</item>
+        <item>Aug</item>
+        <item>Sep</item>
+        <item>Oct</item>
+        <item>Nov</item>
+        <item>Dec</item>
+    </string-array>
+    <string name="month_yue">月</string>
+    <!--introductFragment  -->
+    <string name="activity_time">活动时间：</string>
+    <string name="activity_rules">活动规则：</string>
+    <string name="no_data">暂时没有活动信息</string>
+
+    <string name="sports_city_list">城市列表</string>
+    <string name="sports_download_manager">下载管理</string>
+    <string name="set_fengmian">设置云狐运动圈封面:</string>
+    <string name="set_mingcheng">云狐运动圈名称:</string>
+    <string name="get_mingcheng">输入运动圈名称</string>
+    <string name="add_label">添加标签:</string>
+    <string name="get_label">添加运动圈标签</string>
+    <string name="get_friends">邀请好友:</string>
+    <string name="build_cicle">创建</string>
+    <string name="et_send_mean">此时运动的想法…</string>
+    <string name="dingwei_send">所在位置:</string>
+    <string name="juliorcal">距离或者卡路里未输入!</string>
+    <string name="julichao">距离不能超过200</string>
+    <string name="caltaida">卡路里消耗太大</string>
+    <string name="sundy">星期天</string>
+    <string name="monday">星期一</string>
+    <string name="tuesday">星期二</string>
+    <string name="wednesday">星期三</string>
+    <string name="thursday">星期四</string>
+    <string name="friday">星期五</string>
+    <string name="saturday">星期六</string>
+    <string name="toady_goal">今日目标</string>
+    <string name="his_jilu">历史记录</string>
+
+    <string name="location_gps_weak">GPS信号太弱，请走到开阔地带，重新尝试!</string>
+    <string name="in_gps_locating">GPS正在定位中，请稍后重新尝试!</string>
+    <string name="spors_media_disable">未开始运动，暂不可用！</string>
+    <string name="spors_media_no_trail">未检测到运动轨迹，暂不可用！</string>
+    <string name="spors_confirm_stopandsave">退出并提交运动记录？</string>
+    <string name="sports_video_fail">录制时间太短!请重试！</string>
+    <string name="sports_upload_fail_error_param">网络问题，请重试！</string>
+    <string name="sports_goto_login">上传数据请先登录！</string>
+    <string name="sports_beyond_limit">您的运动速度超过了人体极限，属于非正常操作，本次不会上传服务器。</string>
+    <string name="sports_no_trajectory_to_save">您的此次运动没有获取到任何运动轨迹，无法保存。</string>
+    <string name="sports_resume">继续</string>
+    <string name="sports_save_local_success">本地保存成功！</string>
+    <string name="sports_save_local_failed">本地保存失败！</string>
+    <string name="sports_no_trajectory">暂时没有运动轨迹</string>
+    <string name="sports_exercise">运动</string>
+    <string name="sports_confirm_delete_data">是否要删除运动记录？</string>
+    <string name="sports_confirm_upload_data">是否要上传运动记录？</string>
+    <string name="sports_confirm_qq_data">是否要上传运动记录至QQ运动？</string>
+    <string name="sports_data_load_failed">数据加载失败！</string>
+    <string name="sports_data_load_more_null">已无更多数据！</string>
+    <string name="sports_get_list_failed">数据加载失败！</string>
+    <string name="sports_access_timeout">访问超时！</string>
+    <string name="sports_shareto_weixin_no_weixin">亲，你还没有安装微信呢~</string>
+    <string name="sports_shareto_weixin_wrong_version">亲，你的微信版本不支持发送朋友圈~</string>
+    <string name="sports_heart">心率</string>
+
+    <string name="sports_coolmall">金币商城</string>
+    <string name="class_introduce">课程说明</string>
+    <string name="make_sure_will_delete">确定要删除吗？</string>
+    <string name="make_sure_will_top">确定要置顶吗？</string>
+    <string name="make_sure_will_deltop">确定要取消置顶吗？</string>
+    <string name="get_failed_tryother">授权失败，请先尝试其它登录方式</string>
+    <string name="get_power_sucess">授权成功</string>
+    <string name="get_power_failed">授权失败，请重新授权！</string>
+    <string name="don_not_enter_spaces">不能输入空格，请重新输入!</string>
+    <string name="enter_number_outindex">你输入的字数已经超过了限制！</string>
+    <string name="words_no_access">您输入的字符不符合要求，请重新输入!</string>
+    <string name="phone_number_not_empty">手机号码不能为空!</string>
+    <string name="phone_number_not_empty_fgt">请输入11位手机号码</string>
+    <string name="phone_number_format_wrong">手机号码格式不对!</string>
+    <string name="name_rules">1–15位字符(中文、英文、数字、符号)</string>
+    <string name="password_rules">6–16位字符(字母、数字)，区分大小写</string>
+    <string name="code_send_failed">验证码发送失败！</string>
+    <string name="code_send_successed">验证码已经通过短信发送给您,请注意查收.</string>
+    <string name="enter_verification_code">请输入验证码!</string>
+    <string name="verification_code_not_match">验证码有误，请重新输入</string>
+    <string name="retrieve_password_message">找回密码短信</string>
+    <string name="phone_password_message">我们将把新的密码通过短信发送到您的手机，请在登录后重新设置密码。</string>
+    <string name="enter_security_code">输入验证码</string>
+    <string name="anonymous">匿名用户</string>
+    <string name="cool_coins_rules">金币规则？</string>
+    <string name="cool_coins_new">金币:</string>
+    <string name="coll_mall_now_status">金币商场暂未开放，目前只能浏览普通商场.</string>
+    <string name="height_limit_warning_one">已经超过身高最低下限值哦！</string>
+    <string name="height_limit_warning_two">已经超过身高最高上限值哦！</string>
+    <string name="weight_limit_waring_one">已经超过体重最低下限值哦！</string>
+    <string name="weight_limit_waring_two">已经超过体重最高上限值哦！</string>
+    <string name="nickname_ont_be_empty">昵称不能为空！</string>
+    <string name="modified_failed_message">修改失败，昵称已存在！</string>
+    <string name="soprts_limit_warning_one">已经达到最高上限值哦！</string>
+    <string name="soprts_limit_warning_two">已经达到最低下限值哦！</string>
+    <string name="who_about_you">谁约过你运动</string>
+    <string name="year_date">年</string>
+    <string name="month_date">月</string>
+    <string name="day_date">日</string>
+    <string name="addnewimage">这张照片已经添加</string>
+    <string name="praise_wait">点赞中,请稍后…</string>
+    <string name="cancel_wait">取消中，请稍后…</string>
+    <string name="comment_wait">评论中，请稍后…</string>
+    <string name="praise_successed">点赞成功</string>
+    <string name="praise_cancel_success">取消点赞成功</string>
+    <string name="sendshuoshuo">您还没有添加任何照片.</string>
+    <string name="sendchenggong">说说发送成功</string>
+    <string name="sendshibai">说说发送失败</string>
+    <string name="save_mulu">没有找到储存目录</string>
+    <string name="save_sd">没有储存卡</string>
+    <string name="select_images_nine">最多选择9张图片</string>
+    <string name="nearbylist">列表</string>
+    <string name="does_not_this_input">暂不支持此类符号输入!</string>
+    <string name="change_photo_background">相册背景更改中,请稍后…</string>
+    <string name="lock_screen_shutdown">屏幕常亮关闭</string>
+    <string name="lock_screen_open">屏幕常亮打开</string>
+    <string name="voice_prompt_shutdown">语音播报关闭</string>
+    <string name="voice_prompt_open">语音播报开启</string>
+    <string name="no_android_market">您的手机还没有安装任何安卓应用市场.</string>
+    <string name="newwork_not_connected">网络未连接，请检查网络!</string>
+    <string name="user_name_edit_hint">最多30个字符(中文，英文，数字，符号均可)</string>
+    <string name="pwd_edit_hint">6–16位字符(中文，英文，数字，符号“除下划线”)</string>
+    <string name="pwd_edit_hint1">新密码由6–16位字符(字母，数字)，区分大小写</string>
+    <string name="history_sports_times">次运动</string>
+    <string name="history_sports_dis">距离</string>
+    <string name="history_sports_cal">燃烧</string>
+    <string name="history_sports_time">时间</string>
+    <string name="history_sports_speed">平均速度</string>
+    <string name="title_cool_coins_rules">金币规则</string>
+    <string name="cool_get_coins_rules">金币奖励规则:</string>
+    <string name="cool_get_coins_login">1.每日登录奖励：</string>
+    <string name="cool_get_coins_random">2.随机奖励：</string>
+    <string name="cool_get_coins_exercise">3.运动奖励：</string>
+    <string name="cool_get_coins_share">4.分享运动结果奖励：</string>
+    <string name="cool_get_coins_channel">5.渠道活动奖励：</string>
+    <string name="cool_get_coins_app">6.应用活动奖励：</string>
+    <string name="cool_get_coins_random_rules">在运动过程中,每5~8公里会随机获得一定数量的金币奖励.</string>
+    <string name="cool_get_coins_exercise_rules">运动奖励按照里程计算，不足1公里但大于0.5公里可获得1金币奖励，1公里以后，每增加1公里可获得1金币奖励.在运动时超出了运动极限，不会获得金币奖励.每日运动奖励最多可获得100金币奖励.</string>
+    <string name="cool_get_coins_share_rules">运动结束后,通过应用内部的分享功能，分享运动结果,可以获得10金币奖励,每日最多可获得50金币奖励.</string>
+    <string name="cool_get_coins_channel_rules">不定期会在各渠道做金币赠送活动,请大家随时关注渠道活动专栏.</string>
+    <string name="cool_get_coins_app_rules">应用内部活动会赠送金币,积极参与活动可获得对应的金币.</string>
+    <string name="screen_unlock_success">解锁成功</string>
+    <string name="connect_to_watch">请连接云狐手表</string>
+    <string name="sports_birthday_set">生日设置</string>
+    <string name="sportdetail_start_text">开始</string>
+    <string name="sports_offline_notice">下线通知</string>
+    <string name="sports_offline_notice_detils">1.您的账号可能已登录超时，请重新登录。2.您的账号可能已在其他设备登录，如非您本人操作，可能密码已经泄露，建议您尽快修改密码。</string>
+    <string name="sports_upload_find_new">暂无您和您好友的发现信息,快去发一个吧！</string>
+    <string name="sports_upload_find_new_me">暂无您的发现信息,快去发一个吧！</string>
+    <string name="sports_no_net_play">当前无网络连接功能使用失败，快去链接网络吧！</string>
+    <string name="login_coins">亲，恭喜获得10金币登录奖励!</string>
+    <string name="sports_coins">亲，恭喜获得%1$d金币的运动奖励!</string>
+    <string name="random_coins">亲，恭喜获得%1$d金币的随机奖励!</string>
+    <string name="forgetpwd_newpwd">新密码</string>
+    <string name="forgetpwd_newpwd_forget">新&#160;&#160;&#160;&#160;密&#160;&#160;&#160;&#160;码</string>
+    <string name="forgetpwd_confirm_newpwd">确认新密码</string>
+    <string name="forgetpwd_confirm_newpwd_somuch">您今天获取验证短信次数已超过3次，请明天再试!</string>
+    <string name="forgetpwd_confirm_newpwd_soquickly">您获取验证短信过于频繁，请稍后再试!</string>
+    <string name="forgetpwd_checknumber_get">验证码获取中,请稍后…</string>
+    <string name="forgetpwd_changepwd_wait">密码修改中,请稍后…</string>
+    <string name="fox_swim_protect">该运动项目需要通过云狐智能手表配合使用，或者确保您的手机具有防水功能，并且在GPS信号强的情况下使用。</string>
+    <string name="tx_years_old_text">岁</string>
+    <!-- for qq health -->
+    <string name="sports_qqhealth">运动数据已同步到QQ运动平台</string>
+    <string name="sports_qqhealth_fail">运动数据未能同步到QQ运动平台</string>
+    <string name="qq_login">QQ登录</string>
+    <string name="use_qq_msg">您需要使用QQ登录云狐运动,才能在QQ运动中看到数据哦~</string>
+    <string name="exchange">切换</string>
+    <string name="chang_qq_msg">您需要切换当前的QQ号码登录云狐运动,才能在QQ运动中看到数据哦~</string>
+    <string name="reply_delete">回复还是删除？</string>
+    <string name="healthy_qq_toast">使用QQ账号登录，即可将健康数据同步至QQ运动哦~</string>
+
+    <string name="service_you_have">您有</string>
+    <string name="service_you_now_have">您现在有</string>
+    <string name="service_num_new_message">条新的消息</string>
+    <string name="service_to_see">快去看看吧</string>
+    <string name="service_system_message">条系统消息</string>
+    <string name="service_only_new_direct_message">条新的私信</string>
+    <string name="service_new_direct_message">条新的私信和</string>
+    <string name="service_get_message_from_watch">接收到手表端传来的运动数据</string>
+    <string name="activity_end">活动已结束！</string>
+    <string name="pay_btn">去付款</string>
+    <string name="guangchang">广场</string>
+    <string name="steps">步</string>
+    <string name="info_tips">是否放弃对资料的修改</string>
+    <string name="sports_show">运动秀</string>
+    <string name="sport_clear">您确定要清空数据吗?</string>
+    <!-- 我 -->
+    <string name="sports_history_me">运动记录</string>
+    <string name="sports_mymatch_me">我的赛事</string>
+    <string name="sports_myorder_me">我的订单</string>
+    <string name="sports_mymedal_me">我的勋章</string>
+    <string name="sports_jinbimall_me">金币商城</string>
+    <string name="sports_device_me">智能设备</string>
+    <string name="sports_nearby_me">附近的人</string>
+    <string name="sports_weixinrank_me">微信好友排行</string>
+    <string name="sports_diandianrank_me">点点排行</string>
+    <string name="sports_jibu_me">计步问题</string>
+    <string name="sports_sendtoqq_me">同步QQ运动问题</string>
+    <string name="sports_qqhealth_me">QQ健康</string>
+    <string name="sports_setting_me">设置</string>
+    <string name="sports_normalproble_me">常见问题</string>
+
+    <string name="offmap_downloading">地图下载中,请等待或删除正在下载的地图！</string>
+
+    <string name="drive">自驾</string>
+    <string name="the_networkis_not_smooth">当前网络状态不佳！</string>
+    <string name="sports_title_login">登录</string>
+    <string name="sports_title_regist">注册</string>
+    <string name="peisu_timetx">公里&#160;累计用时&#160;</string>
+    <string name="sports_thisname_hasregist">昵称已存在，请重新输入</string>
+    <string name="sports_failed_please_checknet">获取信息失败，请检查网络！</string>
+</resources>

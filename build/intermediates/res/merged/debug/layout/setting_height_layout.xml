@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:background="@drawable/stroke_cicle_whrite_background"
+    android:paddingBottom="23dp" >
+
+    <TextView
+        android:id="@+id/txt_title"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/stroke_halfcicle_yellow_background"
+        android:gravity="center"
+        android:text="@string/height_setting"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+    <!-- 运动目标（路程和卡路里） -->
+
+    <LinearLayout
+        android:id="@+id/goal_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_title"
+        android:layout_marginLeft="26dp"
+        android:layout_marginRight="26dp"
+        android:layout_marginTop="23dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <ImageButton
+                android:id="@+id/bt_add1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="3dp"
+                android:background="@drawable/sport_plus_btn" />
+
+            <ImageButton
+                android:id="@+id/bt_del1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="6dp"
+                android:background="@drawable/sport_minus_btn" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginRight="14dp"
+            android:gravity="right|center_vertical" >
+
+            <EditText
+                android:id="@+id/ed_height1"
+                android:layout_width="60dp"
+                android:layout_height="fill_parent"
+                android:background="#00000000"
+                android:gravity="right|center_vertical"
+                android:inputType="numberSigned"
+                android:maxLength="3"
+                android:text="170"
+                android:textColor="#999999"
+                android:textCursorDrawable="@null"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:gravity="left|center_vertical"
+                android:text="@string/sport_height_cm"
+                android:textColor="#999999"
+                android:textSize="15sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/goal_layout"
+        android:layout_marginLeft="26dp"
+        android:layout_marginRight="26dp"
+        android:layout_marginTop="23dp" >
+
+        <TextView
+            android:id="@+id/sports_goal_ok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/sports_slim_btn_click1"
+            android:gravity="center"
+            android:paddingBottom="8dp"
+            android:paddingTop="8dp"
+            android:text="@string/save_goal"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/sports_goal_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_weight="1"
+            android:background="@drawable/sports_btn_gray2"
+            android:gravity="center"
+            android:paddingBottom="8dp"
+            android:paddingTop="8dp"
+            android:text="@string/dialog_button_cancel"
+            android:textColor="#999999" />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white"
+        android:orientation="vertical" >
+
+        <FrameLayout
+            android:id="@+id/main_fragment"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:theme="@android:style/Theme.Translucent" >
+        </FrameLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/setting_font3"
+            />
+
+        <LinearLayout
+            android:id="@+id/sportw_ll_belowmain"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:baselineAligned="false" >
+
+            <LinearLayout
+                android:id="@+id/mysport_layout"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:id="@+id/mysport_image"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/sk_startsport_normal" 
+                    />
+
+                <TextView
+                    android:id="@+id/mysport_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="@string/start_sports_msg"
+                    android:textSize="12sp"
+                    android:textColor="@color/below_fristpage" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/start_sport_layout"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:id="@+id/start_sport_image"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/sk_trainplay_normal" />
+
+                <TextView
+                    android:id="@+id/start_sport_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="@string/train_play"
+                    android:textSize="12sp"
+                    android:textColor="@color/below_fristpage" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/sports_group_layout"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:id="@+id/sports_group_image"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/sk_sportcircle_normal" />
+
+                <TextView
+                    android:id="@+id/sports_group_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="@string/guangchang"
+                    android:textSize="12sp"
+                    android:textColor="@color/below_fristpage" />
+            </LinearLayout>
+            
+            
+             <LinearLayout
+                android:id="@+id/sports_health_layout"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:id="@+id/sports_health_image"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/sk_health_normal" />
+
+                <TextView
+                    android:id="@+id/sports_health_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="@string/sports_health"
+                    android:textSize="12sp"
+                    android:textColor="@color/below_fristpage" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/sports_me_layout"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:id="@+id/sports_me_image"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/sk_personal_normal" />
+
+                <TextView
+                    android:id="@+id/sports_me_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="@string/sports_me"
+                    android:textSize="12sp"
+                    android:textColor="@color/below_fristpage" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/set_menu_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#8c000000"
+        android:visibility="gone" >
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/rl_xinshouyindao"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/xinshouyindao"
+        android:visibility="gone">
+    </RelativeLayout>
+</RelativeLayout>

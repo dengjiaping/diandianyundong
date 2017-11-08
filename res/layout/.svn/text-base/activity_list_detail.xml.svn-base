@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sports_bg">
+    
+    
+    <RelativeLayout
+            android:id="@+id/title_layout"
+        	android:background="@drawable/sports_title_bg"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp" >
+
+            <LinearLayout
+                android:id="@+id/title_left_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_alignParentLeft="true"
+                android:gravity="center_vertical"
+                android:paddingLeft="17dp"
+                android:paddingRight="17dp">
+                
+                <ImageButton
+                    android:id="@+id/title_left_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/sport_title_back_selector" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/top_title"
+                style="@style/topTitle"
+                android:layout_centerInParent="true" />
+
+            <LinearLayout
+                android:id="@+id/title_right_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_alignParentRight="true"
+                android:paddingRight="8dp"
+                android:gravity="center_vertical"
+                android:orientation="vertical" />
+        </RelativeLayout>
+        
+    
+    
+    <RelativeLayout 
+        android:id="@+id/activity_pic_layout"
+        android:layout_below="@+id/title_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">  
+        <ImageView 
+          android:id="@+id/activity_pic"
+          android:layout_width="match_parent"
+          android:layout_height="157dp"
+          android:background="@android:color/white"/>
+   </RelativeLayout>
+   
+    <LinearLayout 
+        android:id="@+id/tabhost_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:layout_below="@+id/activity_pic_layout"
+        android:orientation="horizontal">
+        <!-- popup_bg.png  tab2_focus   tab2_bg.9.png-->
+        <TextView 
+            android:id="@+id/introduction"
+            android:layout_width="wrap_content"
+        	android:layout_height="40dp"
+        	android:layout_weight="1"
+        	android:gravity="center"
+        	android:background="@drawable/tab2_focus"
+        	android:textColor="#25a7f2"
+        	android:textSize="15sp"
+        	android:text="@string/activities_summary"/>
+        <TextView 
+            android:id="@+id/registration"
+            android:layout_width="wrap_content"
+        	android:layout_height="40dp"
+        	android:layout_weight="1"
+        	android:gravity="center"
+        	android:background="@drawable/tab2_bg"
+        	android:textColor="#3a3f47"
+        	android:textSize="15sp"
+        	android:text="@string/registration_list"/>
+        <TextView 
+            android:id="@+id/costs"
+            android:layout_width="wrap_content"
+        	android:layout_height="40dp"
+        	android:layout_weight="1"
+        	android:textColor="#3a3f47"
+        	android:gravity="center"
+        	android:textSize="15sp"
+        	android:background="@drawable/tab2_bg"
+        	android:text="@string/activity_ranking"/>
+        <TextView 
+            android:id="@+id/payment"
+            android:layout_width="wrap_content"
+        	android:layout_height="40dp"
+        	android:layout_weight="1"
+        	android:gravity="center"
+        	android:textColor="#3a3f47"
+        	android:textSize="15sp"
+        	android:background="@drawable/tab2_bg"
+        	android:text="@string/payment_method"/>
+        
+    </LinearLayout>
+    
+    <android.support.v4.view.ViewPager
+        android:id="@+id/activity_viewpager"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/sports_bg"
+        android:flipInterval="30"
+        android:layout_below="@+id/tabhost_layout"
+        android:layout_above="@+id/sign_up_layout"
+        android:persistentDrawingCache="animation" />
+      <RelativeLayout 
+            android:id="@+id/sign_up_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/sports_bg"
+            android:layout_alignParentBottom="true" 
+            android:layout_marginTop="10dp"         
+            android:layout_marginBottom="10dp"
+            android:layout_centerHorizontal="true"
+            android:visibility="gone">
+            <Button
+                    android:id="@+id/sign_up"
+                    android:layout_width="268dp"
+                    android:layout_height="47dp"
+                    android:background="@drawable/sports_slim_btn_click"
+                    android:text="@string/sign_up"
+                    android:textColor="@color/white"
+                    android:textSize="18sp" />
+     </RelativeLayout>
+</RelativeLayout>

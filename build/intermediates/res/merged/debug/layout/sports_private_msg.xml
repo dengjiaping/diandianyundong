@@ -1,0 +1,213 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.0"
+        android:background="#EBEBEB" >
+
+        <!-- <RelativeLayout
+            android:id="@+id/title_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/sports_title_bg" >
+
+            <ImageButton
+                android:id="@+id/button_cancel"
+                style="@style/SlimTitleRetrun"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="7dp" />
+
+            <com.fox.exercise.AlwaysMarqueeTextView
+                android:id="@+id/titleText"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:ellipsize="marquee"
+                android:gravity="center"
+                android:singleLine="true"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/white" />
+
+            <ImageButton
+                android:id="@+id/button_more"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/sports_detail_title_more_selector"
+                android:paddingRight="5dp"
+                android:visibility="gone" />
+        </RelativeLayout> -->
+
+        <ListView
+            android:id="@+id/listview"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_above="@+id/rl_bottom"
+            android:layout_marginLeft="10.0dip"
+            android:layout_marginRight="10.0dip"
+            android:layout_marginTop="10.0dip"
+            android:cacheColorHint="#00000000"
+            android:fadingEdge="none"  
+            android:divider = "@color/white"
+            android:fastScrollEnabled="true" 
+            android:transcriptMode="normal"  
+            android:scrollbarStyle="insideInset" 
+            android:listSelector="#00000000" 
+           	/>
+
+        <RelativeLayout
+            android:id="@+id/rl_bottom"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/sports_primsg_bg" >
+            
+            <!-- <ImageView
+             	android:layout_width="fill_parent"
+             	android:layout_height="wrap_content"
+             	android:background="@drawable/sports_primsg_bg" /> -->
+
+            <LinearLayout
+                android:id="@+id/bottomLayout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:baselineAligned="false"
+                android:orientation="horizontal" >
+
+                <ImageButton
+                    android:id="@+id/sk2_text_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="12dp"
+                    android:background="@drawable/sk2text" />
+
+
+                <Button
+                    android:id="@+id/sk2_press_btn"
+                    android:layout_width="fill_parent"
+                    android:layout_height="32dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/sports_private_send_click"
+                    android:gravity="center"
+                    android:text="@string/sports_private_msg_press_recoding"
+                    android:textColor="@color/white"
+                    android:textSize="18sp" />
+
+                <LinearLayout
+                    android:id="@+id/upcomment_text"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="2dp"
+                    android:paddingRight="3dp"
+                    android:gravity="center"
+                    android:visibility="gone" >
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_weight="4.0"
+                        android:layout_marginLeft="10dp"
+                        android:gravity="center_vertical"
+                        android:background="@drawable/stroke_cicle_gray_background"
+                        >
+
+                        <EditText
+                            android:id="@+id/upcomment_edittext"
+                            android:layout_width="0dp"
+                            android:layout_height="32dp"
+                            android:layout_weight="1"
+                            android:hint="@string/sports_private_msg_text_hint"
+                            android:textColorHint="@color/gray_litter"
+                            android:paddingLeft="13dp"
+                            android:textColor="@color/black"
+                            android:textCursorDrawable="@null"
+                            android:maxLength="100"
+                            android:maxLines="3"
+                            android:textSize="14sp"
+                            style="?android:attr/textViewStyle"
+                            android:background="@null"
+                            />
+
+
+                        <ImageButton
+                            android:id="@+id/expression_text_btn"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginLeft="8dp"
+                            android:layout_marginRight="5dp"
+                            android:background="@drawable/qita_biaoqing_00" />
+                    </LinearLayout>
+
+
+                    <Button
+                        android:id="@+id/upcomment_send"
+                        android:layout_width="40dp"
+                        android:layout_height="32dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="0.9"
+                        android:background="@drawable/stroke_cicle_black_background"
+                        android:gravity="center"
+                        android:text="@string/button_send"
+                        android:textColor="@color/white"
+                        android:textSize="14sp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        />
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/layoutVoice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:visibility="gone" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/recoding" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rScrollLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="145dp"
+        android:background="@drawable/qita_biaoqing_02"
+        android:visibility="gone" >
+
+        <com.fox.exercise.util.ScrollLayout
+            android:id="@+id/ScrollLayoutTest"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp" >
+        </com.fox.exercise.util.ScrollLayout>
+
+        <LinearLayout
+            android:id="@+id/imageLayot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal" />
+    </RelativeLayout>
+
+</LinearLayout>

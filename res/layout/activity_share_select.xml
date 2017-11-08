@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="150dp"
+    android:layout_height="170dp"
+    android:background="@drawable/spinner_menu_bg"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/share_weibo_btn"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@color/transparent"
+        android:drawableLeft="@drawable/xinlang"
+        android:gravity="left|center_vertical"
+        android:drawablePadding="15dp"
+        android:text="新浪微博"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@drawable/spinner_menu_bgline" />
+
+    <Button
+        android:id="@+id/share_tengxun_btn"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:gravity="left|center_vertical"
+        android:background="@color/transparent"
+        android:drawableLeft="@drawable/tengxun"
+        android:drawablePadding="15dp"
+        android:text="腾讯微博"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@drawable/spinner_menu_bgline" />
+
+    <Button
+        android:id="@+id/share_weixin_btn"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@color/transparent"
+        android:drawableLeft="@drawable/weixin"
+        android:gravity="left|center_vertical"
+        android:drawablePadding="15dp"
+        android:text="微信"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@drawable/spinner_menu_bgline" />
+
+    <Button
+        android:id="@+id/share_yundong_btn"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@color/transparent"
+        android:drawableLeft="@drawable/icon44"
+        android:gravity="left|center_vertical"
+        android:drawablePadding="15dp"
+        android:text="我的运动圈"
+        android:textSize="16sp" />
+
+</LinearLayout>

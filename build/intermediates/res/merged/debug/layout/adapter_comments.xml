@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:background="@color/white"
+    android:minHeight="70dp">
+
+    <com.fox.exercise.util.RoundedImage
+        android:id="@+id/img_headingimg"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/sports_user_edit_portrait_male" />
+
+    <RelativeLayout
+        android:id="@+id/content_layout_commentlist"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignTop="@+id/img_headingimg"
+        android:layout_marginLeft="7dp"
+        android:layout_marginRight="5dp"
+        android:layout_toLeftOf="@+id/img_pic"
+        android:layout_toRightOf="@+id/img_headingimg">
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:gravity="left"
+            android:singleLine="true"
+            android:text="乔治"
+            android:textColor="@color/text_login"
+            android:textSize="15sp"></TextView>
+
+        <TextView
+            android:id="@+id/tv_content"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_name"
+            android:ellipsize="end"
+            android:text="出去旅行，你准备好了吗？"
+            android:textColor="@color/hint_login"
+            android:textSize="15sp">></TextView>
+
+        <LinearLayout
+            android:id="@+id/audio_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:visibility="gone"></LinearLayout>
+
+        <ImageView
+            android:id="@+id/img_good"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_name"
+            android:background="@drawable/sportshow_zan"></ImageView>
+
+        <TextView
+            android:id="@+id/tv_vardate"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/tv_name"
+            android:text="1分钟前"
+            android:textColor="#999999"
+            android:textSize="12sp"></TextView>
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/img_pic"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/img_headingimg"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="12dp"></ImageView>
+
+    <!-- <View
+         android:id="@+id/divider_comments_botton"
+         android:layout_width="match_parent"
+         android:layout_height="1dp"
+         android:layout_alignParentBottom="true"
+         android:layout_marginBottom="1dp"
+         android:layout_marginLeft="5dp"
+         android:layout_marginRight="5dp"
+         android:background="@drawable/sports_goal_divider" />-->
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#ededed" />
+
+</RelativeLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/sv_container"
+   	android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+    <FrameLayout
+	    android:layout_width="wrap_content"
+    	android:layout_height="wrap_content" >
+    
+	    <ImageView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:background="@drawable/sk_slipswitch" />
+	    	    
+	    <ImageButton
+	        android:id="@+id/iv_switch_cursor"
+	          android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_margin="1dp"
+	        android:background="@drawable/sk_slipswitch_but" />
+
+	    <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center_vertical"
+	        android:orientation="horizontal" >
+	 
+	        <TextView
+	            android:id="@+id/switch_text_true"
+	            android:layout_width="wrap_content"
+	            android:layout_height="match_parent"
+	            android:layout_weight="1"
+	            android:gravity="center"
+	            android:text="@string/nearbylist" />
+	
+	        <TextView
+	            android:id="@+id/switch_text_false"
+	            android:layout_width="wrap_content"
+	            android:layout_height="match_parent"
+	            android:layout_weight="1"
+	            android:gravity="center"
+	            android:text="@string/listSize_text" />
+	    </LinearLayout>
+		    
+	</FrameLayout>
+    
+</RelativeLayout>

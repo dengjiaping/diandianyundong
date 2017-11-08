@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white" >
+
+    <!--
+    <RelativeLayout
+        android:id="@+id/rl_total_by_date"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/tv_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:text="2月22日"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/tv_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/tv_date"
+            android:layout_marginLeft="25dp"
+            android:layout_toRightOf="@+id/tv_date"
+            android:text="训练时长:"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/tv_time_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/tv_time"
+            android:layout_toRightOf="@+id/tv_time"
+            android:text="60分"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/tv_cal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/tv_cal_value"
+            android:layout_toLeftOf="@+id/tv_cal_value"
+            android:text="消耗:"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/tv_cal_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/tv_date"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:text="67cal"
+            android:textColor="@color/black" />
+    </RelativeLayout>
+    -->
+
+    <RelativeLayout
+        android:id="@+id/rl_list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:layout_marginTop="15dp"
+        >
+
+        <TextView
+            android:id="@+id/tv_list_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:text="减脂健身操"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tv_list_shichang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+            android:layout_toLeftOf="@+id/tv_list_shichang_value"
+            android:text="时长:"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/tv_list_shichang_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dp"
+            android:text="6分"
+            android:textColor="@color/black" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rl_list"
+        android:layout_marginBottom="15dp"
+         >
+
+        <TextView
+            android:id="@+id/tv_list_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:text="2月22日"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/tv_list_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/tv_list_date"
+            android:text="10:00"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/tv_list_tip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/tv_list_time"
+            android:drawableLeft="@drawable/train_record_alarm"
+            android:text="数据上传失败"
+            android:visibility="gone"
+            android:textColor="@color/red" />
+
+        <ImageButton
+            android:id="@+id/tv_list_tipicon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/tv_list_tip"
+            android:visibility="gone"
+            android:background="@drawable/train_record_fresh" />
+
+        <TextView
+            android:id="@+id/tv_list_xiaohao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+            android:layout_toLeftOf="@+id/tv_list_xiaohao_value"
+            android:text="消耗:"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/tv_list_xiaohao_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dp"
+            android:text="3cal"
+            android:textColor="@color/black" />
+    </RelativeLayout>
+
+</RelativeLayout>
